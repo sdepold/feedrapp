@@ -1,0 +1,17 @@
+{
+  "name": "feedr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^2.3.6",
+    "feedparser": "^0.19.2",
+    "request": "^2.45.0",
+    "web-pockets": "^0.1.7"
+  }
+}
