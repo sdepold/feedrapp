@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Sascha Depold",
+  "license": "MIT",
   "dependencies": {
     "bluebird": "^2.3.6",
     "feedparser": "^0.19.2",
