@@ -13,7 +13,13 @@
     "type": "git",
     "url": "https://github.com/sdepold/feedr.git"
   },
-  "keywords": ["rss","atom","parser","service","feed"],
+  "keywords": [
+    "rss",
+    "atom",
+    "parser",
+    "service",
+    "feed"
+  ],
   "author": "Sascha Depold <sascha@depold.com>",
   "license": "MIT",
   "bugs": {
@@ -46,5 +52,10 @@
       "spy",
       "expect"
     ]
+  },
+  "dependencies": {
+    "axios": "^0.5.4",
+    "fast-feed": "^1.4.0",
+    "web-pockets": "^0.3.0"
   }
 }
