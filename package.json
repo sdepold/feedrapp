@@ -1,17 +1,50 @@
 {
   "name": "feedr",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "A service for parsing RSS and Atom feeds.",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "bin/www"
+    "test": "gulp",
+    "build": "gulp build",
+    "coverage": "gulp coverage",
+    "prepublish": "npm run build"
   },
-  "author": "Sascha Depold",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sdepold/feedr.git"
+  },
+  "keywords": ["rss","atom","parser","service","feed"],
+  "author": "Sascha Depold <sascha@depold.com>",
   "license": "MIT",
-  "dependencies": {
-    "bluebird": "^2.3.6",
-    "rssparser": "git://github.com/sdepold/node-rssparser.git#d75e8f280a",
-    "web-pockets": "^0.1.7"
+  "bugs": {
+    "url": "https://github.com/sdepold/feedr/issues"
+  },
+  "homepage": "https://github.com/sdepold/feedr",
+  "devDependencies": {
+    "babel": "^5.0.0",
+    "chai": "^2.0.0",
+    "del": "^1.1.1",
+    "gulp": "^3.8.10",
+    "gulp-babel": "^5.0.0",
+    "gulp-istanbul": "^0.6.0",
+    "gulp-jscs": "^1.4.0",
+    "gulp-jshint": "^1.9.0",
+    "gulp-load-plugins": "^0.8.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-notify": "^2.1.0",
+    "gulp-plumber": "^0.6.6",
+    "isparta": "^2.0.0",
+    "jshint-stylish": "^1.0.0",
+    "mkdirp": "^0.5.0",
+    "mocha": "^2.1.0",
+    "sinon": "^1.12.2",
+    "sinon-chai": "^2.7.0"
+  },
+  "nodeBoilerplateOptions": {
+    "mochaGlobals": [
+      "stub",
+      "spy",
+      "expect"
+    ]
   }
 }
