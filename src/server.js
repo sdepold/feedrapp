@@ -23,6 +23,14 @@ export default class Server {
     this.app.request.value('feed', (feedUrl) => {
       if (feedUrl) {
         return new Feed(feedUrl).read();
+      } else {
+        return {
+          statusCode: 400,
+          body: {
+            message: 'No feedUrl param found!',
+            details: 'Please add a query parameter to the request URL which points to a feed!'
+          }
+        };
       }
     });
 
