@@ -39,7 +39,7 @@ export default class Feed {
       title: item.title,
       link: item.link,
       content: item.content || item.summary || item.description || '',
-      publishedDate: item.published || item.pubDate,
+      publishedDate: item.published || item.pubDate || item.date,
       categories: []
     };
 
