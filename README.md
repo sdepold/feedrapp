@@ -19,3 +19,8 @@ You can now run the app and start parsing your feeds:
 ```
 http://localhost:8080/?feedUrl=http://blog.depold.com/rss/
 ```
+
+## Response format
+
+The responses will follow the Google RSS API format which is documented here:
+https://developers.google.com/feed/v1/reference?hl=de#resultJson
