@@ -34,8 +34,19 @@ export default class Server {
       }
     });
 
-    this.app.route('GET /', (feed) => {
-      return feed;
+    this.app.route('GET /', (queryParams, feed) => {
+      if (queryParams.callback) {
+        let body = { responseStatus: 200, responseDetails: null, responseData: { feed } };
+
+        return {
+          headers: {
+            'content-type': 'text/javascript; charset=utf-8'
+          },
+          body: `${queryParams.callback}(${JSON.stringify(body)});`
+        };
+      } else {
+        return feed;
+      }
     });
   }
 }
