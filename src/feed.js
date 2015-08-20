@@ -1,6 +1,8 @@
 // 3rd-party modules
-import axios from 'axios';
 import fastFeed from 'fast-feed';
+
+// Local modules
+import { getResource } from './helper';
 
 export default class Feed {
   constructor (url) {
@@ -8,9 +10,9 @@ export default class Feed {
   }
 
   read () {
-    return axios.get(this.url).then((res) => {
+    return getResource(this.url).then((res) => {
       return new Promise((resolve, reject) => {
-        fastFeed.parse(res.data, (err, feed) => {
+        fastFeed.parse(res.data, { extensions: true }, (err, feed) => {
           if (err) {
             return reject(err);
           } else {
@@ -40,11 +42,22 @@ export default class Feed {
       link: item.link,
       content: item.content || item.summary || item.description || '',
       publishedDate: item.published || item.pubDate || item.date,
-      categories: []
+      categories: [],
+      author: item.author || this.extractCreator(item)
     };
 
     result.contentSnippet = result.content.replace(/(<([^>]+)>)/ig, '').substring(0, 120);
 
     return result;
+  }
+
+  extractCreator (item) {
+    if (item.extensions) {
+      let extension = item.extensions.find((extension) => {
+        return extension.name === 'dc:creator';
+      });
+
+      return (extension || {}).value;
+    }
   }
 }
