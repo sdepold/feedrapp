@@ -17,6 +17,13 @@ let testMatrix = {
     title: 'Zotero / Continental European Philosophy Group / Top-Level Items',
     description: '',
     link: 'https://api.zotero.org/groups/9097/items/top?format=atom&limit=55'
+  },
+
+  'http://xml-rss.de/xml/site-atom.xml': {
+    title: 'XML-RSS.de Website-Feed',
+    author: 'Team von XML-RSS',
+    description: '',
+    link: 'http://xml-rss.de/xml/atom.xml'
   }
 };
 
