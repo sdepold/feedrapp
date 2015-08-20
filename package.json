@@ -1,6 +1,6 @@
 {
   "name": "feedr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A service for parsing RSS and Atom feeds.",
   "main": "dist/index.js",
   "scripts": {
