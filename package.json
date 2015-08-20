@@ -28,7 +28,6 @@
   },
   "homepage": "https://github.com/sdepold/feedr",
   "devDependencies": {
-    "babel": "^5.0.0",
     "chai": "^2.0.0",
     "del": "^1.1.1",
     "gulp": "^3.8.10",
@@ -56,6 +55,7 @@
   },
   "dependencies": {
     "axios": "^0.5.4",
+    "babel": "^5.0.0",
     "fast-feed": "^1.4.0",
     "web-pockets": "^0.3.0"
   }
