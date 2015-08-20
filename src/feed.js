@@ -26,24 +26,26 @@ export default class Feed {
   }
 
   format (data) {
+    let author = data.author || '';
+
     return {
       feedUrl: this.url,
       title: data.title,
       link: data.link,
       description: data.subtitle || data.description || '',
-      author: data.author || '',
-      entries: data.items.map((item) => this.formatItem(item))
+      author: author,
+      entries: data.items.map((item) => this.formatItem(author, item))
     };
   }
 
-  formatItem (item) {
+  formatItem (author, item) {
     let result = {
       title: item.title,
       link: item.link,
       content: item.content || item.summary || item.description || '',
       publishedDate: item.published || item.pubDate || item.date,
       categories: [],
-      author: item.author || this.extractCreator(item)
+      author: item.author || this.extractCreator(item) || author
     };
 
     result.contentSnippet = result.content.replace(/(<([^>]+)>)/ig, '').substring(0, 120);
