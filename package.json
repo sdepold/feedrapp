@@ -7,7 +7,8 @@
     "test": "gulp",
     "build": "gulp build",
     "coverage": "gulp coverage",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "start": "node bin/feedr.js"
   },
   "repository": {
     "type": "git",
