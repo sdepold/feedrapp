@@ -21,10 +21,13 @@ export default class Server {
       return queryParams.q;
     });
 
-    this.app.request.value('feed', (feedUrl) => {
+    this.app.request.value('feedOptions', (queryParams) => {
+      return _.pick(queryParams, 'num');
+    });
 
+    this.app.request.value('feed', (feedOptions, feedUrl) => {
       if (feedUrl) {
-        return new Feed(feedUrl).read();
+        return new Feed(feedUrl).read(feedOptions);
       } else {
         return {
           statusCode: 400,

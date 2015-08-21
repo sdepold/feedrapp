@@ -23,6 +23,7 @@ http://localhost:8080/?q=http://blog.depold.com/rss/
 ## Supported query paramaters:
 
 - q: Mandatory. The encoded URL of the feed.
+- num: Optional. Number of entries to load.
 
 ## Response format
 

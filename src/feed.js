@@ -1,4 +1,5 @@
 // 3rd-party modules
+import _ from 'lodash';
 import fastFeed from 'fast-feed';
 
 // Local modules
@@ -9,7 +10,11 @@ export default class Feed {
     this.url = url;
   }
 
-  read () {
+  read (options) {
+    options = _.extend({
+      num: 4
+    }, options);
+
     return getResource(this.url).then((res) => {
       return new Promise((resolve, reject) => {
         fastFeed.parse(res.data, { extensions: true }, (err, feed) => {
@@ -21,11 +26,13 @@ export default class Feed {
         });
       });
     }).then((feed) => {
-      return this.format(feed);
+      return this._format(feed);
+    }).then((feed) => {
+      return this._applyOptions(feed, options);
     });
   }
 
-  format (data) {
+  _format (data) {
     let author = data.author || '';
 
     return {
@@ -34,18 +41,24 @@ export default class Feed {
       link: data.link,
       description: data.subtitle || data.description || '',
       author: author,
-      entries: data.items.map((item) => this.formatItem(author, item))
+      entries: data.items.map((item) => this._formatItem(author, item))
     };
   }
 
-  formatItem (author, item) {
+  _applyOptions (feed, options) {
+    feed.entries = feed.entries.slice(0, options.num);
+
+    return feed;
+  }
+
+  _formatItem (author, item) {
     let result = {
       title: item.title,
       link: item.link,
       content: item.content || item.summary || item.description || '',
       publishedDate: item.published || item.pubDate || item.date,
       categories: [],
-      author: item.author || this.extractCreator(item) || author
+      author: item.author || this._extractCreator(item) || author
     };
 
     result.contentSnippet = result.content.replace(/(<([^>]+)>)/ig, '').substring(0, 120);
@@ -53,7 +66,7 @@ export default class Feed {
     return result;
   }
 
-  extractCreator (item) {
+  _extractCreator (item) {
     if (item.extensions) {
       let extension = item.extensions.find((extension) => {
         return extension.name === 'dc:creator';
