@@ -1,4 +1,5 @@
 // 3rd-party modules
+import _ from 'lodash';
 import webPockets from 'web-pockets';
 
 // Local modules
@@ -17,18 +18,19 @@ export default class Server {
 
   bindRoutes () {
     this.app.request.value('feedUrl', (queryParams) => {
-      return queryParams.feedUrl;
+      return queryParams.q;
     });
 
     this.app.request.value('feed', (feedUrl) => {
+
       if (feedUrl) {
         return new Feed(feedUrl).read();
       } else {
         return {
           statusCode: 400,
           body: {
-            message: 'No feedUrl param found!',
-            details: 'Please add a query parameter to the request URL which points to a feed!'
+            message: 'No q param found!',
+            details: 'Please add a query parameter "q" to the request URL which points to a feed!'
           }
         };
       }

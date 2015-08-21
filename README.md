@@ -17,8 +17,12 @@ bin/feedr.js
 You can now run the app and start parsing your feeds:
 
 ```
-http://localhost:8080/?feedUrl=http://blog.depold.com/rss/
+http://localhost:8080/?q=http://blog.depold.com/rss/
 ```
+
+## Supported query paramaters:
+
+- q: Mandatory. The encoded URL of the feed.
 
 ## Response format
 
