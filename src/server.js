@@ -4,6 +4,7 @@ import webPockets from 'web-pockets';
 
 // Local modules
 import Feed from './feed';
+import { badRequest } from './helper';
 
 export default class Server {
   constructor () {
@@ -27,27 +28,27 @@ export default class Server {
 
     this.app.request.value('feed', (feedOptions, feedUrl) => {
       if (feedUrl) {
-        return new Feed(feedUrl).read(feedOptions);
+        return new Feed(feedUrl).read(feedOptions).then((feed) => {
+          return { responseStatus: 200, responseDetails: null, responseData: { feed } };
+        }).catch((e) => {
+          console.error(e);
+          return badRequest({ message: 'Parsing the provided feed url failed.' });
+        });
       } else {
-        return {
-          statusCode: 400,
-          body: {
-            message: 'No q param found!',
-            details: 'Please add a query parameter "q" to the request URL which points to a feed!'
-          }
-        };
+        return badRequest({
+          message: 'No q param found!',
+          details: 'Please add a query parameter "q" to the request URL which points to a feed!'
+        });
       }
     });
 
     this.app.route('GET /', (queryParams, feed) => {
       if (queryParams.callback) {
-        let body = { responseStatus: 200, responseDetails: null, responseData: { feed } };
-
         return {
           headers: {
             'content-type': 'text/javascript; charset=utf-8'
           },
-          body: `${queryParams.callback}(${JSON.stringify(body)});`
+          body: `${queryParams.callback}(${JSON.stringify(feed)});`
         };
       } else {
         return feed;
