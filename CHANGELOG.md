@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v1.1.1 - 2015-08-21
+### Changed
+- Properly format errors
+
 ## v1.1.0 - 2015-08-21
 ### Added
 - Support for limiting entries
