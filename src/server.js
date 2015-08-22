@@ -1,22 +1,12 @@
 // 3rd-party modules
 import _ from 'lodash';
-import webPockets from 'web-pockets';
 
 // Local modules
+import AbstractServer from './abstract-server';
 import Feed from './feed';
 import { badRequest } from './helper';
 
-export default class Server {
-  constructor () {
-    this.app = webPockets();
-
-    this.bindRoutes();
-  }
-
-  listen (port, iface, callback) {
-    return this.app.listen(port, iface, callback);
-  }
-
+export default class Server extends AbstractServer {
   bindRoutes () {
     this.app.request.value('feedUrl', (queryParams) => {
       return queryParams.q;
