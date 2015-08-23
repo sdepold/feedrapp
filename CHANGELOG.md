@@ -1,6 +1,15 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v1.2.0 - 2015-08-23
+### Added
+- Logging of request summary
+- Note about callback param
+- Test for feed parsing
+
+### Changed
+- Respond to all URL paths
+
 ## v1.1.1 - 2015-08-21
 ### Changed
 - Properly format errors
