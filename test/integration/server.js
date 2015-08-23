@@ -29,8 +29,8 @@ let expectedFeed = {
 
 describe('Server', function () {
   before((done) => {
-    this.server = new Server();
-    this.feedServer = new StaticFeedServer();
+    this.server = new Server({ disableLogging: true });
+    this.feedServer = new StaticFeedServer({ disableLogging: true });
 
     this.server.listen(1337, '0.0.0.0', () => {
       this.feedServer.listen(1338, '0.0.0.0', done);

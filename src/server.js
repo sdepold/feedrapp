@@ -32,7 +32,7 @@ export default class Server extends AbstractServer {
       }
     });
 
-    this.app.route('GET /', (queryParams, feed) => {
+    this.app.route('GET *', (queryParams, feed) => {
       if (queryParams.callback) {
         return {
           headers: {
