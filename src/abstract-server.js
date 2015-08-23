@@ -2,8 +2,10 @@
 import webPockets from 'web-pockets';
 
 export default class AbstractServer {
-  constructor () {
-    this.app = webPockets();
+  constructor (options) {
+    this.app     = webPockets();
+    this.options = options || {};
+
     this.injectLogging();
     this.bindRoutes();
   }
@@ -32,17 +34,17 @@ export default class AbstractServer {
       var start = new Date();
 
       return result().then((result) => {
-        result.statusCode = getStatusCode(result);
-
-        console[result.statusCode < 500 ? 'log' : 'error']({
-          url: request.url,
-          host: request.headers.host,
-          success: result.statusCode < 400,
-          tags: ['result'],
-          statusCode: result.statusCode,
-          responseDetails: result.body.responseDetails,
-          duration: new Date() - start
-        });
+        if (!this.options.disableLogging) {
+          console[result.statusCode < 500 ? 'log' : 'error']({
+            url: request.url,
+            host: request.headers.host,
+            success: result.statusCode < 400,
+            tags: ['result'],
+            statusCode: getStatusCode(result),
+            responseDetails: result.body.responseDetails,
+            duration: new Date() - start
+          });
+        }
 
         return result;
       });
