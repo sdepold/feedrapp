@@ -43,6 +43,16 @@ describe('Server', function () {
     });
   });
 
+  it('can handle invisible characters', () => {
+    return axios
+      .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/invisible-characters&num=3')
+      .then((res) => {
+        let entry = res.data.responseData.feed.entries[0];
+
+        expect(entry.content).to.contain('Libraries</strong>The Penn');
+      });
+  });
+
   it('parses atom feeds', () => {
     return axios
       .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/atom&num=1')

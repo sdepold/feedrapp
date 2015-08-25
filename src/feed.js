@@ -52,18 +52,19 @@ export default class Feed {
   }
 
   _formatItem (author, item) {
-    let result = {
+    let content = item.content || item.summary || item.description || '';
+
+    content = content.replace(/\u2028/g, '').replace(/\u2029/g, '');
+
+    return {
       title: item.title,
       link: item.link,
-      content: item.content || item.summary || item.description || '',
+      content: content,
+      contentSnippet: content.replace(/(<([^>]+)>)/ig, '').substring(0, 120),
       publishedDate: item.published || item.pubDate || item.date,
       categories: [],
       author: item.author || this._extractCreator(item) || author
     };
-
-    result.contentSnippet = result.content.replace(/(<([^>]+)>)/ig, '').substring(0, 120);
-
-    return result;
   }
 
   _extractCreator (item) {
