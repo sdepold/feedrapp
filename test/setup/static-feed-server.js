@@ -13,5 +13,9 @@ export default class StaticFeedServer extends AbstractServer {
     this.app.route('GET /atom', () => {
       return readFileSync(`${__dirname}/feeds/atom.xml`);
     });
+
+    this.app.route('GET /invisible-characters', () => {
+      return readFileSync(`${__dirname}/feeds/invisible-characters.xml`);
+    });
   }
 }
