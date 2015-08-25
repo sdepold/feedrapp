@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v1.2.1 - 2015-08-25
+### Added
+- Strip line separators
+
 ## v1.2.0 - 2015-08-23
 ### Added
 - Logging of request summary
