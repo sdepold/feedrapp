@@ -1,5 +1,5 @@
 {
-  "name": "feedr",
+  "name": "feedrapp",
   "version": "1.2.1",
   "description": "A service for parsing RSS and Atom feeds.",
   "main": "dist/index.js",
@@ -8,11 +8,11 @@
     "build": "gulp build",
     "coverage": "gulp coverage",
     "prepublish": "npm run build",
-    "start": "node bin/feedr.js"
+    "start": "node bin/feedrapp.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sdepold/feedr.git"
+    "url": "https://github.com/sdepold/feedrapp.git"
   },
   "keywords": [
     "rss",
@@ -24,9 +24,9 @@
   "author": "Sascha Depold <sascha@depold.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sdepold/feedr/issues"
+    "url": "https://github.com/sdepold/feedrapp/issues"
   },
-  "homepage": "https://github.com/sdepold/feedr",
+  "homepage": "https://github.com/sdepold/feedrapp",
   "devDependencies": {
     "chai": "^2.0.0",
     "del": "^1.1.1",

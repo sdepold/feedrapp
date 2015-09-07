@@ -1,17 +1,17 @@
-# feedr
-[![Travis build status](http://img.shields.io/travis/sdepold/feedr.svg?style=flat)](https://travis-ci.org/sdepold/feedr)
-[![Dependency Status](https://david-dm.org/sdepold/feedr.svg)](https://david-dm.org/sdepold/feedr)
-[![devDependency Status](https://david-dm.org/sdepold/feedr/dev-status.svg)](https://david-dm.org/sdepold/feedr#info=devDependencies)
+# feedrapp
+[![Travis build status](http://img.shields.io/travis/sdepold/feedrapp.svg?style=flat)](https://travis-ci.org/sdepold/feedrapp)
+[![Dependency Status](https://david-dm.org/sdepold/feedrapp.svg)](https://david-dm.org/sdepold/feedrapp)
+[![devDependency Status](https://david-dm.org/sdepold/feedrapp/dev-status.svg)](https://david-dm.org/sdepold/feedrapp#info=devDependencies)
 
 A service for parsing RSS and Atom feeds.
 
 ## Getting started
 
 ```
-git clone git@github.com:sdepold/feedr.git
-cd feedr
+git clone git@github.com:sdepold/feedrapp.git
+cd feedrapp
 npm install
-bin/feedr.js
+npm start
 ```
 
 You can now run the app and start parsing your feeds:
