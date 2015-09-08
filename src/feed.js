@@ -62,7 +62,7 @@ export default class Feed {
       content: content,
       contentSnippet: content.replace(/(<([^>]+)>)/ig, '').substring(0, 120),
       publishedDate: item.published || item.pubDate || item.date,
-      categories: [],
+      categories: item.categories || [],
       author: item.author || this._extractCreator(item) || author
     };
   }

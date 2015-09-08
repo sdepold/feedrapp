@@ -1,0 +1,22 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Site.com</title>
+    <link>http://www.Site.com/</link>
+    <description>Site.com description</description>
+    <language>en</language>
+    <atom:link href="http://www.Site.com/uploads/rss_category_0.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <category>Motosport</category>
+      <title>
+        <![CDATA[ Motosport title news ]]>
+      </title>
+      <link>http://www.Site.com/news.php?news=560838</link>
+      <description>
+        <![CDATA[ <img src="http://img2.Site.com/uploads/news/2015_32/thumb_mid/00560838.jpg" alt="news picture" /><br />Motosport short text ]]>
+      </description>
+      <enclosure url="http://img2.Site.com/uploads/news/2015_32/thumb_mid/00560838.jpg" type="image/jpeg" length="49117" />
+      <pubDate>Sat, 08 Aug 2015 05:08:00 +0300</pubDate>
+      <guid isPermaLink="false">66534de1a1e883169c32ae436b73b832</guid>
+    </item>
+  </channel>
+</rss>

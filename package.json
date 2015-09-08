@@ -56,7 +56,7 @@
   "dependencies": {
     "axios": "^0.5.4",
     "babel": "^5.0.0",
-    "fast-feed": "^1.4.0",
+    "fast-feed": "^1.5.1",
     "lodash": "^3.10.1",
     "web-pockets": "^0.3.0"
   }

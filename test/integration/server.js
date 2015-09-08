@@ -75,6 +75,11 @@ describe('Server', function () {
 
     expectation.entries[0].publishedDate = '2015-08-21T04:00:03.000Z';
     expectation.entries[0].title = 'Eingewöhnung im Kindergarten – Woche 1';
+    expectation.entries[0].categories = [
+      { name: 'Kinderbeschäftigung' },
+      { name: 'Kinderbetreuung' },
+      { name: 'Kindergarten' }
+    ];
 
     return axios
       .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/rss&num=1')
@@ -86,6 +91,16 @@ describe('Server', function () {
             feed: expectation
           }
         });
+      });
+  });
+
+  it('finds categories', () => {
+    return axios
+      .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/categories')
+      .then((res) => {
+        let entry = res.data.responseData.feed.entries[0];
+
+        expect(entry.categories).to.eql([{ name: 'Motosport' }]);
       });
   });
 
