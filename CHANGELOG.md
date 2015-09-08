@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v1.3.0 - 2015-09-08
+### Added
+- Support for plain categories in RSS feeds
+
 ## v1.2.1 - 2015-08-25
 ### Added
 - Strip line separators
