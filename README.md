@@ -30,3 +30,15 @@ http://localhost:8080/?q=http://blog.depold.com/rss/
 
 The responses will follow the Google RSS API format which is documented here:
 https://developers.google.com/feed/v1/reference?hl=de#resultJson
+
+## Run your own feedrapp
+
+The easiest way to run your own dedicated version of feedrapp is probably via heroku:
+
+```
+git clone git@github.com:sdepold/feedrapp.git
+cd feedrapp
+heroku create
+git push heroku master
+heroku open
+```
