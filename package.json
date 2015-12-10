@@ -58,6 +58,7 @@
     "babel": "^5.0.0",
     "fast-feed": "^1.5.1",
     "lodash": "^3.10.1",
+    "redis-fast-driver": "^0.1.3",
     "web-pockets": "^0.3.0"
   }
 }

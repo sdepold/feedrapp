@@ -4,6 +4,7 @@ import fastFeed from 'fast-feed';
 
 // Local modules
 import { getResource } from './helper';
+import { cache, getFromCache } from './cache';
 
 export default class Feed {
   constructor (url) {
@@ -15,18 +16,23 @@ export default class Feed {
       num: 4
     }, options);
 
-    return getResource(this.url).then((res) => {
-      return new Promise((resolve, reject) => {
-        fastFeed.parse(res.data, { extensions: true }, (err, feed) => {
-          if (err) {
-            return reject(err);
-          } else {
-            return resolve(feed);
-          }
+    return getFromCache(this.url).catch(() => {
+      return getResource(this.url).then((res) => {
+        return new Promise((resolve, reject) => {
+          fastFeed.parse(res.data, { extensions: true }, (err, feed) => {
+            if (err) {
+              return reject(err);
+            } else {
+              return resolve(feed);
+            }
+          });
         });
+      }).then((feed) => {
+        return this._format(feed);
+      }).then((res) => {
+        cache(this.url, res);
+        return res;
       });
-    }).then((feed) => {
-      return this._format(feed);
     }).then((feed) => {
       return this._applyOptions(feed, options);
     });
