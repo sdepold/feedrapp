@@ -57,7 +57,7 @@
     "axios": "^0.8.0",
     "babel": "^5.0.0",
     "fast-feed": "^1.5.1",
-    "lodash": "^3.10.1",
+    "lodash": "^4.0.0",
     "web-pockets": "^0.3.0"
   }
 }
