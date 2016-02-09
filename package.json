@@ -38,7 +38,7 @@
     "gulp-load-plugins": "^1.2.0",
     "gulp-mocha": "^2.0.0",
     "gulp-notify": "^2.1.0",
-    "gulp-plumber": "^0.6.6",
+    "gulp-plumber": "^1.0.2",
     "isparta": "^2.0.0",
     "jshint-stylish": "^1.0.0",
     "mkdirp": "^0.5.0",
