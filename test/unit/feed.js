@@ -1,16 +1,10 @@
 import Feed from '../../src/feed';
 
 let testMatrix = {
-  'http://blog.depold.com/rss/': {
-    title: 'Sascha Depold ∴ Blog',
-    description: 'Thoughts, stories and ideas.',
-    link: 'http://blog.depold.com/'
-  },
-
   'http://mamaskind.de/feed/atom/': {
     title: 'mamaskind',
     description: '',
-    link: 'http://mamaskind.de'
+    link: 'https://mamaskind.de'
   },
 
   'https://api.zotero.org/groups/9097/items/top?start=0&limit=55&format=atom': {
@@ -43,6 +37,18 @@ describe('Feed', function () {
           expect(res.link).to.eql(expectations.link);
           expect(res.entries).to.be.an('Array');
         });
+      });
+    });
+
+    it('exposes media tags', () => {
+      let url = 'https://asijnews.com/feed/';
+      let feed = new Feed(url);
+
+      return feed.read().then((res) => {
+        expect(res.title).to.eql('ASIJ News');
+        expect(res.entries[0].thumbnail).to.eql(
+          'https://asijnews.files.wordpress.com/2016/06/es_treeplanting_139.jpg'
+        );
       });
     });
   });
