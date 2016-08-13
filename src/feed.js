@@ -63,17 +63,32 @@ export default class Feed {
       contentSnippet: content.replace(/(<([^>]+)>)/ig, '').substring(0, 120),
       publishedDate: item.published || item.pubDate || item.date,
       categories: item.categories || [],
-      author: item.author || this._extractCreator(item) || author
+      author: item.author || this._extractCreator(item) || author,
+      thumbnail: this._extractThumbnail(item)
     };
   }
 
   _extractCreator (item) {
-    if (item.extensions) {
-      let extension = item.extensions.find((extension) => {
-        return extension.name === 'dc:creator';
-      });
+    return this._extractExtension(item, 'dc:creator').value;
+  }
 
-      return (extension || {}).value;
+  _extractThumbnail (item) {
+    let extension = this._extractExtension(item, 'media:thumbnail');
+
+    if (extension.attributes) {
+      return extension.attributes.url;
     }
+  }
+
+  _extractExtension (item, extensionName) {
+    let result;
+
+    if (item.extensions) {
+      result = item.extensions.find((extension) => {
+        return extension.name === extensionName;
+      });
+    }
+
+    return result || {};
   }
 }
