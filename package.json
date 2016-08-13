@@ -59,5 +59,6 @@
     "fast-feed": "^1.5.1",
     "lodash": "^4.0.1",
     "web-pockets": "^0.3.0"
-  }
+  },
+  "engines" : { "node" : ">=4.4.5 <5" }
 }

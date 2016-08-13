@@ -1,6 +1,13 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v1.4.0 - 2016-08-13
+### Added
+- Support for media:thumbnail extension
+
+### Fixed
+- Version of Node.JS on Heroku
+
 ## v1.3.0 - 2015-09-08
 ### Added
 - Support for plain categories in RSS feeds
