@@ -32,7 +32,7 @@
     "del": "^2.2.0",
     "gulp": "^3.8.10",
     "gulp-babel": "^6.1.2",
-    "gulp-istanbul": "^0.10.4",
+    "gulp-istanbul": "^1.0.0",
     "gulp-jscs": "^1.4.0",
     "gulp-jshint": "^1.9.0",
     "gulp-load-plugins": "^1.2.0",
