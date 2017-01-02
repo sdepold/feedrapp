@@ -41,6 +41,7 @@ function createLintTask (taskName, files) {
       .pipe($.jshint.reporter('jshint-stylish'))
       .pipe($.notify(jshintNotify))
       .pipe($.jscs())
+      .pipe($.jscs.reporter())
       .pipe($.notify(jscsNotify))
       .pipe($.jshint.reporter('fail'));
   });

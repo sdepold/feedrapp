@@ -55,6 +55,5 @@
   "validateParameterSeparator": ", ",
   "validateQuoteMarks": "'",
   "requireSemicolons": true,
-  "requirePaddingNewLineAfterVariableDeclaration": true,
-  "esnext": true
+  "requirePaddingNewLineAfterVariableDeclaration": true
 }
