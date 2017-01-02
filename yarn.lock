@@ -1431,15 +1431,16 @@ gulp-babel@^6.1.2:
     through2 "^2.0.0"
     vinyl-sourcemaps-apply "^0.2.0"
 
-gulp-istanbul@^0.10.4:
-  version "0.10.4"
-  resolved "https://registry.yarnpkg.com/gulp-istanbul/-/gulp-istanbul-0.10.4.tgz#2b2a1bcbeb96a62c78e69821d104d6fca32efb09"
+gulp-istanbul@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/gulp-istanbul/-/gulp-istanbul-1.1.1.tgz#e094d98f42bfa4d9a8e5366f414ed9a09a3c6537"
   dependencies:
     gulp-util "^3.0.1"
     istanbul "^0.4.0"
     istanbul-threshold-checker "^0.1.0"
     lodash "^4.0.0"
     through2 "^2.0.0"
+    vinyl-sourcemaps-apply "^0.2.1"
 
 gulp-jscs@^1.4.0:
   version "1.6.0"
@@ -3555,7 +3556,7 @@ vinyl-fs@^0.3.0:
     through2 "^0.6.1"
     vinyl "^0.4.0"
 
-vinyl-sourcemaps-apply@^0.2.0:
+vinyl-sourcemaps-apply@^0.2.0, vinyl-sourcemaps-apply@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/vinyl-sourcemaps-apply/-/vinyl-sourcemaps-apply-0.2.1.tgz#ab6549d61d172c2b1b87be5c508d239c8ef87705"
   dependencies:
