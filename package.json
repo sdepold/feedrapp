@@ -59,6 +59,7 @@
     "babel": "^5.0.0",
     "fast-feed": "^1.5.1",
     "lodash": "^4.0.1",
+    "memory-cache": "^0.1.6",
     "web-pockets": "^0.3.0"
   },
   "engines": {

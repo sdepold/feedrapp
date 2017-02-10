@@ -1,9 +1,22 @@
 // 3rd-party modules
 import _ from 'lodash';
 import axios from 'axios';
+import cache from 'memory-cache';
+
+const TTL = 30 * 60 * 1000; // 30 minutes
 
 export function getResource (url) {
-  return axios.get(url).catch((err) => {
+  var cachedResource = cache.get(url);
+
+  if (cachedResource) {
+    console.log(`Hit cache for URL: ${url}`);
+    return Promise.resolve(cachedResource);
+  }
+
+  return axios.get(url).then(function (result) {
+    console.log(`Requested remote server for URL: ${url}`);
+    return cache.put(url, result, TTL);
+  }).catch((err) => {
     if (_.includes([301, 302], err.status)) {
       return getResource(err.headers.location);
     } else {

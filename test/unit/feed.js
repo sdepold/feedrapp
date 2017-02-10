@@ -47,7 +47,7 @@ describe('Feed', function () {
       return feed.read().then((res) => {
         expect(res.title).to.eql('ASIJ News');
         expect(res.entries[0].thumbnail).to.eql(
-          'https://asijnews.files.wordpress.com/2016/12/0y3a2576.jpg'
+          'https://asijnews.files.wordpress.com/2017/02/feature.jpg'
         );
       });
     });
