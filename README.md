@@ -31,6 +31,13 @@ http://localhost:8080/?q=http://blog.depold.com/rss/
 The responses will follow the Google RSS API format which is documented here:
 https://developers.google.com/feed/v1/reference?hl=de#resultJson
 
+## Caching
+
+Since v1.5.0 every requested RSS feed is cached for 30 minutes. This value might be
+configurable in the future. Pull requests are welcome.
+The change was introduced because the app received too much traffic to function
+fine on Heroku – and because it just makes sense.
+
 ## Run your own feedrapp
 
 The easiest way to run your own dedicated version of feedrapp is probably via heroku:
