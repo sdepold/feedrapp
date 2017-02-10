@@ -3,7 +3,6 @@ const $ = require('gulp-load-plugins')();
 const del = require('del');
 const path = require('path');
 const mkdirp = require('mkdirp');
-const isparta = require('isparta');
 
 const manifest = require('./package.json');
 const config = manifest.nodeBoilerplateOptions;
@@ -73,18 +72,6 @@ function test () {
 
 // Make babel preprocess the scripts the user tries to import from here on.
 require('babel/register');
-
-gulp.task('coverage', function (done) {
-  gulp.src(['src/*.js'])
-    .pipe($.plumber())
-    .pipe($.istanbul({ instrumenter: isparta.Instrumenter }))
-    .pipe($.istanbul.hookRequire())
-    .on('finish', function () {
-      return test()
-      .pipe($.istanbul.writeReports())
-      .on('end', done);
-    });
-});
 
 // Lint and run our tests
 gulp.task('test', ['lint-src', 'lint-test'], test);
