@@ -43,7 +43,7 @@ fine on Heroku – and because it just makes sense.
 The easiest way to run your own dedicated version of feedrapp is probably via heroku:
 
 ```
-git clone git@github.com:sdepold/feedrapp.git
+git clone https://github.com/sdepold/feedrapp.git
 cd feedrapp
 heroku create
 git push heroku master
