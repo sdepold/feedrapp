@@ -36,7 +36,7 @@
     "gulp-jshint": "^2.0.4",
     "gulp-load-plugins": "^1.2.0",
     "gulp-mocha": "^3.0.1",
-    "gulp-notify": "^2.1.0",
+    "gulp-notify": "^3.0.0",
     "gulp-plumber": "^1.1.0",
     "jshint": "^2.9.4",
     "jshint-stylish": "^2.2.1",
