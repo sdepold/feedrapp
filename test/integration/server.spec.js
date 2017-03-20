@@ -1,14 +1,15 @@
 // 3rd-party modules
-import _ from 'lodash';
-import axios from 'axios';
+const _ = require('lodash');
+const axios = require('axios');
+const expect = require('chai').expect;
 
 // Local modules
-import Server from '../../src/server';
-import StaticFeedServer from '../setup/static-feed-server';
+const Server = require('../../src/server');
+const TestFeedServer = require('../setup/test-feed-server');
 
 // jscs:disable maximumLineLength
 // jshint -W101
-let expectedFeed = {
+const expectedFeed = {
   author: '',
   description: '',
   entries: [{
@@ -27,10 +28,14 @@ let expectedFeed = {
 // jshint +W101
 // jscs:enable maximumLineLength
 
+const jsonConfig = {
+  headers: { Accept: 'application/json' }
+};
+
 describe('Server', function () {
   before((done) => {
     this.server = new Server({ disableLogging: true });
-    this.feedServer = new StaticFeedServer({ disableLogging: true });
+    this.feedServer = new TestFeedServer({ disableLogging: true });
 
     this.server.listen(1337, '0.0.0.0', () => {
       this.feedServer.listen(1338, '0.0.0.0', done);
@@ -38,14 +43,14 @@ describe('Server', function () {
   });
 
   after((done) => {
-    this.server.close(() => {
-      this.feedServer.close(done);
+    this.feedServer.close(() => {
+      this.server.close(done);
     });
   });
 
   it('can handle invisible characters', () => {
     return axios
-      .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/invisible-characters&num=3')
+      .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/invisible-characters&num=3', jsonConfig)
       .then((res) => {
         let entry = res.data.responseData.feed.entries[0];
 
@@ -55,7 +60,7 @@ describe('Server', function () {
 
   it('parses atom feeds', () => {
     return axios
-      .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/atom&num=1')
+      .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/atom&num=1', jsonConfig)
       .then((res) => {
         expect(res.data).to.eql({
           responseStatus: 200,
@@ -82,7 +87,7 @@ describe('Server', function () {
     ];
 
     return axios
-      .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/rss&num=1')
+      .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/rss&num=1', jsonConfig)
       .then((res) => {
         expect(res.data).to.eql({
           responseStatus: 200,
@@ -96,7 +101,7 @@ describe('Server', function () {
 
   it('finds categories', () => {
     return axios
-      .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/categories')
+      .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/categories', jsonConfig)
       .then((res) => {
         let entry = res.data.responseData.feed.entries[0];
 
@@ -106,7 +111,7 @@ describe('Server', function () {
 
   describe('q', () => {
     it('returns an error if no q param is defined', () => {
-      return axios.get('http://0.0.0.0:1337').then((res) => {
+      return axios.get('http://0.0.0.0:1337', jsonConfig).then((res) => {
         expect(res.data.responseStatus).to.eql(400);
         expect(res.data.responseDetails.message).to.eql('No q param found!');
       });
@@ -116,7 +121,7 @@ describe('Server', function () {
   describe('num', () => {
     it('defaults to 4 entries', () => {
       return axios
-        .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/rss')
+        .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/rss', jsonConfig)
         .then((res) => {
           expect(res.data.responseData.feed.entries.length).to.eql(4);
         });
@@ -124,7 +129,7 @@ describe('Server', function () {
 
     it('can be overwritten to just return 1 entry', () => {
       return axios
-        .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/rss&num=1')
+        .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/rss&num=1', jsonConfig)
         .then((res) => {
           expect(res.data.responseData.feed.entries.length).to.eql(1);
         });

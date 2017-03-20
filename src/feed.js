@@ -1,11 +1,11 @@
 // 3rd-party modules
-import _ from 'lodash';
-import fastFeed from 'fast-feed';
+const _ = require('lodash');
+const fastFeed = require('fast-feed');
 
 // Local modules
-import { getResource } from './helper';
+const getResource = require('./helper').getResource;
 
-export default class Feed {
+module.exports = class Feed {
   constructor (url) {
     this.url = url;
   }
@@ -91,4 +91,4 @@ export default class Feed {
 
     return result || {};
   }
-}
+};

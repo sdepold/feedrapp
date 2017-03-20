@@ -1,8 +1,9 @@
-import Feed from '../../src/feed';
+const expect = require('chai').expect;
+const Feed = require('../../src/feed');
 
-let testMatrix = {
+const testMatrix = {
   'http://mamaskind.de/feed/atom/': {
-    title: 'mamaskind',
+    title: 'Mamaskind',
     description: '',
     link: 'https://mamaskind.de'
   },
@@ -47,7 +48,7 @@ describe('Feed', function () {
       return feed.read().then((res) => {
         expect(res.title).to.eql('ASIJ News');
         expect(res.entries[0].thumbnail).to.eql(
-          'https://asijnews.files.wordpress.com/2017/02/feature.jpg'
+          'https://asijnews.files.wordpress.com/2017/03/img_4199.jpg'
         );
       });
     });
