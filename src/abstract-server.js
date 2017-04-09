@@ -1,92 +1,75 @@
 const express = require('express');
 const path = require('path');
-const favicon = require('serve-favicon');
+// const favicon = require('serve-favicon');
 const logger = require('morgan');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const debug = require('debug')('feedrapp:server');
 const http = require('http');
+const lessMiddleware = require('less-middleware');
 
 module.exports = class AbstractServer {
-  constructor (options) {
-    this.app     = express();
+  constructor(options) {
+    this.app = express();
     this.options = options || {};
 
     this.injectMiddlewares();
-    this.injectLogging();
     this.bindRoutes();
   }
 
-  listen (...args) {
+  listen(...args) {
     this.httpServer = http.createServer(this.app);
 
-    this.httpServer.listen(...args);
+    this.httpServerListener = this.httpServer.listen(...args);
     this.httpServer.on('error', this.onError);
     this.httpServer.on('listening', () => this.onListening());
 
     return this.httpServer;
   }
 
-  close (callback) {
+  close(callback) {
     if (this.httpServer) {
       this.httpServer.close(callback);
     }
   }
 
-  injectMiddlewares () {
+  injectMiddlewares() {
     // view engine setup
-    this.app.set('views', path.join(__dirname, 'views'));
+    this.app.set('views', path.join(__dirname, '..', 'views'));
     this.app.set('view engine', 'pug');
 
     // uncomment after placing your favicon in /public
-    //this.app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+    // this.app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
     this.app.use(logger('dev'));
     this.app.use(bodyParser.json());
     this.app.use(bodyParser.urlencoded({ extended: false }));
     this.app.use(cookieParser());
-    this.app.use(require('less-middleware')(path.join(__dirname, 'public')));
+    this.app.use(lessMiddleware(path.join(__dirname, 'public')));
     this.app.use(express.static(path.join(__dirname, 'public')));
   }
 
-  injectLogging () {
-      // return result().then((result) => {
-      //   if (!this.options.disableLogging) {
-      //     console[result.statusCode < 500 ? 'log' : 'error']({
-      //       url: request.url,
-      //       host: request.headers.host,
-      //       success: result.statusCode < 400,
-      //       tags: ['result'],
-      //       statusCode: getStatusCode(result),
-      //       responseDetails: result.body.responseDetails,
-      //       duration: new Date() - start
-      //     });
-      //   }
-      //
-      //   return result;
-      // });
-  }
-
-  bindRoutes () {
+  bindRoutes() {
     throw new Error('Overwrite bindRoutes!');
   }
 
-  onError (error) {
+  onError(error) {
     if (error.syscall !== 'listen') {
       throw error;
     }
 
-    var bind = typeof port === 'string'
-      ? 'Pipe ' + port
-      : 'Port ' + port;
+    const port = this.httpServerListener.address().port;
+    const bind = typeof port === 'string'
+      ? `Pipe ${port}`
+      : `Port ${port}`;
 
     // handle specific listen errors with friendly messages
     switch (error.code) {
       case 'EACCES':
-        console.error(bind + ' requires elevated privileges');
+        console.error(`${bind} requires elevated privileges`); // eslint-disable-line no-console
         process.exit(1);
         break;
       case 'EADDRINUSE':
-        console.error(bind + ' is already in use');
+        console.error(`${bind} is already in use`); // eslint-disable-line no-console
         process.exit(1);
         break;
       default:
@@ -95,11 +78,11 @@ module.exports = class AbstractServer {
   }
 
   onListening() {
-    var addr = this.httpServer.address();
-    var bind = typeof addr === 'string'
-      ? 'pipe ' + addr
-      : 'port ' + addr.port;
+    const addr = this.httpServer.address();
+    const bind = typeof addr === 'string'
+      ? `pipe ${addr}`
+      : `port ${addr.port}`;
 
-    debug('Listening on ' + bind);
+    debug(`Listening on ${bind}`);
   }
-}
+};

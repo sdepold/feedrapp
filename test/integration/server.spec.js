@@ -7,8 +7,6 @@ const expect = require('chai').expect;
 const Server = require('../../src/server');
 const TestFeedServer = require('../setup/test-feed-server');
 
-// jscs:disable maximumLineLength
-// jshint -W101
 const expectedFeed = {
   author: '',
   description: '',
@@ -25,8 +23,6 @@ const expectedFeed = {
   link: 'http://mamaskind.de',
   title: 'mamaskind'
 };
-// jshint +W101
-// jscs:enable maximumLineLength
 
 const jsonConfig = {
   headers: { Accept: 'application/json' }
@@ -48,18 +44,15 @@ describe('Server', function () {
     });
   });
 
-  it('can handle invisible characters', () => {
-    return axios
+  it('can handle invisible characters', () => axios
       .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/invisible-characters&num=3', jsonConfig)
       .then((res) => {
-        let entry = res.data.responseData.feed.entries[0];
+        const entry = res.data.responseData.feed.entries[0];
 
         expect(entry.content).to.contain('Libraries</strong>The Penn');
-      });
-  });
+      }));
 
-  it('parses atom feeds', () => {
-    return axios
+  it('parses atom feeds', () => axios
       .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/atom&num=1', jsonConfig)
       .then((res) => {
         expect(res.data).to.eql({
@@ -69,11 +62,10 @@ describe('Server', function () {
             feed: expectedFeed
           }
         });
-      });
-  });
+      }));
 
   it('parses rss feeds', () => {
-    let expectation = _.extend({}, expectedFeed, {
+    const expectation = _.extend({}, expectedFeed, {
       feedUrl: 'http://0.0.0.0:1338/rss',
       description: 'ein Mama-Blog'
     });
@@ -99,40 +91,32 @@ describe('Server', function () {
       });
   });
 
-  it('finds categories', () => {
-    return axios
+  it('finds categories', () => axios
       .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/categories', jsonConfig)
       .then((res) => {
-        let entry = res.data.responseData.feed.entries[0];
+        const entry = res.data.responseData.feed.entries[0];
 
         expect(entry.categories).to.eql([{ name: 'Motosport' }]);
-      });
-  });
+      }));
 
   describe('q', () => {
-    it('returns an error if no q param is defined', () => {
-      return axios.get('http://0.0.0.0:1337', jsonConfig).then((res) => {
-        expect(res.data.responseStatus).to.eql(400);
-        expect(res.data.responseDetails.message).to.eql('No q param found!');
-      });
-    });
+    it('returns an error if no q param is defined', () => axios.get('http://0.0.0.0:1337', jsonConfig).then((res) => {
+      expect(res.data.responseStatus).to.eql(400);
+      expect(res.data.responseDetails.message).to.eql('No q param found!');
+    }));
   });
 
   describe('num', () => {
-    it('defaults to 4 entries', () => {
-      return axios
+    it('defaults to 4 entries', () => axios
         .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/rss', jsonConfig)
         .then((res) => {
           expect(res.data.responseData.feed.entries.length).to.eql(4);
-        });
-    });
+        }));
 
-    it('can be overwritten to just return 1 entry', () => {
-      return axios
+    it('can be overwritten to just return 1 entry', () => axios
         .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/rss&num=1', jsonConfig)
         .then((res) => {
           expect(res.data.responseData.feed.entries.length).to.eql(1);
-        });
-    });
+        }));
   });
 });

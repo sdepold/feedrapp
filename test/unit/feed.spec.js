@@ -27,10 +27,10 @@ describe('Feed', function () {
 
   describe('read', () => {
     Object.keys(testMatrix).forEach((url) => {
-      let expectations = testMatrix[url];
+      const expectations = testMatrix[url];
 
       it(`correctly parses ${url}`, () => {
-        let feed = new Feed(url);
+        const feed = new Feed(url);
 
         return feed.read().then((res) => {
           expect(res.title).to.eql(expectations.title);
@@ -42,8 +42,8 @@ describe('Feed', function () {
     });
 
     it('exposes media tags', () => {
-      let url = 'https://asijnews.com/feed/';
-      let feed = new Feed(url);
+      const url = 'https://asijnews.com/feed/';
+      const feed = new Feed(url);
 
       return feed.read().then((res) => {
         expect(res.title).to.eql('ASIJ News');
