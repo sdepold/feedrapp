@@ -2,6 +2,32 @@ doctype html
 html
   head
     title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
-  body
-    block content
+
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(name='description', content='')
+    meta(name="author", content='Sascha Depold')
+    link(rel='stylesheet', type='text/css', href='/stylesheets/style.css')
+    link(href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800', rel='stylesheet', type='text/css')
+    link(rel="stylesheet", href="/stylesheets/plugins/bootstrap/css/bootstrap.min.css")
+    link(rel="stylesheet", href="/stylesheets/plugins/font-awesome/css/font-awesome.css")
+    link(rel="stylesheet", href="/stylesheets/plugins/prism/prism.css")
+    link(rel="stylesheet", href="/stylesheets/plugins/elegant_font/css/style.css")
+  body.body-green
+    .page-wrapper
+      header#header.header
+        .container
+          .branding
+            h1.logo
+              a(href="index.html")
+                span.icon_documents_alt.icon(aria-hidden="true")
+                span.text-highlight Feedr
+                span.text-bold App
+      .doc-wrapper
+        .container
+          .doc-body
+            .doc-content
+              .doc-content-inner
+                block content
+            .doc-sidebar.hidden-xs

@@ -44,8 +44,8 @@ module.exports = class AbstractServer {
     this.app.use(bodyParser.json());
     this.app.use(bodyParser.urlencoded({ extended: false }));
     this.app.use(cookieParser());
-    this.app.use(lessMiddleware(path.join(__dirname, 'public')));
-    this.app.use(express.static(path.join(__dirname, 'public')));
+    this.app.use(lessMiddleware(path.join(__dirname, '..', 'public')));
+    this.app.use(express.static(path.join(__dirname, '..', 'public')));
   }
 
   bindRoutes() {
