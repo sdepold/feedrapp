@@ -11,7 +11,7 @@
 body {
   font-family: 'Open Sans', arial, sans-serif;
   color: #494d55;
-  font-size: 14px;
+  font-size: 16px !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -786,6 +786,10 @@ select {
 /* Sidebar */
 .doc-sidebar {
   width: 200px;
+
+  #doc-nav ul li a {
+    text-transform: capitalize;
+  }
 }
 .doc-menu {
   list-style: none;
@@ -934,8 +938,9 @@ select {
   top: 15px;
 }
 .affix,
-.affix-bottom {
-  width: 230px;
+.affix-bottom,
+.affix-top {
+  width: 220px;
 }
 .affix-bottom {
   position: absolute;

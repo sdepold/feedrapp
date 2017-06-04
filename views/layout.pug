@@ -31,3 +31,24 @@ html
               .doc-content-inner
                 block content
             .doc-sidebar.hidden-xs
+              nav#doc-nav
+                ul#doc-menu.nav.doc-menu(data-spy="affix")
+                  if sections
+                    each section in sections
+                      li
+                        a.scrollto(href="#" + section + "-section")= section
+    footer#footer.footer.text-center
+      .container
+        small.copyright
+          | Designed with&nbsp;
+          i.fa.fa-heart
+          | &nbsp;by&nbsp;
+          a(href="http://themes.3rdwavemedia.com/", targe="_blank") Xiaoying Riley
+          | &nbsp;for developers
+
+    script(type="text/javascript", src="/javascripts/jquery-1.12.3.min.js")
+    script(type="text/javascript", src="/javascripts/bootstrap.min.js")
+    script(type="text/javascript", src="/javascripts/prism.js")
+    script(type="text/javascript", src="/javascripts/jquery.scrollTo.min.js")
+    script(type="text/javascript", src="/javascripts/jquery.matchHeight-min.js")
+    script(type="text/javascript", src="/javascripts/main.js")

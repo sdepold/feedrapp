@@ -16,7 +16,15 @@ router.get('/', function(req, res, next) {
 module.exports = router;
 
 function handleHtmlRequest(req, res, next) {
-  res.render('index', { title: 'Express' });
+  const sections = [
+    'introduction',
+    'usage',
+    'options',
+    'development',
+    'caching',
+  ];
+
+  res.render('index', { title: 'FeedrApp', sections });
 }
 
 function handleJsonRequest(req, res, next) {

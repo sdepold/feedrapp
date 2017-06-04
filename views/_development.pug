@@ -1,0 +1,32 @@
+section#development-section.doc-section
+  h2.section-title Development
+  .section-block
+    p
+      | You can run your own version of Feedr if the public version is not efficient
+      | enough or lacks some unsupported features that you want to add yourself.
+    
+    p
+      | In order to run the app locally, you can execute the following steps:
+    
+    pre.command-line.language-bash
+      code.language-bash
+        | git clone git@github.com:sdepold/feedrapp.git
+        | cd feedrapp
+        | yarn
+        | yarn start
+        
+    p
+      | You can now run the app and start parsing your feeds:
+      
+    pre.language-text
+      code.language-text
+        | http://localhost:8080/?q=http://www.ebaytechblog.com/feed/
+    
+    p
+      | The easiest way to run your own dedicated version of feedrapp is probably via heroku:
+
+    pre.command-line.language-bash
+      code.language-bash
+        | heroku create
+        | git push heroku master
+        | heroku open
