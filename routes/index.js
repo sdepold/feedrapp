@@ -4,9 +4,10 @@ const express = require('express');
 const Feed = require('../src/feed');
 const helper = require('../src/helper');
 const router = express.Router();
+const ua = require('universal-analytics');
 
 router.get('/', function(req, res, next) {
-  if (req.accepts('text/html')) {
+  if (req.headers.accept.includes('text/html')) {
     handleHtmlRequest(req, res, next);
   } else {
     handleJsonRequest(req, res, next);
@@ -39,7 +40,9 @@ function handleJsonRequest(req, res, next) {
     } else {
       return feed;
     }
-  }).then((data) => res.json(data));
+  })
+  .then((data) => res.json(data))
+  .then(() => trackRequest(req));
 }
 
 function getResponseData(req) {
@@ -59,4 +62,10 @@ function getResponseData(req) {
       details: 'Please add a query parameter "q" to the request URL which points to a feed!'
     }));
   }
+}
+
+function trackRequest (req) {
+  let visitor = ua('UA-100419142-1', { https: true });
+
+  visitor.pageview(req.path)
 }
