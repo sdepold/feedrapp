@@ -65,7 +65,7 @@ function getResponseData(req) {
 }
 
 function trackRequest (req) {
-  let visitor = ua('UA-100419142-1', { https: true });
-
-  visitor.pageview(req.path)
+  ua('UA-100419142-1', { https: true })
+    .pageview(req.originalUrl)
+    .send();
 }
