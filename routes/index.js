@@ -31,17 +31,12 @@ function handleHtmlRequest(req, res, next) {
 function handleJsonRequest(req, res, next) {
   getResponseData(req).then(function (feed) {
     if (req.query.callback) {
-      return {
-        headers: {
-          'content-type': 'text/javascript; charset=utf-8'
-        },
-        body: `${req.query.callback}(${JSON.stringify(feed)});`
-      };
+      res.set('Content-Type', 'text/javascript; charset=utf-8');
+      res.send(`${req.query.callback}(${JSON.stringify(feed)});`);
     } else {
-      return feed;
+      res.json(feed);
     }
   })
-  .then((data) => res.json(data))
   .then(() => trackRequest(req));
 }
 
