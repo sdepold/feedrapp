@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const Server = require('../src/server');
-const port = normalizePort(process.env.PORT || '3000');
+const port = normalizePort(process.env.PORT || '8080');
 
 new Server().listen(port)
 

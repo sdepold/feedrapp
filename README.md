@@ -17,7 +17,7 @@ npm start
 You can now run the app and start parsing your feeds:
 
 ```
-curl -H 'Accept: application/json' http://localhost:3000/\?q\=http://mamaskind.de/feed/atom/
+curl -H 'Accept: application/json' http://localhost:8080/\?q\=http://mamaskind.de/feed/atom/
 ```
 
 ## Supported query paramaters:
