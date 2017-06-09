@@ -29,10 +29,6 @@ html
           .doc-body
             .doc-content
               .doc-content-inner
-                script(async, src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js")
-                ins.adsbygoogle(style="display:block", data-ad-client="ca-pub-7174173537750242", data-ad-slot="5428878016", data-ad-format="auto")
-                script
-                  | (adsbygoogle = window.adsbygoogle || []).push({});
                 block content
             .doc-sidebar.hidden-xs
               nav#doc-nav
@@ -41,6 +37,11 @@ html
                     each section in sections
                       li
                         a.scrollto(href="#" + section + "-section")= section
+            .doc-ads
+              script(async, src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js")
+              ins.adsbygoogle(style="display:block", data-ad-client="ca-pub-7174173537750242", data-ad-slot="5428878016", data-ad-format="auto")
+              script
+                | (adsbygoogle = window.adsbygoogle || []).push({});
     footer#footer.footer.text-center
       .container
         small.copyright
