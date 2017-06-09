@@ -1,9 +1,11 @@
 const AbstractServer = require('./abstract-server');
 const indexRoute = require('../routes/index');
+const imprintRoute = require('../routes/imprint');
 
 module.exports = class Server extends AbstractServer {
   bindRoutes() {
     this.app.use('/', indexRoute);
+    this.app.use('/imprint', imprintRoute);
 
     // catch 404 and forward to error handler
     this.app.use((req, res, next) => {
