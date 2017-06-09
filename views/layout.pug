@@ -1,0 +1,69 @@
+doctype html
+html
+  head
+    title= title
+
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(name='description', content='')
+    meta(name="author", content='Sascha Depold')
+    link(rel='stylesheet', type='text/css', href='/stylesheets/style.css')
+    link(href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800', rel='stylesheet', type='text/css')
+    link(rel="stylesheet", href="/stylesheets/plugins/bootstrap/css/bootstrap.min.css")
+    link(rel="stylesheet", href="/stylesheets/plugins/font-awesome/css/font-awesome.css")
+    link(rel="stylesheet", href="/stylesheets/plugins/prism/prism.css")
+    link(rel="stylesheet", href="/stylesheets/plugins/elegant_font/css/style.css")
+  body.body-green
+    .page-wrapper
+      header#header.header
+        .container
+          .branding
+            h1.logo
+              a(href="/")
+                span.icon_documents_alt.icon(aria-hidden="true")
+                span.text-highlight Feedr
+                span.text-bold App
+      .doc-wrapper
+        .container
+          .doc-body
+            .doc-content
+              .doc-content-inner
+                block content
+            .doc-sidebar.hidden-xs
+              nav#doc-nav
+                ul#doc-menu.nav.doc-menu(data-spy="affix")
+                  if sections
+                    each section in sections
+                      li
+                        a.scrollto(href="#" + section + "-section")= section
+            .doc-ads
+              script(async, src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js")
+              ins.adsbygoogle(style="display:block", data-ad-client="ca-pub-7174173537750242", data-ad-slot="5428878016", data-ad-format="auto")
+              script
+                | (adsbygoogle = window.adsbygoogle || []).push({});
+    footer#footer.footer.text-center
+      .container
+        small.copyright
+          | Designed with&nbsp;
+          i.fa.fa-heart
+          | &nbsp;by&nbsp;
+          a(href="http://themes.3rdwavemedia.com/", targe="_blank") Xiaoying Riley
+          | &nbsp;for developers
+        small.imprint
+          a(href='/imprint') Imprint
+
+    script(type="text/javascript", src="/javascripts/jquery-1.12.3.min.js")
+    script(type="text/javascript", src="/javascripts/bootstrap.min.js")
+    script(type="text/javascript", src="/javascripts/prism.js")
+    script(type="text/javascript", src="/javascripts/jquery.scrollTo.min.js")
+    script(type="text/javascript", src="/javascripts/jquery.matchHeight-min.js")
+    script(type="text/javascript", src="/javascripts/main.js")
+    
+    script
+      | (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      | (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      | m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      | })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      | ga('create', 'UA-100419142-1', 'auto');
+      | ga('send', 'pageview');

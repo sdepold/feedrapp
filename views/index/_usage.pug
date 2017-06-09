@@ -1,0 +1,46 @@
+section#usage-section.doc-section
+  h2.section-title Usage
+  .section-block
+    p
+      | Feedr has to be requested with the query parameter
+      code q
+      | that contains the URL of the to-be-parsed RSS/Atom feed. An example request looks like this:
+
+    pre.command-line.language-bash
+      code.language-bash
+        | curl 'http://www.feedrapp.info/?q=http://www.ebaytechblog.com/feed/'
+
+    p
+      | The result will look like this (please note that the output is slightly truncated):
+
+    pre.language-json
+      code.language-json
+        | {
+        |   "responseStatus": 200,
+        |   "responseDetails": null,
+        |   "responseData": {
+        |     "feed": {
+        |       "feedUrl": "http://www.ebaytechblog.com/feed/",
+        |       "title": "eBay Tech Blog",
+        |       "link": "http://www.ebaytechblog.com",
+        |       "description": "Where e-commerce meets world-class technology",
+        |       "author": "",
+        |       "entries": [
+        |         {
+        |           "title": "A Surprising Pitfall of Human Judgement and How to Correct It",
+        |           "link": "http://www.ebaytechblog.com/2017/05/04/a-surprising-pitfall-of-human-judgement-and-how-to-correct-it/",
+        |           "content": "<h2>Introduction</h2>\n<p>Algorithms based on machine learning, deep learning, and AI are in the news these days. Evaluating the quality of these algorithms is usually done using human judgment. For example, if an algorithm claims to detect whether an image contains a pet, the claim can be checked by selecting a sample of images, using human judges to detect if there is a pet, and then comparing this to the results to the algorithm. This post discusses a pitfall in using human judgment that has been mostly overlooked until now.</p>\n<p>In real life, human judges are imperfect. This is especially true if the judges are crowdsourced. This is not a new observation. Many proposals to process raw judgment scores and improve their accuracy have been made. They almost always involve having multiple judges score each item and combining the scores in some fashion. The simplest (and probably most common) method of combination is majority vote: for example, if the judges are rating yes/no (for example, is there a pet), you could report the rating given by the majority of the judges.</p>\n",
+        |           "contentSnippet": "Introduction\nAlgorithms based on machine learning, deep learning, and AI are in the news these days. Evaluating the qual",
+        |           "publishedDate": "2017-05-04T17:00:10.000Z",
+        |           "categories": [
+        |             { "name": "Applied Math" },
+        |             { "name": "Machine Learning" },
+        |             { "name": "Mathematics" }
+        |           ],
+        |           "author": "David Goldberg"
+        |         },
+        |         /* ... */
+        |       ]
+        |     }
+        |   }
+        | }
