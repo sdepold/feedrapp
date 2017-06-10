@@ -2,6 +2,7 @@
 const _ = require('lodash');
 const axios = require('axios');
 const expect = require('chai').expect;
+const cheerio = require('cheerio');
 
 // Local modules
 const Server = require('../../src/server');
@@ -27,6 +28,9 @@ const expectedFeed = {
 const jsonConfig = {
   headers: { Accept: 'application/json' }
 };
+const htmlConfig = {
+  headers: { Accept: 'text/html' }
+};
 
 describe('Server', function () {
   before((done) => {
@@ -44,41 +48,42 @@ describe('Server', function () {
     });
   });
 
-  it('can handle invisible characters', () => axios
-      .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/invisible-characters&num=3', jsonConfig)
-      .then((res) => {
-        const entry = res.data.responseData.feed.entries[0];
+  describe('json requests', () => {
+    it('can handle invisible characters', () => axios
+    .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/invisible-characters&num=3', jsonConfig)
+    .then((res) => {
+      const entry = res.data.responseData.feed.entries[0];
 
-        expect(entry.content).to.contain('Libraries</strong>The Penn');
-      }));
+      expect(entry.content).to.contain('Libraries</strong>The Penn');
+    }));
 
-  it('parses atom feeds', () => axios
-      .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/atom&num=1', jsonConfig)
-      .then((res) => {
-        expect(res.data).to.eql({
-          responseStatus: 200,
-          responseDetails: null,
-          responseData: {
-            feed: expectedFeed
-          }
-        });
-      }));
+    it('parses atom feeds', () => axios
+    .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/atom&num=1', jsonConfig)
+    .then((res) => {
+      expect(res.data).to.eql({
+        responseStatus: 200,
+        responseDetails: null,
+        responseData: {
+          feed: expectedFeed
+        }
+      });
+    }));
 
-  it('parses rss feeds', () => {
-    const expectation = _.extend({}, expectedFeed, {
-      feedUrl: 'http://0.0.0.0:1338/rss',
-      description: 'ein Mama-Blog'
-    });
+    it('parses rss feeds', () => {
+      const expectation = _.extend({}, expectedFeed, {
+        feedUrl: 'http://0.0.0.0:1338/rss',
+        description: 'ein Mama-Blog'
+      });
 
-    expectation.entries[0].publishedDate = '2015-08-21T04:00:03.000Z';
-    expectation.entries[0].title = 'Eingewöhnung im Kindergarten – Woche 1';
-    expectation.entries[0].categories = [
-      { name: 'Kinderbeschäftigung' },
-      { name: 'Kinderbetreuung' },
-      { name: 'Kindergarten' }
-    ];
+      expectation.entries[0].publishedDate = '2015-08-21T04:00:03.000Z';
+      expectation.entries[0].title = 'Eingewöhnung im Kindergarten – Woche 1';
+      expectation.entries[0].categories = [
+        { name: 'Kinderbeschäftigung' },
+        { name: 'Kinderbetreuung' },
+        { name: 'Kindergarten' }
+      ];
 
-    return axios
+      return axios
       .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/rss&num=1', jsonConfig)
       .then((res) => {
         expect(res.data).to.eql({
@@ -89,34 +94,75 @@ describe('Server', function () {
           }
         });
       });
-  });
+    });
 
-  it('finds categories', () => axios
-      .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/categories', jsonConfig)
+    it('finds categories', () => axios
+    .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/categories', jsonConfig)
+    .then((res) => {
+      const entry = res.data.responseData.feed.entries[0];
+
+      expect(entry.categories).to.eql([{ name: 'Motosport' }]);
+    }));
+
+    describe('q', () => {
+      it('returns an error if no q param is defined', () => axios.get('http://0.0.0.0:1337', jsonConfig).then((res) => {
+        expect(res.data.responseStatus).to.eql(400);
+        expect(res.data.responseDetails.message).to.eql('No q param found!');
+      }));
+    });
+
+    describe('num', () => {
+      it('defaults to 4 entries', () => axios
+      .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/rss', jsonConfig)
       .then((res) => {
-        const entry = res.data.responseData.feed.entries[0];
-
-        expect(entry.categories).to.eql([{ name: 'Motosport' }]);
+        expect(res.data.responseData.feed.entries.length).to.eql(4);
       }));
 
-  describe('q', () => {
-    it('returns an error if no q param is defined', () => axios.get('http://0.0.0.0:1337', jsonConfig).then((res) => {
-      expect(res.data.responseStatus).to.eql(400);
-      expect(res.data.responseDetails.message).to.eql('No q param found!');
-    }));
+      it('can be overwritten to just return 1 entry', () => axios
+      .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/rss&num=1', jsonConfig)
+      .then((res) => {
+        expect(res.data.responseData.feed.entries.length).to.eql(1);
+      }));
+    });
   });
 
-  describe('num', () => {
-    it('defaults to 4 entries', () => axios
-        .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/rss', jsonConfig)
-        .then((res) => {
-          expect(res.data.responseData.feed.entries.length).to.eql(4);
-        }));
+  describe('html requests', () => {
+    describe('/', () => {
+      let $;
 
-    it('can be overwritten to just return 1 entry', () => axios
-        .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/rss&num=1', jsonConfig)
-        .then((res) => {
-          expect(res.data.responseData.feed.entries.length).to.eql(1);
-        }));
+      before(() => axios
+        .get('http://0.0.0.0:1337/', htmlConfig)
+        .then((res) => { $ = cheerio.load(res.data); })
+      );
+
+      it('renders html', () => {
+        expect($('h1 span').text()).to.eql('FeedrApp');
+      });
+
+      it('renders a sidebar', () => {
+        expect($('.doc-sidebar')).to.exist; // eslint-disable-line no-unused-expressions
+      });
+
+      it('renders a main content', () => {
+        expect($('.doc-content')).to.exist; // eslint-disable-line no-unused-expressions
+      });
+
+      it('renders ads', () => {
+        expect($('.doc-ads')).to.exist; // eslint-disable-line no-unused-expressions
+      });
+    });
+
+    describe('/imprint', () => {
+      let $;
+
+      before(() => axios
+        .get('http://0.0.0.0:1337/imprint', htmlConfig)
+        .then((res) => { $ = cheerio.load(res.data); })
+      );
+
+      it('renders the imprint', () => {
+        expect($('h2').first().text()).to.eql('Contact');
+      });
+    });
   });
 });

@@ -9,7 +9,8 @@
     "start:test": "node ./bin/www-test",
     "test": "yarn lint && yarn test:unit && yarn test:integration",
     "test:integration": "mocha test/integration/**/*.spec.js",
-    "test:unit": "mocha test/unit/**/*.spec.js"
+    "test:unit": "mocha test/unit/**/*.spec.js",
+    "test:coverage": "nyc yarn test"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,7 @@
   "homepage": "https://github.com/sdepold/feedrapp",
   "devDependencies": {
     "chai": "^3.5.0",
+    "cheerio": "^1.0.0-rc.1",
     "eslint": "^3.19.0",
     "eslint-config-airbnb-base": "^11.1.3",
     "eslint-plugin-import": "^2.2.0",
@@ -50,6 +52,7 @@
     "lodash": "^4.17.4",
     "memory-cache": "^0.1.6",
     "morgan": "~1.7.0",
+    "nyc": "^11.0.2",
     "pug": "~2.0.0-beta10",
     "serve-favicon": "~2.3.2",
     "universal-analytics": "^0.4.13"
