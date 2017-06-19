@@ -47,8 +47,8 @@ function getResponseData(req) {
   if (feedUrl) {
     return new Feed(feedUrl).read(feedOptions).then((feed) => {
       return { responseStatus: 200, responseDetails: null, responseData: { feed } };
-    }).catch((e) => {
-      console.error(e);
+    }).catch((error) => {
+      console.error({ feedUrl, error });
       return helper.badRequest({ message: 'Parsing the provided feed url failed.' });
     });
   } else {

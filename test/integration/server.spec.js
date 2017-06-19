@@ -104,6 +104,20 @@ describe('Server', function () {
       expect(entry.categories).to.eql([{ name: 'Motosport' }]);
     }));
 
+    it('handles invalid feeds', () => axios
+    .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/invalid', jsonConfig)
+    .then((res) => {
+      expect(res.data).to.eql({
+        responseStatus: 400,
+        responseDetails: {
+          message: 'Parsing the provided feed url failed.'
+        },
+        responseData: {
+          feed: null
+        }
+      });
+    }));
+
     describe('q', () => {
       it('returns an error if no q param is defined', () => axios.get('http://0.0.0.0:1337', jsonConfig).then((res) => {
         expect(res.data.responseStatus).to.eql(400);
