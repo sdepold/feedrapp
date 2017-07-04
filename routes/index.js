@@ -60,7 +60,7 @@ function getResponseData(req) {
 }
 
 function trackRequest (req) {
-  ua('UA-100419142-1', { https: true })
-    .pageview(req.originalUrl)
-    .send();
+  // ua('UA-100419142-1', { https: true })
+  //   .pageview(req.originalUrl)
+  //   .send();
 }
