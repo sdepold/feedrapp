@@ -3,6 +3,7 @@ const _ = require('lodash');
 const axios = require('axios');
 const expect = require('chai').expect;
 const cheerio = require('cheerio');
+const memoryCache = require('memory-cache');
 
 // Local modules
 const Server = require('../../src/server');
@@ -178,5 +179,76 @@ describe('Server', function () {
         expect($('h2').first().text()).to.eql('Contact');
       });
     });
+  });
+
+  describe('caching', () => {
+    beforeEach(() => {
+      memoryCache.clear();
+    });
+
+    function doRequest(url, config) {
+      const start = new Date();
+
+      return axios
+        .get(url, config)
+        .then((response) => Object.assign({ duration: new Date() - start }, response));
+    }
+
+    function requestSlowEndpoint() {
+      return doRequest('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/slow', jsonConfig);
+    }
+
+    function requestDocumentation() {
+      return doRequest('http://0.0.0.0:1337/', htmlConfig);
+    }
+
+    it('improves the performance of API requests', () => requestSlowEndpoint().then((res) => {
+      expect(res.duration).to.be.greaterThan(500);
+      return requestSlowEndpoint();
+    }).then((res) => {
+      expect(res.duration).to.be.lessThan(100);
+    }));
+
+    it('improves the performance of HTML requests', () => requestDocumentation().then((res) => {
+      expect(res.duration).to.be.greaterThan(100);
+      return requestDocumentation();
+    }).then((res) => {
+      expect(res.duration).to.be.lessThan(100);
+    }));
+
+    it('differentiates between HTML and API requests', () => doRequest('http://0.0.0.0:1337/', htmlConfig).then((res) => {
+      expect(res.data).to.contain('<title>FeedrApp</title>');
+      return doRequest('http://0.0.0.0:1337/', jsonConfig);
+    }).then((res) => {
+      expect(res.data.responseDetails.message).to.eql('No q param found!');
+    }));
+
+    it('handles callback names', () => doRequest('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/slow&callback=test1', jsonConfig)
+        .then((res) => {
+          // Uncached result
+          expect(res.duration).to.be.greaterThan(500);
+          expect(res.data).to.match(/^test1\(/);
+          return doRequest('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/slow&callback=test1', jsonConfig);
+        }).then((res) => {
+          // Cached result
+          expect(res.duration).to.be.lessThan(100);
+          expect(res.data).to.match(/^test1\(/);
+          return doRequest('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/slow&callback=test2', jsonConfig);
+        }).then((res) => {
+          // Cached result with different callback name
+          expect(res.duration).to.be.lessThan(100);
+          expect(res.data).to.match(/^test2\(/);
+        }));
+
+    it('properly differentiates num params', () => doRequest('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/slow&num=1', jsonConfig)
+        .then((res) => {
+          expect(res.duration).to.be.greaterThan(500);
+          return doRequest('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/slow&num=1', jsonConfig);
+        }).then((res) => {
+          expect(res.duration).to.be.lessThan(100);
+          return doRequest('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/slow&num=2', jsonConfig);
+        }).then((res) => {
+          expect(res.duration).to.be.greaterThan(500);
+        }));
   });
 });

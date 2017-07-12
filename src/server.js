@@ -1,8 +1,14 @@
 const AbstractServer = require('./abstract-server');
+const cache = require('./cache');
 const indexRoute = require('../routes/index');
 const imprintRoute = require('../routes/imprint');
 
 module.exports = class Server extends AbstractServer {
+  injectMiddlewares() {
+    this.app.use(cache());
+    super.injectMiddlewares();
+  }
+
   bindRoutes() {
     this.app.use('/', indexRoute);
     this.app.use('/imprint', imprintRoute);
