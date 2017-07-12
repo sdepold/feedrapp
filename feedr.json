@@ -2,7 +2,6 @@
   "apps": [{
     "name": "feedr",
     "script": "bin/www",
-    "exec_mode": "cluster",
     "cron_restart": "0 * * * *"
   }]
 }
