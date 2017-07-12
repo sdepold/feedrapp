@@ -1,6 +1,24 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v1.5.1 - 2017-07-12
+### Changed
+- Caching mechanism was moved to Express middleware
+- Performance of cache hits was dramatically improved (up to 1000 times faster)
+- Change should have huge impact on overall throughput of the app
+
+Example of previous cache mechanism hit (13.195ms)
+
+```
+GET /?callback=jQuery17106703896443208608_1499890351317&q=http%3A%2F%2Ffeeds.feedburner.com%2FDawanda&num=3&_=1499890351593 200 13.195 ms
+```
+
+Example of new cache mechanism hit (0.013ms)
+
+```
+isApiRequest=true&path=%2F&callback=callback&q=http%3A%2F%2Ffeeds.feedburner.com%2FDawanda&num=3: 0.013ms
+```
+
 ## v1.5.0 - 2017-02-10
 ### Added
 - Caching of requested RSS feeds for 30 minutes in memory
