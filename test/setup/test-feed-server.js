@@ -11,6 +11,13 @@ module.exports = class TestFeedServer extends AbstractServer {
         res.send(readFileSync(`${__dirname}/feeds/${file}`).toString());
       });
     });
+
+    router.get('/slow', ((req, res) => {
+      setTimeout(() => {
+        res.send(readFileSync(`${__dirname}/feeds/rss.xml`).toString());
+      }, 500);
+    }));
+
     this.app.use('/', router);
   }
 };

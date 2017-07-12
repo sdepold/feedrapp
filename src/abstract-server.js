@@ -8,6 +8,8 @@ const debug = require('debug')('feedrapp:server');
 const http = require('http');
 const lessMiddleware = require('less-middleware');
 
+const oneDay = 24 * 60 * 60 * 1000;
+
 module.exports = class AbstractServer {
   constructor(options) {
     this.app = express();
@@ -45,7 +47,9 @@ module.exports = class AbstractServer {
     this.app.use(bodyParser.urlencoded({ extended: false }));
     this.app.use(cookieParser());
     this.app.use(lessMiddleware(path.join(__dirname, '..', 'public')));
-    this.app.use(express.static(path.join(__dirname, '..', 'public')));
+    this.app.use(express.static(path.join(__dirname, '..', 'public'), {
+      maxAge: oneDay
+    }));
   }
 
   bindRoutes() {
