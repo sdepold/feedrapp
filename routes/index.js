@@ -21,6 +21,7 @@ function handleHtmlRequest(req, res, next) {
     'introduction',
     'usage',
     'options',
+    'hosting',
     'development',
     'caching',
   ];
