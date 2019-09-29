@@ -2,7 +2,7 @@
 language: cpp
 sudo: true
 env:
-  - export NODE_VERSION="6"
+  - export NODE_VERSION="8.16.1"
 # pre-install to bring in the correct version of node via nvm
 before_install:
   - git submodule update --init --recursive
