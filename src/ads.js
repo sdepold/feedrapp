@@ -49,9 +49,10 @@ const addAds = function (req, response) {
         }
 
         const data = JSON.parse(response);
+        const ad = getAd();
 
         data.responseData.feed.entries.pop();
-        data.responseData.feed.entries.unshift(getAd());
+        data.responseData.feed.entries.unshift(ad);
         // eslint-disable-next-line no-param-reassign
         response = JSON.stringify(data);
 
@@ -59,6 +60,8 @@ const addAds = function (req, response) {
             // eslint-disable-next-line no-param-reassign
             response = `${req.query.callback}(${response});`;
         }
+
+        console.log(`Embedded ad: ${JSON.stringify(ad)}`);
     }
 
     return response;
