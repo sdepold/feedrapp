@@ -51,24 +51,24 @@ describe('Server', function () {
 
   describe('json requests', () => {
     it('can handle invisible characters', () => axios
-    .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/invisible-characters&num=3', jsonConfig)
-    .then((res) => {
-      const entry = res.data.responseData.feed.entries[0];
+      .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/invisible-characters&num=3', jsonConfig)
+      .then((res) => {
+        const entry = res.data.responseData.feed.entries[0];
 
-      expect(entry.content).to.contain('Libraries</strong>The Penn');
-    }));
+        expect(entry.content).to.contain('Libraries</strong>The Penn');
+      }));
 
     it('parses atom feeds', () => axios
-    .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/atom&num=1', jsonConfig)
-    .then((res) => {
-      expect(res.data).to.eql({
-        responseStatus: 200,
-        responseDetails: null,
-        responseData: {
-          feed: expectedFeed
-        }
-      });
-    }));
+      .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/atom&num=1', jsonConfig)
+      .then((res) => {
+        expect(res.data).to.eql({
+          responseStatus: 200,
+          responseDetails: null,
+          responseData: {
+            feed: expectedFeed
+          }
+        });
+      }));
 
     it('parses rss feeds', () => {
       const expectation = _.extend({}, expectedFeed, {
@@ -85,39 +85,39 @@ describe('Server', function () {
       ];
 
       return axios
-      .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/rss&num=1', jsonConfig)
-      .then((res) => {
-        expect(res.data).to.eql({
-          responseStatus: 200,
-          responseDetails: null,
-          responseData: {
-            feed: expectation
-          }
+        .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/rss&num=1', jsonConfig)
+        .then((res) => {
+          expect(res.data).to.eql({
+            responseStatus: 200,
+            responseDetails: null,
+            responseData: {
+              feed: expectation
+            }
+          });
         });
-      });
     });
 
     it('finds categories', () => axios
-    .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/categories', jsonConfig)
-    .then((res) => {
-      const entry = res.data.responseData.feed.entries[0];
+      .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/categories', jsonConfig)
+      .then((res) => {
+        const entry = res.data.responseData.feed.entries[0];
 
-      expect(entry.categories).to.eql([{ name: 'Motosport' }]);
-    }));
+        expect(entry.categories).to.eql([{ name: 'Motosport' }]);
+      }));
 
     it('handles invalid feeds', () => axios
-    .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/invalid', jsonConfig)
-    .then((res) => {
-      expect(res.data).to.eql({
-        responseStatus: 400,
-        responseDetails: {
-          message: 'Parsing the provided feed url failed.'
-        },
-        responseData: {
-          feed: null
-        }
-      });
-    }));
+      .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/invalid', jsonConfig)
+      .then((res) => {
+        expect(res.data).to.eql({
+          responseStatus: 400,
+          responseDetails: {
+            message: 'Parsing the provided feed url failed.'
+          },
+          responseData: {
+            feed: null
+          }
+        });
+      }));
 
     describe('q', () => {
       it('returns an error if no q param is defined', () => axios.get('http://0.0.0.0:1337', jsonConfig).then((res) => {
@@ -128,16 +128,16 @@ describe('Server', function () {
 
     describe('num', () => {
       it('defaults to 4 entries', () => axios
-      .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/rss', jsonConfig)
-      .then((res) => {
-        expect(res.data.responseData.feed.entries.length).to.eql(4);
-      }));
+        .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/rss', jsonConfig)
+        .then((res) => {
+          expect(res.data.responseData.feed.entries.length).to.eql(4);
+        }));
 
       it('can be overwritten to just return 1 entry', () => axios
-      .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/rss&num=1', jsonConfig)
-      .then((res) => {
-        expect(res.data.responseData.feed.entries.length).to.eql(1);
-      }));
+        .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/rss&num=1', jsonConfig)
+        .then((res) => {
+          expect(res.data.responseData.feed.entries.length).to.eql(1);
+        }));
     });
   });
 
@@ -210,10 +210,10 @@ describe('Server', function () {
     }));
 
     it('improves the performance of HTML requests', () => requestDocumentation().then((res) => {
-      expect(res.duration).to.be.greaterThan(100);
+      expect(res.duration).to.be.greaterThan(50);
       return requestDocumentation();
     }).then((res) => {
-      expect(res.duration).to.be.lessThan(100);
+      expect(res.duration).to.be.lessThan(50);
     }));
 
     it('differentiates between HTML and API requests', () => doRequest('http://0.0.0.0:1337/', htmlConfig).then((res) => {
@@ -224,31 +224,31 @@ describe('Server', function () {
     }));
 
     it('handles callback names', () => doRequest('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/slow&callback=test1', jsonConfig)
-        .then((res) => {
-          // Uncached result
-          expect(res.duration).to.be.greaterThan(500);
-          expect(res.data).to.match(/^test1\(/);
-          return doRequest('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/slow&callback=test1', jsonConfig);
-        }).then((res) => {
-          // Cached result
-          expect(res.duration).to.be.lessThan(100);
-          expect(res.data).to.match(/^test1\(/);
-          return doRequest('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/slow&callback=test2', jsonConfig);
-        }).then((res) => {
-          // Cached result with different callback name
-          expect(res.duration).to.be.lessThan(100);
-          expect(res.data).to.match(/^test2\(/);
-        }));
+      .then((res) => {
+        // Uncached result
+        expect(res.duration).to.be.greaterThan(500);
+        expect(res.data).to.match(/^test1\(/);
+        return doRequest('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/slow&callback=test1', jsonConfig);
+      }).then((res) => {
+        // Cached result
+        expect(res.duration).to.be.lessThan(100);
+        expect(res.data).to.match(/^test1\(/);
+        return doRequest('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/slow&callback=test2', jsonConfig);
+      }).then((res) => {
+        // Cached result with different callback name
+        expect(res.duration).to.be.lessThan(100);
+        expect(res.data).to.match(/^test2\(/);
+      }));
 
     it('properly differentiates num params', () => doRequest('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/slow&num=1', jsonConfig)
-        .then((res) => {
-          expect(res.duration).to.be.greaterThan(500);
-          return doRequest('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/slow&num=1', jsonConfig);
-        }).then((res) => {
-          expect(res.duration).to.be.lessThan(100);
-          return doRequest('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/slow&num=2', jsonConfig);
-        }).then((res) => {
-          expect(res.duration).to.be.greaterThan(500);
-        }));
+      .then((res) => {
+        expect(res.duration).to.be.greaterThan(500);
+        return doRequest('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/slow&num=1', jsonConfig);
+      }).then((res) => {
+        expect(res.duration).to.be.lessThan(100);
+        return doRequest('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/slow&num=2', jsonConfig);
+      }).then((res) => {
+        expect(res.duration).to.be.greaterThan(500);
+      }));
   });
 });

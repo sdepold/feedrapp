@@ -1,6 +1,7 @@
 const TTL = 30 * 60 * 1000; // 30 minutes
 const memoryCache = require('memory-cache');
 const querystring = require('querystring');
+const { addAds } = require('./ads');
 
 function formatResponse(req, cacheResult) {
   if (cacheResult.callback) {
@@ -19,7 +20,7 @@ function toCacheKey(req) {
   if (queryParams.callback) {
     // Sanitize callback instead of removing it.
     // This fixes the situation where a feed was requested first without a callback
-    // and later on without a callback.
+    // and later on with a callback.
     queryParams.callback = 'callback';
   }
   delete queryParams._;
@@ -34,7 +35,7 @@ module.exports = (duration = TTL) => (req, res, next) => {
 
   if (cacheResult) {
     console.timeEnd(cacheKey); // eslint-disable-line no-console
-    return res.send(formatResponse(req, cacheResult));
+    return res.send(addAds(req, formatResponse(req, cacheResult)));
   }
 
   res.sendResponse = res.send;

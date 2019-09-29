@@ -14,11 +14,11 @@ const testMatrix = {
     link: 'https://api.zotero.org/groups/9097/items/top?format=atom&limit=55'
   },
 
-  'http://xml-rss.de/xml/site-atom.xml': {
-    title: 'XML-RSS.de Website-Feed',
+  'https://www.contentful.com/blog/feed.xml': {
+    title: 'Contentful - Blog',
     author: 'Team von XML-RSS',
-    description: '',
-    link: 'http://xml-rss.de/xml/atom.xml'
+    description: 'Contentful gives you an API-first, cloud-based platform to power your sites and apps, allowing you to create first-class user experiences. Stop burying your content in a CMS, empower it with a content infrastructure.',
+    link: 'https://www.contentful.com'
   }
 };
 

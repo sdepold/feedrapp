@@ -6,7 +6,7 @@ const helper = require('../src/helper');
 const router = express.Router();
 const ua = require('universal-analytics');
 
-router.get('/', function(req, res, next) {
+router.get('/', function (req, res, next) {
   if (req.headers.accept.includes('text/html')) {
     handleHtmlRequest(req, res, next);
   } else {
@@ -38,12 +38,12 @@ function handleJsonRequest(req, res, next) {
       res.json(feed);
     }
   })
-  .then(() => trackRequest(req));
+    .then(() => trackRequest(req));
 }
 
 function getResponseData(req) {
   const feedUrl = req.query.q;
-  const feedOptions = _.pick(req.query, 'num');
+  const feedOptions = _.pick(req.query, ['num', 'support']);
 
   if (feedUrl) {
     return new Feed(feedUrl).read(feedOptions).then((feed) => {
@@ -60,7 +60,7 @@ function getResponseData(req) {
   }
 }
 
-function trackRequest (req) {
+function trackRequest(req) {
   // ua('UA-100419142-1', { https: true })
   //   .pageview(req.originalUrl)
   //   .send();
