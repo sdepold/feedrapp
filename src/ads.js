@@ -20,8 +20,7 @@ const selection = [
         author: 'Amazon'
     }
 ];
-
-const showAdThreshold = 1000;
+const showAdThreshold = 250;
 let requestsSinceLastAd = 0;
 
 const getAd = function () {
