@@ -5,6 +5,8 @@ const Feed = require('../src/feed');
 const helper = require('../src/helper');
 const router = express.Router();
 const ua = require('universal-analytics');
+const tracking = require("../src/tracking");
+
 
 router.get('/', function (req, res, next) {
   if (req.headers.accept.includes('text/html')) {
@@ -16,17 +18,33 @@ router.get('/', function (req, res, next) {
 
 module.exports = router;
 
-function handleHtmlRequest(req, res, next) {
+function getYesterday() {
+  let date = new Date();
+
+  date.setDate(date.getDate() - 1);
+
+  return date;
+}
+
+async function handleHtmlRequest(req, res, next) {
   const sections = [
     'introduction',
     'usage',
     'options',
     'hosting',
     'development',
-    'caching'
+    'caching',
+    'analytics'
   ];
 
-  res.render('index', { title: 'FeedrApp', sections });
+  res.render('index', {
+    title: 'FeedrApp',
+    sections,
+    tracking: {
+      today: await tracking.getDataFor(new Date()),
+      yesterday: await tracking.getDataFor(getYesterday())
+    }
+  });
 }
 
 function handleJsonRequest(req, res, next) {

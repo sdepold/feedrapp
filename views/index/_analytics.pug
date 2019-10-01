@@ -1,0 +1,19 @@
+section#analytics-section.doc-section
+  h2.section-title Analytics
+  .section-block
+    h3 Today
+
+    ul
+        li= "Supporters: " + tracking.today.supporters
+        li= "Total request: " + (tracking.today.supporters + tracking.today.nonSupporters)
+        li= "Version unknown: " + tracking.today.versions.unknown
+        li= "Version 3.4.x: " + (tracking.today.versions['3.4.0'] + tracking.today.versions['3.4.1'])
+
+    h3 Yesterday
+
+    ul
+        li= "Supporters: " + tracking.yesterday.supporters
+        li= "Total request: " + (tracking.yesterday.supporters + tracking.yesterday.nonSupporters)
+        if tracking.yesterday.versions
+            li= "Version unknown: " + tracking.yesterday.versions.unknown
+            li= "Version 3.4.x: " + (tracking.yesterday.versions['3.4.0'] + tracking.yesterday.versions['3.4.1'])

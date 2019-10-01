@@ -7,3 +7,5 @@ block content
   include index/_hosting.pug
   include index/_development.pug
   include index/_caching.pug
+  if tracking.today || tracking.yesterday
+    include index/_analytics.pug
