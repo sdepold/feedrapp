@@ -1,4 +1,5 @@
 const _ = require('lodash');
+const tracking = require("./tracking");
 
 const selection = [
     {
@@ -60,6 +61,7 @@ const addAds = function (req, response) {
             response = `${req.query.callback}(${response});`;
         }
 
+        tracking.track("ad:served");
         console.log(`Embedded ad: ${JSON.stringify(ad)}`);
     }
 

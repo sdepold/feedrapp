@@ -23,7 +23,7 @@ function handleHtmlRequest(req, res, next) {
     'options',
     'hosting',
     'development',
-    'caching',
+    'caching'
   ];
 
   res.render('index', { title: 'FeedrApp', sections });
@@ -43,7 +43,7 @@ function handleJsonRequest(req, res, next) {
 
 function getResponseData(req) {
   const feedUrl = req.query.q;
-  const feedOptions = _.pick(req.query, ['num', 'support']);
+  const feedOptions = _.pick(req.query, ['num']);
 
   if (feedUrl) {
     return new Feed(feedUrl).read(feedOptions).then((feed) => {

@@ -2,6 +2,7 @@ const TTL = 30 * 60 * 1000; // 30 minutes
 const memoryCache = require('memory-cache');
 const querystring = require('querystring');
 const { addAds } = require('./ads');
+const tracking = require("../src/tracking");
 
 function formatResponse(req, cacheResult) {
   if (cacheResult.callback) {
@@ -29,6 +30,12 @@ function toCacheKey(req) {
 }
 
 module.exports = (duration = TTL) => (req, res, next) => {
+  if (!req.headers.accept.includes('text/html')) {
+    tracking.track(`feedUrl:${req.query.q || 'none'}`);
+    tracking.track(`options:support:${req.query.support || 'disabled'}`);
+    tracking.track(`options:version:${req.query.version || 'unknown'}`);
+  }
+
   const cacheKey = toCacheKey(req);
   console.time(cacheKey); // eslint-disable-line no-console
   const cacheResult = memoryCache.get(cacheKey);
