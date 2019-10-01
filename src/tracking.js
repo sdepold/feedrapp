@@ -30,13 +30,17 @@ module.exports = {
             return null;
         }
 
+        const supporters = JSON.parse(await hget(`feedr-${datePrefix}`, 'options:support:true'));
+        const nonSupporters = JSON.parse(await hget(`feedr-${datePrefix}`, 'options:support:disabled'));
+        const totalRequests = (supporters || 0) + (nonSupporters || 0);
+
         return {
-            supporters: await hget(`feedr-${datePrefix}`, 'options:support:true'),
-            nonSupporters: await hget(`feedr-${datePrefix}`, 'options:support:disabled'),
+            supporters,
+            totalRequests,
             versions: {
-                unknown: await hget(`feedr-${datePrefix}`, 'options:version:unknown'),
-                '3.4.0': await hget(`feedr-${datePrefix}`, 'options:version:3.4.0'),
-                '3.4.1': await hget(`feedr-${datePrefix}`, 'options:version:3.4.1'),
+                unknown: JSON.parse(await hget(`feedr-${datePrefix}`, 'options:version:unknown')) || 0,
+                '3.4.0': JSON.parse(await hget(`feedr-${datePrefix}`, 'options:version:3.4.0')) || 0,
+                '3.4.1': JSON.parse(await hget(`feedr-${datePrefix}`, 'options:version:3.4.1')) || 0,
             }
         }
     }
