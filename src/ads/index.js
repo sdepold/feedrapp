@@ -1,5 +1,7 @@
 const _ = require('lodash');
-const tracking = require("./tracking");
+const tracking = require("../tracking");
+const redis = require('./redis-ads');
+const inMemory = require('./in-memory-ads');
 
 const selection = [
     {
@@ -21,19 +23,19 @@ const selection = [
         author: 'Amazon'
     }
 ];
-const showAdThreshold = 250;
-let requestsSinceLastAd = 0;
-
 const getAd = function () {
     return _.sample(selection);
 };
 
-const shouldShowAd = function (req) {
-    if (req.query.support) {
-        requestsSinceLastAd += 1;
+const shouldShowAd = async function (req) {
+    const adsTracker = tracking.isReady() ? redis : inMemory;
 
-        if (requestsSinceLastAd >= showAdThreshold) {
-            requestsSinceLastAd = 0;
+    if (req.query.support) {
+        adsTracker.trackSupportRequest();
+
+        if (await adsTracker.aboveThreshold()) {
+            adsTracker.reset()
+
             return true;
         }
     }
@@ -41,8 +43,8 @@ const shouldShowAd = function (req) {
     return false;
 };
 
-const addAds = function (req, response) {
-    if (shouldShowAd(req)) {
+const addAds = async function (req, response) {
+    if (await shouldShowAd(req)) {
         if (req.query.callback) {
             // eslint-disable-next-line no-param-reassign
             response = response.match(new RegExp(`${req.query.callback}\\((.*)\\)`))[1];
@@ -61,7 +63,7 @@ const addAds = function (req, response) {
             response = `${req.query.callback}(${response});`;
         }
 
-        tracking.track("ad:served");
+        tracking.trackToday("ad:served");
         console.log(`Embedded ad: ${JSON.stringify(ad)}`);
     }
 

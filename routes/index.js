@@ -37,12 +37,15 @@ async function handleHtmlRequest(req, res, next) {
     'analytics'
   ];
 
+  const supportRequestsTillNextAd = tracking.isReady() && trackingJSON.parse(await tracking.get('feedr-ads', 'requestsSinceLastAd'));
+
   res.render('index', {
     title: 'FeedrApp',
     sections,
     tracking: {
       today: await tracking.getDataFor(new Date()),
-      yesterday: await tracking.getDataFor(getYesterday())
+      yesterday: await tracking.getDataFor(getYesterday()),
+      supportRequestsTillNextAd: supportRequestsTillNextAd || 0
     }
   });
 }

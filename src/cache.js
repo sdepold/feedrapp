@@ -29,11 +29,11 @@ function toCacheKey(req) {
   return querystring.stringify(queryParams);
 }
 
-module.exports = (duration = TTL) => (req, res, next) => {
+module.exports = (duration = TTL) => async (req, res, next) => {
   if (!req.headers.accept.includes('text/html')) {
-    tracking.track(`feedUrl:${req.query.q || 'none'}`);
-    tracking.track(`options:support:${req.query.support || 'disabled'}`);
-    tracking.track(`options:version:${req.query.version || 'unknown'}`);
+    tracking.trackToday(`feedUrl:${req.query.q || 'none'}`);
+    tracking.trackToday(`options:support:${req.query.support || 'disabled'}`);
+    tracking.trackToday(`options:version:${req.query.version || 'unknown'}`);
   }
 
   const cacheKey = toCacheKey(req);
@@ -42,7 +42,7 @@ module.exports = (duration = TTL) => (req, res, next) => {
 
   if (cacheResult) {
     console.timeEnd(cacheKey); // eslint-disable-line no-console
-    return res.send(addAds(req, formatResponse(req, cacheResult)));
+    return res.send(await addAds(req, formatResponse(req, cacheResult)));
   }
 
   res.sendResponse = res.send;

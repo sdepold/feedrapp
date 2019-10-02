@@ -17,3 +17,8 @@ section#analytics-section.doc-section
         if tracking.yesterday.versions
             li= "Version unknown: " + tracking.yesterday.versions.unknown
             li= "Version 3.4.x: " + (tracking.yesterday.versions['3.4.0'] + tracking.yesterday.versions['3.4.1'])
+    
+    h3 Misc
+
+    ul
+        li= "Supporter requests till next ad: " + tracking.supportRequestsTillNextAd
