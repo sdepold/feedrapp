@@ -45,7 +45,7 @@ async function handleHtmlRequest(req, res, next) {
     tracking: {
       today: await tracking.getDataFor(new Date()),
       yesterday: await tracking.getDataFor(getYesterday()),
-      supportRequestsTillNextAd: supportRequestsTillNextAd || 0
+      supportRequestsTillNextAd: 250 - (supportRequestsTillNextAd || 0)
     }
   });
 }
