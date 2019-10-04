@@ -34,7 +34,7 @@ const shouldShowAd = async function (req) {
         adsTracker.trackSupportRequest();
 
         if (await adsTracker.aboveThreshold()) {
-            adsTracker.reset()
+            await adsTracker.reset();
 
             return true;
         }

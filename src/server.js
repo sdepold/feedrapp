@@ -1,3 +1,5 @@
+const cors = require('cors');
+
 const AbstractServer = require('./abstract-server');
 const cache = require('./cache');
 const indexRoute = require('../routes/index');
@@ -5,8 +7,9 @@ const imprintRoute = require('../routes/imprint');
 
 module.exports = class Server extends AbstractServer {
   injectMiddlewares() {
-    super.injectMiddlewares();
+    this.app.use(cors());
     this.app.use(cache());
+    super.injectMiddlewares();
   }
 
   bindRoutes() {

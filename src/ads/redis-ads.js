@@ -14,7 +14,7 @@ const redisAds = module.exports = {
         return (await redisAds.getRequestsSinceLastAd()) >= showAdThreshold;
     },
 
-    reset() {
-        _requestsSinceLastAd = 0;
+    async reset() {
+        return await tracking.client.hset('feedr-ads', 'requestsSinceLastAd', 0);
     }
 };

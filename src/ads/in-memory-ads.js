@@ -14,7 +14,7 @@ const inMemoryAds = module.exports = {
         return (await inMemoryAds.getRequestsSinceLastAd()) >= showAdThreshold;
     },
 
-    reset() {
+    async reset() {
         _requestsSinceLastAd = 0;
     }
 };

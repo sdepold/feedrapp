@@ -7,7 +7,6 @@ const bodyParser = require('body-parser');
 const debug = require('debug')('feedrapp:server');
 const http = require('http');
 const lessMiddleware = require('less-middleware');
-const cors = require('cors');
 
 const oneDay = 24 * 60 * 60 * 1000;
 
@@ -51,7 +50,6 @@ module.exports = class AbstractServer {
     this.app.use(express.static(path.join(__dirname, '..', 'public'), {
       maxAge: oneDay
     }));
-    this.app.use(cors());
   }
 
   bindRoutes() {

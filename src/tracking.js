@@ -16,6 +16,8 @@ client.on('error', (e) => {
 });
 
 const tracking = module.exports = {
+    client,
+
     trackToday: (key) => {
         if (ready) {
             const datePrefix = new Date().toJSON().slice(0, 10).replace(/-/g, '/');
