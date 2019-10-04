@@ -5,8 +5,8 @@ const imprintRoute = require('../routes/imprint');
 
 module.exports = class Server extends AbstractServer {
   injectMiddlewares() {
-    this.app.use(cache());
     super.injectMiddlewares();
+    this.app.use(cache());
   }
 
   bindRoutes() {
