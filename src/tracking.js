@@ -46,10 +46,12 @@ const tracking = module.exports = {
         const supporters = JSON.parse(await hget(`feedr-${datePrefix}`, 'options:support:true'));
         const nonSupporters = JSON.parse(await hget(`feedr-${datePrefix}`, 'options:support:disabled'));
         const totalRequests = (supporters || 0) + (nonSupporters || 0);
+        const servedAds = JSON.parse(await hget(`feedr-${datePrefix}`, 'ad:served')) || 0;
 
         return {
             supporters,
             totalRequests,
+            servedAds,
             versions: {
                 unknown: JSON.parse(await hget(`feedr-${datePrefix}`, 'options:version:unknown')) || 0,
                 '3.4.0': JSON.parse(await hget(`feedr-${datePrefix}`, 'options:version:3.4.0')) || 0,

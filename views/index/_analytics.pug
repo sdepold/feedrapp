@@ -6,6 +6,7 @@ section#analytics-section.doc-section
     ul
         li= "Supporters: " + tracking.today.supporters
         li= "Total request: " + tracking.today.totalRequests
+        li= "Ads served: " + tracking.today.servedAds
         li= "Version unknown: " + tracking.today.versions.unknown
         li= "Version 3.4.x: " + (tracking.today.versions['3.4.0'] + tracking.today.versions['3.4.1'])
 
@@ -14,6 +15,7 @@ section#analytics-section.doc-section
     ul
         li= "Supporters: " + tracking.yesterday.supporters
         li= "Total request: " + tracking.yesterday.totalRequests
+        li= "Ads served: " + tracking.yesterday.servedAds
         if tracking.yesterday.versions
             li= "Version unknown: " + tracking.yesterday.versions.unknown
             li= "Version 3.4.x: " + (tracking.yesterday.versions['3.4.0'] + tracking.yesterday.versions['3.4.1'])
