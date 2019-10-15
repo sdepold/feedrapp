@@ -4,6 +4,8 @@ const client = redis.createClient();
 const { promisify } = require('util');
 
 const hget = promisify(client.hget).bind(client);
+const hkeys = promisify(client.hkeys).bind(client);
+const hgetall = promisify(client.hgetall).bind(client);
 let ready;
 
 client.on('ready', () => {
@@ -38,25 +40,26 @@ const tracking = module.exports = {
 
     getDataFor: async (date) => {
         const datePrefix = date.toJSON().slice(0, 10).replace(/-/g, '/');
+        const feedrDateKey = `feedr-${datePrefix}`;
 
         if (!ready) {
             return null;
         }
 
-        const supporters = JSON.parse(await hget(`feedr-${datePrefix}`, 'options:support:true'));
-        const nonSupporters = JSON.parse(await hget(`feedr-${datePrefix}`, 'options:support:disabled'));
+        const supporters = JSON.parse(await hget(feedrDateKey, 'options:support:true'));
+        const nonSupporters = JSON.parse(await hget(feedrDateKey, 'options:support:disabled'));
         const totalRequests = (supporters || 0) + (nonSupporters || 0);
-        const servedAds = JSON.parse(await hget(`feedr-${datePrefix}`, 'ad:served')) || 0;
+        const servedAds = JSON.parse(await hget(feedrDateKey, 'ad:served')) || 0;
+        const versionKeys = await hgetall(feedrDateKey);
+        const versions = Object.entries(versionKeys).reduce((acc, [key, value]) => {
+            return key.startsWith('options:version') ? {...acc, [key]: value} : acc;
+        }, {});
 
         return {
             supporters,
             totalRequests,
             servedAds,
-            versions: {
-                unknown: JSON.parse(await hget(`feedr-${datePrefix}`, 'options:version:unknown')) || 0,
-                '3.4.0': JSON.parse(await hget(`feedr-${datePrefix}`, 'options:version:3.4.0')) || 0,
-                '3.4.1': JSON.parse(await hget(`feedr-${datePrefix}`, 'options:version:3.4.1')) || 0
-            }
+            versions
         };
     },
 
