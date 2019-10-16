@@ -1,28 +1,16 @@
 section#analytics-section.doc-section
   h2.section-title Analytics
   .section-block
-    h3 Today
-
-    ul
-        li= "Supporters: " + tracking.today.supporters
-        li= "Total request: " + tracking.today.totalRequests
-        li= "Ads served: " + tracking.today.servedAds
-        each hits, key in tracking.today.versions 
-            - const version = key.match(/options:version:(.*)/)[1]
-            li= `Version ${version}: ${hits}`
-
-    h3 Yesterday
-
-    ul
-        li= "Supporters: " + tracking.yesterday.supporters
-        li= "Total request: " + tracking.yesterday.totalRequests
-        li= "Ads served: " + tracking.yesterday.servedAds
-        if tracking.yesterday.versions
-            each hits, key in tracking.yesterday.versions 
+    each data, title in {today: tracking.today, yesterday: tracking.yesterday}
+        h3= title
+        ul
+            li= `Supporters: ${data.supporters} / ${data.supporterRequests}`
+            li= `Total request: ${data.totalRequests}`
+            li= `Ads served: ${data.servedAds}`
+            each hits, key in data.versions 
                 - const version = key.match(/options:version:(.*)/)[1]
                 li= `Version ${version}: ${hits}`
     
     h3 Misc
-
     ul
-        li= "Supporter requests till next ad: " + tracking.supportRequestsTillNextAd
+        li= `Supporter requests till next ad: ${tracking.supportRequestsTillNextAd}`

@@ -5,6 +5,7 @@ const showAdThreshold = 250;
 // eslint-disable-next-line no-multi-assign
 const redisAds = module.exports = {
   trackSupportRequest() {
+    tracking.trackToday('supportRequest');
     tracking.track('feedr-ads', 'requestsSinceLastAd');
   },
 
