@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- generator="FeedCreator 1.6" -->
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    version="2.0">
+    <channel>
+        <title>Golem.de - Windows</title>
+        <description>IT-News fuer Profis</description>
+        <link>https://www.golem.de/specials/windows/</link>
+        <atom:link rel="self" href="https://rss.golem.de/rss.php?ms=windows&amp;feed=RSS2.0" />
+        <lastBuildDate>Thu, 17 Oct 2019 19:27:34 +0200</lastBuildDate>
+        <generator>FeedCreator 1.6</generator>
+        <image>
+            <url>https://www.golem.de/staticrl/images/golem-rss.png</url>
+            <title>Golem.de - Windows</title>
+            <link>https://www.golem.de/</link>
+            <description>Golem.de News Feed</description>
+        </image>
+        <language>de</language>
+        <item>
+            <title>Framework: Microsoft will API-Portierung auf .Net Core abschlie�en</title>
+            <link>https://www.golem.de/news/framework-microsoft-will-api-portierung-auf-net-core-abschliessen-1910-144433.html</link>
+            <description>Dem Framework .Net Core geh�rt laut Hersteller Microsoft die Zukunft. Die Portierung alter APIs des .Net Frameworks auf das neue Projekt will das Unternehmen nun auch offiziell beenden. F�r fehlende Schnittstellen soll die Community einspringen. (&lt;a href=&quot;https://www.golem.de/specials/dotnet/&quot;&gt;.Net&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/microsoft/&quot;&gt;Microsoft&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=144433&amp;amp;page=1&amp;amp;ts=1571142240&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/software-entwicklung/framework-microsoft-will-api-portierung-auf-.net-core-abschliessen/130029,list.html</comments>
+            <pubDate>Tue, 15 Oct 2019 14:24:00 +0200</pubDate>
+            <guid>https://www.golem.de/1910/144433-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1910/144433-211535-211532_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Dem Framework .Net Core geh�rt laut Hersteller Microsoft die Zukunft. Die Portierung alter APIs des .Net Frameworks auf das neue Projekt will das Unternehmen nun auch offiziell beenden. F�r fehlende Schnittstellen soll die Community einspringen. (<a href="https://www.golem.de/specials/dotnet/">.Net</a>, <a href="https://www.golem.de/specials/microsoft/">Microsoft</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=144433&amp;page=1&amp;ts=1571142240" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>24</slash:comments>
+        </item>
+        <item>
+            <title>Microsoft: Manipulationsschutz von Windows Defender kommt f�r alle User</title>
+            <link>https://www.golem.de/news/microsoft-manipulationsschutz-von-windows-defender-kommt-fuer-alle-user-1910-144431.html</link>
+            <description>In einem neuen Update wird Microsoft das Feature Tamper Protection in Windows 10 integrieren. Dieses sperrt die Sicherheitssoftware Windows Defender vor �u�eren Zugriffen durch Malware. Die Funktion kann in den Systemeinstellungen aktiviert und deaktiviert werden. (&lt;a href=&quot;https://www.golem.de/specials/microsoft/&quot;&gt;Microsoft&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/windows/&quot;&gt;Windows&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=144431&amp;amp;page=1&amp;amp;ts=1571134800&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/security/microsoft-manipulationsschutz-von-windows-defender-kommt-fuer-alle-user/130022,list.html</comments>
+            <pubDate>Tue, 15 Oct 2019 12:20:00 +0200</pubDate>
+            <guid>https://www.golem.de/1910/144431-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1910/144431-211523-211520_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">In einem neuen Update wird Microsoft das Feature Tamper Protection in Windows 10 integrieren. Dieses sperrt die Sicherheitssoftware Windows Defender vor �u�eren Zugriffen durch Malware. Die Funktion kann in den Systemeinstellungen aktiviert und deaktiviert werden. (<a href="https://www.golem.de/specials/microsoft/">Microsoft</a>, <a href="https://www.golem.de/specials/windows/">Windows</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=144431&amp;page=1&amp;ts=1571134800" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>16</slash:comments>
+        </item>
+        <item>
+            <title>Peripherieger�te: Microsofts neue Tastaturen haben Office- und Emoji-Tasten</title>
+            <link>https://www.golem.de/news/peripheriegeraete-microsofts-neue-tastaturen-haben-office-und-emoji-tasten-1910-144405.html</link>
+            <description>Ohne gro�e Ank�ndigung bietet Microsoft zwei neue Tastaturen an: eine Flachtastatur mit Bluetooth-Modul und eine ergonomisch geformte Variante. Ungew�hnlich sind die Office-365-spezifischen Makrotasten. Au�erdem kosten beide Ger�te halb so viel wie die Surface-Vorg�nger. (&lt;a href=&quot;https://www.golem.de/specials/tastatur/&quot;&gt;Tastatur&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/microsoft/&quot;&gt;Microsoft&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=144405&amp;amp;page=1&amp;amp;ts=1571040840&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/pc-hardware/peripheriegeraete-microsofts-neue-tastaturen-haben-office-und-emoji-tasten/129992,list.html</comments>
+            <pubDate>Mon, 14 Oct 2019 10:14:00 +0200</pubDate>
+            <guid>https://www.golem.de/1910/144405-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1910/144405-211381-211378_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Ohne gro�e Ank�ndigung bietet Microsoft zwei neue Tastaturen an: eine Flachtastatur mit Bluetooth-Modul und eine ergonomisch geformte Variante. Ungew�hnlich sind die Office-365-spezifischen Makrotasten. Au�erdem kosten beide Ger�te halb so viel wie die Surface-Vorg�nger. (<a href="https://www.golem.de/specials/tastatur/">Tastatur</a>, <a href="https://www.golem.de/specials/microsoft/">Microsoft</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=144405&amp;page=1&amp;ts=1571040840" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>28</slash:comments>
+        </item>
+        <item>
+            <title>Microsoft: Windows-10-Preview erm�glicht Telefonanrufe mit dem PC</title>
+            <link>https://www.golem.de/news/microsoft-windows-10-preview-ermoeglicht-telefonanrufe-mit-dem-pc-1910-144348.html</link>
+            <description>Anwender k�nnen k�nftig ihr Smartphone mit dem Windows-PC koppeln und von dort aus Anrufe entgegennehmen oder durchf�hren. Das Calls genannte Feature ist derzeit in der Vorschau verf�gbar und funktioniert mit Android-Smartphones ab Version 7.0. (&lt;a href=&quot;https://www.golem.de/specials/insider-build/&quot;&gt;Insider Build&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/smartphone/&quot;&gt;Smartphone&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=144348&amp;amp;page=1&amp;amp;ts=1570628520&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/handy/microsoft-windows-10-preview-ermoeglicht-telefonanrufe-mit-dem-pc/129924,list.html</comments>
+            <pubDate>Wed, 09 Oct 2019 15:42:00 +0200</pubDate>
+            <guid>https://www.golem.de/1910/144348-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1910/144348-211130-211126_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Anwender k�nnen k�nftig ihr Smartphone mit dem Windows-PC koppeln und von dort aus Anrufe entgegennehmen oder durchf�hren. Das Calls genannte Feature ist derzeit in der Vorschau verf�gbar und funktioniert mit Android-Smartphones ab Version 7.0. (<a href="https://www.golem.de/specials/insider-build/">Insider Build</a>, <a href="https://www.golem.de/specials/smartphone/">Smartphone</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=144348&amp;page=1&amp;ts=1570628520" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>32</slash:comments>
+        </item>
+        <item>
+            <title>Microsoft: Surface Laptop 3 hat USB-C und setzt auf AMD</title>
+            <link>https://www.golem.de/news/microsoft-surface-laptop-3-hat-mehr-anschluesse-und-setzt-auf-amd-1910-144228.html</link>
+            <description>Die dritte Generation des Surface Laptop hat USB-C und ein gr��eres Touchpad. Au�erdem gibt es das Ger�t jetzt auch als 15-Zoll-Variante und optional mit eigens entwickeltem AMD-Ryzen-Prozessor. (&lt;a href=&quot;https://www.golem.de/specials/surface/&quot;&gt;Surface&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/microsoft/&quot;&gt;Microsoft&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=144228&amp;amp;page=1&amp;amp;ts=1570030200&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/mobile-computing/microsoft-surface-laptop-3-hat-usb-c-und-setzt-auf-amd/129784,list.html</comments>
+            <pubDate>Wed, 02 Oct 2019 17:30:00 +0200</pubDate>
+            <guid>https://www.golem.de/1910/144228-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1910/144228-210592-210588_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Die dritte Generation des Surface Laptop hat USB-C und ein gr��eres Touchpad. Au�erdem gibt es das Ger�t jetzt auch als 15-Zoll-Variante und optional mit eigens entwickeltem AMD-Ryzen-Prozessor. (<a href="https://www.golem.de/specials/surface/">Surface</a>, <a href="https://www.golem.de/specials/microsoft/">Microsoft</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=144228&amp;page=1&amp;ts=1570030200" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>12</slash:comments>
+        </item>
+        <item>
+            <title>Microsoft: Erweiterter Windows-7-Support kommt f�r mehr Kunden</title>
+            <link>https://www.golem.de/news/microsoft-erweiterter-windows-7-support-kommt-fuer-mehr-kunden-1910-144216.html</link>
+            <description>K�nftig k�nnen alle Besitzer von Windows 7 Professional oder Enterprise den kostenpflichtigen erweiterten Support bestellen. Damit erhalten sie bis zu drei Jahre nach dem Support-Aus noch Sicherheitspatches. Das war bisher Besitzern von Volumenlizenzen vorbehalten. (&lt;a href=&quot;https://www.golem.de/specials/microsoft/&quot;&gt;Microsoft&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/windows7/&quot;&gt;Windows 7&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=144216&amp;amp;page=1&amp;amp;ts=1570008000&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/applikationen/microsoft-erweiterter-windows-7-support-kommt-fuer-mehr-kunden/129763,list.html</comments>
+            <pubDate>Wed, 02 Oct 2019 11:20:00 +0200</pubDate>
+            <guid>https://www.golem.de/1910/144216-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1910/144216-210502-210499_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">K�nftig k�nnen alle Besitzer von Windows 7 Professional oder Enterprise den kostenpflichtigen erweiterten Support bestellen. Damit erhalten sie bis zu drei Jahre nach dem Support-Aus noch Sicherheitspatches. Das war bisher Besitzern von Volumenlizenzen vorbehalten. (<a href="https://www.golem.de/specials/microsoft/">Microsoft</a>, <a href="https://www.golem.de/specials/windows7/">Windows 7</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=144216&amp;page=1&amp;ts=1570008000" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>44</slash:comments>
+        </item>
+        <item>
+            <title>Microsoft: .Net Core 3 erscheint mit Support f�r Desktop-Apps</title>
+            <link>https://www.golem.de/news/microsoft-net-core-3-erscheint-mit-support-fuer-desktop-apps-1909-144055.html</link>
+            <description>Wie schon l�nger angek�ndigt, unterst�tzt die Version 3 von .Net Core Windows Forms und WPF. Die Version bringt auch dar�ber hinaus viele Neuerungen. (&lt;a href=&quot;https://www.golem.de/specials/dotnet/&quot;&gt;.Net&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/microsoft/&quot;&gt;Microsoft&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=144055&amp;amp;page=1&amp;amp;ts=1569326640&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/software-entwicklung/microsoft-.net-core-3-erscheint-mit-support-fuer-desktop-apps/129545,list.html</comments>
+            <pubDate>Tue, 24 Sep 2019 14:04:00 +0200</pubDate>
+            <guid>https://www.golem.de/1909/144055-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1909/144055-209703-209700_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Wie schon l�nger angek�ndigt, unterst�tzt die Version 3 von .Net Core Windows Forms und WPF. Die Version bringt auch dar�ber hinaus viele Neuerungen. (<a href="https://www.golem.de/specials/dotnet/">.Net</a>, <a href="https://www.golem.de/specials/microsoft/">Microsoft</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=144055&amp;page=1&amp;ts=1569326640" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments />
+        </item>
+        <item>
+            <title>Microsoft: Windows 10 bringt optionale Updates aus Windows 7 zur�ck</title>
+            <link>https://www.golem.de/news/microsoft-windows-10-bringt-optionale-updates-aus-windows-7-zurueck-1909-144049.html</link>
+            <description>Das Update 20H1 f�r Windows 10 bringt die M�glichkeit zur�ck, optionale Updates wie Treiber oder .Net manuell zu installieren. Das soll Nutzern mehr Kontrolle �ber ihr Betriebssystem liefern, wenn diese etwa eine neue, m�glicherweise kaputte Treiberversion nicht aufspielen m�chten. (&lt;a href=&quot;https://www.golem.de/specials/windows10/&quot;&gt;Windows 10&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/microsoft/&quot;&gt;Microsoft&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=144049&amp;amp;page=1&amp;amp;ts=1569321300&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/applikationen/microsoft-windows-10-bringt-optionale-updates-aus-windows-7-zurueck/129541,list.html</comments>
+            <pubDate>Tue, 24 Sep 2019 12:35:00 +0200</pubDate>
+            <guid>https://www.golem.de/1909/144049-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1909/144049-209677-209674_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Das Update 20H1 f�r Windows 10 bringt die M�glichkeit zur�ck, optionale Updates wie Treiber oder .Net manuell zu installieren. Das soll Nutzern mehr Kontrolle �ber ihr Betriebssystem liefern, wenn diese etwa eine neue, m�glicherweise kaputte Treiberversion nicht aufspielen m�chten. (<a href="https://www.golem.de/specials/windows10/">Windows 10</a>, <a href="https://www.golem.de/specials/microsoft/">Microsoft</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=144049&amp;page=1&amp;ts=1569321300" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>5</slash:comments>
+        </item>
+        <item>
+            <title>Jerry Berg: Warum Microsoft in Windows 10 immer mehr Bugs �bersieht</title>
+            <link>https://www.golem.de/news/jerry-berg-warum-microsoft-in-windows-10-immer-mehr-bugs-uebersieht-1909-144019.html</link>
+            <description>Der Youtuber und ehemalige Microsoft-Entwickler Jerry Berg erkl�rt aus seiner Sicht, warum Patches in Windows 10 aktuell oft fehlerbehaftet sind. Er sieht das Sammeln von Telemetriedaten und die Automatisierung des Bugtestings als Probleme an. (&lt;a href=&quot;https://www.golem.de/specials/windows10/&quot;&gt;Windows 10&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/microsoft/&quot;&gt;Microsoft&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=144019&amp;amp;page=1&amp;amp;ts=1569231240&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/applikationen/jerry-berg-warum-microsoft-in-windows-10-immer-mehr-bugs-uebersieht/129498,list.html</comments>
+            <pubDate>Mon, 23 Sep 2019 11:34:00 +0200</pubDate>
+            <guid>https://www.golem.de/1909/144019-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1909/144019-209552-209549_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Der Youtuber und ehemalige Microsoft-Entwickler Jerry Berg erkl�rt aus seiner Sicht, warum Patches in Windows 10 aktuell oft fehlerbehaftet sind. Er sieht das Sammeln von Telemetriedaten und die Automatisierung des Bugtestings als Probleme an. (<a href="https://www.golem.de/specials/windows10/">Windows 10</a>, <a href="https://www.golem.de/specials/microsoft/">Microsoft</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=144019&amp;page=1&amp;ts=1569231240" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>88</slash:comments>
+        </item>
+        <item>
+            <title>Microsoft: Exchange Server 2010 bleibt neun Monate l�nger erhalten</title>
+            <link>https://www.golem.de/news/microsoft-exchange-server-2010-bleibt-neun-monate-laenger-erhalten-1909-143984.html</link>
+            <description>Unternehmen haben etwas l�nger Zeit, sich vom E-Mail-Server Exchange 2010 zu trennen. Microsoft verl�ngert den Support bis zum Oktober 2020. Dabei weist der Hersteller einmal mehr auf Office 365 hin. (&lt;a href=&quot;https://www.golem.de/specials/exchange/&quot;&gt;Exchange&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/microsoft/&quot;&gt;Microsoft&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=143984&amp;amp;page=1&amp;amp;ts=1568965440&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/applikationen/microsoft-exchange-server-2010-bleibt-neun-monate-laenger-erhalten/129446,list.html</comments>
+            <pubDate>Fri, 20 Sep 2019 09:44:00 +0200</pubDate>
+            <guid>https://www.golem.de/1909/143984-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1909/143984-209387-209383_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Unternehmen haben etwas l�nger Zeit, sich vom E-Mail-Server Exchange 2010 zu trennen. Microsoft verl�ngert den Support bis zum Oktober 2020. Dabei weist der Hersteller einmal mehr auf Office 365 hin. (<a href="https://www.golem.de/specials/exchange/">Exchange</a>, <a href="https://www.golem.de/specials/microsoft/">Microsoft</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=143984&amp;page=1&amp;ts=1568965440" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>1</slash:comments>
+        </item>
+        <item>
+            <title>KB4516067: Bug schr�nkt Funktionsumfang von Windows RT deutlich ein</title>
+            <link>https://www.golem.de/news/kb4516067-bug-schraenkt-funktionsumfang-von-windows-rt-deutlich-ein-1909-143877.html</link>
+            <description>Offenbar ist Microsoft mit dem Update KB4516067 ein Fehler unterlaufen, der ungew�hnliche Auswirkungen hat. Die alten ARM-basierten Windows-Ger�te k�nnen pl�tzlich Schwierigkeiten mit dem Internet Explorer wegen eines Zertifikatsr�ckrufs bekommen. (&lt;a href=&quot;https://www.golem.de/specials/windows-rt/&quot;&gt;Windows RT&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/microsoft/&quot;&gt;Microsoft&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=143877&amp;amp;page=1&amp;amp;ts=1568624280&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/applikationen/kb4516067-bug-schraenkt-funktionsumfang-von-windows-rt-deutlich-ein/129324,list.html</comments>
+            <pubDate>Mon, 16 Sep 2019 10:58:00 +0200</pubDate>
+            <guid>https://www.golem.de/1909/143877-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1909/143877-208796-208793_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Offenbar ist Microsoft mit dem Update KB4516067 ein Fehler unterlaufen, der ungew�hnliche Auswirkungen hat. Die alten ARM-basierten Windows-Ger�te k�nnen pl�tzlich Schwierigkeiten mit dem Internet Explorer wegen eines Zertifikatsr�ckrufs bekommen. (<a href="https://www.golem.de/specials/windows-rt/">Windows RT</a>, <a href="https://www.golem.de/specials/microsoft/">Microsoft</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=143877&amp;page=1&amp;ts=1568624280" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>4</slash:comments>
+        </item>
+        <item>
+            <title>Surface Hub 2S angesehen: Das Surface Hub, das auch in kleine Meeting-R�ume passt</title>
+            <link>https://www.golem.de/news/surface-hub-2s-angesehen-das-surface-hub-das-auch-in-kleine-meeting-raeume-passt-1909-143730.html</link>
+            <description> Pr�sentationen teilen, Tabellen bearbeiten oder gemeinsam auf dem Whiteboard skizzieren: Das Surface Hub 2S ist eine sichtbare Weiterentwicklung des doch recht klobigen Vorg�ngers. Und Microsofts Pl�ne sind noch ambitionierter. (&lt;a href=&quot;https://www.golem.de/specials/surface/&quot;&gt;Surface&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/display/&quot;&gt;Display&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=143730&amp;amp;page=1&amp;amp;ts=1568206800&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/pc-hardware/surface-hub-2s-angesehen-das-surface-hub-das-auch-in-kleine-meeting-raeume-passt/129220,list.html</comments>
+            <pubDate>Wed, 11 Sep 2019 15:00:00 +0200</pubDate>
+            <guid>https://www.golem.de/1909/143730-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1909/143730-208430-208427_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left"> Pr�sentationen teilen, Tabellen bearbeiten oder gemeinsam auf dem Whiteboard skizzieren: Das Surface Hub 2S ist eine sichtbare Weiterentwicklung des doch recht klobigen Vorg�ngers. Und Microsofts Pl�ne sind noch ambitionierter. (<a href="https://www.golem.de/specials/surface/">Surface</a>, <a href="https://www.golem.de/specials/display/">Display</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=143730&amp;page=1&amp;ts=1568206800" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>26</slash:comments>
+        </item>
+        <item>
+            <title>Windows 10: Sharps Konferenz-Display ist auch ein Raumklimamesser</title>
+            <link>https://www.golem.de/news/windows-10-sharps-konferenz-display-ist-auch-ein-raumklimamesser-1909-143753.html</link>
+            <description>Neben Microsoft will auch Sharp als eines der ersten Unternehmen ein Windows Collaboration Display anbieten. Das System verwendet Windows 10 und hat Sensoren integriert. Die messen das Klima im Konferenzsaal. (&lt;a href=&quot;https://www.golem.de/specials/sharp/&quot;&gt;Sharp&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/display/&quot;&gt;Display&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=143753&amp;amp;page=1&amp;amp;ts=1568108460&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/pc-hardware/windows-10-sharps-konferenz-display-ist-auch-ein-raumklimamesser/129161,list.html</comments>
+            <pubDate>Tue, 10 Sep 2019 11:41:00 +0200</pubDate>
+            <guid>https://www.golem.de/1909/143753-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1909/143753-208192-208189_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Neben Microsoft will auch Sharp als eines der ersten Unternehmen ein Windows Collaboration Display anbieten. Das System verwendet Windows 10 und hat Sensoren integriert. Die messen das Klima im Konferenzsaal. (<a href="https://www.golem.de/specials/sharp/">Sharp</a>, <a href="https://www.golem.de/specials/display/">Display</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=143753&amp;page=1&amp;ts=1568108460" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments />
+        </item>
+        <item>
+            <title>Handelskrieg: Microsoft lehnt Blockade gegen Huawei ab</title>
+            <link>https://www.golem.de/news/handelskrieg-microsoft-lehnt-blockade-gegen-huawei-ab-1909-143725.html</link>
+            <description>Microsofts Chefjustiziar und President Brad Smith hat das Vorgehen gegen Huawei als nicht rechtsstaatlich bezeichnet. Die US-Beh�rden k�nnten weiterhin keine Beweise gegen den Technologiekonzern vorlegen. (&lt;a href=&quot;https://www.golem.de/specials/microsoft/&quot;&gt;Microsoft&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/smartphone/&quot;&gt;Smartphone&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=143725&amp;amp;page=1&amp;amp;ts=1568023080&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/politik-recht/handelskrieg-microsoft-lehnt-blockade-gegen-huawei-ab/129124,list.html</comments>
+            <pubDate>Mon, 09 Sep 2019 11:58:00 +0200</pubDate>
+            <guid>https://www.golem.de/1909/143725-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1909/143725-208055-208052_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Microsofts Chefjustiziar und President Brad Smith hat das Vorgehen gegen Huawei als nicht rechtsstaatlich bezeichnet. Die US-Beh�rden k�nnten weiterhin keine Beweise gegen den Technologiekonzern vorlegen. (<a href="https://www.golem.de/specials/microsoft/">Microsoft</a>, <a href="https://www.golem.de/specials/smartphone/">Smartphone</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=143725&amp;page=1&amp;ts=1568023080" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>15</slash:comments>
+        </item>
+        <item>
+            <title>Marktanteil: Netmarketshare sieht Windows 10 bei �ber 50 Prozent</title>
+            <link>https://www.golem.de/news/marktanteil-netmarketshare-sieht-windows-10-bei-ueber-50-prozent-1909-143583.html</link>
+            <description>Die Verbreitung von Windows 10 nimmt langsam zu, w�hrend der Marktanteil von Windows 7 in fast demselben Ma�e abnimmt. Weniger als ein halbes Jahr vor dem Supportende von Windows 7 geben die Zahlen einen interessanten Einblick. (&lt;a href=&quot;https://www.golem.de/specials/windows10/&quot;&gt;Windows 10&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/microsoft/&quot;&gt;Microsoft&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=143583&amp;amp;page=1&amp;amp;ts=1567500360&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/applikationen/marktanteil-netmarketshare-sieht-windows-10-bei-ueber-50-prozent/128948,list.html</comments>
+            <pubDate>Tue, 03 Sep 2019 10:46:00 +0200</pubDate>
+            <guid>https://www.golem.de/1909/143583-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1909/143583-207320-207317_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Die Verbreitung von Windows 10 nimmt langsam zu, w�hrend der Marktanteil von Windows 7 in fast demselben Ma�e abnimmt. Weniger als ein halbes Jahr vor dem Supportende von Windows 7 geben die Zahlen einen interessanten Einblick. (<a href="https://www.golem.de/specials/windows10/">Windows 10</a>, <a href="https://www.golem.de/specials/microsoft/">Microsoft</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=143583&amp;page=1&amp;ts=1567500360" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>3</slash:comments>
+        </item>
+        <item>
+            <title>Windows 10: Alternativer Tablet-Modus erinnert an Zeiten vor Windows 8</title>
+            <link>https://www.golem.de/news/windows-10-alternativer-tablet-modus-erinnert-an-zeiten-vor-windows-8-1908-143536.html</link>
+            <description>Microsoft will mit einer Zwischenstufe zwischen Tablet-Modus und Desktopmodus Windows 10 besser f�r 2-in-1-Ger�te wie das Surface Pro anpassen. Dieser zeigt den Desktop prominent an, bietet allerdings auch einen touch-optimierten Windows Explorer. Das Design erinnert ein wenig an Windows 7. (&lt;a href=&quot;https://www.golem.de/specials/windows10/&quot;&gt;Windows 10&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/microsoft/&quot;&gt;Microsoft&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=143536&amp;amp;page=1&amp;amp;ts=1567156620&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/applikationen/windows-10-alternativer-tablet-modus-erinnert-an-zeiten-vor-windows-8/128890,list.html</comments>
+            <pubDate>Fri, 30 Aug 2019 11:17:00 +0200</pubDate>
+            <guid>https://www.golem.de/1908/143536-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1908/143536-207094-207088_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Microsoft will mit einer Zwischenstufe zwischen Tablet-Modus und Desktopmodus Windows 10 besser f�r 2-in-1-Ger�te wie das Surface Pro anpassen. Dieser zeigt den Desktop prominent an, bietet allerdings auch einen touch-optimierten Windows Explorer. Das Design erinnert ein wenig an Windows 7. (<a href="https://www.golem.de/specials/windows10/">Windows 10</a>, <a href="https://www.golem.de/specials/microsoft/">Microsoft</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=143536&amp;page=1&amp;ts=1567156620" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>7</slash:comments>
+        </item>
+        <item>
+            <title>Akoya S6446: Aldi Nord verkauft schnelleren Medion-Laptop f�r etwas mehr</title>
+            <link>https://www.golem.de/news/akoya-s6446-aldi-nord-verkauft-schnelleren-medion-laptop-fuer-etwas-mehr-1908-143281.html</link>
+            <description>F�r 550 Euro k�nnen sich Nutzer ab Ende August das Medion Akoya S6446 bei Aldi Nord kaufen. Das ist etwas mehr Geld als gewohnt, daf�r gibt es einen Core-i5-Prozessor und mehr Arbeitsspeicher. (&lt;a href=&quot;https://www.golem.de/specials/medion/&quot;&gt;Medion&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/intel/&quot;&gt;Intel&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=143281&amp;amp;page=1&amp;amp;ts=1566203700&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/mobile-computing/akoya-s6446-aldi-nord-verkauft-schnelleren-medion-laptop-fuer-etwas-mehr/128582,list.html</comments>
+            <pubDate>Mon, 19 Aug 2019 10:35:00 +0200</pubDate>
+            <guid>https://www.golem.de/1908/143281-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1908/143281-205882-205881_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">F�r 550 Euro k�nnen sich Nutzer ab Ende August das Medion Akoya S6446 bei Aldi Nord kaufen. Das ist etwas mehr Geld als gewohnt, daf�r gibt es einen Core-i5-Prozessor und mehr Arbeitsspeicher. (<a href="https://www.golem.de/specials/medion/">Medion</a>, <a href="https://www.golem.de/specials/intel/">Intel</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=143281&amp;page=1&amp;ts=1566203700" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>11</slash:comments>
+        </item>
+        <item>
+            <title>Windows 10: Paint und Wordpad k�nnen bald nachinstalliert werden</title>
+            <link>https://www.golem.de/news/windows-10-paint-und-wordpad-koennen-bald-nachinstalliert-werden-1908-143278.html</link>
+            <description>Microsoft plant offenbar, das Malprogramm Paint und die Textverarbeitung Wordpad in Windows 10 zu einer Option zu machen. Medienberichten zufolge findet sich dies schon in Entwickler-Builds. (&lt;a href=&quot;https://www.golem.de/specials/betriebssystem/&quot;&gt;Betriebssystem&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/microsoft/&quot;&gt;Microsoft&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=143278&amp;amp;page=1&amp;amp;ts=1566198360&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/applikationen/windows-10-paint-und-wordpad-koennen-bald-nachinstalliert-werden/128578,list.html</comments>
+            <pubDate>Mon, 19 Aug 2019 09:06:00 +0200</pubDate>
+            <guid>https://www.golem.de/1908/143278-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1908/143278-205864-205863_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Microsoft plant offenbar, das Malprogramm Paint und die Textverarbeitung Wordpad in Windows 10 zu einer Option zu machen. Medienberichten zufolge findet sich dies schon in Entwickler-Builds. (<a href="https://www.golem.de/specials/betriebssystem/">Betriebssystem</a>, <a href="https://www.golem.de/specials/microsoft/">Microsoft</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=143278&amp;page=1&amp;ts=1566198360" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>43</slash:comments>
+        </item>
+        <item>
+            <title>Microsoft: Surface-Nutzer berichten �ber langsame Ger�te nach Update</title>
+            <link>https://www.golem.de/news/microsoft-surface-nutzer-berichten-ueber-langsame-geraete-nach-update-1908-143253.html</link>
+            <description>Microsofts j�ngstes Update f�r das Surface Pro 6 und das Surface Book 2 f�hren bei einigen Nutzern zu stark gedrosselten CPUs. Grund ist ein CPU-Flag, das die Taktrate auf bis zu 400 MHz herunterregelt. An einer Softwarel�sung wird laut Microsoft gearbeitet, einen Workaround scheint es nicht zu geben. (&lt;a href=&quot;https://www.golem.de/specials/microsoft/&quot;&gt;Microsoft&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/windows/&quot;&gt;Windows&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=143253&amp;amp;page=1&amp;amp;ts=1565952420&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/applikationen/microsoft-surface-nutzer-berichten-ueber-langsame-geraete-nach-update/128553,list.html</comments>
+            <pubDate>Fri, 16 Aug 2019 12:47:00 +0200</pubDate>
+            <guid>https://www.golem.de/1908/143253-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1908/143253-205731-205728_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Microsofts j�ngstes Update f�r das Surface Pro 6 und das Surface Book 2 f�hren bei einigen Nutzern zu stark gedrosselten CPUs. Grund ist ein CPU-Flag, das die Taktrate auf bis zu 400 MHz herunterregelt. An einer Softwarel�sung wird laut Microsoft gearbeitet, einen Workaround scheint es nicht zu geben. (<a href="https://www.golem.de/specials/microsoft/">Microsoft</a>, <a href="https://www.golem.de/specials/windows/">Windows</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=143253&amp;page=1&amp;ts=1565952420" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>10</slash:comments>
+        </item>
+        <item>
+            <title>Project Zero: Windows-Texteingabesystem bietet viele Angriffsm�glichkeiten</title>
+            <link>https://www.golem.de/news/project-zero-windows-texteingabesystem-bietet-viele-angriffsmoeglichkeiten-1908-143199.html</link>
+            <description>Ein Systemdienst f�r Texteingabemethoden, das es seit Windows XP gibt, wurde offenbar mit wenig Sicherheitsbewusstsein entwickelt. Tavis Ormandy von Google gelang es damit, als Nutzer Systemrechte zu erlangen. Es gibt ein Update von Microsoft, doch das behebt wohl nicht alle Probleme. (&lt;a href=&quot;https://www.golem.de/specials/windows/&quot;&gt;Windows&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/windows-xp/&quot;&gt;Windows XP&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=143199&amp;amp;page=1&amp;amp;ts=1565775480&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/security/project-zero-windows-texteingabesystem-bietet-viele-angriffsmoeglichkeiten/128486,list.html</comments>
+            <pubDate>Wed, 14 Aug 2019 11:38:00 +0200</pubDate>
+            <guid>https://www.golem.de/1908/143199-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1908/143199-205479-205475_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Ein Systemdienst f�r Texteingabemethoden, das es seit Windows XP gibt, wurde offenbar mit wenig Sicherheitsbewusstsein entwickelt. Tavis Ormandy von Google gelang es damit, als Nutzer Systemrechte zu erlangen. Es gibt ein Update von Microsoft, doch das behebt wohl nicht alle Probleme. (<a href="https://www.golem.de/specials/windows/">Windows</a>, <a href="https://www.golem.de/specials/windows-xp/">Windows XP</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=143199&amp;page=1&amp;ts=1565775480" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>1</slash:comments>
+        </item>
+        <item>
+            <title>Dejablue: Erneut Sicherheitsl�cken im Windows-Remote-Desktop</title>
+            <link>https://www.golem.de/news/dejablue-erneut-sicherheitsluecken-im-windows-remote-deskt-1908-143192.html</link>
+            <description>Microsoft warnt vor zwei Remote-Code-Execution-Bugs im Remote Desktop Service. Damit lassen sich Windows-Rechner �bers Netz kapern, wenn sie die Remoteadministration aktiviert haben. Alle aktuellen Windows-Versionen sind betroffen. (&lt;a href=&quot;https://www.golem.de/specials/windows/&quot;&gt;Windows&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/microsoft/&quot;&gt;Microsoft&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=143192&amp;amp;page=1&amp;amp;ts=1565767740&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/security/dejablue-erneut-sicherheitsluecken-im-windows-remote-desktop/128479,list.html</comments>
+            <pubDate>Wed, 14 Aug 2019 09:29:00 +0200</pubDate>
+            <guid>https://www.golem.de/1908/143192-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1908/143192-205439-205436_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Microsoft warnt vor zwei Remote-Code-Execution-Bugs im Remote Desktop Service. Damit lassen sich Windows-Rechner �bers Netz kapern, wenn sie die Remoteadministration aktiviert haben. Alle aktuellen Windows-Versionen sind betroffen. (<a href="https://www.golem.de/specials/windows/">Windows</a>, <a href="https://www.golem.de/specials/microsoft/">Microsoft</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=143192&amp;page=1&amp;ts=1565767740" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>12</slash:comments>
+        </item>
+        <item>
+            <title>Screwed Drivers: Viele Sicherheitsl�cken in Hardware-Treibern</title>
+            <link>https://www.golem.de/news/screwed-drivers-viele-sicherheitsluecken-in-hardware-treibern-1908-143153.html</link>
+            <description>In den Windows-Treibern von zahlreichen Herstellern fanden sich Sicherheitsl�cken, mit denen Nutzerprozesse Code im Betriebssystemkernel ausf�hren k�nnen. Alle gr��eren Motherboard- und Chipsatzhersteller sind betroffen. (&lt;a href=&quot;https://www.golem.de/specials/treiber/&quot;&gt;Treiber&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/microsoft/&quot;&gt;Microsoft&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=143153&amp;amp;page=1&amp;amp;ts=1565614860&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/applikationen/screwed-drivers-viele-sicherheitsluecken-in-hardware-treibern/128427,list.html</comments>
+            <pubDate>Mon, 12 Aug 2019 15:01:00 +0200</pubDate>
+            <guid>https://www.golem.de/1908/143153-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1908/143153-205240-205237_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">In den Windows-Treibern von zahlreichen Herstellern fanden sich Sicherheitsl�cken, mit denen Nutzerprozesse Code im Betriebssystemkernel ausf�hren k�nnen. Alle gr��eren Motherboard- und Chipsatzhersteller sind betroffen. (<a href="https://www.golem.de/specials/treiber/">Treiber</a>, <a href="https://www.golem.de/specials/microsoft/">Microsoft</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=143153&amp;page=1&amp;ts=1565614860" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>11</slash:comments>
+        </item>
+        <item>
+            <title>Freie Firmware: Linuxboot startet Windows</title>
+            <link>https://www.golem.de/news/freie-firmware-linuxboot-startet-windows-1908-143046.html</link>
+            <description>Kurz nach den ersten erfolgreichen Experimenten ist es dem Linuxboot-Projekt gelungen, Windows vollst�ndig zu starten. Linuxboot soll propriet�re UEFI-Bestandteile ersetzen. (&lt;a href=&quot;https://www.golem.de/specials/firmware/&quot;&gt;Firmware&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/linux-kernel/&quot;&gt;Linux-Kernel&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=143046&amp;amp;page=1&amp;amp;ts=1565176500&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/opensource/freie-firmware-linuxboot-startet-windows/128318,list.html</comments>
+            <pubDate>Wed, 07 Aug 2019 13:15:00 +0200</pubDate>
+            <guid>https://www.golem.de/1908/143046-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1908/143046-204739-204736_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Kurz nach den ersten erfolgreichen Experimenten ist es dem Linuxboot-Projekt gelungen, Windows vollst�ndig zu starten. Linuxboot soll propriet�re UEFI-Bestandteile ersetzen. (<a href="https://www.golem.de/specials/firmware/">Firmware</a>, <a href="https://www.golem.de/specials/linux-kernel/">Linux-Kernel</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=143046&amp;page=1&amp;ts=1565176500" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>3</slash:comments>
+        </item>
+        <item>
+            <title>Microsoft: Nutzer berichten von defektem WLAN nach Surface-Update</title>
+            <link>https://www.golem.de/news/microsoft-nutzer-berichten-von-defektem-wlan-nach-surface-update-1908-143034.html</link>
+            <description>Ob Surface Pro, Book oder Laptop: Einige Anwender berichten von einem fehlerhaften Treiber, den Microsoft mit einem aktuellen Update verteilt habe. Durch diesen k�nnen sie sich nicht mehr mit ihren WLAN-Access-Points verbinden. (&lt;a href=&quot;https://www.golem.de/specials/surface/&quot;&gt;Surface&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/wlan/&quot;&gt;WLAN&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=143034&amp;amp;page=1&amp;amp;ts=1565165820&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/mobile-computing/microsoft-nutzer-berichten-von-defektem-wlan-nach-surface-update/128305,list.html</comments>
+            <pubDate>Wed, 07 Aug 2019 10:17:00 +0200</pubDate>
+            <guid>https://www.golem.de/1908/143034-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1908/143034-204680-204677_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Ob Surface Pro, Book oder Laptop: Einige Anwender berichten von einem fehlerhaften Treiber, den Microsoft mit einem aktuellen Update verteilt habe. Durch diesen k�nnen sie sich nicht mehr mit ihren WLAN-Access-Points verbinden. (<a href="https://www.golem.de/specials/surface/">Surface</a>, <a href="https://www.golem.de/specials/wlan/">WLAN</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=143034&amp;page=1&amp;ts=1565165820" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>10</slash:comments>
+        </item>
+        <item>
+            <title>Windows Terminal 0.3: &quot;Das Terminal ist jetzt �ber die Titelleiste verschiebbar!&quot;</title>
+            <link>https://www.golem.de/news/windows-terminal-0-3-das-terminal-ist-jetzt-ueber-die-titelleiste-verschiebbar-1908-143009.html</link>
+            <description>Die neue Previewversion des Windows-Terminals ist verf�gbar. Entwickler k�nnen sich etwa eigene Shortcuts mit Sonderzeichen anlegen. Besonders stolz scheint Microsoft darauf zu sein, dass sich das Fenster jetzt mit der Maus verschieben l�sst. (&lt;a href=&quot;https://www.golem.de/specials/microsoft/&quot;&gt;Microsoft&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/windows/&quot;&gt;Windows&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=143009&amp;amp;page=1&amp;amp;ts=1565081520&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/software-entwicklung/windows-terminal-0.3-das-terminal-ist-jetzt-ueber-die-titelleiste-verschiebbar/128277,list.html</comments>
+            <pubDate>Tue, 06 Aug 2019 10:52:00 +0200</pubDate>
+            <guid>https://www.golem.de/1908/143009-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1908/143009-204562-204560_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Die neue Previewversion des Windows-Terminals ist verf�gbar. Entwickler k�nnen sich etwa eigene Shortcuts mit Sonderzeichen anlegen. Besonders stolz scheint Microsoft darauf zu sein, dass sich das Fenster jetzt mit der Maus verschieben l�sst. (<a href="https://www.golem.de/specials/microsoft/">Microsoft</a>, <a href="https://www.golem.de/specials/windows/">Windows</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=143009&amp;page=1&amp;ts=1565081520" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>33</slash:comments>
+        </item>
+        <item>
+            <title>Windows: Microsoft deaktiviert VBScript im Internet Explorer 11</title>
+            <link>https://www.golem.de/news/windows-microsoft-deaktiviert-vbscript-im-internet-explorer-11-1908-143008.html</link>
+            <description>Die hauseigene Skriptsprache VBScript will Microsoft nun endlich loswerden. Der Hersteller deaktiviert die Nutzung deshalb im Internet Explorer 11 in den noch unterst�tzten Windows-Versionen. V�llig abgeschafft wird der Support aber noch nicht. (&lt;a href=&quot;https://www.golem.de/specials/ie11/&quot;&gt;IE11&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/internetexplorer/&quot;&gt;Internet Explorer&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=143008&amp;amp;page=1&amp;amp;ts=1565079840&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/internet/windows-microsoft-deaktiviert-vbscript-im-internet-explorer-11/128275,list.html</comments>
+            <pubDate>Tue, 06 Aug 2019 10:24:00 +0200</pubDate>
+            <guid>https://www.golem.de/1908/143008-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1908/143008-204555-204552_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Die hauseigene Skriptsprache VBScript will Microsoft nun endlich loswerden. Der Hersteller deaktiviert die Nutzung deshalb im Internet Explorer 11 in den noch unterst�tzten Windows-Versionen. V�llig abgeschafft wird der Support aber noch nicht. (<a href="https://www.golem.de/specials/ie11/">IE11</a>, <a href="https://www.golem.de/specials/internetexplorer/">Internet Explorer</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=143008&amp;page=1&amp;ts=1565079840" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>2</slash:comments>
+        </item>
+        <item>
+            <title>Valve: Linux bekommt Windows-Thread-Synchronisation f�r Steam</title>
+            <link>https://www.golem.de/news/fsync-valve-baut-windows-thread-synchronisation-fuer-linux-nach-1908-142930.html</link>
+            <description>Die Thread-Synchronisation funktioniert unter Windows anders als unter Linux. F�r Wine und Proton in Steam nutzt Valve deshalb einen Hack, mit dem es einige Probleme gibt. Eine neue Kernel-Schnittstelle f�r Linux soll das �ndern. (&lt;a href=&quot;https://www.golem.de/specials/linux-kernel/&quot;&gt;Linux-Kernel&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/wine/&quot;&gt;Wine&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=142930&amp;amp;page=1&amp;amp;ts=1564665180&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/opensource/valve-linux-bekommt-windows-thread-synchronisation-fuer-steam/128185,list.html</comments>
+            <pubDate>Thu, 01 Aug 2019 15:13:00 +0200</pubDate>
+            <guid>https://www.golem.de/1908/142930-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1908/142930-204156-204153_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Die Thread-Synchronisation funktioniert unter Windows anders als unter Linux. F�r Wine und Proton in Steam nutzt Valve deshalb einen Hack, mit dem es einige Probleme gibt. Eine neue Kernel-Schnittstelle f�r Linux soll das �ndern. (<a href="https://www.golem.de/specials/linux-kernel/">Linux-Kernel</a>, <a href="https://www.golem.de/specials/wine/">Wine</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=142930&amp;page=1&amp;ts=1564665180" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>3</slash:comments>
+        </item>
+        <item>
+            <title>Microsoft-Telemetrie: Weiter Datenschutzprobleme mit Office und Windows</title>
+            <link>https://www.golem.de/news/microsoft-telemetrie-weiter-datenschutzprobleme-mit-office-und-windows-1907-142861.html</link>
+            <description>Auf Druck der niederl�ndischen Regierung hat Microsoft beim Datenschutz nachgebessert. Doch eine Analyse zeigt weiterhin Probleme mit onlinebasierten Office-Produkten und bestimmten Windows-Versionen. (&lt;a href=&quot;https://www.golem.de/specials/windows10/&quot;&gt;Windows 10&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/microsoft/&quot;&gt;Microsoft&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=142861&amp;amp;page=1&amp;amp;ts=1564483860&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/security/microsoft-telemetrie-weiter-datenschutzprobleme-mit-office-und-windows/128113,list.html</comments>
+            <pubDate>Tue, 30 Jul 2019 12:51:00 +0200</pubDate>
+            <guid>https://www.golem.de/1907/142861-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1907/142861-203807-203804_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Auf Druck der niederl�ndischen Regierung hat Microsoft beim Datenschutz nachgebessert. Doch eine Analyse zeigt weiterhin Probleme mit onlinebasierten Office-Produkten und bestimmten Windows-Versionen. (<a href="https://www.golem.de/specials/windows10/">Windows 10</a>, <a href="https://www.golem.de/specials/microsoft/">Microsoft</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=142861&amp;page=1&amp;ts=1564483860" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>24</slash:comments>
+        </item>
+        <item>
+            <title>Linuxboot: Linux-Firmware soll Windows starten k�nnen</title>
+            <link>https://www.golem.de/news/linuxboot-linux-firmware-soll-windows-starten-koennen-1907-142838.html</link>
+            <description>Das Linuxboot-Projekt will das propriet�re UEFI so weit es geht durch Linux ersetzen. Das Projekt meldet nun einen ersten erfolgreichen Boot-Vorgang, um k�nftig auch Windows starten zu k�nnen. (&lt;a href=&quot;https://www.golem.de/specials/firmware/&quot;&gt;Firmware&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/linux-kernel/&quot;&gt;Linux-Kernel&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=142838&amp;amp;page=1&amp;amp;ts=1564405620&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/opensource/linuxboot-linux-firmware-soll-windows-starten-koennen/128084,list.html</comments>
+            <pubDate>Mon, 29 Jul 2019 15:07:00 +0200</pubDate>
+            <guid>https://www.golem.de/1907/142838-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1907/142838-203680-203677_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Das Linuxboot-Projekt will das propriet�re UEFI so weit es geht durch Linux ersetzen. Das Projekt meldet nun einen ersten erfolgreichen Boot-Vorgang, um k�nftig auch Windows starten zu k�nnen. (<a href="https://www.golem.de/specials/firmware/">Firmware</a>, <a href="https://www.golem.de/specials/linux-kernel/">Linux-Kernel</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=142838&amp;page=1&amp;ts=1564405620" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>45</slash:comments>
+        </item>
+        <item>
+            <title>Sicherheitsl�cke wie Wanna Cry: Bluekeep-Exploit ver�ffentlicht</title>
+            <link>https://www.golem.de/news/sicherheitsluecke-wie-wanna-cry-bluekeep-exploit-veroeffentlicht-1907-142833.html</link>
+            <description>Ein Modul f�r die Pentesting-Software Canvas kann die gef�hrliche Sicherheitsl�cke Bluekeep ausnutzen. Auch eine Schadsoftware scannt bereits nach verwundbaren Systemen. (&lt;a href=&quot;https://www.golem.de/specials/windows/&quot;&gt;Windows&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/virus/&quot;&gt;Virus&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=142833&amp;amp;page=1&amp;amp;ts=1564396860&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/security/sicherheitsluecke-wie-wanna-cry-bluekeep-exploit-veroeffentlicht/128077,list.html</comments>
+            <pubDate>Mon, 29 Jul 2019 12:41:00 +0200</pubDate>
+            <guid>https://www.golem.de/1907/142833-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1907/142833-203658-203655_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Ein Modul f�r die Pentesting-Software Canvas kann die gef�hrliche Sicherheitsl�cke Bluekeep ausnutzen. Auch eine Schadsoftware scannt bereits nach verwundbaren Systemen. (<a href="https://www.golem.de/specials/windows/">Windows</a>, <a href="https://www.golem.de/specials/virus/">Virus</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=142833&amp;page=1&amp;ts=1564396860" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>3</slash:comments>
+        </item>
+        <item>
+            <title>Textverarbeitung: Microsoft vereinfacht Aktivierungsprozess in Office 365</title>
+            <link>https://www.golem.de/news/textverarbeitung-microsoft-vereinfacht-aktivierungsprozess-in-office-365-1907-142729.html</link>
+            <description>Microsoft m�chte es seinen Nutzern einfacher machen, neue Ger�te oder einmal abgemeldete Ger�te mit einer Office-365-Lizenz zu verkn�pfen. Das soll jetzt gr��tenteils automatisiert und mit weniger Nutzerinteraktion funktionieren. (&lt;a href=&quot;https://www.golem.de/specials/office-365/&quot;&gt;Office 365&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/microsoft/&quot;&gt;Microsoft&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=142729&amp;amp;page=1&amp;amp;ts=1563892200&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/applikationen/textverarbeitung-microsoft-vereinfacht-aktivierungsprozess-in-office-365/127967,list.html</comments>
+            <pubDate>Tue, 23 Jul 2019 16:30:00 +0200</pubDate>
+            <guid>https://www.golem.de/1907/142729-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1907/142729-203152-203149_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Microsoft m�chte es seinen Nutzern einfacher machen, neue Ger�te oder einmal abgemeldete Ger�te mit einer Office-365-Lizenz zu verkn�pfen. Das soll jetzt gr��tenteils automatisiert und mit weniger Nutzerinteraktion funktionieren. (<a href="https://www.golem.de/specials/office-365/">Office 365</a>, <a href="https://www.golem.de/specials/microsoft/">Microsoft</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=142729&amp;page=1&amp;ts=1563892200" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>7</slash:comments>
+        </item>
+        <item>
+            <title>Windows 10: Windows-Defender-Dateien werden als fehlerhaft erkannt</title>
+            <link>https://www.golem.de/news/windows-10-windows-defender-dateien-werden-als-fehlerhaft-erkannt-1907-142677.html</link>
+            <description>Der System File Checker in Windows 10 markiert neuerdings Dateien des Windows Defender als fehlerhaft. Der Bug ist auch Microsoft bekannt. Das Problem: Die neue Version des Defenders ver�ndert im Installationsimage verankerte Dateien. Der Hersteller will das mit einem Update von Windows 10 beheben. (&lt;a href=&quot;https://www.golem.de/specials/windows10/&quot;&gt;Windows 10&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/microsoft/&quot;&gt;Microsoft&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=142677&amp;amp;page=1&amp;amp;ts=1563620400&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/applikationen/windows-10-windows-defender-dateien-werden-als-fehlerhaft-erkannt/127898,list.html</comments>
+            <pubDate>Sat, 20 Jul 2019 13:00:00 +0200</pubDate>
+            <guid>https://www.golem.de/1907/142677-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1907/142677-202890-202889_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Der System File Checker in Windows 10 markiert neuerdings Dateien des Windows Defender als fehlerhaft. Der Bug ist auch Microsoft bekannt. Das Problem: Die neue Version des Defenders ver�ndert im Installationsimage verankerte Dateien. Der Hersteller will das mit einem Update von Windows 10 beheben. (<a href="https://www.golem.de/specials/windows10/">Windows 10</a>, <a href="https://www.golem.de/specials/microsoft/">Microsoft</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=142677&amp;page=1&amp;ts=1563620400" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>35</slash:comments>
+        </item>
+        <item>
+            <title>Zeichenprogramm: Neue Paint.net-Version unterst�tzt HEIF-Dateien</title>
+            <link>https://www.golem.de/news/zeichenprogramm-neue-paint-net-version-unterstuetzt-heif-dateien-1907-142573.html</link>
+            <description>F�r Paint.net-Nutzer gibt es ein gr��eres Update. Dies verbessert den Umgang mit mehreren Dateiformaten. Eine der Neuerungen hat allerdings einen Bug in Microsofts HEVC-Codec offenbart. Aus Kompatibilit�tsgr�nden brauchen zwei Plugins zus�tzlich ein Update. (&lt;a href=&quot;https://www.golem.de/specials/windows/&quot;&gt;Windows&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/grafiksoftware/&quot;&gt;Grafiksoftware&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=142573&amp;amp;page=1&amp;amp;ts=1563262020&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/applikationen/zeichenprogramm-neue-paint.net-version-unterstuetzt-heif-dateien/127778,list.html</comments>
+            <pubDate>Tue, 16 Jul 2019 09:27:00 +0200</pubDate>
+            <guid>https://www.golem.de/1907/142573-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1907/142573-202389-202386_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">F�r Paint.net-Nutzer gibt es ein gr��eres Update. Dies verbessert den Umgang mit mehreren Dateiformaten. Eine der Neuerungen hat allerdings einen Bug in Microsofts HEVC-Codec offenbart. Aus Kompatibilit�tsgr�nden brauchen zwei Plugins zus�tzlich ein Update. (<a href="https://www.golem.de/specials/windows/">Windows</a>, <a href="https://www.golem.de/specials/grafiksoftware/">Grafiksoftware</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=142573&amp;page=1&amp;ts=1563262020" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>7</slash:comments>
+        </item>
+        <item>
+            <title>Microsoft: Einige Windows-10-Nutzer erhalten endlose Updatenachricht</title>
+            <link>https://www.golem.de/news/microsoft-einige-windows-10-nutzer-erhalten-endlose-updatenachricht-1907-142538.html</link>
+            <description>Einige Windows-10-Nutzer wundern sich �ber einen Updatehinweis, der auch nach Installation des aktuellen Updates immer wieder auftaucht. Auch nach einem Neustart verschwindet die Nachricht nicht. Allerdings gibt es ein paar Workarounds. (&lt;a href=&quot;https://www.golem.de/specials/windows10/&quot;&gt;Windows 10&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/microsoft/&quot;&gt;Microsoft&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=142538&amp;amp;page=1&amp;amp;ts=1563011400&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/applikationen/microsoft-einige-windows-10-nutzer-erhalten-endlose-updatenachricht/127738,list.html</comments>
+            <pubDate>Sat, 13 Jul 2019 11:50:00 +0200</pubDate>
+            <guid>https://www.golem.de/1907/142538-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1907/142538-202205-202202_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Einige Windows-10-Nutzer wundern sich �ber einen Updatehinweis, der auch nach Installation des aktuellen Updates immer wieder auftaucht. Auch nach einem Neustart verschwindet die Nachricht nicht. Allerdings gibt es ein paar Workarounds. (<a href="https://www.golem.de/specials/windows10/">Windows 10</a>, <a href="https://www.golem.de/specials/microsoft/">Microsoft</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=142538&amp;page=1&amp;ts=1563011400" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>56</slash:comments>
+        </item>
+        <item>
+            <title>Office 365: Microsoft zieht Einschr�nkungen f�r Partner zur�ck</title>
+            <link>https://www.golem.de/news/office-365-microsoft-zieht-einschraenkungen-fuer-partner-zurueck-1907-142536.html</link>
+            <description>Eigentlich sollten ab 2020 auch enge Partner von Microsoft Geld f�r die interne Nutzung von Office 365 und andere Lizenzen bezahlen. Nach heftiger Kritik zieht das Unternehmen die Entscheidung zur�ck - und verzichtet auf 200 Millionen US-Dollar j�hrlich. (&lt;a href=&quot;https://www.golem.de/specials/microsoft/&quot;&gt;Microsoft&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/windows/&quot;&gt;Windows&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=142536&amp;amp;page=1&amp;amp;ts=1563008400&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/applikationen/office-365-microsoft-zieht-einschraenkungen-fuer-partner-zurueck/127736,list.html</comments>
+            <pubDate>Sat, 13 Jul 2019 11:00:00 +0200</pubDate>
+            <guid>https://www.golem.de/1907/142536-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1907/142536-202196-202193_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Eigentlich sollten ab 2020 auch enge Partner von Microsoft Geld f�r die interne Nutzung von Office 365 und andere Lizenzen bezahlen. Nach heftiger Kritik zieht das Unternehmen die Entscheidung zur�ck - und verzichtet auf 200 Millionen US-Dollar j�hrlich. (<a href="https://www.golem.de/specials/microsoft/">Microsoft</a>, <a href="https://www.golem.de/specials/windows/">Windows</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=142536&amp;page=1&amp;ts=1563008400" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>21</slash:comments>
+        </item>
+        <item>
+            <title>Microsoft: Sicherheitspatch f�r Windows 7 enth�lt Telemetrietool</title>
+            <link>https://www.golem.de/news/microsoft-sicherheitspatch-fuer-windows-7-enthaelt-telemetrietool-1907-142522.html</link>
+            <description>Eigentlich haben Nutzer sich vom aktuellen Sicherheitspatch f�r Windows 7 erhofft, nur Security-Fixes zu erhalten. Allerdings hat ein anonymer Nutzer entdeckt, dass Microsoft auch ein Diagnosetool verteilt, das Daten an das Unternehmen schicken kann. ZDnet h�lt das nicht f�r einen Zufall. (&lt;a href=&quot;https://www.golem.de/specials/windows7/&quot;&gt;Windows 7&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/microsoft/&quot;&gt;Microsoft&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=142522&amp;amp;page=1&amp;amp;ts=1562923200&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/security/microsoft-sicherheitspatch-fuer-windows-7-enthaelt-telemetrietool/127720,list.html</comments>
+            <pubDate>Fri, 12 Jul 2019 11:20:00 +0200</pubDate>
+            <guid>https://www.golem.de/1907/142522-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1907/142522-202108-202105_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Eigentlich haben Nutzer sich vom aktuellen Sicherheitspatch f�r Windows 7 erhofft, nur Security-Fixes zu erhalten. Allerdings hat ein anonymer Nutzer entdeckt, dass Microsoft auch ein Diagnosetool verteilt, das Daten an das Unternehmen schicken kann. ZDnet h�lt das nicht f�r einen Zufall. (<a href="https://www.golem.de/specials/windows7/">Windows 7</a>, <a href="https://www.golem.de/specials/microsoft/">Microsoft</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=142522&amp;page=1&amp;ts=1562923200" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>127</slash:comments>
+        </item>
+        <item>
+            <title>WSUS: Microsoft schaltet alten Sync-Endpunkt ab</title>
+            <link>https://www.golem.de/news/wsus-microsoft-schaltet-alten-sync-endpunkt-ab-1907-142400.html</link>
+            <description>Wer einen WSUS-Server administriert, sollte heute ab und an die Software �berpr�fen. Am 8. Juli 2019 schaltet Microsoft eine alte WSUS-Endpunkt-Adresse ab. Zudem l�sst sich ab dem 9. Juli Windows 2008 Server SP2 nicht mehr aktualisieren, wenn keine SHA-2-Codesignierung akzeptiert wird. (&lt;a href=&quot;https://www.golem.de/specials/server/&quot;&gt;Server&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/microsoft/&quot;&gt;Microsoft&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=142400&amp;amp;page=1&amp;amp;ts=1562583000&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/applikationen/wsus-microsoft-schaltet-alten-sync-endpunkt-ab/127579,list.html</comments>
+            <pubDate>Mon, 08 Jul 2019 12:50:00 +0200</pubDate>
+            <guid>https://www.golem.de/1907/142400-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1907/142400-201499-201496_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Wer einen WSUS-Server administriert, sollte heute ab und an die Software �berpr�fen. Am 8. Juli 2019 schaltet Microsoft eine alte WSUS-Endpunkt-Adresse ab. Zudem l�sst sich ab dem 9. Juli Windows 2008 Server SP2 nicht mehr aktualisieren, wenn keine SHA-2-Codesignierung akzeptiert wird. (<a href="https://www.golem.de/specials/server/">Server</a>, <a href="https://www.golem.de/specials/microsoft/">Microsoft</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=142400&amp;page=1&amp;ts=1562583000" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>2</slash:comments>
+        </item>
+        <item>
+            <title>Microsoft: Forbes h�lt Windows 10 weiterhin f�r eine Gefahrenzone</title>
+            <link>https://www.golem.de/news/microsoft-forbes-haelt-windows-10-weiterhin-fuer-eine-gefahrenzone-1907-142393.html</link>
+            <description>Nutzer des aktuellen Windows-10-Updates 1903 k�nnten Probleme mit dem VPN-Dienst Rasman und dem Sandbox-Modus haben. Microsoft arbeitet an einer L�sung. Das Wirtschaftsmagazin Forbes h�lt die konstanten Fehler nach Updates f�r gef�hrlich. Windows 10 sei weiterhin eine Gefahrenzone. (&lt;a href=&quot;https://www.golem.de/specials/windows10/&quot;&gt;Windows 10&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/microsoft/&quot;&gt;Microsoft&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=142393&amp;amp;page=1&amp;amp;ts=1562575560&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/security/microsoft-forbes-haelt-windows-10-weiterhin-fuer-eine-gefahrenzone/127572,list.html</comments>
+            <pubDate>Mon, 08 Jul 2019 10:46:00 +0200</pubDate>
+            <guid>https://www.golem.de/1907/142393-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1907/142393-201474-201471_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Nutzer des aktuellen Windows-10-Updates 1903 k�nnten Probleme mit dem VPN-Dienst Rasman und dem Sandbox-Modus haben. Microsoft arbeitet an einer L�sung. Das Wirtschaftsmagazin Forbes h�lt die konstanten Fehler nach Updates f�r gef�hrlich. Windows 10 sei weiterhin eine Gefahrenzone. (<a href="https://www.golem.de/specials/windows10/">Windows 10</a>, <a href="https://www.golem.de/specials/microsoft/">Microsoft</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=142393&amp;page=1&amp;ts=1562575560" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>33</slash:comments>
+        </item>
+        <item>
+            <title>Microsoft: Windows-Rechtschreibpr�fung kommt f�r Chromium</title>
+            <link>https://www.golem.de/news/microsoft-windows-rechtschreibpruefung-kommt-fuer-chromium-1907-142352.html</link>
+            <description>Bisher funktioniert die Windows-Rechtschreibpr�fung nur im Windows-Kontext. Das soll sich mit dem Spell Checker f�r Chromium �ndern. Eine Preview-Version von Google Chrome hat die Option bereits integriert, Microsoft Edge soll folgen. (&lt;a href=&quot;https://www.golem.de/specials/chromium/&quot;&gt;Chromium&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/google/&quot;&gt;Google&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=142352&amp;amp;page=1&amp;amp;ts=1562315280&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/applikationen/microsoft-windows-rechtschreibpruefung-kommt-fuer-chromium/127523,list.html</comments>
+            <pubDate>Fri, 05 Jul 2019 10:28:00 +0200</pubDate>
+            <guid>https://www.golem.de/1907/142352-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1907/142352-201267-201264_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">Bisher funktioniert die Windows-Rechtschreibpr�fung nur im Windows-Kontext. Das soll sich mit dem Spell Checker f�r Chromium �ndern. Eine Preview-Version von Google Chrome hat die Option bereits integriert, Microsoft Edge soll folgen. (<a href="https://www.golem.de/specials/chromium/">Chromium</a>, <a href="https://www.golem.de/specials/google/">Google</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=142352&amp;page=1&amp;ts=1562315280" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>1</slash:comments>
+        </item>
+        <item>
+            <title>Microsoft: Mysteri�ser Teaser f�r Windows 1.0 taucht auf Twitter auf</title>
+            <link>https://www.golem.de/news/microsoft-mysterioeser-teaser-fuer-windows-1-0-taucht-auf-twitter-auf-1907-142304.html</link>
+            <description>&quot;Mit Uhr und Reversi!&quot;: Microsoft hat einen Teaser von Windows 1.0 aus dem Jahr 1985 auf Twitter und Instagram verbreitet. Au�erdem hat das Unternehmen das Bild des Accounts in das Firmenlogo von damals ge�ndert. Viele Nutzer fragen sich, was es damit auf sich hat. (&lt;a href=&quot;https://www.golem.de/specials/windows/&quot;&gt;Windows&lt;/a&gt;, &lt;a href=&quot;https://www.golem.de/specials/microsoft/&quot;&gt;Microsoft&lt;/a&gt;) &lt;img src=&quot;https://cpx.golem.de/cpx.php?class=17&amp;amp;aid=142304&amp;amp;page=1&amp;amp;ts=1562150400&quot; alt=&quot;&quot; width=&quot;1&quot; height=&quot;1&quot; /&gt;</description>
+            <comments>https://forum.golem.de/kommentare/applikationen/microsoft-mysterioeser-teaser-fuer-windows-1.0-taucht-auf-twitter-auf/127472,list.html</comments>
+            <pubDate>Wed, 03 Jul 2019 12:40:00 +0200</pubDate>
+            <guid>https://www.golem.de/1907/142304-rss.html</guid>
+            <content:encoded><![CDATA[<img src="https://www.golem.de/1907/142304-201035-201031_rc.jpg" width="140" height="140" vspace="3" hspace="8" align="left">"Mit Uhr und Reversi!": Microsoft hat einen Teaser von Windows 1.0 aus dem Jahr 1985 auf Twitter und Instagram verbreitet. Au�erdem hat das Unternehmen das Bild des Accounts in das Firmenlogo von damals ge�ndert. Viele Nutzer fragen sich, was es damit auf sich hat. (<a href="https://www.golem.de/specials/windows/">Windows</a>, <a href="https://www.golem.de/specials/microsoft/">Microsoft</a>) <img src="https://cpx.golem.de/cpx.php?class=17&amp;aid=142304&amp;page=1&amp;ts=1562150400" alt="" width="1" height="1" />]]></content:encoded>
+            <slash:comments>65</slash:comments>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,67 @@
+{
+  "responseStatus": 200,
+  "responseDetails": null,
+  "responseData": {
+    "feed": {
+      "feedUrl": "https://blackwonder.tf/forums/-/index.rss",
+      "title": "BlackWonder | Forum",
+      "link": "https://blackwonder.tf/",
+      "description": "Forum software by XenForo",
+      "author": "",
+      "entries": [
+        {
+          "title": "I can't gift to the server.",
+          "link": "https://blackwonder.tf/threads/i-cant-gift-to-the-server.18856/",
+          "content": "<div class=\"bbWrapper\">As you see, I want to spam the server with gifts (Secret Saxton). However, when I try to use one, I got a message back saying &quot;There was an error trying to use the item in your action slot.&quot;<br />\nCan you please look into it?</div>",
+          "contentSnippet": "As you see, I want to spam the server with gifts (Secret Saxton). However, when I try to use one, I got a message back s",
+          "publishedDate": "2019-10-17T17:32:13.000Z",
+          "categories": [
+            {
+              "name": "Resolved"
+            }
+          ],
+          "author": "invalid@example.com (Puppy2cool)"
+        },
+        {
+          "title": "Any Musicians Here?",
+          "link": "https://blackwonder.tf/threads/any-musicians-here.19195/",
+          "content": "<div class=\"bbWrapper\"><b><span style=\"font-size: 26px\"><span style=\"color: rgb(84, 172, 210)\">Hai hai~! </span><span style=\"color: rgb(85, 57, 130)\">Marzanna</span><span style=\"color: rgb(84, 172, 210)\"> here!</span></span></b><br />\n<span style=\"font-size: 22px\"><span style=\"color: rgb(84, 172, 210)\">I'm curious if there is any musicians here. If so, what instrument do you enjoy playing and how long have you played it for?<br />\n<br />\nI enjoying playing the piano, I really love it.<br />\nI've been playing for about 3 years, I still need more to improve! ;-;<br />\n<s>Trying to play Touhou music is a big pain!</s></span></span></div>",
+          "contentSnippet": "Hai hai~! Marzanna here!\nI'm curious if there is any musicians here. If so, what instrument do you enjoy playing and how",
+          "publishedDate": "2019-10-17T15:42:04.000Z",
+          "categories": [
+            {
+              "name": "Off-Topic"
+            }
+          ],
+          "author": "invalid@example.com (~Marzanna~)"
+        },
+        {
+          "title": "(Saxton Hale UK) Report against Alijok",
+          "link": "https://blackwonder.tf/threads/saxton-hale-uk-report-against-alijok.19190/",
+          "content": "<div class=\"bbWrapper\"><b>Who are you reporting?</b><br />\nAlijok<br />\n<br />\n<b>What is the accused player's steamID?</b><br />\nSTEAM_0:1:37390919<br />\n<br />\n<b>What is the reason of this report?</b><br />\nNSFW Spray<br />\n<br />\n<b>Proof:</b><br />\nFiles attached</div>",
+          "contentSnippet": "Who are you reporting?\nAlijok\n\nWhat is the accused player's steamID?\nSTEAM_0:1:37390919\n\nWhat is the reason of this repo",
+          "publishedDate": "2019-10-17T13:55:32.000Z",
+          "categories": [
+            {
+              "name": "Closed"
+            }
+          ],
+          "author": "invalid@example.com (Corrin)"
+        },
+        {
+          "title": "(Saxton Hale UK) Report against Dagran",
+          "link": "https://blackwonder.tf/threads/saxton-hale-uk-report-against-dagran.19189/",
+          "content": "<div class=\"bbWrapper\"><b>Who are you reporting?</b><br />\nDagran<br />\n<br />\n<b>What is the accused player's steamID?</b><br />\nSTEAM_0:0:52765897<br />\n<br />\n<b>What is the reason of this report?</b><br />\nNSFW Spray<br />\n<br />\n<b>Proof:</b><br />\nFiles attached</div>",
+          "contentSnippet": "Who are you reporting?\nDagran\n\nWhat is the accused player's steamID?\nSTEAM_0:0:52765897\n\nWhat is the reason of this repo",
+          "publishedDate": "2019-10-17T13:53:27.000Z",
+          "categories": [
+            {
+              "name": "Closed"
+            }
+          ],
+          "author": "invalid@example.com (Corrin)"
+        }
+      ]
+    }
+  }
+}

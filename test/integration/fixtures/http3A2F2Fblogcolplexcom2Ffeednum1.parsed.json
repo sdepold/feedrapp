@@ -1,0 +1,34 @@
+{
+  "responseStatus": 200,
+  "responseDetails": null,
+  "responseData": {
+    "feed": {
+      "feedUrl": "http://blog.colplex.com/feed",
+      "title": "Blog de Colplex",
+      "link": "https://blog.colplex.com",
+      "description": "Plataforma Educativa",
+      "author": "",
+      "entries": [
+        {
+          "title": "8 prácticas que fomentan la innovación en tu institución educativa",
+          "link": "https://blog.colplex.com/8-practicas-educativas-que-fomentan-la-innovacion-en-tu-institucion-educativa/",
+          "content": "<a href=\"https://blog.colplex.com/8-practicas-educativas-que-fomentan-la-innovacion-en-tu-institucion-educativa/\" title=\"8 prácticas que fomentan la innovación en tu institución educativa\" rel=\"nofollow\"><img width=\"150\" height=\"150\" src=\"https://blog.colplex.com/wp-content/uploads/2019/09/classroom-2787754_1920-150x150.jpg\" class=\"webfeedsFeaturedVisual wp-post-image\" alt=\"\" style=\"display: block; margin-bottom: 5px; clear:both;max-width: 100%;\" link_thumbnail=\"1\" /></a><p>Aunque no existe una «receta» que pueda aplicarse en cualquier contexto de aprendizaje, hemos seleccionado cuidadosamente un compendio de prácticas educativas que pueden lograr que tu institución educativa ofrezca un verdadero cambio en los paradigmas educativos actuales. </p>\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter\"><img src=\"https://blog.colplex.com/wp-content/uploads/2019/09/innovacion.png\" alt=\"\" class=\"wp-image-1625\" srcset=\"https://blog.colplex.com/wp-content/uploads/2019/09/innovacion.png 444w, https://blog.colplex.com/wp-content/uploads/2019/09/innovacion-194x300.png 194w, https://blog.colplex.com/wp-content/uploads/2019/09/innovacion-129x200.png 129w, https://blog.colplex.com/wp-content/uploads/2019/09/innovacion-387x600.png 387w\" sizes=\"(max-width: 444px) 100vw, 444px\" /></figure>\n</div>\n<h2 style=\"text-align:left\"><strong>1. Da</strong></h2>\n<p>&#8230;</p>\n<p>The post <a rel=\"nofollow\" href=\"https://blog.colplex.com/8-practicas-educativas-que-fomentan-la-innovacion-en-tu-institucion-educativa/\">8 prácticas que fomentan la innovación en tu institución educativa</a> appeared first on <a rel=\"nofollow\" href=\"https://blog.colplex.com\">Blog de Colplex</a>.</p>\n",
+          "contentSnippet": "Aunque no existe una «receta» que pueda aplicarse en cualquier contexto de aprendizaje, hemos seleccionado cuidadosament",
+          "publishedDate": "2019-09-25T16:34:03.000Z",
+          "categories": [
+            {
+              "name": "Directores Educativos"
+            },
+            {
+              "name": "Educación"
+            },
+            {
+              "name": "Gestión educativa"
+            }
+          ],
+          "author": "Colplex"
+        }
+      ]
+    }
+  }
+}

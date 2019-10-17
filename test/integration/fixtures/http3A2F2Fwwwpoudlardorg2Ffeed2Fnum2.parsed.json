@@ -1,0 +1,56 @@
+{
+  "responseStatus": 200,
+  "responseDetails": null,
+  "responseData": {
+    "feed": {
+      "feedUrl": "http://www.poudlard.org/feed/",
+      "title": "Poudlard.org",
+      "link": "https://www.poudlard.org",
+      "description": "Pour que la magie continue",
+      "author": "",
+      "entries": [
+        {
+          "title": "Pottermore laisse place à Wizarding World",
+          "link": "https://www.poudlard.org/2019/10/05/pottermore-laisse-place-a-wizarding-world/",
+          "content": "<p>Depuis huit ans, nous connaissons le site Pottermore, rédigé par J.K. Rowling elle-même. Le site internet proposait des articles inédits, fournissant, entre autres choses, de nouvelles informations sur la vie des personnages après la fin du dernier tome. La plateforme n&#8217;existe désormais plus : elle a été remplacée par Wizarding World. Le concept reste le &#8230;</p>\n<p>L’article <a rel=\"nofollow\" href=\"https://www.poudlard.org/2019/10/05/pottermore-laisse-place-a-wizarding-world/\">Pottermore laisse place à Wizarding World</a> est apparu en premier sur <a rel=\"nofollow\" href=\"https://www.poudlard.org\">Poudlard.org</a>.</p>\n",
+          "contentSnippet": "Depuis huit ans, nous connaissons le site Pottermore, rédigé par J.K. Rowling elle-même. Le site internet proposait des ",
+          "publishedDate": "2019-10-05T10:00:49.000Z",
+          "categories": [
+            {
+              "name": "Actualité"
+            },
+            {
+              "name": "Divers"
+            },
+            {
+              "name": "Pottermore"
+            }
+          ],
+          "author": "T-Hedwige"
+        },
+        {
+          "title": "Le Magicobus à Paris pour la rentrée des sorciers",
+          "link": "https://www.poudlard.org/2019/08/31/le-magicobus-a-paris-pour-la-rentree-des-sorciers/",
+          "content": "<p>Le 1er septembre marque la rentrée scolaire des sorciers qui, tout comme les moldus, reprennent les cours. Voilà une date qu&#8217;il nous faut célébrer ! A cette occasion, la branche française de la Warner Bros a programmé un Magicobus afin de gagner le plus rapidement possible les portes de Poudlard. Ce transport en commun est &#8230;</p>\n<p>L’article <a rel=\"nofollow\" href=\"https://www.poudlard.org/2019/08/31/le-magicobus-a-paris-pour-la-rentree-des-sorciers/\">Le Magicobus à Paris pour la rentrée des sorciers</a> est apparu en premier sur <a rel=\"nofollow\" href=\"https://www.poudlard.org\">Poudlard.org</a>.</p>\n",
+          "contentSnippet": "Le 1er septembre marque la rentrée scolaire des sorciers qui, tout comme les moldus, reprennent les cours. Voilà une dat",
+          "publishedDate": "2019-08-31T08:00:15.000Z",
+          "categories": [
+            {
+              "name": "Actualité"
+            },
+            {
+              "name": "Harry Potter"
+            },
+            {
+              "name": "Magicobus"
+            },
+            {
+              "name": "paris"
+            }
+          ],
+          "author": "Rosannav"
+        }
+      ]
+    }
+  }
+}

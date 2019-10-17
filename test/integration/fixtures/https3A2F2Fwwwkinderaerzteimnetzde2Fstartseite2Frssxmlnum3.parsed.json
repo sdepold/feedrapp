@@ -1,0 +1,42 @@
+{
+  "responseStatus": 200,
+  "responseDetails": null,
+  "responseData": {
+    "feed": {
+      "feedUrl": "https://www.kinderaerzte-im-netz.de/startseite/rss.xml",
+      "title": "Aktuelle Meldungen von www.kinderaerzte-im-netz.de",
+      "link": "https://www.kinderaerzte-im-netz.de/",
+      "description": "News von www.kinderaerzte-im-netz.de",
+      "author": "",
+      "entries": [
+        {
+          "title": "Auch Jugendliche sollten auf regelmäßige Schlafenszeiten achten",
+          "link": "https://www.kinderaerzte-im-netz.de/news-archiv/meldung/article/auch-jugendliche-sollten-auf-regelmaessige-schlafenszeiten-achten/",
+          "content": "\r\nTeenager sollten nicht nur darauf achten, dass sie gut und ausreichend schlafen, sondern auch...",
+          "contentSnippet": "\r\nTeenager sollten nicht nur darauf achten, dass sie gut und ausreichend schlafen, sondern auch...",
+          "publishedDate": "2019-10-16T00:00:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Spardruck auf Kinderkliniken gefährdet heute schon die medizinische Versorgung von Kindern und Jugendlichen",
+          "link": "https://www.kinderaerzte-im-netz.de/news-archiv/meldung/article/spardruck-auf-kinderkliniken-gefaehrdet-heute-schon-die-medizinische-versorgung-von-kindern-und-juge/",
+          "content": "\r\nBVKJ warnt vor Dominoeffekt: \"In der kommenden Infektsaison werden vielerorts schwer kranke...",
+          "contentSnippet": "\r\nBVKJ warnt vor Dominoeffekt: \"In der kommenden Infektsaison werden vielerorts schwer kranke...",
+          "publishedDate": "2019-10-14T00:00:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Jugendliche: Mehr Bewegung – bessere schulische Leistungen? ",
+          "link": "https://www.kinderaerzte-im-netz.de/news-archiv/meldung/article/jugendliche-mehr-bewegung-bessere-schulische-leistungen/",
+          "content": "Laut einer aktuellen finnischen Studie schneiden Jugendliche im Übergang von der Grundschule zur...",
+          "contentSnippet": "Laut einer aktuellen finnischen Studie schneiden Jugendliche im Übergang von der Grundschule zur...",
+          "publishedDate": "2019-10-14T00:00:00.000Z",
+          "categories": [],
+          "author": ""
+        }
+      ]
+    }
+  }
+}

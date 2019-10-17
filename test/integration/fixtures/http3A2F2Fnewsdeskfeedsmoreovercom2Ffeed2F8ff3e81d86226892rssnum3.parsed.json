@@ -1,0 +1,42 @@
+{
+  "responseStatus": 200,
+  "responseDetails": null,
+  "responseData": {
+    "feed": {
+      "feedUrl": "http://newsdesk-feeds.moreover.com/feed/8ff3e81d86226892.rss",
+      "title": "In the News Clips (SoCo)",
+      "link": "https://newsdesk-feeds.moreover.com/feed/8ff3e81d86226892.rss",
+      "description": "Moreover Technologies - Award-Winning Media Intelligence Solutions",
+      "author": "",
+      "entries": [
+        {
+          "title": "Techstars to team with Alabama Power on new EnergyTech Accelerator",
+          "link": "https://www.newsdesk.lexisnexis.com/click/?p=aHR0cHM6Ly93d3cubmV3c2Rlc2subGV4aXNuZXhpcy5jb20vYXJ0aWNsZS80MDQ0NDczOTk2NS5odG1sP2NpZD1NVEEzTVRBeCZ1aWQ9TVRNMk1EZzU&a=40444739965&f=UHJpbnQ&s=ZXhwb3J0&u=U1BVUk5FTExAU09VVEhFUk5DTy5DT00&cn=U291dGhlcm4gQ29tcGFueQ&ci=107101&i=335&si=73669&fmi=654575604&e=QmlybWluZ2hhbSBCdXNpbmVzcyBKb3VybmFsIChCaXJtaW5naGFtLCBBTCk&d=136089&t=3&h=1&k=80508&l=76020&fi=634082&wa=1&ac=&ck=8e2e07093b35e4d156f70c2420581ab0",
+          "content": "Techstars, a worldwide startup network, is partnering with Alabama Power Co., the Economic Development Partnership of Alabama and the Alabama Department of Commerce on a new accelerator program that...",
+          "contentSnippet": "Techstars, a worldwide startup network, is partnering with Alabama Power Co., the Economic Development Partnership of Al",
+          "publishedDate": "2019-10-17T02:18:19.000Z",
+          "categories": [],
+          "author": "Tyler Patchen"
+        },
+        {
+          "title": "Southern Research receives a $2.8M grant for nuclear project",
+          "link": "https://www.newsdesk.lexisnexis.com/click/?p=aHR0cHM6Ly93d3cubmV3c2Rlc2subGV4aXNuZXhpcy5jb20vYXJ0aWNsZS80MDQyNjc2NTg0NC5odG1sP2NpZD1NVEEzTVRBeCZ1aWQ9TVRNMk1EZzU&a=40426765844&f=UHJpbnQ&s=ZXhwb3J0&u=U1BVUk5FTExAU09VVEhFUk5DTy5DT00&cn=U291dGhlcm4gQ29tcGFueQ&ci=107101&i=335&si=73669&fmi=654575604&e=QmlybWluZ2hhbSBCdXNpbmVzcyBKb3VybmFsIChCaXJtaW5naGFtLCBBTCk&d=136089&t=3&h=1&k=80508&l=76020&fi=634082&wa=1&ac=&ck=ffb3b6a4eaf3025aa1fcd8acca7493db",
+          "content": "Southern Research has been awarded a $2.8 million grant from the U.S. Department of Energy to develop smart maintenance robots that will work autonomously in nuclear reactors.&nbsp;\r\n\r\nThe grant came from...",
+          "contentSnippet": "Southern Research has been awarded a $2.8 million grant from the U.S. Department of Energy to develop smart maintenance ",
+          "publishedDate": "2019-10-14T23:35:36.000Z",
+          "categories": [],
+          "author": "Tyler Patchen"
+        },
+        {
+          "title": "Georgia Power - Georgia Power places focus on literacy during Georgia Pre-K Week",
+          "link": "https://www.newsdesk.lexisnexis.com/click/?p=Q1QzL2E9NDAzOTkxMDE4ODQmcD0xNGUmdj0xJng9WVFjNHFTSmlqR1N5bmdMZVNYbkl3ZyZ1MT1ORCZ1Mj11cC11cm46dXNlcjpQQTE4Njk3ODI1Mg&a=40399101884&f=TmV3cw&s=ZXhwb3J0&u=U1BVUk5FTExAU09VVEhFUk5DTy5DT00&cn=U291dGhlcm4gQ29tcGFueQ&ci=107101&i=0&si=16076&fmi=169669062&e=RWxlY3RyaWMgRW5lcmd5IE9ubGluZQ&d=136089&t=3&k=16076&fi=634082&wa=1&ac=&ck=667f3565572bb58307d10215897edffb",
+          "content": "Georgia Power announced today (10/10) that for the sixth consecutive year it has joined with the nonprofit organization Voices for Georgia's Children, as well as other notable Georgia businesses, to...",
+          "contentSnippet": "Georgia Power announced today (10/10) that for the sixth consecutive year it has joined with the nonprofit organization ",
+          "publishedDate": "2019-10-11T05:43:38.000Z",
+          "categories": [],
+          "author": "Electric Energy Online"
+        }
+      ]
+    }
+  }
+}

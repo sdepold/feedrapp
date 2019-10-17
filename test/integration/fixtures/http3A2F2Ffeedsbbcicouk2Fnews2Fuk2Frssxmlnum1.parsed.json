@@ -1,0 +1,105 @@
+{
+  "responseStatus": 200,
+  "responseDetails": null,
+  "responseData": {
+    "feed": {
+      "feedUrl": "http://feeds.bbci.co.uk/news/uk/rss.xml",
+      "title": "BBC News - UK",
+      "link": "https://www.bbc.co.uk/news/",
+      "description": "BBC News - UK",
+      "author": "",
+      "entries": [
+        {
+          "title": "Brexit: Johnson 'very confident' MPs will back deal",
+          "link": "https://www.bbc.co.uk/news/uk-politics-50090636",
+          "content": "The PM is facing an uphill battle to get his new Brexit deal through the House of Commons on Saturday.",
+          "contentSnippet": "The PM is facing an uphill battle to get his new Brexit deal through the House of Commons on Saturday.",
+          "publishedDate": "2019-10-17T18:03:56.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Brexit: What is in Boris Johnson's new deal with the EU?",
+          "link": "https://www.bbc.co.uk/news/uk-50083026",
+          "content": "A revised Brexit deal has been agreed by the UK and EU. What does it contain?",
+          "contentSnippet": "A revised Brexit deal has been agreed by the UK and EU. What does it contain?",
+          "publishedDate": "2019-10-17T17:15:33.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Brexit: Nigel Dodds says Boris Johnson is 'too eager to get deal'",
+          "link": "https://www.bbc.co.uk/news/uk-northern-ireland-50079317",
+          "content": "The DUP says it will not support the PM's plan for NI as it has concerns about customs and consent.",
+          "contentSnippet": "The DUP says it will not support the PM's plan for NI as it has concerns about customs and consent.",
+          "publishedDate": "2019-10-17T17:12:21.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Duke and Duchess: Royal plane aborts landing after Pakistan storms",
+          "link": "https://www.bbc.co.uk/news/uk-50088391",
+          "content": "An RAF aircraft carrying the Duke and Duchess of Cambridge twice tried to land in Islamabad.",
+          "contentSnippet": "An RAF aircraft carrying the Duke and Duchess of Cambridge twice tried to land in Islamabad.",
+          "publishedDate": "2019-10-17T17:02:23.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Kevin McCloud property firms face liquidation",
+          "link": "https://www.bbc.co.uk/news/business-50080813",
+          "content": "People lent thousands of pounds to a company which was founded by the Grand Designs presenter.",
+          "contentSnippet": "People lent thousands of pounds to a company which was founded by the Grand Designs presenter.",
+          "publishedDate": "2019-10-17T13:43:43.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Drayton Manor to be prosecuted over Evha Jannath's death",
+          "link": "https://www.bbc.co.uk/news/uk-england-stoke-staffordshire-50088642",
+          "content": "Evha Jannath, 11, died after falling from Drayton Manor's Splash Canyon water ride in 2017.",
+          "contentSnippet": "Evha Jannath, 11, died after falling from Drayton Manor's Splash Canyon water ride in 2017.",
+          "publishedDate": "2019-10-17T17:33:10.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Paul Gascoigne cleared of sex assault on train passenger",
+          "link": "https://www.bbc.co.uk/news/uk-england-50068077",
+          "content": "The ex-footballer has been cleared of both assault and sexual assault after kissing a woman on a train.",
+          "contentSnippet": "The ex-footballer has been cleared of both assault and sexual assault after kissing a woman on a train.",
+          "publishedDate": "2019-10-17T16:25:34.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "E-fit released to identify man who fell from plane",
+          "link": "https://www.bbc.co.uk/news/uk-england-london-50088800",
+          "content": "The body of a man, believed to be Kenyan, was found in a garden in Clapham in June.",
+          "contentSnippet": "The body of a man, believed to be Kenyan, was found in a garden in Clapham in June.",
+          "publishedDate": "2019-10-17T15:54:36.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Extinction Rebellion protesters dragged from Tube train roof",
+          "link": "https://www.bbc.co.uk/news/uk-england-london-50079716",
+          "content": "Extinction Rebellion says it will \"take stock\" of the reaction to the action for future protests.",
+          "contentSnippet": "Extinction Rebellion says it will \"take stock\" of the reaction to the action for future protests.",
+          "publishedDate": "2019-10-17T15:20:15.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Four Bulgaria fans banned over racist abuse",
+          "link": "https://www.bbc.co.uk/sport/football/50081437",
+          "content": "Four of the fans arrested by Bulgarian police for subjecting England players to racist abuse are fined and banned.",
+          "contentSnippet": "Four of the fans arrested by Bulgarian police for subjecting England players to racist abuse are fined and banned.",
+          "publishedDate": "2019-10-17T14:40:23.000Z",
+          "categories": [],
+          "author": ""
+        }
+      ]
+    }
+  }
+}

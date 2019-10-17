@@ -1,0 +1,145 @@
+{
+  "responseStatus": 200,
+  "responseDetails": null,
+  "responseData": {
+    "feed": {
+      "feedUrl": "https://www.eltiempo.com/rss/colombia.xml",
+      "title": "EL TIEMPO.COM - Colombia",
+      "link": "https://www.eltiempo.com",
+      "description": "Noticias de Colombia en EL TIEMPO",
+      "author": "",
+      "entries": [
+        {
+          "title": "La tragedia de una mujer víctima de un mal procedimiento estético",
+          "link": "https://www.eltiempo.com/colombia/otras-ciudades/condenado-cirujano-en-monteria-por-mal-procedimiento-424028",
+          "content": "El médico&nbsp;Ramiro Alberto Pestana fue condenado a prisión. Tendría otras denuncias.",
+          "contentSnippet": "El médico&nbsp;Ramiro Alberto Pestana fue condenado a prisión. Tendría otras denuncias.",
+          "publishedDate": "2019-10-17T17:16:22.000Z",
+          "categories": [
+            {
+              "name": "Otras Ciudades"
+            }
+          ],
+          "author": ""
+        },
+        {
+          "title": "Desmantelan organización dedicada al robo de agua en Santa Marta",
+          "link": "https://www.eltiempo.com/colombia/otras-ciudades/desmantelan-organizacion-que-robaba-agua-en-santa-marta-424054",
+          "content": "Con esta operación se recuperaron 80 litros de agua&nbsp;por segundo, beneficiando a 44 mil habitantes.",
+          "contentSnippet": "Con esta operación se recuperaron 80 litros de agua&nbsp;por segundo, beneficiando a 44 mil habitantes.",
+          "publishedDate": "2019-10-17T16:46:46.000Z",
+          "categories": [
+            {
+              "name": "Otras Ciudades"
+            }
+          ],
+          "author": ""
+        },
+        {
+          "title": "En Cartagena, el voto en blanco toma fuerza",
+          "link": "https://www.eltiempo.com/colombia/otras-ciudades/voto-en-blanco-toma-fuerza-en-las-elecciones-a-la-alcaldia-en-cartagena-423962",
+          "content": "Movimientos ciudadanos lo impulsan. Elecciones son el próximo 27 de octubre.",
+          "contentSnippet": "Movimientos ciudadanos lo impulsan. Elecciones son el próximo 27 de octubre.",
+          "publishedDate": "2019-10-17T16:04:52.000Z",
+          "categories": [
+            {
+              "name": "Otras Ciudades"
+            }
+          ],
+          "author": ""
+        },
+        {
+          "title": "La historia del alcalde 'eterno' que desea un quinto periodo en Boyacá",
+          "link": "https://www.eltiempo.com/colombia/otras-ciudades/candidatos-a-alcaldias-en-santander-y-boyaca-que-son-los-unicos-aspirantes-423790",
+          "content": "Pedro Antonio López aspira llegar a la Alcaldía de Corrales. Su único rival es el voto en blanco.",
+          "contentSnippet": "Pedro Antonio López aspira llegar a la Alcaldía de Corrales. Su único rival es el voto en blanco.",
+          "publishedDate": "2019-10-17T15:48:05.000Z",
+          "categories": [
+            {
+              "name": "Otras Ciudades"
+            }
+          ],
+          "author": ""
+        },
+        {
+          "title": "Este es el panorama en las ciudades del país por marchas de docentes",
+          "link": "https://www.eltiempo.com/colombia/otras-ciudades/marchas-de-profesores-y-estudiantes-del-jueves-17-de-octubre-en-colombia-424032",
+          "content": "Estudiantes y centrales obreras también se suman a las concentraciones de este jueves.",
+          "contentSnippet": "Estudiantes y centrales obreras también se suman a las concentraciones de este jueves.",
+          "publishedDate": "2019-10-17T15:36:51.000Z",
+          "categories": [
+            {
+              "name": "Otras Ciudades"
+            }
+          ],
+          "author": ""
+        },
+        {
+          "title": "¿Adiós al examen de próstata? Acá le contamos de qué se trata",
+          "link": "https://www.eltiempo.com/colombia/otras-ciudades/examen-de-prostata-para-prevenir-el-cancer-423654",
+          "content": "Una cadena que circula en WhatsApp asegura que el exámen para prevenir cáncer de próstata no va más.",
+          "contentSnippet": "Una cadena que circula en WhatsApp asegura que el exámen para prevenir cáncer de próstata no va más.",
+          "publishedDate": "2019-10-17T15:35:15.000Z",
+          "categories": [
+            {
+              "name": "Otras Ciudades"
+            }
+          ],
+          "author": ""
+        },
+        {
+          "title": "Hombre en Medellín abusó de su hijastra durante cinco años",
+          "link": "https://www.eltiempo.com/colombia/medellin/carcel-a-hombre-en-medellin-que-abuso-de-su-hijastra-durante-5-anos-424008",
+          "content": "El sujeto, de 30 años, fue condenado a&nbsp;17 años y 6 meses de prisión.",
+          "contentSnippet": "El sujeto, de 30 años, fue condenado a&nbsp;17 años y 6 meses de prisión.",
+          "publishedDate": "2019-10-17T15:24:04.000Z",
+          "categories": [
+            {
+              "name": "Medellín"
+            }
+          ],
+          "author": ""
+        },
+        {
+          "title": "Cayó alias Carlitos, jefe de 'clan del Golfo' en Bajo Cauca antioqueño",
+          "link": "https://www.eltiempo.com/colombia/medellin/capturan-a-alias-carlitos-cabecilla-del-clan-del-golfo-en-bajo-cauca-424026",
+          "content": "El hombre comandaba más de 70 hombres y sería responsable de desplazamientos en Tarazá y Cáceres.",
+          "contentSnippet": "El hombre comandaba más de 70 hombres y sería responsable de desplazamientos en Tarazá y Cáceres.",
+          "publishedDate": "2019-10-17T15:22:01.000Z",
+          "categories": [
+            {
+              "name": "Medellín"
+            }
+          ],
+          "author": ""
+        },
+        {
+          "title": "Hombre habría abusado de sus tres hijas por más de 8 años",
+          "link": "https://www.eltiempo.com/colombia/otras-ciudades/hombre-habria-abusado-de-sus-tres-hijas-por-mas-de-8-anos-423976",
+          "content": "El señalado fue detenido. Estaba prófugo desde comienzos de este año.",
+          "contentSnippet": "El señalado fue detenido. Estaba prófugo desde comienzos de este año.",
+          "publishedDate": "2019-10-17T15:16:51.000Z",
+          "categories": [
+            {
+              "name": "Otras Ciudades"
+            }
+          ],
+          "author": ""
+        },
+        {
+          "title": "Golpe al Eln en el Catatumbo, capturan a su cabecilla financiera",
+          "link": "https://www.eltiempo.com/colombia/otras-ciudades/capturan-en-catatumbo-a-la-negra-cabecilla-financiera-del-eln-424018",
+          "content": "La 'Negra' se movilizaba en una motocicleta con 30 kilogramos de pasta a base de coca.",
+          "contentSnippet": "La 'Negra' se movilizaba en una motocicleta con 30 kilogramos de pasta a base de coca.",
+          "publishedDate": "2019-10-17T15:15:29.000Z",
+          "categories": [
+            {
+              "name": "Otras Ciudades"
+            }
+          ],
+          "author": ""
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+	<channel>
+		
+		<title>Aktuelle Meldungen von www.kinderaerzte-im-netz.de</title>
+		<link>https://www.kinderaerzte-im-netz.de/</link>
+		<description>News von www.kinderaerzte-im-netz.de</description>
+		<language>de</language>
+		<image>
+			<title>Aktuelle Meldungen von www.kinderaerzte-im-netz.de</title>
+			<url>https://www.kinderaerzte-im-netz.de/typo3conf/ext/tt_news/ext_icon.gif</url>
+			<link>https://www.kinderaerzte-im-netz.de/</link>
+			<width>18</width>
+			<height>16</height>
+			<description>News von www.kinderaerzte-im-netz.de</description>
+		</image>
+		<generator>TYPO3 - get.content.right</generator>
+		<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+		
+		
+		
+		<lastBuildDate>Wed, 16 Oct 2019 00:00:00 +0000</lastBuildDate>
+		
+		
+		<item>
+			<title>Auch Jugendliche sollten auf regelmäßige Schlafenszeiten achten</title>
+			<link>https://www.kinderaerzte-im-netz.de/news-archiv/meldung/article/auch-jugendliche-sollten-auf-regelmaessige-schlafenszeiten-achten/</link>
+			<description>
+Teenager sollten nicht nur darauf achten, dass sie gut und ausreichend schlafen, sondern auch...</description>
+			<content:encoded></content:encoded>
+			
+			
+			<pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
+			<!--  -->
+		</item>
+		
+		<item>
+			<title>Spardruck auf Kinderkliniken gefährdet heute schon die medizinische Versorgung von Kindern und Jugendlichen</title>
+			<link>https://www.kinderaerzte-im-netz.de/news-archiv/meldung/article/spardruck-auf-kinderkliniken-gefaehrdet-heute-schon-die-medizinische-versorgung-von-kindern-und-juge/</link>
+			<description>
+BVKJ warnt vor Dominoeffekt: &quot;In der kommenden Infektsaison werden vielerorts schwer kranke...</description>
+			<content:encoded></content:encoded>
+			
+			
+			<pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
+			<!--  -->
+		</item>
+		
+		<item>
+			<title>Jugendliche: Mehr Bewegung – bessere schulische Leistungen? </title>
+			<link>https://www.kinderaerzte-im-netz.de/news-archiv/meldung/article/jugendliche-mehr-bewegung-bessere-schulische-leistungen/</link>
+			<description>Laut einer aktuellen finnischen Studie schneiden Jugendliche im Übergang von der Grundschule zur...</description>
+			<content:encoded></content:encoded>
+			
+			
+			<pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
+			<!--  -->
+		</item>
+		
+	</channel>
+</rss>

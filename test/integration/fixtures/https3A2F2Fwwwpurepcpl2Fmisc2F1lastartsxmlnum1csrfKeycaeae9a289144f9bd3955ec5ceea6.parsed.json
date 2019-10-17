@@ -1,0 +1,95 @@
+{
+  "responseStatus": 200,
+  "responseDetails": null,
+  "responseData": {
+    "feed": {
+      "feedUrl": "https://www.purepc.pl/misc/10lastarts.xml",
+      "title": "PurePC.pl",
+      "link": "https://www.purepc.pl",
+      "description": "10 najnowyszch artykułów",
+      "author": "",
+      "entries": [
+        {
+          "title": "Test dysku SSD Patriot Viper VP4100 - NVMe PCI-E 4.0 znów uderza",
+          "link": "https://www.purepc.pl/pamieci_masowe/test_dysku_ssd_patriot_viper_vp4100_nvme_pcie_40_znow_uderza",
+          "content": "",
+          "contentSnippet": "",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Jaki laptop kupić? Polecane notebooki na październik i listopad 2019",
+          "link": "https://www.purepc.pl/notebooki/jaki_laptop_kupic_polecane_notebooki_na_pazdziernik_i_listopad_2019",
+          "content": "",
+          "contentSnippet": "",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Test dysku SSD ADATA XPG Gammix S50 - 5000 MB/s poproszę!",
+          "link": "https://www.purepc.pl/pamieci_masowe/test_dysku_ssd_adata_xpg_gammix_s50_5000_mbs_poprosze",
+          "content": "",
+          "contentSnippet": "",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Test myszy Logitech MX Master 3: mistrzyni ergonomii po raz trzeci?",
+          "link": "https://www.purepc.pl/klawiatury_i_myszki/test_myszy_logitech_mx_master_3_mistrzyni_ergonomii_po_raz_trzeci",
+          "content": "",
+          "contentSnippet": "",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Test notebooka Acer Nitro 7 - nowość z NVIDIA GeForce GTX 1650",
+          "link": "https://www.purepc.pl/notebooki/test_notebooka_acer_nitro_7_nowosc_z_nvidia_geforce_gtx_1650",
+          "content": "",
+          "contentSnippet": "",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Na co warto zwracać uwagę przy wyborze laptopa do gier?",
+          "link": "https://www.purepc.pl/notebooki/na_co_zwracac_uwage_przy_wyborze_laptopa_do_gier",
+          "content": "",
+          "contentSnippet": "",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Monitor Samsung LS34J550 - Jak sprawuje się w wielozadaniowości?",
+          "link": "https://www.purepc.pl/monitory/monitor_samsung_ls34j550_jak_sprawuje_sie_w_wielozadaniowosci",
+          "content": "",
+          "contentSnippet": "",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Test pamięci do procesorów AMD Ryzen - Taktowania vs opóźnienia",
+          "link": "https://www.purepc.pl/pamieci_ram/test_pamieci_do_procesorow_amd_ryzen_taktowania_vs_opoznienia",
+          "content": "",
+          "contentSnippet": "",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Jaki komputer kupić? Zestawy komputerowe na październik 2019",
+          "link": "https://www.purepc.pl/zestawy_komputerowe/jaki_komputer_kupic_zestawy_komputerowe_na_pazdziernik_2019",
+          "content": "",
+          "contentSnippet": "",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Test ASUS ROG Zephyrus GX502GW - notebook z 240 Hz matrycą",
+          "link": "https://www.purepc.pl/notebooki/test_asus_rog_zephyrus_gx502gw_notebook_z_240_hz_matryca",
+          "content": "",
+          "contentSnippet": "",
+          "categories": [],
+          "author": ""
+        }
+      ]
+    }
+  }
+}

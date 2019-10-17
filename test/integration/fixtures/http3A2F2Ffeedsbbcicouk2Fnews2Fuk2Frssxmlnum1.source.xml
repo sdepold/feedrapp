@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="XSL_formatting" type="text/xsl" href="/shared/bsp/xsl/rss/nolsol.xsl"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title><![CDATA[BBC News - UK]]></title>
+        <description><![CDATA[BBC News - UK]]></description>
+        <link>https://www.bbc.co.uk/news/</link>
+        <image>
+            <url>https://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif</url>
+            <title>BBC News - UK</title>
+            <link>https://www.bbc.co.uk/news/</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Thu, 17 Oct 2019 18:15:14 GMT</lastBuildDate>
+        <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.]]></copyright>
+        <language><![CDATA[en-gb]]></language>
+        <ttl>15</ttl>
+        <item>
+            <title><![CDATA[Brexit: Johnson 'very confident' MPs will back deal]]></title>
+            <description><![CDATA[The PM is facing an uphill battle to get his new Brexit deal through the House of Commons on Saturday.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-50090636</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-politics-50090636</guid>
+            <pubDate>Thu, 17 Oct 2019 18:03:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Brexit: What is in Boris Johnson's new deal with the EU?]]></title>
+            <description><![CDATA[A revised Brexit deal has been agreed by the UK and EU. What does it contain?]]></description>
+            <link>https://www.bbc.co.uk/news/uk-50083026</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-50083026</guid>
+            <pubDate>Thu, 17 Oct 2019 17:15:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Brexit: Nigel Dodds says Boris Johnson is 'too eager to get deal']]></title>
+            <description><![CDATA[The DUP says it will not support the PM's plan for NI as it has concerns about customs and consent.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-northern-ireland-50079317</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-northern-ireland-50079317</guid>
+            <pubDate>Thu, 17 Oct 2019 17:12:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Duke and Duchess: Royal plane aborts landing after Pakistan storms]]></title>
+            <description><![CDATA[An RAF aircraft carrying the Duke and Duchess of Cambridge twice tried to land in Islamabad.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-50088391</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-50088391</guid>
+            <pubDate>Thu, 17 Oct 2019 17:02:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Kevin McCloud property firms face liquidation]]></title>
+            <description><![CDATA[People lent thousands of pounds to a company which was founded by the Grand Designs presenter.]]></description>
+            <link>https://www.bbc.co.uk/news/business-50080813</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-50080813</guid>
+            <pubDate>Thu, 17 Oct 2019 13:43:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Drayton Manor to be prosecuted over Evha Jannath's death]]></title>
+            <description><![CDATA[Evha Jannath, 11, died after falling from Drayton Manor's Splash Canyon water ride in 2017.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-england-stoke-staffordshire-50088642</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-england-stoke-staffordshire-50088642</guid>
+            <pubDate>Thu, 17 Oct 2019 17:33:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Paul Gascoigne cleared of sex assault on train passenger]]></title>
+            <description><![CDATA[The ex-footballer has been cleared of both assault and sexual assault after kissing a woman on a train.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-england-50068077</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-england-50068077</guid>
+            <pubDate>Thu, 17 Oct 2019 16:25:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[E-fit released to identify man who fell from plane]]></title>
+            <description><![CDATA[The body of a man, believed to be Kenyan, was found in a garden in Clapham in June.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-england-london-50088800</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-england-london-50088800</guid>
+            <pubDate>Thu, 17 Oct 2019 15:54:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Extinction Rebellion protesters dragged from Tube train roof]]></title>
+            <description><![CDATA[Extinction Rebellion says it will "take stock" of the reaction to the action for future protests.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-england-london-50079716</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-england-london-50079716</guid>
+            <pubDate>Thu, 17 Oct 2019 15:20:15 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Four Bulgaria fans banned over racist abuse]]></title>
+            <description><![CDATA[Four of the fans arrested by Bulgarian police for subjecting England players to racist abuse are fined and banned.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/50081437</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/50081437</guid>
+            <pubDate>Thu, 17 Oct 2019 14:40:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The Troubles: Former IRA man Ivor Bell cleared of Jean McConville charges]]></title>
+            <description><![CDATA[Ivor Bell had been charged with soliciting the murder of mother-of-10 Jean McConville in 1972.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-northern-ireland-50044269</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-northern-ireland-50044269</guid>
+            <pubDate>Thu, 17 Oct 2019 14:27:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Brexit: What happens now?]]></title>
+            <description><![CDATA[The British government and the EU have agreed a new Brexit deal, but will it get through Parliament?]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-46393399</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-politics-46393399</guid>
+            <pubDate>Thu, 17 Oct 2019 16:37:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Brexit deal: What does it mean?]]></title>
+            <description><![CDATA[Boris Johnson has agreed a new Brexit deal with the EU - but what does it mean and will Parliament pass it?]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-50084090</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-politics-50084090</guid>
+            <pubDate>Thu, 17 Oct 2019 15:53:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Brexit deal: Where have the UK and EU compromised?]]></title>
+            <description><![CDATA[After tense negotiations, both sides made concessions to reach a new deal.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-50090030</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-50090030</guid>
+            <pubDate>Thu, 17 Oct 2019 17:30:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Legal bid at Court of Session to stop MPs passing 'illegal' Brexit deal]]></title>
+            <description><![CDATA[Anti-Brexit campaigner Jo Maugham has lodged a petition at Scotland's highest civil court.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-scotland-50076186</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-scotland-50076186</guid>
+            <pubDate>Thu, 17 Oct 2019 12:27:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Prince William and Kate bowl over royal fans on Pakistan tour]]></title>
+            <description><![CDATA[The Duke and Duchess of Cambridge take to the crease on the fourth day of their visit to the country.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-50087921</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-50087921</guid>
+            <pubDate>Thu, 17 Oct 2019 15:54:58 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Harry Dunn death: Is extraditing Anne Sacoolas a realistic prospect?]]></title>
+            <description><![CDATA[What are the legal options that might provide Harry Dunn's parents with the details of his death?]]></description>
+            <link>https://www.bbc.co.uk/news/uk-england-50086340</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-england-50086340</guid>
+            <pubDate>Thu, 17 Oct 2019 14:30:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The Derbyshire village recreated out of fruit cake]]></title>
+            <description><![CDATA[A baker spent three months constructing the sweet model of Eyam village in Derbyshire.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-england-derbyshire-50075302</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-england-derbyshire-50075302</guid>
+            <pubDate>Wed, 16 Oct 2019 23:03:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Which crimes are least likely to be solved?]]></title>
+            <description><![CDATA[Many crimes in the UK remain unsolved and many are not even reported - details in 10 charts.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-49986849</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-49986849</guid>
+            <pubDate>Thu, 17 Oct 2019 10:47:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[My Money: 'BOOM, suddenly £14.99 less rich!']]></title>
+            <description><![CDATA[As part of a new BBC blog series, Olivia Davies shares what she's spent her money on this week.]]></description>
+            <link>https://www.bbc.co.uk/news/business-49971120</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-49971120</guid>
+            <pubDate>Wed, 16 Oct 2019 23:12:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Tricky's 'world was over' when his daughter Mazy died]]></title>
+            <description><![CDATA[The rapper and actor's memoirs reveal his struggle with anxiety after his daughter's death.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-england-bristol-50056819</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-england-bristol-50056819</guid>
+            <pubDate>Wed, 16 Oct 2019 16:03:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Brexit: What have been the sticking points?]]></title>
+            <description><![CDATA[A revised Brexit deal, acceptable to both UK and EU negotiators, remains elusive. What have been the main sticking points?]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-49662531</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-politics-49662531</guid>
+            <pubDate>Thu, 17 Oct 2019 07:43:58 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Charles Jencks: The architect who made cancer care a work of art]]></title>
+            <description><![CDATA[Charles Jencks believed the design of the centres inspired by his wife, Maggie, should lift the spirits of patients.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-scotland-50056219</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-scotland-50056219</guid>
+            <pubDate>Wed, 16 Oct 2019 01:17:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Stormzy's Merky Books will publish Malorie Blackman's autobiography]]></title>
+            <description><![CDATA[The Noughts and Crosses author is already published by Penguin Random House, which runs Merky Books.]]></description>
+            <link>https://www.bbc.co.uk/news/newsbeat-49295481</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/newsbeat-49295481</guid>
+            <pubDate>Wed, 16 Oct 2019 16:14:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Unmanned ship to go on 400-year-old journey across the Atlantic]]></title>
+            <description><![CDATA[UK-based team to chart unprecedented waters with fully autonomous sea journey.]]></description>
+            <link>https://www.bbc.co.uk/news/technology-50047449</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/technology-50047449</guid>
+            <pubDate>Wed, 16 Oct 2019 11:01:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[BBC 100 Women 2019: Who is on the list this year?]]></title>
+            <description><![CDATA[Our most inspiring and influential women of 2019 give us their vision of a female-led future.]]></description>
+            <link>https://www.bbc.co.uk/news/world-50042279</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-50042279</guid>
+            <pubDate>Wed, 16 Oct 2019 06:36:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Michel Barnier confirms new Brexit deal reached]]></title>
+            <description><![CDATA[EU chief Brexit negotiator Michel Barnier announces a new deal between the UK and EU has been agreed.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-50083268</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-politics-50083268</guid>
+            <pubDate>Thu, 17 Oct 2019 10:29:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[BA passengers: Cabin fumes affected our health]]></title>
+            <description><![CDATA[Passengers on a British Airways flight that filled with smoke mid-air say they're still having breathing difficulties two months on.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-50086150</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-50086150</guid>
+            <pubDate>Thu, 17 Oct 2019 14:38:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Headway Suffolk Brainy Dogs scheme 'gave me my best friend']]></title>
+            <description><![CDATA[Rescue dog Bee is helping people recovering from brain injury gain confidence.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-england-suffolk-50071652</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-england-suffolk-50071652</guid>
+            <pubDate>Thu, 17 Oct 2019 05:08:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Ballet star Precious Adams on balancing roles with being a role model]]></title>
+            <description><![CDATA[Rising star of English ballet Precious Adams on unwittingly opening up a debate around colourism.]]></description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-50056158</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-50056158</guid>
+            <pubDate>Thu, 17 Oct 2019 00:01:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Trump 'spoke with Boris' before meeting Dunn's parents]]></title>
+            <description><![CDATA[The president said the PM asked him to arrange a meeting between the 19-year-old’s parents and Mrs Sacoolas.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-50075683</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-50075683</guid>
+            <pubDate>Wed, 16 Oct 2019 17:19:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Harry Dunn: 'Not right' to meet Sacoolas at White House]]></title>
+            <description><![CDATA[Harry Dunn's parents refused the US president's offer to meet a woman who was involved in his death.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-50076019</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-50076019</guid>
+            <pubDate>Wed, 16 Oct 2019 19:04:02 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Taunton 'stolen' car crash kills driver during police pursuit]]></title>
+            <description><![CDATA[The driver was fatally injured when the car overturned and burst into flames in Taunton.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-england-somerset-50083860</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-england-somerset-50083860</guid>
+            <pubDate>Thu, 17 Oct 2019 11:38:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Nicola Sturgeon says Johnson deal would mean 'much harder Brexit']]></title>
+            <description><![CDATA[Scotland's first minister confirms her SNP MPs will vote against Boris Johnson's newly-agreed deal with the EU.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-scotland-scotland-politics-50084610</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-scotland-scotland-politics-50084610</guid>
+            <pubDate>Thu, 17 Oct 2019 11:42:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Brexit deal: Why does the DUP's opinion matter?]]></title>
+            <description><![CDATA[BBC News NI assesses the new Brexit deal, why the DUP won't vote for it and why that matters.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-northern-ireland-50086035</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-northern-ireland-50086035</guid>
+            <pubDate>Thu, 17 Oct 2019 15:44:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Brexit deal would make Wales poorer - Mark Drakeford]]></title>
+            <description><![CDATA[The first minister says the new agreement would do "untold damage" to the Welsh economy.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-wales-politics-50083216</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-wales-politics-50083216</guid>
+            <pubDate>Thu, 17 Oct 2019 16:05:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Simon Smith: Triple baby killer moved to open prison]]></title>
+            <description><![CDATA[The mother of one of Simon Smith's victims says she is "devastated" and "horrified" by the decision.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-england-stoke-staffordshire-50085441</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-england-stoke-staffordshire-50085441</guid>
+            <pubDate>Thu, 17 Oct 2019 12:44:08 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

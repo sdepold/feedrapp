@@ -1,0 +1,42 @@
+{
+  "responseStatus": 200,
+  "responseDetails": null,
+  "responseData": {
+    "feed": {
+      "feedUrl": "http://investors.amgen.com/rss/news-releases.xml",
+      "title": "Amgen Inc. News Releases",
+      "link": "http://investors.amgen.com/",
+      "description": "Amgen Inc. News Releases",
+      "author": "",
+      "entries": [
+        {
+          "title": "Sports Anchor And Multiple Myeloma Patient Rod Gilmore Joins Amgen's Myeloma MVP™ Team",
+          "link": "http://investors.amgen.com/news-releases/news-release-details/sports-anchor-and-multiple-myeloma-patient-rod-gilmore-joins",
+          "content": "Updated Tool for 2019 Helps Patients Create Their Most Valuable Plan for Managing Multiple Myeloma Gilmore Joins Baseball Hall of Famer Dave Winfield and Don Baylor Jr. Who Honor the Late Don Baylor's Legacy by Raising Awareness of Multiple Myeloma THOUSAND OAKS, Calif. , Oct.",
+          "contentSnippet": "Updated Tool for 2019 Helps Patients Create Their Most Valuable Plan for Managing Multiple Myeloma Gilmore Joins Basebal",
+          "publishedDate": "2019-10-15T13:00:00.000Z",
+          "categories": [],
+          "author": "Amgen Inc. News Releases"
+        },
+        {
+          "title": "Amgen Foundation Launches Amgen Biotech Experience In Pittsburgh",
+          "link": "http://investors.amgen.com/news-releases/news-release-details/amgen-foundation-launches-amgen-biotech-experience-pittsburgh",
+          "content": "Unique Partnership With the Richard King Mellon Foundation Brings Renowned Science Education Program to Pittsburgh Area High School Students   The Citizen Science Lab Will Serve as Local Program Site     THOUSAND OAKS, Calif. and PITTSBURGH , Oct. 9, 2019 /PRNewswire/ -- The Amgen Foundation today",
+          "contentSnippet": "Unique Partnership With the Richard King Mellon Foundation Brings Renowned Science Education Program to Pittsburgh Area ",
+          "publishedDate": "2019-10-09T13:05:00.000Z",
+          "categories": [],
+          "author": "Amgen Inc. News Releases"
+        },
+        {
+          "title": "Amgen Announces New Clinical Data Evaluating Novel Investigational KRAS(G12C) Inhibitor In Patients With Solid Tumors At ESMO 2019",
+          "link": "http://investors.amgen.com/news-releases/news-release-details/amgen-announces-new-clinical-data-evaluating-novel-0",
+          "content": "Responses Seen in Multiple Tumor Types With KRAS G12C Mutation     THOUSAND OAKS, Calif. , Sept. 27, 2019 /PRNewswire/ --  Amgen (NASDAQ: AMGN) today announced new data from the ongoing Phase 1 study evaluating AMG 510 in patients with previously treated KRAS G12C -mutant solid tumors.",
+          "contentSnippet": "Responses Seen in Multiple Tumor Types With KRAS G12C Mutation     THOUSAND OAKS, Calif. , Sept. 27, 2019 /PRNewswire/ -",
+          "publishedDate": "2019-09-28T05:00:00.000Z",
+          "categories": [],
+          "author": "Amgen Inc. News Releases"
+        }
+      ]
+    }
+  }
+}
