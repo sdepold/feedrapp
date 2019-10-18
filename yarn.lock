@@ -1468,7 +1468,7 @@ fast-deep-equal@^2.0.1:
   resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-2.0.1.tgz#7b05218ddf9667bf7f370bf7fdb2cb15fdd0aa49"
   integrity sha1-ewUhjd+WZ79/Nwv3/bLLFf3Qqkk=
 
-fast-feed@^1.5.5:
+fast-feed@^1.7.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/fast-feed/-/fast-feed-1.7.0.tgz#c2d48e94e55026dad7dd22afb83e071e671c46bf"
   integrity sha512-HCh+rvJz+LMR6m0FG2UamVqOq1du0n+o0xanQeVG5LM5NMZdf+k7VzoJCrQBDYyh/qWalUR6siJH0w2YAzU3/Q==
