@@ -1,0 +1,145 @@
+{
+  "responseStatus": 200,
+  "responseDetails": null,
+  "responseData": {
+    "feed": {
+      "feedUrl": "http://www.eltiempo.com/rss/mundo.xml",
+      "title": "EL TIEMPO.COM - Internacional",
+      "link": "https://www.eltiempo.com",
+      "description": "Noticias de Internacional en EL TIEMPO",
+      "author": "",
+      "entries": [
+        {
+          "title": "¿Quién es el hijo del 'Chapo' por el que se armó una guerra en México?",
+          "link": "https://www.eltiempo.com/mundo/latinoamerica/quien-es-ovidio-guzman-el-hijo-del-chapo-que-fue-capturado-y-luego-liberado-424300",
+          "content": "Esto es lo que se sabe sobre Ovidio Guzmán, quien fue capturado y luego liberado por autoridades.",
+          "contentSnippet": "Esto es lo que se sabe sobre Ovidio Guzmán, quien fue capturado y luego liberado por autoridades.",
+          "publishedDate": "2019-10-18T18:44:38.000Z",
+          "categories": [
+            {
+              "name": "Latinoamérica"
+            }
+          ],
+          "author": ""
+        },
+        {
+          "title": "El saldo de víctimas por la captura y liberación del hijo del ‘Chapo’",
+          "link": "https://www.eltiempo.com/mundo/latinoamerica/muertos-por-el-tiroteo-en-la-captura-y-liberacion-del-hijo-del-chapo-424478",
+          "content": "Las autoridades trabajan para capturar a 49 presos que escaparon de un penal.",
+          "contentSnippet": "Las autoridades trabajan para capturar a 49 presos que escaparon de un penal.",
+          "publishedDate": "2019-10-18T18:43:28.000Z",
+          "categories": [
+            {
+              "name": "Latinoamérica"
+            }
+          ],
+          "author": ""
+        },
+        {
+          "title": "Acuerdo entre EE. UU y Turquía no es un alto el fuego real, dice la UE",
+          "link": "https://www.eltiempo.com/mundo/medio-oriente/turquia-continua-atacando-en-el-norte-de-siria-424378",
+          "content": "La operación militar en Siria tensa aún más las relaciones entre el gobierno de Erdogan y Europa.",
+          "contentSnippet": "La operación militar en Siria tensa aún más las relaciones entre el gobierno de Erdogan y Europa.",
+          "publishedDate": "2019-10-18T17:46:43.000Z",
+          "categories": [
+            {
+              "name": "Medio Oriente"
+            }
+          ],
+          "author": ""
+        },
+        {
+          "title": "Muere el directivo de Oracle, Mark Hurd, a los 62 años de edad",
+          "link": "https://www.eltiempo.com/economia/empresas/muere-el-directivo-de-oracle-mark-hurd-a-los-62-anos-de-edad-424466",
+          "content": "El co-consejero delegado había anunciado un permiso de ausencia en septiembre por razones de salud.",
+          "contentSnippet": "El co-consejero delegado había anunciado un permiso de ausencia en septiembre por razones de salud.",
+          "publishedDate": "2019-10-18T17:46:06.000Z",
+          "categories": [
+            {
+              "name": "Empresas"
+            }
+          ],
+          "author": ""
+        },
+        {
+          "title": "¿Cómo se ha visto afectada Barcelona por las protestas en Cataluña?",
+          "link": "https://www.eltiempo.com/mundo/europa/afectaciones-en-la-vida-diaria-de-personas-por-protestas-en-cataluna-424440",
+          "content": "Este viernes, la ciudad se encuentra aislada, pues las vías de acceso fueron cortadas.",
+          "contentSnippet": "Este viernes, la ciudad se encuentra aislada, pues las vías de acceso fueron cortadas.",
+          "publishedDate": "2019-10-18T17:07:10.000Z",
+          "categories": [
+            {
+              "name": "Europa"
+            }
+          ],
+          "author": ""
+        },
+        {
+          "title": "Maduro aprovecha ingreso de Venezuela a Comisión de Derechos Humanos",
+          "link": "https://www.eltiempo.com/mundo/venezuela/maduro-aprovecha-ingreso-de-venezuela-a-comision-de-derechos-humanos-424218",
+          "content": "Castigado en informe y por comisión que investigará abusos, el país entró a hacer parte de la misma.",
+          "contentSnippet": "Castigado en informe y por comisión que investigará abusos, el país entró a hacer parte de la misma.",
+          "publishedDate": "2019-10-18T16:39:03.000Z",
+          "categories": [
+            {
+              "name": "Venezuela"
+            }
+          ],
+          "author": ""
+        },
+        {
+          "title": "Miles se reúnen en Barcelona por multitudinaria marcha independentista",
+          "link": "https://www.eltiempo.com/mundo/europa/miles-se-reunen-en-barcelona-por-multitudinaria-marcha-independentista-424404",
+          "content": "Protestas de otras cinco ciudades que llegaron a la capital catalana se sumaron a la jornada.",
+          "contentSnippet": "Protestas de otras cinco ciudades que llegaron a la capital catalana se sumaron a la jornada.",
+          "publishedDate": "2019-10-18T15:17:06.000Z",
+          "categories": [
+            {
+              "name": "Europa"
+            }
+          ],
+          "author": ""
+        },
+        {
+          "title": "Escándalo en México: liberan a hijo del 'Chapo' para 'proteger vidas'",
+          "link": "https://www.eltiempo.com/mundo/latinoamerica/mexico-decide-liberar-a-hijo-del-chapo-guzman-ovidio-guzman-lopez-424298",
+          "content": "AMLO se defiende: dice que su gobierno no es débil y&nbsp;que no cambiará su política de seguridad.",
+          "contentSnippet": "AMLO se defiende: dice que su gobierno no es débil y&nbsp;que no cambiará su política de seguridad.",
+          "publishedDate": "2019-10-18T14:56:53.000Z",
+          "categories": [
+            {
+              "name": "Latinoamérica"
+            }
+          ],
+          "author": ""
+        },
+        {
+          "title": "¿Es acertada la política exterior de Colombia hacia Venezuela y Cuba?",
+          "link": "https://www.eltiempo.com/mundo/latinoamerica/es-acertada-la-politica-exterior-de-colombia-hacia-venezuela-y-cuba-423482",
+          "content": "Los autores amplían en el artículo las razones por las cuales consideran inconveniente esta medida.",
+          "contentSnippet": "Los autores amplían en el artículo las razones por las cuales consideran inconveniente esta medida.",
+          "publishedDate": "2019-10-18T14:52:06.000Z",
+          "categories": [
+            {
+              "name": "Latinoamérica"
+            }
+          ],
+          "author": ""
+        },
+        {
+          "title": "'Brexit' pende de un hilo antes de votación decisiva en Parlamento",
+          "link": "https://www.eltiempo.com/mundo/europa/brexit-pende-de-un-hilo-antes-de-votacion-decisiva-en-parlamento-424386",
+          "content": "Boris Johnson, primer ministro británico, necesita 318 votos de 650 escaños para aprobar acuerdo.",
+          "contentSnippet": "Boris Johnson, primer ministro británico, necesita 318 votos de 650 escaños para aprobar acuerdo.",
+          "publishedDate": "2019-10-18T14:25:18.000Z",
+          "categories": [
+            {
+              "name": "Europa"
+            }
+          ],
+          "author": ""
+        }
+      ]
+    }
+  }
+}

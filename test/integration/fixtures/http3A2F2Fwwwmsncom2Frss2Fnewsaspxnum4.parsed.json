@@ -1,0 +1,47 @@
+{
+  "responseStatus": 200,
+  "responseDetails": null,
+  "responseData": {
+    "feed": {
+      "feedUrl": "http://www.msn.com/rss/news.aspx",
+      "title": "MSN | Outlook, Office, Skype, Bing, Breaking News, and Latest Videos",
+      "link": "http://www.msn.com/",
+      "description": "Your customizable and curated collection of the best in trusted news plus coverage of sports, entertainment, money, weather, travel, health and lifestyle, combined with Outlook/Hotmail, Facebook, Twitter, Bing, Skype and more.",
+      "author": "",
+      "entries": [
+        {
+          "title": "Surveillance video released in search for abducted 3-year-old",
+          "link": "http://www.msn.com/en-us/news/crime/this-is-the-male-were-looking-for-video-released-in-search-for-abducted-girl/ar-AAIZsQW?li=BBnbcA1&srcref=rss",
+          "content": "",
+          "contentSnippet": "",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "The News In Cartoons",
+          "link": "http://www.msn.com/en-us/news/opinion/the-news-in-cartoons/ss-AABGTFJ?li=BBnbcA1&srcref=rss",
+          "content": "",
+          "contentSnippet": "",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Trump campaign threatens to sue CNN",
+          "link": "http://www.msn.com/en-us/news/politics/trump-campaign-threatens-to-sue-cnn-citing-project-veritas-videos/ar-AAIZmUd?li=BBnbcA1&srcref=rss",
+          "content": "",
+          "contentSnippet": "",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Man accused of killing woman, recording it on SD card charged in 2nd Alaska murder",
+          "link": "http://www.msn.com/en-us/news/crime/man-accused-of-killing-woman-recording-it-on-sd-card-charged-in-2nd-alaska-murder/ar-AAIXkBA?li=BBnbcA1&srcref=rss",
+          "content": "",
+          "contentSnippet": "",
+          "categories": [],
+          "author": ""
+        }
+      ]
+    }
+  }
+}

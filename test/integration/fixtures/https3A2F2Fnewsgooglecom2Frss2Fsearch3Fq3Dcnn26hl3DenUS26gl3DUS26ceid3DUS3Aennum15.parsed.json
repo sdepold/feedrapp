@@ -1,0 +1,150 @@
+{
+  "responseStatus": 200,
+  "responseDetails": null,
+  "responseData": {
+    "feed": {
+      "feedUrl": "https://news.google.com/rss/search?q=cnn&hl=en-US&gl=US&ceid=US:en",
+      "title": "\"cnn\" - Google News",
+      "link": "https://news.google.com/search?q=cnn&hl=en-US&gl=US&ceid=US:en",
+      "description": "Google News",
+      "author": "",
+      "entries": [
+        {
+          "title": "Target raised wages. But some workers say their hours were cut, leaving them struggling - CNN",
+          "link": "https://www.cnn.com/2019/10/14/business/target-cutting-hours-wage-increase/index.html",
+          "content": "<a href=\"https://www.cnn.com/2019/10/14/business/target-cutting-hours-wage-increase/index.html\" target=\"_blank\">Target raised wages. But some workers say their hours were cut, leaving them struggling</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNN</font>",
+          "contentSnippet": "Target raised wages. But some workers say their hours were cut, leaving them struggling&nbsp;&nbsp;CNN",
+          "publishedDate": "2019-10-14T18:15:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Pompeo feels frustrated and victimized amid impeachment controversy - CNN",
+          "link": "https://www.cnn.com/2019/10/18/politics/pompeo-frustrated-victimized-impeachment-state-department-departures/index.html",
+          "content": "<a href=\"https://www.cnn.com/2019/10/18/politics/pompeo-frustrated-victimized-impeachment-state-department-departures/index.html\" target=\"_blank\">Pompeo feels frustrated and victimized amid impeachment controversy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNN</font>",
+          "contentSnippet": "Pompeo feels frustrated and victimized amid impeachment controversy&nbsp;&nbsp;CNN",
+          "publishedDate": "2019-10-18T17:14:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Kurds say Turkey is violating hours-old 'ceasefire' in northern Syria - CNN",
+          "link": "https://www.cnn.com/2019/10/18/middleeast/syria-turkey-ceasefire-violations-intl/index.html",
+          "content": "<a href=\"https://www.cnn.com/2019/10/18/middleeast/syria-turkey-ceasefire-violations-intl/index.html\" target=\"_blank\">Kurds say Turkey is violating hours-old 'ceasefire' in northern Syria</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNN</font>",
+          "contentSnippet": "Kurds say Turkey is violating hours-old 'ceasefire' in northern Syria&nbsp;&nbsp;CNN",
+          "publishedDate": "2019-10-18T15:46:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Lady Gaga plummets backward off stage while dancing with a fan - CNN",
+          "link": "https://www.cnn.com/2019/10/18/entertainment/lady-gaga-stage-fan-scli-intl/index.html",
+          "content": "<a href=\"https://www.cnn.com/2019/10/18/entertainment/lady-gaga-stage-fan-scli-intl/index.html\" target=\"_blank\">Lady Gaga plummets backward off stage while dancing with a fan</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNN</font>",
+          "contentSnippet": "Lady Gaga plummets backward off stage while dancing with a fan&nbsp;&nbsp;CNN",
+          "publishedDate": "2019-10-18T11:46:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Mark Hurd, Oracle CEO, has died - CNN",
+          "link": "https://www.cnn.com/2019/10/18/tech/mark-hurd-dead/index.html",
+          "content": "<a href=\"https://www.cnn.com/2019/10/18/tech/mark-hurd-dead/index.html\" target=\"_blank\">Mark Hurd, Oracle CEO, has died</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNN</font>",
+          "contentSnippet": "Mark Hurd, Oracle CEO, has died&nbsp;&nbsp;CNN",
+          "publishedDate": "2019-10-18T17:25:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "The latest on the Trump impeachment inquiry: Live updates - CNN International",
+          "link": "https://www.cnn.com/politics/live-news/impeachment-inquiry-10-18-2019/index.html",
+          "content": "<a href=\"https://www.cnn.com/politics/live-news/impeachment-inquiry-10-18-2019/index.html\" target=\"_blank\">The latest on the Trump impeachment inquiry: Live updates</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNN International</font>",
+          "contentSnippet": "The latest on the Trump impeachment inquiry: Live updates&nbsp;&nbsp;CNN International",
+          "publishedDate": "2019-10-18T18:12:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "The first all-female spacewalk is underway - CNN",
+          "link": "https://www.cnn.com/2019/10/18/world/nasa-all-female-spacewalk-koch-meir-scn-trnd/index.html",
+          "content": "<a href=\"https://www.cnn.com/2019/10/18/world/nasa-all-female-spacewalk-koch-meir-scn-trnd/index.html\" target=\"_blank\">The first all-female spacewalk is underway</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNN</font>",
+          "contentSnippet": "The first all-female spacewalk is underway&nbsp;&nbsp;CNN",
+          "publishedDate": "2019-10-18T13:19:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Donald Trump Letter to CNN Promises Legal Action for \"Highly Biased\" News - Hollywood Reporter",
+          "link": "https://www.hollywoodreporter.com/thr-esq/donald-trump-letter-cnn-promises-legal-action-highly-biased-news-1248699",
+          "content": "<a href=\"https://www.hollywoodreporter.com/thr-esq/donald-trump-letter-cnn-promises-legal-action-highly-biased-news-1248699\" target=\"_blank\">Donald Trump Letter to CNN Promises Legal Action for \"Highly Biased\" News</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Hollywood Reporter</font>",
+          "contentSnippet": "Donald Trump Letter to CNN Promises Legal Action for \"Highly Biased\" News&nbsp;&nbsp;Hollywood Reporter",
+          "publishedDate": "2019-10-18T16:55:23.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Dozens killed in mosque explosion in Afghanistan during Friday prayers - CNN",
+          "link": "https://www.cnn.com/2019/10/18/asia/kabul-afghanistan-mosque-attack-intl/index.html",
+          "content": "<a href=\"https://www.cnn.com/2019/10/18/asia/kabul-afghanistan-mosque-attack-intl/index.html\" target=\"_blank\">Dozens killed in mosque explosion in Afghanistan during Friday prayers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNN</font>",
+          "contentSnippet": "Dozens killed in mosque explosion in Afghanistan during Friday prayers&nbsp;&nbsp;CNN",
+          "publishedDate": "2019-10-18T15:45:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Hillary Clinton appears to suggest Russians are 'grooming' Tulsi Gabbard for third-party run - CNN",
+          "link": "https://www.cnn.com/2019/10/18/politics/hillary-clinton-tulsi-gabbard/index.html",
+          "content": "<a href=\"https://www.cnn.com/2019/10/18/politics/hillary-clinton-tulsi-gabbard/index.html\" target=\"_blank\">Hillary Clinton appears to suggest Russians are 'grooming' Tulsi Gabbard for third-party run</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNN</font>",
+          "contentSnippet": "Hillary Clinton appears to suggest Russians are 'grooming' Tulsi Gabbard for third-party run&nbsp;&nbsp;CNN",
+          "publishedDate": "2019-10-18T18:32:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Washington Post: Career diplomat testifies he raised concerns about Hunter Biden's Ukraine work in 2015 - CNN",
+          "link": "https://www.cnn.com/2019/10/18/politics/diplomat-george-kent-testifies-hunter-biden-ukraine/index.html",
+          "content": "<a href=\"https://www.cnn.com/2019/10/18/politics/diplomat-george-kent-testifies-hunter-biden-ukraine/index.html\" target=\"_blank\">Washington Post: Career diplomat testifies he raised concerns about Hunter Biden's Ukraine work in 2015</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNN</font>",
+          "contentSnippet": "Washington Post: Career diplomat testifies he raised concerns about Hunter Biden's Ukraine work in 2015&nbsp;&nbsp;CNN",
+          "publishedDate": "2019-10-18T17:14:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Duchess of Cambridge enthuses over 'fantastic' Pakistan in first ever TV news interview - CNN",
+          "link": "https://www.cnn.com/2019/10/18/asia/duchess-of-cambridge-pakistan-tour-max-foster-gbr-intl/index.html",
+          "content": "<a href=\"https://www.cnn.com/2019/10/18/asia/duchess-of-cambridge-pakistan-tour-max-foster-gbr-intl/index.html\" target=\"_blank\">Duchess of Cambridge enthuses over 'fantastic' Pakistan in first ever TV news interview</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNN</font>",
+          "contentSnippet": "Duchess of Cambridge enthuses over 'fantastic' Pakistan in first ever TV news interview&nbsp;&nbsp;CNN",
+          "publishedDate": "2019-10-18T11:45:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Woman who stood on ship's railing for selfie barred for life from cruises - CNN",
+          "link": "https://www.cnn.com/travel/article/woman-selfie-cruise-royal-caribbean-intl-scli/index.html",
+          "content": "<a href=\"https://www.cnn.com/travel/article/woman-selfie-cruise-royal-caribbean-intl-scli/index.html\" target=\"_blank\">Woman who stood on ship's railing for selfie barred for life from cruises</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNN</font>",
+          "contentSnippet": "Woman who stood on ship's railing for selfie barred for life from cruises&nbsp;&nbsp;CNN",
+          "publishedDate": "2019-10-18T14:06:46.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "40,000 people are about to run a marathon in the world's most polluted city - CNN",
+          "link": "https://www.cnn.com/2019/10/18/asia/delhi-marathon-pollution-intl-hnk-scli/index.html",
+          "content": "<a href=\"https://www.cnn.com/2019/10/18/asia/delhi-marathon-pollution-intl-hnk-scli/index.html\" target=\"_blank\">40,000 people are about to run a marathon in the world's most polluted city</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNN</font>",
+          "contentSnippet": "40,000 people are about to run a marathon in the world's most polluted city&nbsp;&nbsp;CNN",
+          "publishedDate": "2019-10-18T09:47:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Samsung warning: Galaxy S10 and Note 10 owners should remove their screen protectors now - CNN",
+          "link": "https://www.cnn.com/2019/10/18/tech/samsung-fingerprint-reader-trnd/index.html",
+          "content": "<a href=\"https://www.cnn.com/2019/10/18/tech/samsung-fingerprint-reader-trnd/index.html\" target=\"_blank\">Samsung warning: Galaxy S10 and Note 10 owners should remove their screen protectors now</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNN</font>",
+          "contentSnippet": "Samsung warning: Galaxy S10 and Note 10 owners should remove their screen protectors now&nbsp;&nbsp;CNN",
+          "publishedDate": "2019-10-18T13:28:00.000Z",
+          "categories": [],
+          "author": ""
+        }
+      ]
+    }
+  }
+}

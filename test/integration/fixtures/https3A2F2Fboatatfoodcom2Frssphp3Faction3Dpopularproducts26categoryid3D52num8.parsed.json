@@ -1,0 +1,87 @@
+{
+  "responseStatus": 200,
+  "responseDetails": null,
+  "responseData": {
+    "feed": {
+      "feedUrl": "https://boatatfood.com/rss.php?action=popularproducts&categoryid=52",
+      "title": "BOATAT FOOD: 熱門產品",
+      "link": "https://boatatfood.com",
+      "description": "BOATAT FOOD 的熱門產品列表",
+      "author": "",
+      "entries": [
+        {
+          "title": "吉列炸蠔 (20隻入 約500g)",
+          "link": "https://boatatfood.com/products.php?product=%E5%90%89%E5%88%97%E7%82%B8%E8%A0%94-%2820%E9%9A%BB%E5%85%A5-%E7%B4%84500g%29",
+          "content": "<div style='float: right; padding: 10px;'><a href=\"https://boatatfood.com/products.php?product=%E5%90%89%E5%88%97%E7%82%B8%E8%A0%94-%2820%E9%9A%BB%E5%85%A5-%E7%B4%84500g%29\"  ><img class=\"img-circle\"  src=\"https://boatatfood.com/product_images/w/684/_-20_600x600_1__61104_thumb.jpg\" alt=\"吉列炸蠔 (20隻入 約500g)\" /></a></div><div id=\"ypsudes\" class=\"ypsmodule\">\r\n<div id=\"yui_3_12_0_1_1420542285293_188\" class=\"bd\">\r\n<div id=\"yui_3_12_0_1_1420542285293_187\" class=\"desc\"><img class=\"__mce_add_custom__\" title=\"eco-1-.jpg\" src=\"https://boatatfood.com/product_images/uploaded_images/eco-1-.jpg\" alt=\"eco-1-.jpg\" width=\"600\" h..<p><strong>單價: $48.0</strong> </p>",
+          "contentSnippet": "\r\n\r\n單價: $48.0 ",
+          "publishedDate": "2014-10-19T18:13:02.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "吉列虎蝦 (10隻入)",
+          "link": "https://boatatfood.com/products.php?product=%E5%90%89%E5%88%97%E8%99%8E%E8%9D%A6-%2810%E9%9A%BB%E5%85%A5%29",
+          "content": "<div style='float: right; padding: 10px;'><a href=\"https://boatatfood.com/products.php?product=%E5%90%89%E5%88%97%E8%99%8E%E8%9D%A6-%2810%E9%9A%BB%E5%85%A5%29\"  ><img class=\"img-circle\"  src=\"https://boatatfood.com/product_images/u/083/cart_0703__38128_thumb.jpg\" alt=\"吉列虎蝦 (10只)\" /></a></div><p><span style=\"font-size: medium;\"><span class=\"apple\"><span style=\"font-family: 新細明體, serif; color: #333333;\">人氣直昇的炸天婦羅蝦</span></span><span class=\"apple\"><span style=\"color: #333333;\" lang=\"EN-US\">-</span></span><span class=\"apple\"><span style=\"font-family: 新細明體, serif; color: #333333;\">有別於一般市面上..<p><strong>單價: $28.0</strong> </p>",
+          "contentSnippet": "人氣直昇的炸天婦羅蝦-有別於一般市面上..單價: $28.0 ",
+          "publishedDate": "2014-10-19T23:09:21.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": " 日式芝士年糕 (20件入 約800g)",
+          "link": "https://boatatfood.com/products.php?product=-%E6%97%A5%E5%BC%8F%E8%8A%9D%E5%A3%AB%E5%B9%B4%E7%B3%95-%2820%E4%BB%B6%E5%85%A5-%E7%B4%84800g%29",
+          "content": "<div style='float: right; padding: 10px;'><a href=\"https://boatatfood.com/products.php?product=-%E6%97%A5%E5%BC%8F%E8%8A%9D%E5%A3%AB%E5%B9%B4%E7%B3%95-%2820%E4%BB%B6%E5%85%A5-%E7%B4%84800g%29\"  ><img class=\"img-circle\"  src=\"https://boatatfood.com/product_images/e/111/141113-oca3892-08__69926_thumb.jpg\" alt=\"日式芝士年糕 (20件入 約800g)\" /></a></div><p><span class=\"irc_su\" style=\"font-size: small; text-align: left;\" dir=\"ltr\"><span style=\"font-size: medium;\"><strong>日式芝士年糕 (20件入 約800g)</strong></span><br /><span style=\"font-size: medium;\">由日本入口的芝士年糕，熱辣辣時中心芝士呈半溶狀態，蘸上煉奶品嘗更能提升滋味。</span><br /><span style=\"font-size: medium;\">芝士年糕入口軟滑，內裏是流心芝士，滋味沒法..<p><strong>單價: $98.0</strong> </p>",
+          "contentSnippet": "日式芝士年糕 (20件入 約800g)由日本入口的芝士年糕，熱辣辣時中心芝士呈半溶狀態，蘸上煉奶品嘗更能提升滋味。芝士年糕入口軟滑，內裏是流心芝士，滋味沒法..單價: $98.0 ",
+          "publishedDate": "2015-07-14T14:17:25.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "泰國CP香烤蜜糖雞翼 (8-9隻入 約230g )",
+          "link": "https://boatatfood.com/products.php?product=%E6%B3%B0%E5%9C%8BCP%E9%A6%99%E7%83%A4%E8%9C%9C%E7%B3%96%E9%9B%9E%E7%BF%BC-%288%252d9%E9%9A%BB%E5%85%A5-%E7%B4%84230g-%29",
+          "content": "<div style='float: right; padding: 10px;'><a href=\"https://boatatfood.com/products.php?product=%E6%B3%B0%E5%9C%8BCP%E9%A6%99%E7%83%A4%E8%9C%9C%E7%B3%96%E9%9B%9E%E7%BF%BC-%288%252d9%E9%9A%BB%E5%85%A5-%E7%B4%84230g-%29\"  ><img class=\"img-circle\"  src=\"https://boatatfood.com/product_images/b/361/__47509_thumb.png\" alt=\"泰國CP香烤蜜糖雞翼 (8-9隻入 約230g )\" /></a></div><p><span style=\"font-size: medium;\"><span style=\"text-decoration: underline;\"><strong>泰國CP香烤蜜糖雞翼 (8-9隻入 約230g )<br /></strong></span>CP香烤蜜糖雞翼是由雞中翼外面包著一層香濃的蜜糖而成，入口肉質嫩滑，肉汁鮮美，最適合和朋友或家人一起分享。&nbsp;</span></p>\r\n<p><span style=\"text-decoration: underline; font-size: medium;\"><strong><img class=\"__mce_add..<p><strong>單價: $30.0</strong> </p>",
+          "contentSnippet": "泰國CP香烤蜜糖雞翼 (8-9隻入 約230g )CP香烤蜜糖雞翼是由雞中翼外面包著一層香濃的蜜糖而成，入口肉質嫩滑，肉汁鮮美，最適合和朋友或家人一起分享。&nbsp;\r\n單價: $30.0 ",
+          "publishedDate": "2016-06-16T17:44:44.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "泰國CP原味香味雞球 (約230g)",
+          "link": "https://boatatfood.com/products.php?product=%E6%B3%B0%E5%9C%8BCP%E5%8E%9F%E5%91%B3%E9%A6%99%E5%91%B3%E9%9B%9E%E7%90%83-%28%E7%B4%84230g%29",
+          "content": "<div style='float: right; padding: 10px;'><a href=\"https://boatatfood.com/products.php?product=%E6%B3%B0%E5%9C%8BCP%E5%8E%9F%E5%91%B3%E9%A6%99%E5%91%B3%E9%9B%9E%E7%90%83-%28%E7%B4%84230g%29\"  ><img class=\"img-circle\"  src=\"https://boatatfood.com/product_images/h/019/__16390_thumb.png\" alt=\"泰國CP原味香味雞球 (約230g)\" /></a></div><p><span style=\"font-size: medium;\"><span style=\"text-decoration: underline;\"><strong>泰國CP原味香味雞球 (230g)</strong></span><br />CP香味雞球是由優質的嫩雞製成，雞肉比一般的營養較豐富和健康，外面甘香鬆脆，肉質鮮嫩味美，最適合和朋友或家人一起分享。</span></p>\r\n<p><span style=\"font-size: small;\"><img class=\"__mce_add_custom__\" title=\"crispy-01.jpg\" src=\"https:/..<p><strong>單價: $30.0</strong> </p>",
+          "contentSnippet": "泰國CP原味香味雞球 (230g)CP香味雞球是由優質的嫩雞製成，雞肉比一般的營養較豐富和健康，外面甘香鬆脆，肉質鮮嫩味美，最適合和朋友或家人一起分享。\r\n單價: $30.0 ",
+          "publishedDate": "2016-06-17T10:25:24.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "日本牛肉可樂餅 (10件入 約650g)",
+          "link": "https://boatatfood.com/products.php?product=%E6%97%A5%E6%9C%AC%E7%89%9B%E8%82%89%E5%8F%AF%E6%A8%82%E9%A4%85-%2810%E4%BB%B6%E5%85%A5-%E7%B4%84650g%29",
+          "content": "<div style='float: right; padding: 10px;'><a href=\"https://boatatfood.com/products.php?product=%E6%97%A5%E6%9C%AC%E7%89%9B%E8%82%89%E5%8F%AF%E6%A8%82%E9%A4%85-%2810%E4%BB%B6%E5%85%A5-%E7%B4%84650g%29\"  ><img class=\"img-circle\"  src=\"https://boatatfood.com/product_images/o/688/korokke-beef__21890_thumb.png\" alt=\"日本牛肉可樂餅 (10件入 約650g)\" /></a></div><p><span style=\"font-size: medium;\"><span lang=\"ZH-HK\"><strong>日本牛肉可樂餅 (10件入 約750g)</strong><br />可樂餅</span> (<span lang=\"ZH-HK\">又稱薯餅</span>)<span lang=\"ZH-HK\">，是一種炸類食品。</span></span><br /><span style=\"font-size: small;\"><span style=\"font-size: medium;\"> <span lang=\"ZH-HK\">可樂餅是日本的家常菜之一</span>，<spa..<p><strong>單價: $65.0</strong> </p>",
+          "contentSnippet": "日本牛肉可樂餅 (10件入 約750g)可樂餅 (又稱薯餅)，是一種炸類食品。 可樂餅是日本的家常菜之一，單價: $65.0 ",
+          "publishedDate": "2016-09-24T23:50:17.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "日式南瓜天婦羅 (12件入)",
+          "link": "https://boatatfood.com/products.php?product=%E6%97%A5%E5%BC%8F%E5%8D%97%E7%93%9C%E5%A4%A9%E5%A9%A6%E7%BE%85-%2812%E4%BB%B6%E5%85%A5%29",
+          "content": "<div style='float: right; padding: 10px;'><a href=\"https://boatatfood.com/products.php?product=%E6%97%A5%E5%BC%8F%E5%8D%97%E7%93%9C%E5%A4%A9%E5%A9%A6%E7%BE%85-%2812%E4%BB%B6%E5%85%A5%29\"  ><img class=\"img-circle\"  src=\"https://boatatfood.com/product_images/j/459/tempurapumkin-02__42442_thumb.png\" alt=\"日式南瓜天婦羅 (12件入)\" /></a></div><p><span style=\"font-size: small;\"><span style=\"font-size: medium;\"><span lang=\"ZH-HK\"><strong>日式南瓜天婦羅 (12件入)</strong><br />日式南瓜天婦羅，略微調味之後，起油鍋炸至金黃，撈起吸油瀝乾，沒有防腐劑的天然滋味，口感實在，濃郁的香氣難以言喻，經典日式人氣小食</span>。<span lang=\"ZH-HK\">以完美比例製作的天婦羅</span>，</span><span lang=\"ZH-HK\"><span style=\"font-size: medium;\">適合家庭常..<p><strong>單價: $22.5</strong> </p>",
+          "contentSnippet": "日式南瓜天婦羅 (12件入)日式南瓜天婦羅，略微調味之後，起油鍋炸至金黃，撈起吸油瀝乾，沒有防腐劑的天然滋味，口感實在，濃郁的香氣難以言喻，經典日式人氣小食。以完美比例製作的天婦羅，適合家庭常..單價: $22.5 ",
+          "publishedDate": "2016-09-27T17:00:05.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "脆炸芝士蝦球 (10件入)",
+          "link": "https://boatatfood.com/products.php?product=%E8%84%86%E7%82%B8%E8%8A%9D%E5%A3%AB%E8%9D%A6%E7%90%83-%2810%E4%BB%B6%E5%85%A5%29",
+          "content": "<div style='float: right; padding: 10px;'><a href=\"https://boatatfood.com/products.php?product=%E8%84%86%E7%82%B8%E8%8A%9D%E5%A3%AB%E8%9D%A6%E7%90%83-%2810%E4%BB%B6%E5%85%A5%29\"  ><img class=\"img-circle\"  src=\"https://boatatfood.com/product_images/g/834/Breaded_Shrimp_Cheese_Ball-02__12217_thumb.png\" alt=\"脆炸芝士蝦球 (10件入)\" /></a></div><p><span style=\"font-size: medium;\"><strong>脆炸芝士蝦球 (10件入)<br /></strong></span><span style=\"font-size: small;\"><span style=\"font-size: medium;\">裹了麪包糠炸到表面酥脆，吃起來卻是外酥裏嫩，濃濃的芝士味，加上鮮嫩的大蝦，讓這道小點心想不好吃都有點難，但記得要吃熱的喲！</span><br /><br /><img class=\"__mce_add_custom__\" title=\"breaded-shrimp-cheese-ball-01.png\" ..<p><strong>單價: $30.0</strong> </p>",
+          "contentSnippet": "脆炸芝士蝦球 (10件入)裹了麪包糠炸到表面酥脆，吃起來卻是外酥裏嫩，濃濃的芝士味，加上鮮嫩的大蝦，讓這道小點心想不好吃都有點難，但記得要吃熱的喲！單價: $30.0 ",
+          "publishedDate": "2016-09-30T17:34:05.000Z",
+          "categories": [],
+          "author": ""
+        }
+      ]
+    }
+  }
+}

@@ -13,12 +13,12 @@ lines.map((line) => {
 .map(match => match[1])
 .map(async url => {
   const q = decodeURIComponent(url.match(/[^&]*/)[0]);
-  const filename = url.replace(/[^a-zA-Z1-9]/g, '');
+  const filename = url.replace(/[^a-zA-Z0-9]/g, '');
   const response = await axios.get(q);
   const parsed = await axios.get(`https://feedrapp.info?q=${url}`);
 
   console.log('Saving data for ' + filename);
-console.log(parsed.data)
+console.log(`https://feedrapp.info?q=${url}`)
 
 
   writeFileSync(__dirname + '/../test/integration/fixtures/' + filename + '.source.xml', response.data);

@@ -1,0 +1,95 @@
+{
+  "responseStatus": 200,
+  "responseDetails": null,
+  "responseData": {
+    "feed": {
+      "feedUrl": "https://www.purepc.pl/misc/10lastnews.xml",
+      "title": "PurePC.pl",
+      "link": "https://www.purepc.pl",
+      "description": "10 najnowyszch artykułów",
+      "author": "",
+      "entries": [
+        {
+          "title": "The Outer Worlds - oficjalne wymagania sprzętowe wersji PC",
+          "link": "https://www.purepc.pl/rozrywka/the_outer_worlds_oficjalne_wymagania_sprzetowe_wersji_pc",
+          "content": "",
+          "contentSnippet": "",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Control - nowy patch dodaje DRM i uniemożliwia rozgrywkę offline",
+          "link": "https://www.purepc.pl/rozrywka/control_nowy_patch_dodaje_drm_i_uniemozliwia_rozgrywke_offline",
+          "content": "",
+          "contentSnippet": "",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "NVIDIA Shield TV 2019 oraz Shield TV Pro - cena i specyfikacja",
+          "link": "https://www.purepc.pl/audio_foto_video/nvidia_shield_tv_2019_oraz_shield_tv_pro_cena_i_specyfikacja",
+          "content": "",
+          "contentSnippet": "",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "OnePlus 8 Pro - wyciekły rendery przyszłorocznego flagowca",
+          "link": "https://www.purepc.pl/urzadzenia_mobilne/oneplus_8_pro_wyciekly_rendery_przyszlorocznego_flagowca",
+          "content": "",
+          "contentSnippet": "",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Need for Speed: Heat - oficjalne wymagania sprzętowe wersji PC",
+          "link": "https://www.purepc.pl/rozrywka/need_for_speed_heat_oficjalne_wymagania_sprzetowe_wersji_pc",
+          "content": "",
+          "contentSnippet": "",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "AMD Ryzen Threadripper 3960X, 3970X i 3990X z datą premiery",
+          "link": "https://www.purepc.pl/procesory/amd_ryzen_threadripper_3960x_3970x_i_3990x_z_data_premiery",
+          "content": "",
+          "contentSnippet": "",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Abonament mobilny Netflix może trafić do większej liczby krajów",
+          "link": "https://www.purepc.pl/rozrywka/abonament_mobilny_netflix_moze_trafic_do_wiekszej_liczby_krajow",
+          "content": "",
+          "contentSnippet": "",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Lenovo ThinkPad X1 - składany notebook pojawi się w 2020 roku",
+          "link": "https://www.purepc.pl/notebooki/lenovo_thinkpad_x1_skladany_notebook_pojawi_sie_w_2020",
+          "content": "",
+          "contentSnippet": "",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Red Dead Redemption 2 - mamy zwiastun na PC w 4K i 60 FPS!",
+          "link": "https://www.purepc.pl/rozrywka/red_dead_redemption_2_mamy_zwiastun_na_pc_w_4k_i_60_fps",
+          "content": "",
+          "contentSnippet": "",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "AMD Ryzen Renoir - mobilne APU dla laptopów z TDP 15W i 45W",
+          "link": "https://www.purepc.pl/notebooki/amd_ryzen_renoir_mobilne_apu_dla_laptopow_z_tdp_15w_i_45w",
+          "content": "",
+          "contentSnippet": "",
+          "categories": [],
+          "author": ""
+        }
+      ]
+    }
+  }
+}

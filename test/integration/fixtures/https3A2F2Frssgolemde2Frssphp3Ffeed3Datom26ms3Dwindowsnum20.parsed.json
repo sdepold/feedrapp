@@ -1,0 +1,195 @@
+{
+  "responseStatus": 200,
+  "responseDetails": null,
+  "responseData": {
+    "feed": {
+      "feedUrl": "https://rss.golem.de/rss.php?feed=atom&ms=windows",
+      "title": "Golem.de - Windows",
+      "link": "https://www.golem.de/specials/windows/",
+      "description": "IT-News fuer Profis",
+      "author": "",
+      "entries": [
+        {
+          "title": "Framework: Microsoft will API-Portierung auf .Net Core abschlie�en",
+          "link": "https://www.golem.de/news/framework-microsoft-will-api-portierung-auf-net-core-abschliessen-1910-144433.html",
+          "content": "<img src=\"https://www.golem.de/1910/144433-211535-211532_rc.jpg\" width=\"140\" height=\"140\" vspace=\"3\" hspace=\"8\" align=\"left\">Dem Framework .Net Core geh�rt laut Hersteller Microsoft die Zukunft. Die Portierung alter APIs des .Net Frameworks auf das neue Projekt will das Unternehmen nun auch offiziell beenden. F�r fehlende Schnittstellen soll die Community einspringen. (<a href=\"https://www.golem.de/specials/dotnet/\">.Net</a>, <a href=\"https://www.golem.de/specials/microsoft/\">Microsoft</a>) <img src=\"https://cpx.golem.de/cpx.php?class=17&amp;aid=144433&amp;page=1&amp;ts=1571142240\" alt=\"\" width=\"1\" height=\"1\" />",
+          "contentSnippet": "Dem Framework .Net Core geh�rt laut Hersteller Microsoft die Zukunft. Die Portierung alter APIs des .Net Frameworks auf ",
+          "publishedDate": "2019-10-15T12:24:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Microsoft: Manipulationsschutz von Windows Defender kommt f�r alle User",
+          "link": "https://www.golem.de/news/microsoft-manipulationsschutz-von-windows-defender-kommt-fuer-alle-user-1910-144431.html",
+          "content": "<img src=\"https://www.golem.de/1910/144431-211523-211520_rc.jpg\" width=\"140\" height=\"140\" vspace=\"3\" hspace=\"8\" align=\"left\">In einem neuen Update wird Microsoft das Feature Tamper Protection in Windows 10 integrieren. Dieses sperrt die Sicherheitssoftware Windows Defender vor �u�eren Zugriffen durch Malware. Die Funktion kann in den Systemeinstellungen aktiviert und deaktiviert werden. (<a href=\"https://www.golem.de/specials/microsoft/\">Microsoft</a>, <a href=\"https://www.golem.de/specials/windows/\">Windows</a>) <img src=\"https://cpx.golem.de/cpx.php?class=17&amp;aid=144431&amp;page=1&amp;ts=1571134800\" alt=\"\" width=\"1\" height=\"1\" />",
+          "contentSnippet": "In einem neuen Update wird Microsoft das Feature Tamper Protection in Windows 10 integrieren. Dieses sperrt die Sicherhe",
+          "publishedDate": "2019-10-15T10:20:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Peripherieger�te: Microsofts neue Tastaturen haben Office- und Emoji-Tasten",
+          "link": "https://www.golem.de/news/peripheriegeraete-microsofts-neue-tastaturen-haben-office-und-emoji-tasten-1910-144405.html",
+          "content": "<img src=\"https://www.golem.de/1910/144405-211381-211378_rc.jpg\" width=\"140\" height=\"140\" vspace=\"3\" hspace=\"8\" align=\"left\">Ohne gro�e Ank�ndigung bietet Microsoft zwei neue Tastaturen an: eine Flachtastatur mit Bluetooth-Modul und eine ergonomisch geformte Variante. Ungew�hnlich sind die Office-365-spezifischen Makrotasten. Au�erdem kosten beide Ger�te halb so viel wie die Surface-Vorg�nger. (<a href=\"https://www.golem.de/specials/tastatur/\">Tastatur</a>, <a href=\"https://www.golem.de/specials/microsoft/\">Microsoft</a>) <img src=\"https://cpx.golem.de/cpx.php?class=17&amp;aid=144405&amp;page=1&amp;ts=1571040840\" alt=\"\" width=\"1\" height=\"1\" />",
+          "contentSnippet": "Ohne gro�e Ank�ndigung bietet Microsoft zwei neue Tastaturen an: eine Flachtastatur mit Bluetooth-Modul und eine ergonom",
+          "publishedDate": "2019-10-14T08:14:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Microsoft: Windows-10-Preview erm�glicht Telefonanrufe mit dem PC",
+          "link": "https://www.golem.de/news/microsoft-windows-10-preview-ermoeglicht-telefonanrufe-mit-dem-pc-1910-144348.html",
+          "content": "<img src=\"https://www.golem.de/1910/144348-211130-211126_rc.jpg\" width=\"140\" height=\"140\" vspace=\"3\" hspace=\"8\" align=\"left\">Anwender k�nnen k�nftig ihr Smartphone mit dem Windows-PC koppeln und von dort aus Anrufe entgegennehmen oder durchf�hren. Das Calls genannte Feature ist derzeit in der Vorschau verf�gbar und funktioniert mit Android-Smartphones ab Version 7.0. (<a href=\"https://www.golem.de/specials/insider-build/\">Insider Build</a>, <a href=\"https://www.golem.de/specials/smartphone/\">Smartphone</a>) <img src=\"https://cpx.golem.de/cpx.php?class=17&amp;aid=144348&amp;page=1&amp;ts=1570628520\" alt=\"\" width=\"1\" height=\"1\" />",
+          "contentSnippet": "Anwender k�nnen k�nftig ihr Smartphone mit dem Windows-PC koppeln und von dort aus Anrufe entgegennehmen oder durchf�hre",
+          "publishedDate": "2019-10-09T13:42:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Microsoft: Surface Laptop 3 hat USB-C und setzt auf AMD",
+          "link": "https://www.golem.de/news/microsoft-surface-laptop-3-hat-mehr-anschluesse-und-setzt-auf-amd-1910-144228.html",
+          "content": "<img src=\"https://www.golem.de/1910/144228-210592-210588_rc.jpg\" width=\"140\" height=\"140\" vspace=\"3\" hspace=\"8\" align=\"left\">Die dritte Generation des Surface Laptop hat USB-C und ein gr��eres Touchpad. Au�erdem gibt es das Ger�t jetzt auch als 15-Zoll-Variante und optional mit eigens entwickeltem AMD-Ryzen-Prozessor. (<a href=\"https://www.golem.de/specials/surface/\">Surface</a>, <a href=\"https://www.golem.de/specials/microsoft/\">Microsoft</a>) <img src=\"https://cpx.golem.de/cpx.php?class=17&amp;aid=144228&amp;page=1&amp;ts=1570030200\" alt=\"\" width=\"1\" height=\"1\" />",
+          "contentSnippet": "Die dritte Generation des Surface Laptop hat USB-C und ein gr��eres Touchpad. Au�erdem gibt es das Ger�t jetzt auch als ",
+          "publishedDate": "2019-10-02T15:30:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Microsoft: Erweiterter Windows-7-Support kommt f�r mehr Kunden",
+          "link": "https://www.golem.de/news/microsoft-erweiterter-windows-7-support-kommt-fuer-mehr-kunden-1910-144216.html",
+          "content": "<img src=\"https://www.golem.de/1910/144216-210502-210499_rc.jpg\" width=\"140\" height=\"140\" vspace=\"3\" hspace=\"8\" align=\"left\">K�nftig k�nnen alle Besitzer von Windows 7 Professional oder Enterprise den kostenpflichtigen erweiterten Support bestellen. Damit erhalten sie bis zu drei Jahre nach dem Support-Aus noch Sicherheitspatches. Das war bisher Besitzern von Volumenlizenzen vorbehalten. (<a href=\"https://www.golem.de/specials/microsoft/\">Microsoft</a>, <a href=\"https://www.golem.de/specials/windows7/\">Windows 7</a>) <img src=\"https://cpx.golem.de/cpx.php?class=17&amp;aid=144216&amp;page=1&amp;ts=1570008000\" alt=\"\" width=\"1\" height=\"1\" />",
+          "contentSnippet": "K�nftig k�nnen alle Besitzer von Windows 7 Professional oder Enterprise den kostenpflichtigen erweiterten Support bestel",
+          "publishedDate": "2019-10-02T09:20:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Microsoft: .Net Core 3 erscheint mit Support f�r Desktop-Apps",
+          "link": "https://www.golem.de/news/microsoft-net-core-3-erscheint-mit-support-fuer-desktop-apps-1909-144055.html",
+          "content": "<img src=\"https://www.golem.de/1909/144055-209703-209700_rc.jpg\" width=\"140\" height=\"140\" vspace=\"3\" hspace=\"8\" align=\"left\">Wie schon l�nger angek�ndigt, unterst�tzt die Version 3 von .Net Core Windows Forms und WPF. Die Version bringt auch dar�ber hinaus viele Neuerungen. (<a href=\"https://www.golem.de/specials/dotnet/\">.Net</a>, <a href=\"https://www.golem.de/specials/microsoft/\">Microsoft</a>) <img src=\"https://cpx.golem.de/cpx.php?class=17&amp;aid=144055&amp;page=1&amp;ts=1569326640\" alt=\"\" width=\"1\" height=\"1\" />",
+          "contentSnippet": "Wie schon l�nger angek�ndigt, unterst�tzt die Version 3 von .Net Core Windows Forms und WPF. Die Version bringt auch dar",
+          "publishedDate": "2019-09-24T12:04:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Microsoft: Windows 10 bringt optionale Updates aus Windows 7 zur�ck",
+          "link": "https://www.golem.de/news/microsoft-windows-10-bringt-optionale-updates-aus-windows-7-zurueck-1909-144049.html",
+          "content": "<img src=\"https://www.golem.de/1909/144049-209677-209674_rc.jpg\" width=\"140\" height=\"140\" vspace=\"3\" hspace=\"8\" align=\"left\">Das Update 20H1 f�r Windows 10 bringt die M�glichkeit zur�ck, optionale Updates wie Treiber oder .Net manuell zu installieren. Das soll Nutzern mehr Kontrolle �ber ihr Betriebssystem liefern, wenn diese etwa eine neue, m�glicherweise kaputte Treiberversion nicht aufspielen m�chten. (<a href=\"https://www.golem.de/specials/windows10/\">Windows 10</a>, <a href=\"https://www.golem.de/specials/microsoft/\">Microsoft</a>) <img src=\"https://cpx.golem.de/cpx.php?class=17&amp;aid=144049&amp;page=1&amp;ts=1569321300\" alt=\"\" width=\"1\" height=\"1\" />",
+          "contentSnippet": "Das Update 20H1 f�r Windows 10 bringt die M�glichkeit zur�ck, optionale Updates wie Treiber oder .Net manuell zu install",
+          "publishedDate": "2019-09-24T10:35:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Jerry Berg: Warum Microsoft in Windows 10 immer mehr Bugs �bersieht",
+          "link": "https://www.golem.de/news/jerry-berg-warum-microsoft-in-windows-10-immer-mehr-bugs-uebersieht-1909-144019.html",
+          "content": "<img src=\"https://www.golem.de/1909/144019-209552-209549_rc.jpg\" width=\"140\" height=\"140\" vspace=\"3\" hspace=\"8\" align=\"left\">Der Youtuber und ehemalige Microsoft-Entwickler Jerry Berg erkl�rt aus seiner Sicht, warum Patches in Windows 10 aktuell oft fehlerbehaftet sind. Er sieht das Sammeln von Telemetriedaten und die Automatisierung des Bugtestings als Probleme an. (<a href=\"https://www.golem.de/specials/windows10/\">Windows 10</a>, <a href=\"https://www.golem.de/specials/microsoft/\">Microsoft</a>) <img src=\"https://cpx.golem.de/cpx.php?class=17&amp;aid=144019&amp;page=1&amp;ts=1569231240\" alt=\"\" width=\"1\" height=\"1\" />",
+          "contentSnippet": "Der Youtuber und ehemalige Microsoft-Entwickler Jerry Berg erkl�rt aus seiner Sicht, warum Patches in Windows 10 aktuell",
+          "publishedDate": "2019-09-23T09:34:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Microsoft: Exchange Server 2010 bleibt neun Monate l�nger erhalten",
+          "link": "https://www.golem.de/news/microsoft-exchange-server-2010-bleibt-neun-monate-laenger-erhalten-1909-143984.html",
+          "content": "<img src=\"https://www.golem.de/1909/143984-209387-209383_rc.jpg\" width=\"140\" height=\"140\" vspace=\"3\" hspace=\"8\" align=\"left\">Unternehmen haben etwas l�nger Zeit, sich vom E-Mail-Server Exchange 2010 zu trennen. Microsoft verl�ngert den Support bis zum Oktober 2020. Dabei weist der Hersteller einmal mehr auf Office 365 hin. (<a href=\"https://www.golem.de/specials/exchange/\">Exchange</a>, <a href=\"https://www.golem.de/specials/microsoft/\">Microsoft</a>) <img src=\"https://cpx.golem.de/cpx.php?class=17&amp;aid=143984&amp;page=1&amp;ts=1568965440\" alt=\"\" width=\"1\" height=\"1\" />",
+          "contentSnippet": "Unternehmen haben etwas l�nger Zeit, sich vom E-Mail-Server Exchange 2010 zu trennen. Microsoft verl�ngert den Support b",
+          "publishedDate": "2019-09-20T07:44:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "KB4516067: Bug schr�nkt Funktionsumfang von Windows RT deutlich ein",
+          "link": "https://www.golem.de/news/kb4516067-bug-schraenkt-funktionsumfang-von-windows-rt-deutlich-ein-1909-143877.html",
+          "content": "<img src=\"https://www.golem.de/1909/143877-208796-208793_rc.jpg\" width=\"140\" height=\"140\" vspace=\"3\" hspace=\"8\" align=\"left\">Offenbar ist Microsoft mit dem Update KB4516067 ein Fehler unterlaufen, der ungew�hnliche Auswirkungen hat. Die alten ARM-basierten Windows-Ger�te k�nnen pl�tzlich Schwierigkeiten mit dem Internet Explorer wegen eines Zertifikatsr�ckrufs bekommen. (<a href=\"https://www.golem.de/specials/windows-rt/\">Windows RT</a>, <a href=\"https://www.golem.de/specials/microsoft/\">Microsoft</a>) <img src=\"https://cpx.golem.de/cpx.php?class=17&amp;aid=143877&amp;page=1&amp;ts=1568624280\" alt=\"\" width=\"1\" height=\"1\" />",
+          "contentSnippet": "Offenbar ist Microsoft mit dem Update KB4516067 ein Fehler unterlaufen, der ungew�hnliche Auswirkungen hat. Die alten AR",
+          "publishedDate": "2019-09-16T08:58:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Surface Hub 2S angesehen: Das Surface Hub, das auch in kleine Meeting-R�ume passt",
+          "link": "https://www.golem.de/news/surface-hub-2s-angesehen-das-surface-hub-das-auch-in-kleine-meeting-raeume-passt-1909-143730.html",
+          "content": "<img src=\"https://www.golem.de/1909/143730-208430-208427_rc.jpg\" width=\"140\" height=\"140\" vspace=\"3\" hspace=\"8\" align=\"left\"> Pr�sentationen teilen, Tabellen bearbeiten oder gemeinsam auf dem Whiteboard skizzieren: Das Surface Hub 2S ist eine sichtbare Weiterentwicklung des doch recht klobigen Vorg�ngers. Und Microsofts Pl�ne sind noch ambitionierter. (<a href=\"https://www.golem.de/specials/surface/\">Surface</a>, <a href=\"https://www.golem.de/specials/display/\">Display</a>) <img src=\"https://cpx.golem.de/cpx.php?class=17&amp;aid=143730&amp;page=1&amp;ts=1568206800\" alt=\"\" width=\"1\" height=\"1\" />",
+          "contentSnippet": " Pr�sentationen teilen, Tabellen bearbeiten oder gemeinsam auf dem Whiteboard skizzieren: Das Surface Hub 2S ist eine si",
+          "publishedDate": "2019-09-11T13:00:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Windows 10: Sharps Konferenz-Display ist auch ein Raumklimamesser",
+          "link": "https://www.golem.de/news/windows-10-sharps-konferenz-display-ist-auch-ein-raumklimamesser-1909-143753.html",
+          "content": "<img src=\"https://www.golem.de/1909/143753-208192-208189_rc.jpg\" width=\"140\" height=\"140\" vspace=\"3\" hspace=\"8\" align=\"left\">Neben Microsoft will auch Sharp als eines der ersten Unternehmen ein Windows Collaboration Display anbieten. Das System verwendet Windows 10 und hat Sensoren integriert. Die messen das Klima im Konferenzsaal. (<a href=\"https://www.golem.de/specials/sharp/\">Sharp</a>, <a href=\"https://www.golem.de/specials/display/\">Display</a>) <img src=\"https://cpx.golem.de/cpx.php?class=17&amp;aid=143753&amp;page=1&amp;ts=1568108460\" alt=\"\" width=\"1\" height=\"1\" />",
+          "contentSnippet": "Neben Microsoft will auch Sharp als eines der ersten Unternehmen ein Windows Collaboration Display anbieten. Das System ",
+          "publishedDate": "2019-09-10T09:41:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Handelskrieg: Microsoft lehnt Blockade gegen Huawei ab",
+          "link": "https://www.golem.de/news/handelskrieg-microsoft-lehnt-blockade-gegen-huawei-ab-1909-143725.html",
+          "content": "<img src=\"https://www.golem.de/1909/143725-208055-208052_rc.jpg\" width=\"140\" height=\"140\" vspace=\"3\" hspace=\"8\" align=\"left\">Microsofts Chefjustiziar und President Brad Smith hat das Vorgehen gegen Huawei als nicht rechtsstaatlich bezeichnet. Die US-Beh�rden k�nnten weiterhin keine Beweise gegen den Technologiekonzern vorlegen. (<a href=\"https://www.golem.de/specials/microsoft/\">Microsoft</a>, <a href=\"https://www.golem.de/specials/smartphone/\">Smartphone</a>) <img src=\"https://cpx.golem.de/cpx.php?class=17&amp;aid=143725&amp;page=1&amp;ts=1568023080\" alt=\"\" width=\"1\" height=\"1\" />",
+          "contentSnippet": "Microsofts Chefjustiziar und President Brad Smith hat das Vorgehen gegen Huawei als nicht rechtsstaatlich bezeichnet. Di",
+          "publishedDate": "2019-09-09T09:58:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Marktanteil: Netmarketshare sieht Windows 10 bei �ber 50 Prozent",
+          "link": "https://www.golem.de/news/marktanteil-netmarketshare-sieht-windows-10-bei-ueber-50-prozent-1909-143583.html",
+          "content": "<img src=\"https://www.golem.de/1909/143583-207320-207317_rc.jpg\" width=\"140\" height=\"140\" vspace=\"3\" hspace=\"8\" align=\"left\">Die Verbreitung von Windows 10 nimmt langsam zu, w�hrend der Marktanteil von Windows 7 in fast demselben Ma�e abnimmt. Weniger als ein halbes Jahr vor dem Supportende von Windows 7 geben die Zahlen einen interessanten Einblick. (<a href=\"https://www.golem.de/specials/windows10/\">Windows 10</a>, <a href=\"https://www.golem.de/specials/microsoft/\">Microsoft</a>) <img src=\"https://cpx.golem.de/cpx.php?class=17&amp;aid=143583&amp;page=1&amp;ts=1567500360\" alt=\"\" width=\"1\" height=\"1\" />",
+          "contentSnippet": "Die Verbreitung von Windows 10 nimmt langsam zu, w�hrend der Marktanteil von Windows 7 in fast demselben Ma�e abnimmt. W",
+          "publishedDate": "2019-09-03T08:46:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Windows 10: Alternativer Tablet-Modus erinnert an Zeiten vor Windows 8",
+          "link": "https://www.golem.de/news/windows-10-alternativer-tablet-modus-erinnert-an-zeiten-vor-windows-8-1908-143536.html",
+          "content": "<img src=\"https://www.golem.de/1908/143536-207094-207088_rc.jpg\" width=\"140\" height=\"140\" vspace=\"3\" hspace=\"8\" align=\"left\">Microsoft will mit einer Zwischenstufe zwischen Tablet-Modus und Desktopmodus Windows 10 besser f�r 2-in-1-Ger�te wie das Surface Pro anpassen. Dieser zeigt den Desktop prominent an, bietet allerdings auch einen touch-optimierten Windows Explorer. Das Design erinnert ein wenig an Windows 7. (<a href=\"https://www.golem.de/specials/windows10/\">Windows 10</a>, <a href=\"https://www.golem.de/specials/microsoft/\">Microsoft</a>) <img src=\"https://cpx.golem.de/cpx.php?class=17&amp;aid=143536&amp;page=1&amp;ts=1567156620\" alt=\"\" width=\"1\" height=\"1\" />",
+          "contentSnippet": "Microsoft will mit einer Zwischenstufe zwischen Tablet-Modus und Desktopmodus Windows 10 besser f�r 2-in-1-Ger�te wie da",
+          "publishedDate": "2019-08-30T09:17:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Akoya S6446: Aldi Nord verkauft schnelleren Medion-Laptop f�r etwas mehr",
+          "link": "https://www.golem.de/news/akoya-s6446-aldi-nord-verkauft-schnelleren-medion-laptop-fuer-etwas-mehr-1908-143281.html",
+          "content": "<img src=\"https://www.golem.de/1908/143281-205882-205881_rc.jpg\" width=\"140\" height=\"140\" vspace=\"3\" hspace=\"8\" align=\"left\">F�r 550 Euro k�nnen sich Nutzer ab Ende August das Medion Akoya S6446 bei Aldi Nord kaufen. Das ist etwas mehr Geld als gewohnt, daf�r gibt es einen Core-i5-Prozessor und mehr Arbeitsspeicher. (<a href=\"https://www.golem.de/specials/medion/\">Medion</a>, <a href=\"https://www.golem.de/specials/intel/\">Intel</a>) <img src=\"https://cpx.golem.de/cpx.php?class=17&amp;aid=143281&amp;page=1&amp;ts=1566203700\" alt=\"\" width=\"1\" height=\"1\" />",
+          "contentSnippet": "F�r 550 Euro k�nnen sich Nutzer ab Ende August das Medion Akoya S6446 bei Aldi Nord kaufen. Das ist etwas mehr Geld als ",
+          "publishedDate": "2019-08-19T08:35:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Windows 10: Paint und Wordpad k�nnen bald nachinstalliert werden",
+          "link": "https://www.golem.de/news/windows-10-paint-und-wordpad-koennen-bald-nachinstalliert-werden-1908-143278.html",
+          "content": "<img src=\"https://www.golem.de/1908/143278-205864-205863_rc.jpg\" width=\"140\" height=\"140\" vspace=\"3\" hspace=\"8\" align=\"left\">Microsoft plant offenbar, das Malprogramm Paint und die Textverarbeitung Wordpad in Windows 10 zu einer Option zu machen. Medienberichten zufolge findet sich dies schon in Entwickler-Builds. (<a href=\"https://www.golem.de/specials/betriebssystem/\">Betriebssystem</a>, <a href=\"https://www.golem.de/specials/microsoft/\">Microsoft</a>) <img src=\"https://cpx.golem.de/cpx.php?class=17&amp;aid=143278&amp;page=1&amp;ts=1566198360\" alt=\"\" width=\"1\" height=\"1\" />",
+          "contentSnippet": "Microsoft plant offenbar, das Malprogramm Paint und die Textverarbeitung Wordpad in Windows 10 zu einer Option zu machen",
+          "publishedDate": "2019-08-19T07:06:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Microsoft: Surface-Nutzer berichten �ber langsame Ger�te nach Update",
+          "link": "https://www.golem.de/news/microsoft-surface-nutzer-berichten-ueber-langsame-geraete-nach-update-1908-143253.html",
+          "content": "<img src=\"https://www.golem.de/1908/143253-205731-205728_rc.jpg\" width=\"140\" height=\"140\" vspace=\"3\" hspace=\"8\" align=\"left\">Microsofts j�ngstes Update f�r das Surface Pro 6 und das Surface Book 2 f�hren bei einigen Nutzern zu stark gedrosselten CPUs. Grund ist ein CPU-Flag, das die Taktrate auf bis zu 400 MHz herunterregelt. An einer Softwarel�sung wird laut Microsoft gearbeitet, einen Workaround scheint es nicht zu geben. (<a href=\"https://www.golem.de/specials/microsoft/\">Microsoft</a>, <a href=\"https://www.golem.de/specials/windows/\">Windows</a>) <img src=\"https://cpx.golem.de/cpx.php?class=17&amp;aid=143253&amp;page=1&amp;ts=1565952420\" alt=\"\" width=\"1\" height=\"1\" />",
+          "contentSnippet": "Microsofts j�ngstes Update f�r das Surface Pro 6 und das Surface Book 2 f�hren bei einigen Nutzern zu stark gedrosselten",
+          "publishedDate": "2019-08-16T10:47:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Project Zero: Windows-Texteingabesystem bietet viele Angriffsm�glichkeiten",
+          "link": "https://www.golem.de/news/project-zero-windows-texteingabesystem-bietet-viele-angriffsmoeglichkeiten-1908-143199.html",
+          "content": "<img src=\"https://www.golem.de/1908/143199-205479-205475_rc.jpg\" width=\"140\" height=\"140\" vspace=\"3\" hspace=\"8\" align=\"left\">Ein Systemdienst f�r Texteingabemethoden, das es seit Windows XP gibt, wurde offenbar mit wenig Sicherheitsbewusstsein entwickelt. Tavis Ormandy von Google gelang es damit, als Nutzer Systemrechte zu erlangen. Es gibt ein Update von Microsoft, doch das behebt wohl nicht alle Probleme. (<a href=\"https://www.golem.de/specials/windows/\">Windows</a>, <a href=\"https://www.golem.de/specials/windows-xp/\">Windows XP</a>) <img src=\"https://cpx.golem.de/cpx.php?class=17&amp;aid=143199&amp;page=1&amp;ts=1565775480\" alt=\"\" width=\"1\" height=\"1\" />",
+          "contentSnippet": "Ein Systemdienst f�r Texteingabemethoden, das es seit Windows XP gibt, wurde offenbar mit wenig Sicherheitsbewusstsein e",
+          "publishedDate": "2019-08-14T09:38:00.000Z",
+          "categories": [],
+          "author": ""
+        }
+      ]
+    }
+  }
+}

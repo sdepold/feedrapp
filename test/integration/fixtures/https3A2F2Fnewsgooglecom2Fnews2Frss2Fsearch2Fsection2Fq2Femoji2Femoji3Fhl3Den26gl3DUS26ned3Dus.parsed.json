@@ -1,0 +1,51 @@
+{
+  "responseStatus": 200,
+  "responseDetails": null,
+  "responseData": {
+    "feed": {
+      "feedUrl": "https://news.google.com/news/rss/search/section/q/emoji/emoji?hl=en&gl=US&ned=us",
+      "title": "\"emoji\" - Google News",
+      "link": "https://news.google.com/search?q=emoji&hl=en-US&gl=US&ceid=US:en",
+      "description": "Google News",
+      "author": "",
+      "entries": [
+        {
+          "title": "The psychology behind the most popular emoji - Quartz",
+          "link": "https://qz.com/1726756/the-psychology-behind-the-most-popular-emoji/",
+          "content": "<a href=\"https://qz.com/1726756/the-psychology-behind-the-most-popular-emoji/\" target=\"_blank\">The psychology behind the most popular emoji</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Quartz</font>",
+          "contentSnippet": "The psychology behind the most popular emoji&nbsp;&nbsp;Quartz",
+          "publishedDate": "2019-10-18T13:40:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Yawning Face: finally, an emoji that embodies life in 2019 - The Guardian",
+          "link": "https://www.theguardian.com/technology/shortcuts/2019/oct/14/yawning-face-finally-an-emoji-that-embodies-life-in-2019",
+          "content": "<a href=\"https://www.theguardian.com/technology/shortcuts/2019/oct/14/yawning-face-finally-an-emoji-that-embodies-life-in-2019\" target=\"_blank\">Yawning Face: finally, an emoji that embodies life in 2019</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+          "contentSnippet": "Yawning Face: finally, an emoji that embodies life in 2019&nbsp;&nbsp;The Guardian",
+          "publishedDate": "2019-10-14T21:09:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "The Relieved Face Emoji Is the Nicest Emoji - GQ",
+          "link": "https://www.gq.com/story/relieved-face-emoji",
+          "content": "<a href=\"https://www.gq.com/story/relieved-face-emoji\" target=\"_blank\">The Relieved Face Emoji Is the Nicest Emoji</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GQ</font>",
+          "contentSnippet": "The Relieved Face Emoji Is the Nicest Emoji&nbsp;&nbsp;GQ",
+          "publishedDate": "2019-10-14T16:37:32.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Jeep says buh-bye to blue emoji imposter - Detroit Free Press",
+          "link": "https://www.freep.com/story/money/cars/chrysler/2019/10/16/apple-iphone-jeep-blue-emoji-imposter/3985208002/",
+          "content": "<a href=\"https://www.freep.com/story/money/cars/chrysler/2019/10/16/apple-iphone-jeep-blue-emoji-imposter/3985208002/\" target=\"_blank\">Jeep says buh-bye to blue emoji imposter</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Detroit Free Press</font>",
+          "contentSnippet": "Jeep says buh-bye to blue emoji imposter&nbsp;&nbsp;Detroit Free Press",
+          "publishedDate": "2019-10-16T10:00:00.000Z",
+          "categories": [],
+          "author": ""
+        }
+      ]
+    }
+  }
+}

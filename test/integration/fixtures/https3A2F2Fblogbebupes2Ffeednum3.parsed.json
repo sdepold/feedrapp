@@ -1,0 +1,66 @@
+{
+  "responseStatus": 200,
+  "responseDetails": null,
+  "responseData": {
+    "feed": {
+      "feedUrl": "https://blog.bebup.es/feed",
+      "title": "Prepara la llegada de tu bebé",
+      "link": "https://blog.bebup.es",
+      "description": "Prepara la llegada de tu bebé",
+      "author": "",
+      "entries": [
+        {
+          "title": "Corresponsabilidad familiar: ¿Sois una pareja corresponsable?",
+          "link": "https://blog.bebup.es/corresponsabilidad-familiar",
+          "content": "<p>La definición de corresponsabilidad hace referencia a la repartición, tanto de las tareas domésticas, como de las responsabilidades de la organización familiar entre todos los miembros del hogar. Como ya hemos dicho alguna vez, esta generación de padres y madres cada vez huye más de las tareas y roles asignados por estereotipos de género tratando de repartir las tareas domésticas y los cuidados de los hijos de una manera más equitativa de la que lo hicieron las generaciones anteriores.  Cuando preguntas a una futura pareja de primerizos o primerizas acerca...</p>\n<p>La entrada <a rel=\"nofollow\" href=\"https://blog.bebup.es/corresponsabilidad-familiar\">Corresponsabilidad familiar: ¿Sois una pareja corresponsable?</a> se publicó primero en <a rel=\"nofollow\" href=\"https://blog.bebup.es\">Prepara la llegada de tu bebé</a>.</p>\n",
+          "contentSnippet": "La definición de corresponsabilidad hace referencia a la repartición, tanto de las tareas domésticas, como de las respon",
+          "publishedDate": "2019-09-11T07:43:29.000Z",
+          "categories": [
+            {
+              "name": "Mi primer bebé"
+            },
+            {
+              "name": "Paternidad y Maternidad Consciente"
+            }
+          ],
+          "author": "Alma de mamá"
+        },
+        {
+          "title": "Alimentos prohibidos en el embarazo",
+          "link": "https://blog.bebup.es/alimentos-prohibidos-en-el-embarazo",
+          "content": "<p>Durante el embarazo, las típicas frases del “a partir de ahora tienes que hacer esto&#8230; “a partir de ahora tienes que hacer lo otro…”&#8230; son una constante vital. Nosotros creemos que es importante saber el porqué se retiran alimentos, el riesgo que existe si se consumen y las dosis máximas permitidas. En este artículo os hablaremos de los alimentos prohibidos en el embarazo, los alimentos de los que debemos controlar la cantidad, el riesgo de consumir algunos tipos y las causas. Por regla general los alimentos prohibidos en el embarazo son los alimentos...</p>\n<p>La entrada <a rel=\"nofollow\" href=\"https://blog.bebup.es/alimentos-prohibidos-en-el-embarazo\">Alimentos prohibidos en el embarazo</a> se publicó primero en <a rel=\"nofollow\" href=\"https://blog.bebup.es\">Prepara la llegada de tu bebé</a>.</p>\n",
+          "contentSnippet": "Durante el embarazo, las típicas frases del “a partir de ahora tienes que hacer esto&#8230; “a partir de ahora tienes qu",
+          "publishedDate": "2019-08-29T17:03:20.000Z",
+          "categories": [
+            {
+              "name": "Embarazo y lactancia"
+            },
+            {
+              "name": "Mi primer bebé"
+            },
+            {
+              "name": "Nutrición"
+            }
+          ],
+          "author": "Anita tecuida"
+        },
+        {
+          "title": "Movimiento libre: Permite a tu bebé moverse en libertad",
+          "link": "https://blog.bebup.es/movimiento-libre",
+          "content": "<p>En los últimos años cada vez son más los padres y madres que se forman e informan acerca de cómo atender y educar a sus hijos. Esto lleva a que pedagogías tipo Montessori (de la que ya os hablamos aquí), Waldorf, o esta del movimiento libre, llegue a oídos de padres y madres primerizos y despierte su curiosidad. ¿Qué es el Movimiento libre? Metodologia Pikler Emmi Pikler (1902-1984) fue una pediatra húngara que dirigía un orfanato en Budapest. Sus teorías nacieron de la observación de que los niños criados en...</p>\n<p>La entrada <a rel=\"nofollow\" href=\"https://blog.bebup.es/movimiento-libre\">Movimiento libre: Permite a tu bebé moverse en libertad</a> se publicó primero en <a rel=\"nofollow\" href=\"https://blog.bebup.es\">Prepara la llegada de tu bebé</a>.</p>\n",
+          "contentSnippet": "En los últimos años cada vez son más los padres y madres que se forman e informan acerca de cómo atender y educar a sus ",
+          "publishedDate": "2019-07-18T09:41:57.000Z",
+          "categories": [
+            {
+              "name": "Mi primer bebé"
+            },
+            {
+              "name": "Psicología del bebé"
+            }
+          ],
+          "author": "Alma de mamá"
+        }
+      ]
+    }
+  }
+}

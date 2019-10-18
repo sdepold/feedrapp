@@ -1,0 +1,87 @@
+{
+  "responseStatus": 200,
+  "responseDetails": null,
+  "responseData": {
+    "feed": {
+      "feedUrl": "https://boatatfood.com/rss.php?action=popularproducts&categoryid=19",
+      "title": "BOATAT FOOD: 熱門產品",
+      "link": "https://boatatfood.com",
+      "description": "BOATAT FOOD 的熱門產品列表",
+      "author": "",
+      "entries": [
+        {
+          "title": "北海道無殼甜蝦刺身 (約50隻入)",
+          "link": "https://boatatfood.com/products.php?product=%E5%8C%97%E6%B5%B7%E9%81%93%E7%84%A1%E6%AE%BC%E7%94%9C%E8%9D%A6%E5%88%BA%E8%BA%AB-%28%E7%B4%8450%E9%9A%BB%E5%85%A5%29",
+          "content": "<div style='float: right; padding: 10px;'><a href=\"https://boatatfood.com/products.php?product=%E5%8C%97%E6%B5%B7%E9%81%93%E7%84%A1%E6%AE%BC%E7%94%9C%E8%9D%A6%E5%88%BA%E8%BA%AB-%28%E7%B4%8450%E9%9A%BB%E5%85%A5%29\"  ><img class=\"img-circle\"  src=\"https://boatatfood.com/product_images/q/553/smallsweetebi__72179_thumb.png\" alt=\"北海道無殼甜蝦刺身 (約50隻入)\" /></a></div><p><img class=\"__mce_add_custom__\" title=\"updated-ec-rev.jpg\" src=\"https://boatatfood.com/product_images/uploaded_images/updated-ec-rev.jpg\" alt=\"updated-ec-rev.jpg\" width=\"600\" height=\"2986\" /></p>\r\n<p><img class=\"__mce_add_custom__\" title=\"wuketianxiacishen50.png\" src=\"https://boatatfood.com/pro..<p><strong>單價: $45.0</strong> </p>",
+          "contentSnippet": "\r\n單價: $45.0 ",
+          "publishedDate": "2014-09-27T16:30:19.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "越南玻璃虎蝦刺身 (20隻入)",
+          "link": "https://boatatfood.com/products.php?product=%E8%B6%8A%E5%8D%97%E7%8E%BB%E7%92%83%E8%99%8E%E8%9D%A6%E5%88%BA%E8%BA%AB-%2820%E9%9A%BB%E5%85%A5%29",
+          "content": "<div style='float: right; padding: 10px;'><a href=\"https://boatatfood.com/products.php?product=%E8%B6%8A%E5%8D%97%E7%8E%BB%E7%92%83%E8%99%8E%E8%9D%A6%E5%88%BA%E8%BA%AB-%2820%E9%9A%BB%E5%85%A5%29\"  ><img class=\"img-circle\"  src=\"https://boatatfood.com/product_images/p/303/tigermain__99527_zoom__28336_thumb.png\" alt=\"越南玻璃虎蝦刺身 (20隻入)\" /></a></div><p><strong><span style=\"font-size: medium;\">越南玻璃虎蝦刺身 (20隻入)</span></strong><br /><span style=\"font-size: medium;\">虎蝦口感厚實，肉質富有彈性，營養成分高，蛋白質豐富。自然解凍可配搭泰式辣醬汁或豉油芥末，提升虎蝦的甜味。</span></p>\r\n<p><img class=\"__mce_add_custom__\" title=\"tigerinner.png\" src=\"https://boatatfood.com/product_images/uploaded_images/ti..<p><strong>單價: $38.0</strong> </p>",
+          "contentSnippet": "越南玻璃虎蝦刺身 (20隻入)虎蝦口感厚實，肉質富有彈性，營養成分高，蛋白質豐富。自然解凍可配搭泰式辣醬汁或豉油芥末，提升虎蝦的甜味。\r\n單價: $38.0 ",
+          "publishedDate": "2014-09-27T17:35:27.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "北寄貝刺身 (20片入)",
+          "link": "https://boatatfood.com/products.php?product=%E5%8C%97%E5%AF%84%E8%B2%9D%E5%88%BA%E8%BA%AB-%2820%E7%89%87%E5%85%A5%29",
+          "content": "<div style='float: right; padding: 10px;'><a href=\"https://boatatfood.com/products.php?product=%E5%8C%97%E5%AF%84%E8%B2%9D%E5%88%BA%E8%BA%AB-%2820%E7%89%87%E5%85%A5%29\"  ><img class=\"img-circle\"  src=\"https://boatatfood.com/product_images/r/461/hokigai-nrl%402x__52539_thumb.png\" alt=\"北寄貝刺身 (20片入)\" /></a></div><p><img title=\"hkg-nrl-new.png\" src=\"https://boatatfood.com/product_images/uploaded_images/hkg-nrl-new.png\" alt=\"hkg-nrl-new.png\" width=\"100%\" /></p><p><strong>單價: $48.0</strong> </p>",
+          "contentSnippet": "單價: $48.0 ",
+          "publishedDate": "2014-09-27T18:33:43.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "左口魚裙邊刺身 (約20片入)",
+          "link": "https://boatatfood.com/products.php?product=%E5%B7%A6%E5%8F%A3%E9%AD%9A%E8%A3%99%E9%82%8A%E5%88%BA%E8%BA%AB-%28%E7%B4%8420%E7%89%87%E5%85%A5%29",
+          "content": "<div style='float: right; padding: 10px;'><a href=\"https://boatatfood.com/products.php?product=%E5%B7%A6%E5%8F%A3%E9%AD%9A%E8%A3%99%E9%82%8A%E5%88%BA%E8%BA%AB-%28%E7%B4%8420%E7%89%87%E5%85%A5%29\"  ><img class=\"img-circle\"  src=\"https://boatatfood.com/product_images/g/837/02480075s__63091_thumb.jpg\" alt=\"左口魚裙邊刺身  (約20片入)\" /></a></div><p><strong><span style=\"font-size: medium;\">左口魚裙邊刺身 約20片 解凍即食</span></strong></p>\r\n<p><span style=\"font-size: small;\"><span style=\"font-size: medium;\">左口魚又稱為比目魚。肥厚多脂、肉質柔軟細膩!</span><br /><span style=\"font-size: medium;\">比目魚越大隻、魚身越厚，魚肉吃起來的質感越好，此外BOATAT FOOD的比目魚已為您處理乾淨後再真空包裝，您收到後只需要解凍後，就可以食用!</span><..<p><strong>單價: $28.0</strong> </p>",
+          "contentSnippet": "左口魚裙邊刺身 約20片 解凍即食\r\n左口魚又稱為比目魚。肥厚多脂、肉質柔軟細膩!比目魚越大隻、魚身越厚，魚肉吃起來的質感越好，此外BOATAT FOOD的比目魚已為您處理乾淨後再真空包裝，您收到後只需要解凍後，就可以食用!單價: $28.",
+          "publishedDate": "2014-09-28T12:33:01.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "墨魚刺身 (20片入)",
+          "link": "https://boatatfood.com/products.php?product=%E5%A2%A8%E9%AD%9A%E5%88%BA%E8%BA%AB-%2820%E7%89%87%E5%85%A5%29",
+          "content": "<div style='float: right; padding: 10px;'><a href=\"https://boatatfood.com/products.php?product=%E5%A2%A8%E9%AD%9A%E5%88%BA%E8%BA%AB-%2820%E7%89%87%E5%85%A5%29\"  ><img class=\"img-circle\"  src=\"https://boatatfood.com/product_images/q/093/d88cb932-50c6-49ed-bee9-1b9306a754da__35434_thumb.jpg\" alt=\"墨魚刺身 (20片入)\" /></a></div><p><strong><span style=\"font-size: medium;\">墨魚刺身 (20片入)</span></strong></p>\r\n<p><span style=\"font-size: medium;\"><span style=\"color: #5b5b5b;\"><strong>◎關於花支 - </strong><br /><span style=\"color: #5b5b5b;\">學名 - <em>Sepia esculenta Hoyle<br /></em>英名 - Cuttlefish <br />俗名 - 真烏賊、花枝、墨魚</span></span><sp..<p><strong>單價: $29.0</strong> </p>",
+          "contentSnippet": "墨魚刺身 (20片入)\r\n◎關於花支 - 學名 - Sepia esculenta Hoyle英名 - Cuttlefish 俗名 - 真烏賊、花枝、墨魚單價: $29.0 ",
+          "publishedDate": "2014-09-28T13:29:57.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "馬刀貝聖子刺身 (20片入)",
+          "link": "https://boatatfood.com/products.php?product=%E9%A6%AC%E5%88%80%E8%B2%9D%E8%81%96%E5%AD%90%E5%88%BA%E8%BA%AB-%2820%E7%89%87%E5%85%A5%29",
+          "content": "<div style='float: right; padding: 10px;'><a href=\"https://boatatfood.com/products.php?product=%E9%A6%AC%E5%88%80%E8%B2%9D%E8%81%96%E5%AD%90%E5%88%BA%E8%BA%AB-%2820%E7%89%87%E5%85%A5%29\"  ><img class=\"img-circle\"  src=\"https://boatatfood.com/product_images/j/865/sz__07182_thumb.png\" alt=\"馬刀貝聖子刺身 (20片入)\" /></a></div><p><span style=\"font-size: medium;\"><span style=\"font-family: verdana,geneva,sans-serif;\"><span style=\"text-decoration: underline;\"><strong>馬刀貝聖子刺身&nbsp;(20片入)</strong></span></span></span></p>\r\n<p><span style=\"font-size: medium;\"><span style=\"font-family: verdana,geneva,sans-serif;\"><span style=\"..<p><strong>單價: $35.0</strong> </p>",
+          "contentSnippet": "馬刀貝聖子刺身&nbsp;(20片入)\r\n單價: $35.0 ",
+          "publishedDate": "2014-09-29T21:52:37.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "阿根廷紅蝦刺身 L3 (約60隻入 2kg) ",
+          "link": "https://boatatfood.com/products.php?product=%E9%98%BF%E6%A0%B9%E5%BB%B7%E7%B4%85%E8%9D%A6%E5%88%BA%E8%BA%AB-L3-%28%E7%B4%8460%E9%9A%BB%E5%85%A5-2kg%29-",
+          "content": "<div style='float: right; padding: 10px;'><a href=\"https://boatatfood.com/products.php?product=%E9%98%BF%E6%A0%B9%E5%BB%B7%E7%B4%85%E8%9D%A6%E5%88%BA%E8%BA%AB-L3-%28%E7%B4%8460%E9%9A%BB%E5%85%A5-2kg%29-\"  ><img class=\"img-circle\"  src=\"https://boatatfood.com/product_images/x/353/redprawn__85339_thumb.png\" alt=\"阿根廷紅蝦刺身 L3 (約60隻入 2kg) \" /></a></div><p style=\"vertical-align: baseline; white-space: normal; text-transform: none; word-spacing: 0px; color: #333333; font: 16px/24px 微軟正黑體, 'Microsoft JhengHei', 新細明體, PMingLiU, 細明體, MingLiU, 標楷體, DFKai-sb; margin: 0px; letter-spacing: normal; background-color: #ffffff; text-indent: 0px; border: 0px;..<p><strong>單價: $220.0</strong> </p>",
+          "contentSnippet": "單價: $220.0 ",
+          "publishedDate": "2014-10-01T23:55:53.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "日本瀨戶內刺身廣島蠔 L size (35-45隻入 約1kg)",
+          "link": "https://boatatfood.com/products.php?product=%E6%97%A5%E6%9C%AC%E7%80%A8%E6%88%B6%E5%85%A7%E5%88%BA%E8%BA%AB%E5%BB%A3%E5%B3%B6%E8%A0%94-L-size-%2835%252d45%E9%9A%BB%E5%85%A5-%E7%B4%841kg%29",
+          "content": "<div style='float: right; padding: 10px;'><a href=\"https://boatatfood.com/products.php?product=%E6%97%A5%E6%9C%AC%E7%80%A8%E6%88%B6%E5%85%A7%E5%88%BA%E8%BA%AB%E5%BB%A3%E5%B3%B6%E8%A0%94-L-size-%2835%252d45%E9%9A%BB%E5%85%A5-%E7%B4%841kg%29\"  ><img class=\"img-circle\"  src=\"https://boatatfood.com/product_images/t/417/jpoyster__32015_thumb.png\" alt=\"日本瀨戶內刺身廣島蠔 L size (35-45隻入 約1kg)\" /></a></div><p><span style=\"font-size: medium;\"><span style=\"color: #333333; font-family: arial, helvetica, sans-serif;\"><strong>日本瀨戶內刺身廣島蠔 L size (35-45隻入 約1kg)<br /></strong></span><span style=\"font-family: &quot;comic sans ms&quot;, cursive; color: #000000; line-height: normal;\"><span style=\"background-col..<p><strong>單價: $230.0</strong> </p>",
+          "contentSnippet": "日本瀨戶內刺身廣島蠔 L size (35-45隻入 約1kg)單價: $230.0 ",
+          "publishedDate": "2014-10-11T17:48:57.000Z",
+          "categories": [],
+          "author": ""
+        }
+      ]
+    }
+  }
+}

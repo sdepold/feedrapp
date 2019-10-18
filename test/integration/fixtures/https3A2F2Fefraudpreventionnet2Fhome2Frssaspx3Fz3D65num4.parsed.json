@@ -1,0 +1,51 @@
+{
+  "responseStatus": 200,
+  "responseDetails": null,
+  "responseData": {
+    "feed": {
+      "feedUrl": "https://efraudprevention.net/home/rss.aspx?z=65",
+      "title": " - Danbury Savings",
+      "link": "https://efraudprevention.net/home/?z=65",
+      "description": "",
+      "author": "",
+      "entries": [
+        {
+          "title": "P2P Payments",
+          "link": "https://efraudprevention.net/home/templates/?z=65&a=182",
+          "content": "",
+          "contentSnippet": "",
+          "publishedDate": null,
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Account takeover fraud",
+          "link": "https://efraudprevention.net/home/templates/?z=65&a=173",
+          "content": "",
+          "contentSnippet": "",
+          "publishedDate": null,
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "College student safety",
+          "link": "https://efraudprevention.net/home/templates/?z=65&a=29",
+          "content": "How college students can protect against fraud and identity theft.",
+          "contentSnippet": "How college students can protect against fraud and identity theft.",
+          "publishedDate": null,
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "ACH & Wire Fraud Prevention - For Businesses",
+          "link": "https://efraudprevention.net/home/templates/?z=65&a=21",
+          "content": "Avoid fraudulent ACH and Wire transactions.",
+          "contentSnippet": "Avoid fraudulent ACH and Wire transactions.",
+          "publishedDate": null,
+          "categories": [],
+          "author": ""
+        }
+      ]
+    }
+  }
+}
