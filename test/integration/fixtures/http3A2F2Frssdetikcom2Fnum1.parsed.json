@@ -1,0 +1,105 @@
+{
+  "responseStatus": 200,
+  "responseDetails": null,
+  "responseData": {
+    "feed": {
+      "feedUrl": "http://rss.detik.com/",
+      "title": "news.detik",
+      "link": "http://news.detik.com/",
+      "description": "Detik.com sindikasi",
+      "author": "",
+      "entries": [
+        {
+          "title": "KSP Beberkan Capaian 5 Tahun Jokowi-JK: dari Politik hingga Antikorupsi",
+          "link": "https://news.detik.com/read/2019/10/19/001540/4751750/10/ksp-beberkan-capaian-5-tahun-jokowi-jk-dari-politik-hingga-antikorupsi",
+          "content": "<img src=\"https://akcdn.detik.net.id/visual/2019/10/18/6ee62734-1f5d-46fc-a1ab-79d5d267e9e9_169.jpeg\" align=\"left\" hspace=\"7\" width=\"100\" />Kantor Staf Presiden membeberkan sejumlah pencapaian pemerintahan Presiden Joko Widodo (Jokowi) dan Wakil Presiden Jusuf Kalla (JK). Apa saja?",
+          "contentSnippet": "Kantor Staf Presiden membeberkan sejumlah pencapaian pemerintahan Presiden Joko Widodo (Jokowi) dan Wakil Presiden Jusuf",
+          "publishedDate": "2019-10-18T17:20:40.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Gempa M 3,1 Terjadi di Bogor",
+          "link": "https://news.detik.com/read/2019/10/19/000535/4751748/10/gempa-m-31-terjadi-di-bogor",
+          "content": "<img src=\"https://akcdn.detik.net.id/visual/2015/07/10/ceaea5cf-a1ca-4de1-8dd0-96092a0fc333_169.jpg\" align=\"left\" hspace=\"7\" width=\"100\" />Gempa magnitudo (M) 3,1 terjadi di Kabupaten Bogor, Jawa Barat. Pusat gempa berada di darat.",
+          "contentSnippet": "Gempa magnitudo (M) 3,1 terjadi di Kabupaten Bogor, Jawa Barat. Pusat gempa berada di darat.",
+          "publishedDate": "2019-10-18T17:09:19.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Kepuasan Kinerja Jokowi 58,8%, NasDem Singgung Program Jangka Panjang",
+          "link": "https://news.detik.com/read/2019/10/18/232427/4751724/10/kepuasan-kinerja-jokowi-588-nasdem-singgung-program-jangka-panjang",
+          "content": "<img src=\"https://akcdn.detik.net.id/visual/2019/10/12/333e03da-6d8b-453f-9bce-314a02832ed1_169.jpeg\" align=\"left\" hspace=\"7\" width=\"100\" />\"Periode pertama banyak fokus program jangka panjang yang manfaatnya tak instan. Sedangkan rakyat cenderung nilai kinerja jangka pendek,\" Irma.",
+          "contentSnippet": "\"Periode pertama banyak fokus program jangka panjang yang manfaatnya tak instan. Sedangkan rakyat cenderung nilai kinerj",
+          "publishedDate": "2019-10-18T16:31:14.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "KPK Geledah Kantor Walkot Medan, Wawali: SK Pegawai Ikut Disita",
+          "link": "https://news.detik.com/read/2019/10/18/225655/4751707/10/kpk-geledah-kantor-walkot-medan-wawali-sk-pegawai-ikut-disita",
+          "content": "<img src=\"https://akcdn.detik.net.id/visual/2019/10/18/a704035e-d816-4940-8270-9f468e52c360_169.jpeg\" align=\"left\" hspace=\"7\" width=\"100\" />Wakil Wali Kota Medan Akhyar Nasution, menyebut penyidik KPK membawa banyka dokumen termasuk surat keputusan (SK) kepegawaian.",
+          "contentSnippet": "Wakil Wali Kota Medan Akhyar Nasution, menyebut penyidik KPK membawa banyka dokumen termasuk surat keputusan (SK) kepega",
+          "publishedDate": "2019-10-18T16:04:55.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Beredar Pesan Berantai Polisi Siaga 1 di Gereja, Polda Metro Pastikan Hoax",
+          "link": "https://news.detik.com/read/2019/10/18/225418/4751706/10/beredar-pesan-berantai-polisi-siaga-1-di-gereja-polda-metro-pastikan-hoax",
+          "content": "<img src=\"https://akcdn.detik.net.id/visual/2019/08/23/58a392a6-24db-4d38-95b9-dc6572495fc9_169.jpeg\" align=\"left\" hspace=\"7\" width=\"100\" />Argo mengimbau masyarakat tidak mudah percaya dan terprovokasi isu yang belum jelas kebenarannya. Masyarakat juga diminta tetap tenang beraktivitas.",
+          "contentSnippet": "Argo mengimbau masyarakat tidak mudah percaya dan terprovokasi isu yang belum jelas kebenarannya. Masyarakat juga dimint",
+          "publishedDate": "2019-10-18T15:54:18.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "UU Baru Resmi Berlaku, KPK: Kami Belum Dapat Dokumen Resmi",
+          "link": "https://news.detik.com/read/2019/10/18/223850/4751705/10/uu-baru-resmi-berlaku-kpk-kami-belum-dapat-dokumen-resmi",
+          "content": "<img src=\"https://akcdn.detik.net.id/visual/2015/12/29/7f877f3b-488b-4a14-ab68-be9ae11fc58a_169.jpg\" align=\"left\" hspace=\"7\" width=\"100\" />\"Persoalan adalah sampai dengan hari ini kami belum mendapatkan dokumen undang-undang secara resmi,\" kata Kabiro Humas KPK Febri Diansyah.",
+          "contentSnippet": "\"Persoalan adalah sampai dengan hari ini kami belum mendapatkan dokumen undang-undang secara resmi,\" kata Kabiro Humas K",
+          "publishedDate": "2019-10-18T15:45:46.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Marak Aksi Pria Pamer Kelamin di Depok, Wali Kota: Itu Perbuatan Menyimpang",
+          "link": "https://news.detik.com/read/2019/10/18/223450/4751697/10/marak-aksi-pria-pamer-kelamin-di-depok-wali-kota-itu-perbuatan-menyimpang",
+          "content": "<img src=\"https://akcdn.detik.net.id/visual/2019/07/23/64412906-8952-4d5c-92af-70dd459b0d93_169.jpeg\" align=\"left\" hspace=\"7\" width=\"100\" />Wali Kota Idris menyebut aksi itu sebagai perbuatan menyimpang. Dia berharap polisi segera menangkap pelaku.",
+          "contentSnippet": "Wali Kota Idris menyebut aksi itu sebagai perbuatan menyimpang. Dia berharap polisi segera menangkap pelaku.",
+          "publishedDate": "2019-10-18T15:40:50.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Di China, Kemendes PDTT Paparkan Keberhasilan Dana Desa",
+          "link": "https://news.detik.com/read/2019/10/18/222950/4751696/10/di-china-kemendes-pdtt-paparkan-keberhasilan-dana-desa",
+          "content": "<img src=\"https://akcdn.detik.net.id/visual/2019/10/18/437bb685-6c8d-4e41-b6e9-23a0b60f81ae.jpeg\" align=\"left\" hspace=\"7\" width=\"100\" />Program-program pengentasan kemiskinan yang telah dilakukan di Indonesia sifatnya adalah meningkatkan kualitas sumber daya manusia",
+          "contentSnippet": "Program-program pengentasan kemiskinan yang telah dilakukan di Indonesia sifatnya adalah meningkatkan kualitas sumber da",
+          "publishedDate": "2019-10-18T15:35:23.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "KPK Siap Hadapi Gugatan Praperadilan Imam Nahrawi ",
+          "link": "https://news.detik.com/read/2019/10/18/223208/4751694/10/kpk-siap-hadapi-gugatan-praperadilan-imam-nahrawi",
+          "content": "<img src=\"https://akcdn.detik.net.id/visual/2019/01/14/95be2849-e278-43bf-bebf-90235b28eb47_169.jpeg\" align=\"left\" hspace=\"7\" width=\"100\" />KPK siap menghadapi gugatan praperadilan eks Menteri Pemuda dan Olahraga (Menpora) Imam Nahrawi.",
+          "contentSnippet": "KPK siap menghadapi gugatan praperadilan eks Menteri Pemuda dan Olahraga (Menpora) Imam Nahrawi.",
+          "publishedDate": "2019-10-18T15:35:08.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Menristek Pamer Capaian 5 Tahun: Progres Publikasi Riset Hingga 'Gesits'",
+          "link": "https://news.detik.com/read/2019/10/18/222434/4751693/10/menristek-pamer-capaian-5-tahun-progres-publikasi-riset-hingga-gesits",
+          "content": "<img src=\"https://akcdn.detik.net.id/visual/2019/10/18/fb904776-a3d0-4fb9-8b99-7f8da2d8afa8_169.jpeg\" align=\"left\" hspace=\"7\" width=\"100\" />\"Dalam sejarah belum pernah sampai berapa presiden baru, di bawah Jokowi meningkat publikasi risetnya,\" kata Mohamad Nasir.",
+          "contentSnippet": "\"Dalam sejarah belum pernah sampai berapa presiden baru, di bawah Jokowi meningkat publikasi risetnya,\" kata Mohamad Nas",
+          "publishedDate": "2019-10-18T15:30:51.000Z",
+          "categories": [],
+          "author": ""
+        }
+      ]
+    }
+  }
+}

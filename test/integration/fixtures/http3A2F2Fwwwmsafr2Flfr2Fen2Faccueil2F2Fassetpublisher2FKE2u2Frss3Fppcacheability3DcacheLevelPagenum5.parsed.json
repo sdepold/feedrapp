@@ -1,0 +1,60 @@
+{
+  "responseStatus": 200,
+  "responseDetails": null,
+  "responseData": {
+    "feed": {
+      "feedUrl": "http://www.msa.fr/lfr/en/accueil/-/asset_publisher/KE2u/rss?p_p_cacheability=cacheLevelPage",
+      "title": "Les dernières infos du MSA.fr",
+      "link": "https://www.msa.fr/lfy/en/accueil",
+      "description": "",
+      "author": "",
+      "entries": [
+        {
+          "title": "Enquête nationale de satisfaction : la MSA à l’écoute de ses adhérents",
+          "link": "https://www.msa.fr/lfy/en/accueil/-/asset_publisher/KE2u/content/id/90823312",
+          "content": "",
+          "contentSnippet": "",
+          "publishedDate": "2019-10-17T10:00:55.000Z",
+          "categories": [],
+          "author": "MSA_FR"
+        },
+        {
+          "title": "Le site pourbienvieillir.fr s'enrichit",
+          "link": "https://www.msa.fr/lfy/en/accueil/-/asset_publisher/KE2u/content/id/90763582",
+          "content": "",
+          "contentSnippet": "",
+          "publishedDate": "2019-10-14T12:16:01.000Z",
+          "categories": [],
+          "author": "MSA_FR"
+        },
+        {
+          "title": "Participez à la consultation citoyenne sur le Revenu universel d'activité",
+          "link": "https://www.msa.fr/lfy/en/accueil/-/asset_publisher/KE2u/content/id/90721749",
+          "content": "",
+          "contentSnippet": "",
+          "publishedDate": "2019-10-14T11:01:21.000Z",
+          "categories": [],
+          "author": "MSA_FR"
+        },
+        {
+          "title": "C'est parti pour la Semaine Bleue 2019 !",
+          "link": "https://www.msa.fr/lfy/en/accueil/-/asset_publisher/KE2u/content/id/90693060",
+          "content": "",
+          "contentSnippet": "",
+          "publishedDate": "2019-10-09T12:50:05.000Z",
+          "categories": [],
+          "author": "MSA_FR"
+        },
+        {
+          "title": "La conférence de presse de rentrée de la CCMSA",
+          "link": "https://www.msa.fr/lfy/en/accueil/-/asset_publisher/KE2u/content/id/90669154",
+          "content": "",
+          "contentSnippet": "",
+          "publishedDate": "2019-10-08T09:51:26.000Z",
+          "categories": [],
+          "author": "MSA_FR"
+        }
+      ]
+    }
+  }
+}

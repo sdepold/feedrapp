@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+
+<channel>
+	<title>Startups – TechCrunch</title>
+	
+	<link>https://techcrunch.com</link>
+	<description>Startup and Technology News</description>
+	<lastBuildDate>Fri, 18 Oct 2019 17:39:59 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.4</generator>
+
+<image>
+	<url>https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=32</url>
+	<title>Startups – TechCrunch</title>
+	<link>https://techcrunch.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">136296444</site>	<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/techcrunch/startups" /><feedburner:info uri="techcrunch/startups" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><item>
+		<title>YellowHeart allows musicians and concert organizers to take more control of resold tickets</title>
+		<link>http://feedproxy.google.com/~r/techcrunch/startups/~3/S_Tax6v4Fo0/</link>
+				<comments>https://techcrunch.com/2019/10/18/yellowheart/#respond</comments>
+				<pubDate>Fri, 18 Oct 2019 16:05:42 +0000</pubDate>
+		<dc:creator><![CDATA[Anthony Ha]]></dc:creator>
+				<category><![CDATA[Blockchain]]></category>
+		<category><![CDATA[eCommerce]]></category>
+		<category><![CDATA[Media]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[ticketing]]></category>
+		<category><![CDATA[YellowHeart]]></category>
+
+		<guid isPermaLink="false">https://techcrunch.com/?p=1899603</guid>
+				<description><![CDATA[YellowHeart is trying to solve a problem that should be familiar to anyone who&#8217;s ever tried to buy a ticket for a popular concert: Those tickets will often get snatched up by scalpers, who then resell them at a much higher price. In fact, the startup&#8217;s CEO, Josh Katz, said he founded the company because [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p id="speakable-summary"><a href="https://www.yellowheart.io">YellowHeart</a> is trying to solve a problem that should be familiar to anyone who&#8217;s ever tried to buy a ticket for a popular concert: Those tickets will often get snatched up by scalpers, who then resell them at a much higher price.</p>
+<p>In fact, the startup&#8217;s CEO, Josh Katz, said he founded the company because he&#8217;s a music &#8220;megafan&#8221; himself, and he was &#8220;just tired of getting ripped off by scalpers.&#8221; At the same time, he said this isn&#8217;t just a problem for concertgoers. Instead, he painted it as a &#8220;lose-lose for the fan and the artist,&#8221; because the musicians aren&#8217;t sharing in the profits from the marked-up tickets, either.</p>
+<p>So <a class="crunchbase-link" href="https://crunchbase.com/organization/yellowheart" target="_blank" data-type="organization" data-entity="yellowheart">YellowHeart <span class="crunchbase-tooltip-indicator"></span></a> can allow a musician, concert venue or other &#8220;event initiator&#8221; to set up rules for how their tickets are resold. Katz said he&#8217;s hoping that some brave artists will simply say their tickets can&#8217;t be sold at a marked-up price, but he predicted that many more will set price ceilings and dictate that any resale profits are then split between the seller, the artist and/or a charity of the artist&#8217;s choosing.</p>
+<p>&#8220;No matter where the tickets are sold, they have to abide by those rules,&#8221; Katz added. That&#8217;s because the ticket sales run on a public blockchain, and &#8220;all transactions go through YellowHeart, all the revenue flows through YellowHeart.&#8221;</p>
+<p>The plan is to launch the ticketing platform in the second quarter of next year. Katz said users should be able to sell their tickets on any marketplace that works with YellowHeart&#8217;s smart contracts — but he acknowledged that it will take some time to bring partners on-board and for those integrations to go live.</p>
+<div class="embed breakout">
+<blockquote class="wp-embedded-content" data-secret="124PfnmTZP"><p><a href="https://techcrunch.com/2016/12/01/bots-act-punishing-online-scalpers-passes-senate-moves-on-to-the-house/">BOTS Act punishing online scalpers passes Senate, moves on to the House</a></p></blockquote>
+<p><iframe title="&#8220;BOTS Act punishing online scalpers passes Senate, moves on to the House&#8221; &#8212; TechCrunch" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; clip: rect(1px, 1px, 1px, 1px);" src="https://techcrunch.com/2016/12/01/bots-act-punishing-online-scalpers-passes-senate-moves-on-to-the-house/embed/#?secret=124PfnmTZP" data-secret="124PfnmTZP" width="800" height="450" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div>
+<p>Katz argued that the blockchain approach has other benefits, like the fact that each ticket will have &#8220;a unique key that is tied to a user’s identity and sits in their virtual wallet,&#8221; which should eliminate forgery. (The ticketing process, by the way, will be &#8220;fully digital end-to-end,&#8221; except that venues will have the option to print tickets at the box office.)</p>
+<p>Katz has a background in the music industry, having previously founded <a href="http://www.elmediagroup.com/nyedition">El Media Group</a>, which creates custom playlists for hotels, restaurants and other clients. He founded YellowHeart with The Chainsmokers, along with their manager Adam Alpert, who&#8217;s also CEO of Disruptor Records.</p>
+<p>&#8220;With The Chainsmokers, we’ve been outspoken about the issue of scalpers for years, and are excited to partner with YellowHeart to provide a smart and effective solution that gives control back to artists and fans,&#8221; Alpert said in a statement.</p>
+<p>And Katz suggested that YellowHeart&#8217;s platform could eventually be used in any other kind of event ticketing.</p>
+<p>&#8220;I am anticipating this being a great platform for sports and theater as well,&#8221; he said. &#8220;Myself and Adam and Drew [Taggart] and Alex [Pall of The Chainsmokers] come out of music, so that&#8217;s where we’re starting.&#8221;</p>
+<img src="http://feeds.feedburner.com/~r/techcrunch/startups/~4/S_Tax6v4Fo0" height="1" width="1" alt=""/>]]></content:encoded>
+							<wfw:commentRss>https://techcrunch.com/2019/10/18/yellowheart/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1899603</post-id>	<feedburner:origLink>https://techcrunch.com/2019/10/18/yellowheart/</feedburner:origLink></item>
+		<item>
+		<title>Three of the best tackle the thorny issue of Brexit for startups at Disrupt Berlin</title>
+		<link>http://feedproxy.google.com/~r/techcrunch/startups/~3/t16hqqST2KE/</link>
+				<comments>https://techcrunch.com/2019/10/18/three-of-the-best-tackle-the-thorny-issue-of-brexit-for-startups-at-disrupt-berlin/#respond</comments>
+				<pubDate>Fri, 18 Oct 2019 14:29:57 +0000</pubDate>
+		<dc:creator><![CDATA[Mike Butcher]]></dc:creator>
+				<category><![CDATA[Europe]]></category>
+		<category><![CDATA[Events]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[Bindi Karia]]></category>
+		<category><![CDATA[Brexit]]></category>
+		<category><![CDATA[Glenn Shoosmith]]></category>
+		<category><![CDATA[TechCrunch Disrupt Berlin 2019]]></category>
+		<category><![CDATA[Volker Hirsch]]></category>
+
+		<guid isPermaLink="false">https://techcrunch.com/?p=1899586</guid>
+				<description><![CDATA[The turbulence of Brexit has left both U.K. and European startups alike wondering about the best path forward. From recruiting to acquiring investment to scaling into other parts of Europe, the challenges seem to be mounting. By December, who knows what will have happened on the Brexit landscape, such is the chaos. At Disrupt Berlin [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p id="speakable-summary">The turbulence of Brexit has left both U.K. and European startups alike wondering about the best path forward. From recruiting to acquiring investment to scaling into other parts of Europe, the challenges seem to be mounting. By December, who knows what will have happened on the Brexit landscape, such is the chaos.</p>
+<p>At <a href="https://techcrunch.com/events/disrupt-berlin-2019/tickets/?ref=speakerpost10&amp;unii-trigger-open=J7WN34">Disrupt Berlin in December</a>, we’ll hear from investor Bindi Karia, who has deep European ties; founder Glenn Shoosmith, who&#8217;s expanding his startup internationally; and German-born but U.K.-domiciled VC Volker Hirsch on how to make the right decisions in the face of these obstacles.</p>
+<p><a href="https://www.crunchbase.com/organization/bindi-karia-9ca4">Bindi Karia</a> works as a venture partner at large London-based VC Draper Esprit, and has held positions in and around the tech industry for as long as she’s been working. She’s been a consultant at PwC Consulting, worked in corporate environments like Microsoft Ventures, served within a startup at Trayport and was an advisor across a number of organizations (Startup Europe, Techstars Startup Weekend, Tech London Advocates, European Innovation Council, WEF). She’s been a banker with Silicon Valley Bank and currently invests as a partner at a large London-based VC firm, as well as serving on the advisory board for seven different startups. She brings a wealth of knowledge to the conversation and understands the differing perspectives involved in each startup’s journey to success.</p>
+<p><a href="https://www.crunchbase.com/person/volker-hirsch">Volker Hirsch</a> will bring us not only his perspective as a former entrepreneur-turned-VC but also as a German-born citizen living in the U.K. and dealing with Brexit. He is a partner at Amadeus, working on its early-stage funds, whose investment focus is on artificial intelligence and machine learning, autonomous systems, human-machine interfaces, cybersecurity, enterprise SaaS, digital health and medical technologies.</p>
+<p>Volker has founded or co-founded a total of six companies to date. He is currently co-founder of Blue Beck, a 40-strong mobile development house, and a venture partner at Emerge Education, Europe’s leading early-stage edtech investor.</p>
+<p>Prior to joining Amadeus Capital, Volker was amongst the first angel investors in companies like Pi-Top, Bibblio (where he is also chairman), Aula Education and Wonde. His personal investment portfolio comprises about a dozen investments with companies based across Europe and the U.S.</p>
+<p>Previously, Volker was the chief strategy officer at Scoreloop, a mobile social gaming platform, which he helped grow from (almost) inception to 450 million users at its peak. When the company was acquired by BlackBerry in 2011, he served as BlackBerry’s global head of Business Development – Games.</p>
+<p>Lastly, <a href="https://www.crunchbase.com/person/glenn-shoosmith">Glenn Shoosmith</a> will bring his perspective as a founder with a substantial operation in the U.K. but who recently expanded into the U.S. Originally founded as BookingBug in 2008, the renamed JRNI (pronounced &#8220;journey&#8221;) has become one of the market-leading multichannel appointment scheduling and customer journey platforms, helping leading global retailers, banks, central and local governments enhance their customer experience and save costs. JRNI has a team of more than 100 based in London, Boston and Sydney.</p>
+<p>Glenn has been a passionate advocate for London and the U.K. as a technology hub within Europe, and in the past has helped shape government policy toward innovation and technology, both as an early advocate for Tech City, and as an advisor and representative of the government nationally and internationally.</p>
+<p><a href="https://techcrunch.com/events/disrupt-berlin-2019/tickets/?ref=speakerpost10&amp;unii-trigger-open=J7WN34">Buy your ticket to Disrupt Berlin</a> to listen to this discussion — and many others. The conference will take place December 11-12.</p>
+<p>	<iframe
+			id="wpcom-iframe-c98bc66ab504d3407da982a3cb4a6527"
+			width="99%"
+			height="1100"
+			src="https://tcprotectedembed.com/protected-iframe/c98bc66ab504d3407da982a3cb4a6527"
+			scrolling=""
+			frameborder="0"
+			class="wpcom-protected-iframe"
+	>
+	</iframe>
+	<script type="text/javascript">
+		( function() {
+			var func = function() {
+				var iframe = document.getElementById('wpcom-iframe-c98bc66ab504d3407da982a3cb4a6527')
+				if ( iframe ) {
+					iframe.onload = function() {
+						iframe.contentWindow.postMessage( {
+							'msg_type': 'poll_size',
+							'frame_id': 'wpcom-iframe-c98bc66ab504d3407da982a3cb4a6527'
+						}, "https:\/\/tcprotectedembed.com" );
+					}
+				}
+
+				// Autosize iframe
+				var funcSizeResponse = function( e ) {
+
+					var origin = document.createElement( 'a' );
+					origin.href = e.origin;
+
+					// Verify message origin
+					if ( 'tcprotectedembed.com' !== origin.host )
+						return;
+
+					// Verify message is in a format we expect
+					if ( 'object' !== typeof e.data || undefined === e.data.msg_type )
+						return;
+
+					switch ( e.data.msg_type ) {
+						case 'poll_size:response':
+							var iframe = document.getElementById( e.data._request.frame_id );
+
+							if ( iframe && '' === iframe.width )
+								iframe.width = '100%';
+							if ( iframe && '' === iframe.height )
+								iframe.height = parseInt( e.data.height );
+
+							return;
+						default:
+							return;
+					}
+				}
+
+				if ( 'function' === typeof window.addEventListener ) {
+					window.addEventListener( 'message', funcSizeResponse, false );
+				} else if ( 'function' === typeof window.attachEvent ) {
+					window.attachEvent( 'onmessage', funcSizeResponse );
+				}
+			}
+			if (document.readyState === 'complete') { func.apply(); /* compat for infinite scroll */ }
+			else if ( document.addEventListener ) { document.addEventListener( 'DOMContentLoaded', func, false ); }
+			else if ( document.attachEvent ) { document.attachEvent( 'onreadystatechange', func ); }
+		} )();
+	</script>
+	</p>
+<img src="http://feeds.feedburner.com/~r/techcrunch/startups/~4/t16hqqST2KE" height="1" width="1" alt=""/>]]></content:encoded>
+							<wfw:commentRss>https://techcrunch.com/2019/10/18/three-of-the-best-tackle-the-thorny-issue-of-brexit-for-startups-at-disrupt-berlin/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1899586</post-id>	<feedburner:origLink>https://techcrunch.com/2019/10/18/three-of-the-best-tackle-the-thorny-issue-of-brexit-for-startups-at-disrupt-berlin/</feedburner:origLink></item>
+		<item>
+		<title>Greylock GP Sarah Guo is as bullish on SaaS as ever</title>
+		<link>http://feedproxy.google.com/~r/techcrunch/startups/~3/TPupPid1Tnw/</link>
+				<comments>https://techcrunch.com/2019/10/18/greylock-gp-sarah-guo-is-as-bullish-on-saas-as-ever/#respond</comments>
+				<pubDate>Fri, 18 Oct 2019 13:00:25 +0000</pubDate>
+		<dc:creator><![CDATA[Kate Clark]]></dc:creator>
+				<category><![CDATA[Podcasts]]></category>
+		<category><![CDATA[SaaS]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[Venture Capital]]></category>
+		<category><![CDATA[@jack]]></category>
+		<category><![CDATA[economy]]></category>
+		<category><![CDATA[entrepreneurship]]></category>
+		<category><![CDATA[Equity podcast]]></category>
+		<category><![CDATA[finance]]></category>
+		<category><![CDATA[grammarly]]></category>
+		<category><![CDATA[Greylock Partners]]></category>
+		<category><![CDATA[Lattice]]></category>
+		<category><![CDATA[money]]></category>
+		<category><![CDATA[Private Equity]]></category>
+		<category><![CDATA[sam altman]]></category>
+		<category><![CDATA[Sarah Guo]]></category>
+		<category><![CDATA[Startup company]]></category>
+		<category><![CDATA[tempest]]></category>
+		<category><![CDATA[tiger global]]></category>
+		<category><![CDATA[venture capital]]></category>
+
+		<guid isPermaLink="false">https://techcrunch.com/?p=1899327</guid>
+				<description><![CDATA[Hello and welcome back to Equity, TechCrunch’s venture capital-focused podcast where each week we discuss other people’s money and what sense their investment choices make (or don't).]]></description>
+								<content:encoded><![CDATA[<p id="speakable-summary"><iframe src="https://player.simplecast.com/db644aa4-f6ca-4d15-bdc7-1a50fc36b583?dark=true" width="100%" height="200px" frameborder="no" scrolling="no" seamless=""></iframe></p>
+<p id="speakable-summary">Hello and welcome back to <a href="https://itunes.apple.com/us/podcast/equity/id1215439780?mt=2" target="_blank" rel="noopener noreferrer">Equity</a>, TechCrunch’s venture capital-focused podcast, where each week we discuss other people’s money and what sense their investment choices make (or don&#8217;t).</p>
+<p>This week was honestly a treat. We had <a href="http://twitter.com/kateclarktweets">Kate Clark</a> in the studio along with <a href="http://twitter.com/alex">Alex Wilhelm</a> and a special guest, <a href="https://www.linkedin.com/in/sarahxguo">Sarah Guo from Greylock Partners</a>, a venture firm (obviously). Guo has the distinction of having the best-ever fun fact on the show.</p>
+<p>We kicked off with <a class="crunchbase-link" href="https://crunchbase.com/organization/grammarly" target="_blank" data-type="organization" data-entity="grammarly">Grammarly, <span class="crunchbase-tooltip-indicator"></span></a> a company that recently <a href="https://techcrunch.com/2019/10/10/grammarly-raises-90m-at-over-1b-valuation-for-its-ai-based-grammar-and-writing-tools/">put $90 million into its accounts</a>. We chatted about for whom it was built, and if we use it today. One thing that felt clear was that consumers are more willing than before to pay for their tooling. And that means that companies like Grammarly may prove <a href="https://news.crunchbase.com/news/as-comma-complexity-continues-grammarly-raises-90m/">strong investment candidates</a>.</p>
+<p>Next, we hit on two more rounds, namely Tiger Global&#8217;s investment into <a class="crunchbase-link" href="https://crunchbase.com/organization/lattice-2" target="_blank" data-type="organization" data-entity="lattice-2">Lattice <span class="crunchbase-tooltip-indicator"></span></a> and <a href="https://news.crunchbase.com/news/clari-raises-60m-more-in-series-d-for-sales-analytics-software/">Clari&#8217;s $60 million Series D</a>. Starting with Lattice, a performance management company founded by none other than Sam Altman&#8217;s brother, Jack. The startup raised $25 million from Tiger Global; read more about that <a href="https://techcrunch.com/2019/10/10/tiger-global-values-people-management-tool-lattice-at-200m/">here</a>.</p>
+<p>Clari led us to a discussion of vertical SaaS, and Guo&#8217;s views on the future of SaaS products (she&#8217;s bullish). Alex and Guo had a lot to say on this subject.</p>
+<p>After talking over a few rounds, the discussion turned to <a href="https://news.crunchbase.com/news/the-q3-2019-global-venture-capital-report-seed-stage-deals-increase-while-broader-funding-environment-shows-signs-of-erosion/">the Q3 venture market</a>. A few things stood out from the data and projections. First, that early-stage fundraising was a little light in the quarter. It could be a single-quarter wobble, but the data was worth chewing on all the same. And, second, that seed deal and dollar volume were hot once again.</p>
+<p>And we wrapped with a discussion of <a href="https://techcrunch.com/2019/10/08/tempest-virtual-sobriety-school/">Tempest, a new sobriety-focused startup that raised a $10 million round</a>. Honestly, we aren&#8217;t sure how we feel about the business model. Please let us know if you have thoughts.</p>
+<p>It was a good time. A big thanks to Guo for coming on the show, and a shout-out to the team that makes Equity happen: Chris Gates and Henry Pickavet.</p>
+<div class="article-content">
+<div class="article-content">
+<p><em>Equity drops every Friday at 6:00 am PT, so subscribe to us on <a href="https://itunes.apple.com/us/podcast/id1215439780" target="_blank" rel="noopener noreferrer">iTunes</a>, <a href="https://overcast.fm/itunes1215439780/equity" target="_blank" rel="noopener noreferrer">Overcast</a>, Pocketcast, Downcast and all the casts.</em></p>
+</div>
+</div>
+<img src="http://feeds.feedburner.com/~r/techcrunch/startups/~4/TPupPid1Tnw" height="1" width="1" alt=""/>]]></content:encoded>
+							<wfw:commentRss>https://techcrunch.com/2019/10/18/greylock-gp-sarah-guo-is-as-bullish-on-saas-as-ever/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1899327</post-id>	<feedburner:origLink>https://techcrunch.com/2019/10/18/greylock-gp-sarah-guo-is-as-bullish-on-saas-as-ever/</feedburner:origLink></item>
+		<item>
+		<title>Last few hours to apply: TC Top Picks @ Disrupt Berlin 2019</title>
+		<link>http://feedproxy.google.com/~r/techcrunch/startups/~3/zn62M6EGkZ8/</link>
+				<comments>https://techcrunch.com/2019/10/18/last-few-hours-to-apply-tc-top-picks-disrupt-berlin-2019/#comments</comments>
+				<pubDate>Fri, 18 Oct 2019 08:00:39 +0000</pubDate>
+		<dc:creator><![CDATA[Leslie Hitchcock]]></dc:creator>
+				<category><![CDATA[Events]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[TC Top Picks]]></category>
+		<category><![CDATA[TC Top Picks Disrupt Berlin 2019]]></category>
+		<category><![CDATA[TechCrunch Disrupt Berlin 2019]]></category>
+
+		<guid isPermaLink="false">https://techcrunch.com/?p=1897434</guid>
+				<description><![CDATA[This is it, startup founders. Today, October 18, is the last day and your final opportunity to be chosen as a TC Top Pick, to score a free Startup Alley Exhibitor Package and to shine a bright spotlight on your company at Disrupt Berlin 2019 on 11-12 December. You have only a few hours left to beat [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p id="speakable-summary">This is it, startup founders. Today, October 18, is the last day and your final opportunity to be chosen as a TC Top Pick, to score a free <a href="https://techcrunch.com/events/disrupt-berlin-2019/tickets/">Startup Alley Exhibitor Package</a> and to shine a bright spotlight on your company at <a href="https://techcrunch.com/events/disrupt-berlin-2019">Disrupt Berlin 2019</a> on 11-12 December.</p>
+<p>You have only a few hours left to beat today’s <strong>12 p.m. (PT)</strong> deadline. It’s quick, it’s painless and it’s free. What are you waiting for? <a href="https://apply.techcrunch.com/signin?_ga=2.139334071.583428873.1565615868-21262877.1546616128">Apply to be a TC Top Pick</a> while you still can.</p>
+<p>Every early-stage startup needs exposure to survive and thrive. Exposure to potential customers, to accredited media and to investors with the backing to make dreams come true. Our TC Top Picks provides exposure to possibility.</p>
+<p>If your startup falls into one of the categories listed below, we want you. TechCrunch editors will vet the applications and choose up to five startups that represent the best of each category: AI/Machine Learning, Biotech/Healthtech, Blockchain, Fintech, Mobility, Privacy/Security, Retail/E-commerce, Robotics/IoT/Hardware, CRM/Enterprise and Education.</p>
+<p>If you earn a TC Top Pick designation, you receive a free <a href="https://techcrunch.com/events/disrupt-berlin-2019/tickets/">Startup Alley Exhibitor Package</a> and a VIP experience. Your package includes one full day exhibiting in Startup Alley (the Disrupt expo floor), three Founder passes, press lists and invitations to networking parties, to name just a few perks.</p>
+<p>Our Top Picks cohort generates a lot of curiosity, and Disrupt attendees flock to Startup Alley to meet and greet. It’s networking nirvana, where you can connect with potential customers, investors, mentors, collaborators — think infinite opportunity.</p>
+<p>And yet another great opportunity awaits. TechCrunch editors interview each Top Pick startup live on the Showcase Stage. While we promote the interview video across our social media platforms, you can use it to drive traffic to your website and as a long-term marketing tool for pitching investors and customers.</p>
+<p>And then there’s the Wild Card. TechCrunch editors will pick one early-stage startup exhibiting in the Alley to be the Wild Card, and that startup will compete in <a href="https://techcrunch.com/startup-battlefield/">Startup Battlefield</a>, our epic pitch competition. It’s a chance to win even more investor and media love along with the $50,000 prize. Last year, <a href="https://techcrunch.com/2018/11/29/legacy-freezes-your-sperm-so-you-dont-have-to/">Legacy earned the Wild Card</a> slot, and then went on to <a href="https://techcrunch.com/2018/11/30/legacy-wins-startup-battlefield-at-disrupt-berlin-2018/">win the Startup Battlefield competition</a>.</p>
+<p><a href="https://techcrunch.com/events/disrupt-berlin-2019">Disrupt Berlin 2019</a> takes place on 11-12 December. So much opportunity, so little time left to take advantage of it. The TC Top Picks opportunity is free, and the benefits are priceless. Don’t miss your chance — <a href="https://apply.techcrunch.com/signin?_ga=2.139334071.583428873.1565615868-21262877.1546616128">apply to be a TC Top Pick</a> <strong>before</strong> <strong>12 p.m. (PT)</strong> <strong>today, 18 October</strong>.</p>
+<p><em>Is your company interested in sponsoring or exhibiting at Disrupt Berlin 2019? Contact our sponsorship sales team by </em><a href="http://info.techcrunch.com/SponsorshipsInterest.html"><em>filling out this form</em></a>.</p>
+<img src="http://feeds.feedburner.com/~r/techcrunch/startups/~4/zn62M6EGkZ8" height="1" width="1" alt=""/>]]></content:encoded>
+							<wfw:commentRss>https://techcrunch.com/2019/10/18/last-few-hours-to-apply-tc-top-picks-disrupt-berlin-2019/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1897434</post-id>	<feedburner:origLink>https://techcrunch.com/2019/10/18/last-few-hours-to-apply-tc-top-picks-disrupt-berlin-2019/</feedburner:origLink></item>
+		<item>
+		<title>Mobile game startup MadBox raises $16.5 million after 100 million downloads</title>
+		<link>http://feedproxy.google.com/~r/techcrunch/startups/~3/BfAbNAXq_hk/</link>
+				<comments>https://techcrunch.com/2019/10/18/mobile-game-startup-madbox-raises-16-5-million-after-100-million-downloads/#respond</comments>
+				<pubDate>Fri, 18 Oct 2019 07:10:57 +0000</pubDate>
+		<dc:creator><![CDATA[Romain Dillet]]></dc:creator>
+				<category><![CDATA[Europe]]></category>
+		<category><![CDATA[Fundings & Exits]]></category>
+		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[Recent Funding]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[Alven]]></category>
+		<category><![CDATA[France Newsletter]]></category>
+		<category><![CDATA[Madbox]]></category>
+		<category><![CDATA[mobile game]]></category>
+
+		<guid isPermaLink="false">https://techcrunch.com/?p=1898958</guid>
+				<description><![CDATA[French startup MadBox is raising a $16.5 million (€15 million) Series A funding round from Alven. The company is developing mobile games and handles everything from start to finish, from game design to publishing and user acquisition. MadBox is a young player in the mobile game space. The company is the result of the merger [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p id="speakable-summary">French startup <a href="https://madbox.io">MadBox</a> is raising a $16.5 million (€15 million) Series A funding round from <a href="https://www.alven.co">Alven</a>. The company is developing mobile games and handles everything from start to finish, from game design to publishing and user acquisition.</p>
+<p><a class="crunchbase-link" href="https://crunchbase.com/organization/madbox" target="_blank" data-type="organization" data-entity="madbox">MadBox <span class="crunchbase-tooltip-indicator"></span></a> is a young player in the mobile game space. The company is the result of the merger of two tiny Paris-based game studios in July 2018. After a couple of months, the startup released its first game, <a href="https://apps.apple.com/fr/app/dash-valley/id1401966349">Dash Valley</a>. And the game quickly ended up trending in the top 50 of top free game downloads in the App Store in the U.S.</p>
+<p>The company has released a handful of games since then. At some point, MadBox had three games in the top 10 charts in the U.S. (once again, free game downloads) — StickMan Hook, Sausage Flip and Idle Ball Race. Overall, MadBox has generated 100 million game downloads.</p>
+<p>“The core method at MadBox is that we internalize everything,” co-founder and CEO Jean-Nicolas Vernin told me. “We try to automate as many thing as possible.”</p>
+<p>In addition to reusing assets from one game to another, MadBox also tries to apply the same method when it comes to user acquisition and marketing. “People often tell us that we have a data-driven culture that is disproportionately developed in our company,” Vernin said.</p>
+<p>MadBox has a careful approach when it comes to growth. The company hires slowly and doesn’t release dozens of games in a year.</p>
+<p>With 30 to 40 employees and a business model mostly based on ads, the company is currently profitable. MadBox now wants to tackle a wider range of mobile games, from hyper casual to idle games and less casual games. The startup is also opening a second office in Barcelona.</p>
+<p>“We are a generation of friends who have worked for well-known casual game studios. And we all think that big game productions will have to become simpler so that people can play them like casual games — and vice versa,” Vernin said. And MadBox wants to be there when these two worlds collide.</p>
+<img src="http://feeds.feedburner.com/~r/techcrunch/startups/~4/BfAbNAXq_hk" height="1" width="1" alt=""/>]]></content:encoded>
+							<wfw:commentRss>https://techcrunch.com/2019/10/18/mobile-game-startup-madbox-raises-16-5-million-after-100-million-downloads/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1898958</post-id>	<feedburner:origLink>https://techcrunch.com/2019/10/18/mobile-game-startup-madbox-raises-16-5-million-after-100-million-downloads/</feedburner:origLink></item>
+		<item>
+		<title>Kenyan telco Safaricom’s Alpha incubator faces uncertain future</title>
+		<link>http://feedproxy.google.com/~r/techcrunch/startups/~3/xcoVrv69qDg/</link>
+				<comments>https://techcrunch.com/2019/10/17/kenyan-telco-safaricoms-alpha-incubator-faces-uncertain-future/#respond</comments>
+				<pubDate>Fri, 18 Oct 2019 05:34:42 +0000</pubDate>
+		<dc:creator><![CDATA[Jake Bright]]></dc:creator>
+				<category><![CDATA[Startups]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[africa]]></category>
+		<category><![CDATA[east africa]]></category>
+		<category><![CDATA[eBay]]></category>
+		<category><![CDATA[economies]]></category>
+		<category><![CDATA[Facebook]]></category>
+		<category><![CDATA[IBM]]></category>
+		<category><![CDATA[iHub]]></category>
+		<category><![CDATA[iTunes]]></category>
+		<category><![CDATA[kenya]]></category>
+		<category><![CDATA[M-Pesa]]></category>
+		<category><![CDATA[Nairobi]]></category>
+		<category><![CDATA[PayPal]]></category>
+		<category><![CDATA[Safaricom]]></category>
+		<category><![CDATA[Shikoh Gitau]]></category>
+		<category><![CDATA[social network]]></category>
+		<category><![CDATA[vodafone]]></category>
+
+		<guid isPermaLink="false">https://techcrunch.com/?p=1898725</guid>
+				<description><![CDATA[Safaricom&#8217;s Nairobi-based Alpha innovation incubator may have an uncertain future, according to sources. With two high-level departures, and the passing of Safaricom&#8217;s CEO Bob Collymore, there are questions on how or if Alpha will continue to operate. The space was established in 2017 to spur new product development for Safaricom, which is Kenya&#8217;s largest mobile [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p id="speakable-summary"><a class="crunchbase-link" href="https://crunchbase.com/organization/safaricom" target="_blank" data-type="organization" data-entity="safaricom">Safaricom&#8217;s <span class="crunchbase-tooltip-indicator"></span></a> Nairobi-based <a href="https://www.alpha.ke/">Alpha innovation incubator</a> may have an uncertain future, according to sources.</p>
+<p>With two high-level departures, and the passing of Safaricom&#8217;s CEO Bob Collymore, there are questions on how or if Alpha will continue to operate.</p>
+<p>The space was established in 2017 to spur new product development for <a href="https://www.safaricom.co.ke/">Safaricom</a>, which is Kenya&#8217;s largest mobile operator and the provider of M-Pesa — East Africa&#8217;s most used mobile-money product.</p>
+<p>As <a href="https://techcrunch.com/2017/10/18/safaricom-launches-innovation-center-to-move-beyond-m-pesa/">TechCrunch reported</a>, one of the first objectives of Alpha was to build upon the success of M-Pesa.</p>
+<p>As a telco, Safaricom has <a href="https://ca.go.ke/document/sector-statistics-report-q4-2018-19/" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=http://ca.go.ke/index.php/statistics&amp;source=gmail&amp;ust=1525188126631000&amp;usg=AFQjCNGbkOrJlfggJPSaDbiLh95thSG3yA">69%</a> of the Kenya’s mobile subscribers and generates around one-fourth ($531 million) of its ≈ <a href="https://www.safaricom.co.ke/investor-relation/financials/reports/annual-reports">$2.2 billion annual revenues (2018)</a> from M-Pesa. The fintech product has <a href="https://www.safaricom.co.ke/investor-relation/financials/reports/annual-reports">20.5 million customers</a> across a network of 176,000 agents.</p>
+<p>While these stats have put Safaricom in a coveted position, the company&#8217;s former CEO Bob Collymore expressed concerns over the risk of too many eggs in one basket. For years, Collymore <a href="https://africanbusinessmagazine.com/region/east-africa/safaricoms-bob-collymore-mulls-his-future/">pressed his company to diversify</a> product and revenue streams.</p>
+<p>Through in-house development and partnerships, Safaricom added to its mobile and fintech network consumer and small business-based products, such as <a href="https://techcrunch.com/2016/07/31/in-kenya-safaricoms-little-cab-app-goes-head-to-head-with-uber/">ride-hail app Little</a> and website services.</p>
+<p>In 2017, Safaricom&#8217;s chief innovation officer and first head of Alpha, <a href="https://www.linkedin.com/in/kamalbhattacharya/?originalSubdomain=de">Kamal Bhattacharya</a>, echoed Collymore&#8217;s mission to diversify the company&#8217;s offerings.</p>
+<p>“We’d actually like to move beyond <a class="crunchbase-link" href="https://crunchbase.com/organization/m-pesa" target="_blank" data-type="organization" data-entity="m-pesa">M-Pesa <span class="crunchbase-tooltip-indicator"></span></a> by leveraging its power as a social network to connect people to other product solutions,” <a href="https://techcrunch.com/2017/10/18/safaricom-launches-innovation-center-to-move-beyond-m-pesa/">he told TechCrunch</a>.</p>
+<p>Bhattacharya — who&#8217;d come to Safaricom after senior positions at <a class="crunchbase-link" href="https://crunchbase.com/organization/ibm" target="_blank" data-type="organization" data-entity="ibm">IBM <span class="crunchbase-tooltip-indicator"></span></a> Research Africa and a stint restructuring Kenyan innovation center <a class="crunchbase-link" href="https://crunchbase.com/organization/ihub" target="_blank" data-type="organization" data-entity="ihub">iHub <span class="crunchbase-tooltip-indicator"></span></a> — recruited a team for Alpha, led by founder and computer scientist <a href="https://en.wikipedia.org/wiki/Shikoh_Gitau">Shikoh Gitau</a>.</p>
+<p>From a market perspective, Alpha was something to watch, as corporate incubators in Africa were (and continue to be) a relatively new component across the continent&#8217;s tech ecosystem.</p>
+<p><div id="attachment_1630747" style="width: 5162px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-1630747" class="breakout wp-image-1630747 size-full" title="ALPHA.OFFICE" src="https://techcrunch.com/wp-content/uploads/2018/04/alpha-office.jpg" alt="" width="5152" height="3864" srcset="https://techcrunch.com/wp-content/uploads/2018/04/alpha-office.jpg 5152w, https://techcrunch.com/wp-content/uploads/2018/04/alpha-office.jpg?resize=150,113 150w, https://techcrunch.com/wp-content/uploads/2018/04/alpha-office.jpg?resize=300,225 300w, https://techcrunch.com/wp-content/uploads/2018/04/alpha-office.jpg?resize=768,576 768w, https://techcrunch.com/wp-content/uploads/2018/04/alpha-office.jpg?resize=680,510 680w, https://techcrunch.com/wp-content/uploads/2018/04/alpha-office.jpg?resize=50,38 50w" sizes="(max-width: 5152px) 100vw, 5152px" /><p id="caption-attachment-1630747" class="wp-caption-text">Alpha staff in 2018</p></div></p>
+<p>In a space purposely established away from Safaricom&#8217;s HQ, Alpha&#8217;s team of innovators set to shaping new digital offerings.</p>
+<p>In 2018, the incubator rolled out its first product, a social networking platform called <a href="https://www.bonga.ke/" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=https://www.bonga.ke/&amp;source=gmail&amp;ust=1525878633818000&amp;usg=AFQjCNE3dhvW3rzc1UI1afCmlIA7Oq8jQg">Bonga</a>, to augment M-Pesa.</p>
+<div class="embed breakout">
+<blockquote class="wp-embedded-content" data-secret="36h3dwtr9z"><p><a href="https://techcrunch.com/2018/04/30/safaricom-rolls-out-bonga-social-networking-platform-to-augment-m-pesa/">Safaricom rolls out Bonga social networking platform to augment M-Pesa</a></p></blockquote>
+<p><iframe title="&#8220;Safaricom rolls out Bonga social networking platform to augment M-Pesa&#8221; &#8212; TechCrunch" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; clip: rect(1px, 1px, 1px, 1px);" src="https://techcrunch.com/2018/04/30/safaricom-rolls-out-bonga-social-networking-platform-to-augment-m-pesa/embed/#?secret=36h3dwtr9z" data-secret="36h3dwtr9z" width="800" height="450" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div>
+<p>Because M-Pesa was already established as a commercial network, the idea was to amplify that by creating more social media-type transactions around it — channeling <a class="crunchbase-link" href="https://crunchbase.com/organization/facebook" target="_blank" data-type="organization" data-entity="facebook">Facebook, <span class="crunchbase-tooltip-indicator"></span></a> YouTube, iTunes, <a class="crunchbase-link" href="https://crunchbase.com/organization/paypal" target="_blank" rel="noopener noreferrer" data-type="organization" data-entity="paypal">PayPal </a>and <a class="crunchbase-link" href="https://crunchbase.com/organization/ebay" target="_blank" rel="noopener noreferrer" data-type="organization" data-entity="ebay">eBay </a>in one platform.</p>
+<p>With Bonga, Alpha appeared to have some momentum into 2018, before the innovation incubator lost two of its biggest backers.</p>
+<p>First, Kamal Bhattacharya <a href="https://af.reuters.com/article/africaTech/idAFKCN1MD1DO-OZABS">exited Safaricom</a> and his position of lead of Alpha in October 2018. The reason given by the company was a bit of corporate say-nothing-speak: &#8220;leaving to pursue other interests.&#8221;</p>
+<p>The real reasons for Bhattacharya&#8217;s sudden exit were unclear. There was, however, plenty of scuttlebutt about powers within Safaricom — resistant to the brand of bureaucracy rattling change Alpha could bring — conspiring to push him out.</p>
+<p>After losing its head, Alpha lost another key ally in Bob Collymore when <a href="https://www.cnn.com/2019/07/01/africa/bob-collymore-dead-intl/index.html">he passed away in July</a> of this year after a fight with cancer.</p>
+<p><img class="breakout alignnone wp-image-1899433 size-full" title="Zwuup Safaricom" src="https://techcrunch.com/wp-content/uploads/2019/10/Zwuup-Safaricom.jpg" alt="Zwuup Safaricom" width="1320" height="660" srcset="https://techcrunch.com/wp-content/uploads/2019/10/Zwuup-Safaricom.jpg 1320w, https://techcrunch.com/wp-content/uploads/2019/10/Zwuup-Safaricom.jpg?resize=150,75 150w, https://techcrunch.com/wp-content/uploads/2019/10/Zwuup-Safaricom.jpg?resize=300,150 300w, https://techcrunch.com/wp-content/uploads/2019/10/Zwuup-Safaricom.jpg?resize=768,384 768w, https://techcrunch.com/wp-content/uploads/2019/10/Zwuup-Safaricom.jpg?resize=680,340 680w, https://techcrunch.com/wp-content/uploads/2019/10/Zwuup-Safaricom.jpg?resize=50,25 50w" sizes="(max-width: 1320px) 100vw, 1320px" />Alpha <a href="https://techweez.com/2019/08/19/senior-employee-leaves-safaricom-alpha/">said farewell to another senior figure in August when Huston Malande left. </a>It also rebranded Bonga to Zwuup this year — though Safaricom&#8217;s last two annual reports don&#8217;t indicate how the product has fared under either name, with no mention of Bonga, Zwuup or Alpha.</p>
+<p>What&#8217;s next for Alpha?</p>
+<p>Several sources close to Safaricom (speaking on background) expressed doubt that it would have the support within the company to continue after Collymore&#8217;s passing.</p>
+<p>One source suggested Alpha would more likely be morphed into the larger Safaricom bureaucracy rather than shut down completely, to avoid negative news that an abrupt closure would bring.</p>
+<p>TechCrunch asked Safaricom directly on the future of Alpha, and specifically if it would confirm or deny reports the innovation incubator could shut down. A Safaricom spokesperson said it could not comment on anything related to Alpha&#8217;s products or performance before Safaricom&#8217;s next earnings reporting, scheduled for November 1.</p>
+<p>So <a class="crunchbase-link" href="https://crunchbase.com/organization/kenya" target="_blank" data-type="organization" data-entity="kenya">Kenya&#8217;s <span class="crunchbase-tooltip-indicator"></span></a> tech community will have to wait a couple more weeks to see if Safaricom sticks to its experiment to spur inside innovation by creating an outside incubator — or not.</p>
+<img src="http://feeds.feedburner.com/~r/techcrunch/startups/~4/xcoVrv69qDg" height="1" width="1" alt=""/>]]></content:encoded>
+							<wfw:commentRss>https://techcrunch.com/2019/10/17/kenyan-telco-safaricoms-alpha-incubator-faces-uncertain-future/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1898725</post-id>	<feedburner:origLink>https://techcrunch.com/2019/10/17/kenyan-telco-safaricoms-alpha-incubator-faces-uncertain-future/</feedburner:origLink></item>
+		<item>
+		<title>Airbnb’s WeWork problem</title>
+		<link>http://feedproxy.google.com/~r/techcrunch/startups/~3/E4hFeUY0EUU/</link>
+				<comments>https://techcrunch.com/2019/10/17/airbnbs-wework-problem/#respond</comments>
+				<pubDate>Thu, 17 Oct 2019 23:55:51 +0000</pubDate>
+		<dc:creator><![CDATA[Kate Clark]]></dc:creator>
+				<category><![CDATA[Exit]]></category>
+		<category><![CDATA[Fundings & Exits]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[Airbnb]]></category>
+		<category><![CDATA[artificial intelligence]]></category>
+		<category><![CDATA[brian chesky]]></category>
+		<category><![CDATA[business]]></category>
+		<category><![CDATA[citigroup]]></category>
+		<category><![CDATA[economy]]></category>
+		<category><![CDATA[entrepreneurship]]></category>
+		<category><![CDATA[Fred Wilson]]></category>
+		<category><![CDATA[jpmorgan]]></category>
+		<category><![CDATA[Lyft]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[morgan stanley]]></category>
+		<category><![CDATA[neologisms]]></category>
+		<category><![CDATA[Private Equity]]></category>
+		<category><![CDATA[real estate]]></category>
+		<category><![CDATA[sharing economy]]></category>
+		<category><![CDATA[Softbank]]></category>
+		<category><![CDATA[Spotify]]></category>
+		<category><![CDATA[Uber]]></category>
+		<category><![CDATA[vacation rental]]></category>
+		<category><![CDATA[WeWork]]></category>
+
+		<guid isPermaLink="false">https://techcrunch.com/?p=1899318</guid>
+				<description><![CDATA[Airbnb may be another overvalued 'unicorn,' but it's no WeWork. ]]></description>
+								<content:encoded><![CDATA[<p id="speakable-summary"><a class="crunchbase-link" href="https://crunchbase.com/organization/airbnb" target="_blank" data-type="organization" data-entity="airbnb">Airbnb <span class="crunchbase-tooltip-indicator"></span></a> may be another overvalued &#8220;unicorn,&#8221; but it&#8217;s no WeWork.</p>
+<p>The Information this morning <a href="https://www.theinformation.com/articles/airbnbs-q1-loss-more-than-doubled-new-data-shows">reported</a> new Airbnb financials — indicating a massive increase in operating losses — that immediately call Airbnb&#8217;s future into question. Precisely, Airbnb lost $306 million on operations on $839 million in revenue, namely as a result of marketing spend, in the first quarter of 2019. In total, Airbnb invested $367 million in sales and marketing, representing a 58% increase year-over-year, in Q1. The company is gearing up for a major liquidity event next year and is making a concerted effort to rake in new customers, as any soon-to-be-public business would.</p>
+<p>Given WeWork&#8217;s <a href="https://techcrunch.com/2019/10/08/wework-layoffs-2/">sudden demise,</a> coupled with Uber and Lyft&#8217;s <a href="https://techcrunch.com/2019/10/14/uber-lays-off-another-350-across-eats-self-driving-and-other-departments/">lukewarm performances</a> on the stock markets, many have wondered how Wall Street will respond to Airbnb&#8217;s eventual IPO prospectus. Will money managers have an appetite for another over-valued Silicon Valley darling? Or will the market compete like mad for shares in the massive home-sharing marketplace?</p>
+<p>But Airbnb, again, is no WeWork, and I wager Wall Street will have a much friendlier approach to its offering. For one, Airbnb&#8217;s co-founder and chief executive officer <a class="crunchbase-link" href="https://crunchbase.com/person/brian-chesky" target="_blank" data-type="person" data-entity="brian-chesky">Brian Chesky <span class="crunchbase-tooltip-indicator"></span></a> isn&#8217;t dropping<a href="https://www.businessinsider.com/wework-is-putting-neumanns-60-million-jet-up-for-sale-2019-9"> $60 million on private jets</a> — I don&#8217;t think. CEO behaviors aside, Airbnb has more capital in the bank than it has raised in its entire 11-year history, which is a whole lot of money. This is all according to a source who is familiar with Airbnb’s financials and shared this detail with TechCrunch following The Information&#8217;s Thursday morning report. As for Airbnb, the company told TechCrunch, &#8220;we can’t comment on the figures, but 2019 is a big investment year in support of our hosts and guests.&#8221;</p>
+<p><div id="attachment_1056044" style="width: 1034px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-1056044" class="breakout wp-image-1056044 size-full" title="Brian Chesky airbnb (3 of 6)" src="https://techcrunch.com/wp-content/uploads/2014/09/brian-chesky-airbnb-3-of-6.jpg" alt="" width="1024" height="683" srcset="https://techcrunch.com/wp-content/uploads/2014/09/brian-chesky-airbnb-3-of-6.jpg 1500w, https://techcrunch.com/wp-content/uploads/2014/09/brian-chesky-airbnb-3-of-6.jpg?resize=150,100 150w, https://techcrunch.com/wp-content/uploads/2014/09/brian-chesky-airbnb-3-of-6.jpg?resize=300,200 300w, https://techcrunch.com/wp-content/uploads/2014/09/brian-chesky-airbnb-3-of-6.jpg?resize=768,512 768w, https://techcrunch.com/wp-content/uploads/2014/09/brian-chesky-airbnb-3-of-6.jpg?resize=680,453 680w, https://techcrunch.com/wp-content/uploads/2014/09/brian-chesky-airbnb-3-of-6.jpg?resize=50,33 50w" sizes="(max-width: 1024px) 100vw, 1024px" /><p id="caption-attachment-1056044" class="wp-caption-text"><em>Airbnb&#8217;s CEO Brian Chesky speaks at TechCrunch Disrupt SF 2014</em></p></div></p>
+<p>Airbnb has attracted more than $3.5 billion in equity funding at a $31 billion valuation and has <strong>even more</strong> locked away in its bank account. Additionally, Airbnb has an untouched $1 billion credit line, the source said. Presumably, the referenced credit line is the 2016 $1 billion debt financing from JPMorgan, CitiGroup, <a class="crunchbase-link" href="https://crunchbase.com/organization/morgan-stanley" target="_blank" data-type="organization" data-entity="morgan-stanley">Morgan Stanley <span class="crunchbase-tooltip-indicator"></span></a> and others.</p>
+<p>Moreover, Airbnb has been “cumulatively” free cash flow positive for some time, meaning that it&#8217;s seen more money coming in than going out during recent quarters, according to our source. It has been reported that Airbnb surpassed $1 billion in revenue in the second quarter of 2019 and in the third quarter of 2018, but we&#8217;re guessing the business did not top $1 billion in Q4 of 2018 or Q1 of 2019 because it if had, that information would probably have been &#8220;leaked.&#8221;</p>
+<p>Finally, <a href="https://techcrunch.com/2019/01/15/ahead-of-ipo-airbnb-achieves-profitability-for-second-year-in-a-row/">Airbnb has been profitable on an EBITDA</a> (earnings before interest, taxes, depreciation and amortization) basis for two consecutive years, the company announced in January. Gross bookings, meanwhile, are growing, as is Airbnb&#8217;s business offering and its <a href="https://www.airbnb.com/s/experiences">experiences product</a>.</p>
+<h2>Why does any of this matter, you ask?</h2>
+<p><div class="extra-crunch-offer-container"></div><img src="http://feeds.feedburner.com/~r/techcrunch/startups/~4/E4hFeUY0EUU" height="1" width="1" alt=""/>]]></content:encoded>
+							<wfw:commentRss>https://techcrunch.com/2019/10/17/airbnbs-wework-problem/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1899318</post-id>	<feedburner:origLink>https://techcrunch.com/2019/10/17/airbnbs-wework-problem/</feedburner:origLink></item>
+		<item>
+		<title>Getting press for your startup: the true role of communications</title>
+		<link>http://feedproxy.google.com/~r/techcrunch/startups/~3/9AbiiT5jDIM/</link>
+				<comments>https://techcrunch.com/2019/10/17/getting-press-for-your-startup-the-true-role-of-communications/#respond</comments>
+				<pubDate>Thu, 17 Oct 2019 22:26:00 +0000</pubDate>
+		<dc:creator><![CDATA[Walter Thompson]]></dc:creator>
+				<category><![CDATA[Column]]></category>
+		<category><![CDATA[Startups]]></category>
+
+		<guid isPermaLink="false">https://techcrunch.com/?p=1899257</guid>
+				<description><![CDATA[Welcome to this edition of The Operators, a recurring Extra Crunch column produced by insiders with executive experience.]]></description>
+								<content:encoded><![CDATA[<div class="article__contributor-byline-wrapper">
+<div class="article__contributor-byline">
+	<div class="contributor-byline__contributor">
+		<div class="byline__author">
+							<span class="byline__author-name">Tim Hsia &amp; Neil Devani</span>
+						<span class="byline__author-title" style="display: block;">Contributor</span>
+		</div>
+
+				<div class="contributor__twitter">
+			<a target="_blank" href="https://twitter.com/neildevani">
+					<svg class="icon icon--twitter icon--white" viewBox="0 0 20 20" version="1.1" aria-labelledby="title">
+		<title>Share on Twitter</title>
+		<path d="M20,4c-0.7,0.3-1.5,0.6-2.4,0.7c0.9-0.5,1.5-1.4,1.8-2.3c-0.8,0.5-1.7,0.8-2.6,1C16.1,2.5,15,2,13.8,2c-2.3,0-4.1,1.9-4.1,4.2c0,0.3,0,0.7,0.1,1C6.4,7,3.4,5.4,1.4,2.9C1,3.5,0.8,4.1,0.8,4.9c0,1.4,0.7,2.7,1.8,3.5C2,8.4,1.4,8.2,0.8,7.9v0.1c0,2,1.4,3.7,3.3,4.1c-0.4,0.1-0.7,0.2-1.1,0.2c-0.3,0-0.5,0-0.8-0.1c0.5,1.7,2,2.9,3.8,2.9c-1.4,1.1-3.2,2-5.1,2c-0.3,0-0.7,0-1-0.1c1.8,1.2,4,1.7,6.3,1.7c7.5,0,11.7-6.4,11.7-12V6.1C18.8,5.6,19.4,4.8,20,4z"/>	</svg>
+				</a>
+		</div>
+			</div>
+
+		<div class="contributor-byline__bio">
+		<a href="https://www.linkedin.com/in/timhsia">Tim Hsia</a> is the CEO of <a href="https://www.mediamobilize.com/">Media Mobilize</a> and a Venture Partner at <a href="https://www.dgincubation.co.jp/en/">Digital Garage</a>. <a href="https://angel.co/neil-devani">Neil Devani</a> is an angel investor and venture capitalist focused on companies solving hard problems.	</div>
+	
+		<div class="contributor-byline__more-articles">
+		<span class="more-articles-title">More posts by this contributor</span>
+		<ul class="more-articles-list">
+						<li><a href="https://techcrunch.com/2019/08/29/the-operators-the-role-of-finance-in-tech-startups-with-duda-cfo-stephanie-hsiung-and-zeus-livings-head-of-finance-mark-kang/">&#8216;The Operators&#8217;: Finance in startups with Duda CFO Stephanie Hsiung and Zeus Living&#8217;s Head of Finance Mark Kang</a></li>
+						<li><a href="https://techcrunch.com/2019/08/08/the-operators-experts-from-airbnb-and-carta-on-building-and-managing-your-companys-customer-support/">&#8216;The Operators&#8217;: Experts from Airbnb and Carta on building and managing your company&#8217;s customer support</a></li>
+					</ul>
+	</div>
+	</div>
+</div><p id="speakable-summary"><b>Welcome to this</b><span style="font-weight: 400;"> edition of </span><a href="http://www.operators.co"><span style="font-weight: 400;">The Operators, </span></a><span style="font-weight: 400;">a recurring Extra Crunch column produced by insiders with executive experience at companies like AirBnB, Brex, Dropbox, Facebook, Google, Lyft, Slack, Square, Twitter, and Uber, sharing their stories and insights. It’s made for founders who are navigating domains outside their expertise, covering topics they may be learning for the first time like enterprise sales, product management, and finance/accounting.</span></p>
+<h2>In this episode:</h2>
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">When and how should a company seek press coverage?</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">The difference between marketing and communications</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Building relationships with reporters</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Being or identifying a great communications leader</span></li>
+</ol>
+<p><span style="font-weight: 400;">Early on, most founders and investors focus on getting positive press, but if they’re unfortunate or make mistakes, mitigating bad coverage becomes a common goal. Broadly, communications consists of how and what information to share, both inside and outside of the company, touching domains like management, recruiting, marketing, and business development. It’s also highly optimizable and often, mission critical — the difference between dramatic success and catastrophic failure.</span></p>
+<p><span style="font-weight: 400;">We spoke with three communications experts to learn more:</span></p>
+<ul>
+<li style="font-weight: 400;"><a href="https://www.linkedin.com/in/seangarrett1"><span style="font-weight: 400;">Sean Garrett</span></a><span style="font-weight: 400;"> was Twitter&#8217;s first VP of Communications. He previously worked for Governor Pete Wilson of California and has founded two separate communications firms, with clients including Slack, Cisco, and Disney. He’s currently a Managing Partner at Pramana Collective.</span></li>
+<li style="font-weight: 400;"><a href="https://www.linkedin.com/in/farylury"><span style="font-weight: 400;">Faryl Ury</span></a><span style="font-weight: 400;"><span style="font-weight: 400;"> is a former reporter with experience at NPR and the Associated Press. Her communications experience also began in government, working for US Senator Jeanne Shaheen </span></span><span style="font-weight: 400;">before managing comms at Square and Uber. She was then a marketing executive at Dropbox before becoming the Director of Communications at Aurora, a leading autonomous vehicle company, with investors including Sequoia Capital, Amazon, and Hyundai.</span></li>
+<li style="font-weight: 400;"><a href="https://www.linkedin.com/in/araval/"><span style="font-weight: 400;">Adi Raval</span></a><span style="font-weight: 400;"> started as a journalist at ABC News and the BBC, covering 9/11, the Iraq War, and the White House. He moved into government as a diplomat for the State Department serving in Afghanistan, and later, as a spokesperson and Director of Communications at USAID. After leaving government, Adi was the top communications executive for the Bechtel Corporation, the Head of Comms and PR for TaskRabbit, and now the Head of Communications at Kodiak Robotics. He’s also a term member for the Council on Foreign Relations.</span></li>
+</ul>
+<p><span style="font-weight: 400;">Below is a synthesized summary of our conversation; check out </span><a href="http://www.operators.co"><span style="font-weight: 400;">The Operators</span></a><span style="font-weight: 400;"> for the full episode.</span></p>
+<p><strong>When and how should a company seek press coverage?</strong></p>
+<p><span style="font-weight: 400;">Investors love to see public recognition of their portfolio companies, and founders sometimes believe press coverage will solve all their problems, yielding a panacea of inbound customers, employees, and new backers. Whether it’s a fundraising announcement or a product launch, more exposure can only help, right? Of course, that’s not always true. Being unprepared for an influx of inbound interest can lead to bad experiences and a negative reputation. </span></p>
+<p><span style="font-weight: 400;">What&#8217;s more likely than a bad response? No response at all: reporters are constantly pitched by entrepreneurs seeking coverage who don&#8217;t have a compelling story to share, which means most of them are primed to say &#8220;no.&#8221;</span></p>
+<p><span style="font-weight: 400;">Faryl told us that when she asks founders why they want to do press, they often answer, &#8220;our investors told us to,&#8221; or &#8220;I talked to other entrepreneurs and they do press.&#8221; Being prepared for the response means knowing what you want the response to be, which in turn means knowing what you have to say, and why anyone will listen and respond the right way. Thinking through this exercise involves asking questions, said Sean, specifically, “what is your positioning? What is your messaging? And for some organizations, that&#8217;s the right first step to figure out, at a high level, what are we even trying to accomplish here&#8230;?”</span></p>
+<p><span style="font-weight: 400;">Having a clear purpose in mind before approaching reporters will also help you execute. For some startups, landing a story with trade press may be better than being written up by a generalized tech publication. On the other hand, if you’re spending a ton of money on Facebook and Google to advertise directly to consumers, getting coverage in the right publications may be much more efficient and impactful. </span></p>
+<p><div class="extra-crunch-offer-container"></div><img src="http://feeds.feedburner.com/~r/techcrunch/startups/~4/9AbiiT5jDIM" height="1" width="1" alt=""/>]]></content:encoded>
+							<wfw:commentRss>https://techcrunch.com/2019/10/17/getting-press-for-your-startup-the-true-role-of-communications/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1899257</post-id>	<feedburner:origLink>https://techcrunch.com/2019/10/17/getting-press-for-your-startup-the-true-role-of-communications/</feedburner:origLink></item>
+		<item>
+		<title>Atlassian acquires Code Barrel, makers of Automation for Jira</title>
+		<link>http://feedproxy.google.com/~r/techcrunch/startups/~3/Lnap631Hso4/</link>
+				<comments>https://techcrunch.com/2019/10/17/atlassian-acquires-code-barrel-makers-of-automation-for-jira/#comments</comments>
+				<pubDate>Thu, 17 Oct 2019 20:00:23 +0000</pubDate>
+		<dc:creator><![CDATA[Frederic Lardinois]]></dc:creator>
+				<category><![CDATA[Exit]]></category>
+		<category><![CDATA[M&A]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[Atlassian]]></category>
+		<category><![CDATA[business]]></category>
+		<category><![CDATA[Code Barrel]]></category>
+		<category><![CDATA[computing]]></category>
+		<category><![CDATA[JIRA]]></category>
+		<category><![CDATA[programmer]]></category>
+		<category><![CDATA[sydney]]></category>
+
+		<guid isPermaLink="false">https://techcrunch.com/?p=1898509</guid>
+				<description><![CDATA[Atlassian today announced that it has acquired Code Barrel, the makers of Automation for Jira, a low-code tool for easily automating many aspects of Jira that&#8217;s also one of the most popular add-ons for Jira Software and Jira Service Desk in Atlassian&#8217;s marketplace. The two companies did not disclose the price of the acquisition. Sydney-based [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p id="speakable-summary"><a class="crunchbase-link" href="https://crunchbase.com/organization/atlassian" target="_blank" data-type="organization" data-entity="atlassian">Atlassian <span class="crunchbase-tooltip-indicator"></span></a> today announced that it has acquired <a href="https://codebarrel.io/">Code Barrel</a>, the makers of <a href="https://marketplace.atlassian.com/apps/1215460/automation-for-jira">Automation for Jira</a>, a low-code tool for easily automating many aspects of Jira that&#8217;s also one of the most popular add-ons for Jira Software and Jira Service Desk in Atlassian&#8217;s marketplace. The two companies did not disclose the price of the acquisition.</p>
+<p>Sydney-based <a class="crunchbase-link" href="https://crunchbase.com/organization/code-barrel" target="_blank" data-type="organization" data-entity="code-barrel">Code Barrel <span class="crunchbase-tooltip-indicator"></span></a> was founded by two of the first engineers who built Jira at Atlassian, Nick Menere and Andreas Knecht. With this acquisition, they are returning to Atlassian after four years in startup land.</p>
+<p>&#8220;For me and Andreas, it&#8217;s almost like coming home,&#8221; said Menere, who joined the Jira team in 2005 when there were only a handful of developers working on the product. &#8220;It&#8217;s the place where we pretty much learned how to develop software and how to develop product. For us, this was the only company we would ever go back to.&#8221;</p>
+<p>As the name implies, Automation for Jira makes it easy to automate recurring tasks in Atlassian&#8217;s issue and project tracking service. &#8220;Increasingly, [our customers] are having to spend a lot of time on the mundane,&#8221; Noah Wasmer, the VP of Product for Tech Teams at Atlassian, told me. &#8220;What we&#8217;re seeing is that with Jira as the backbone, they are interacting with a lot of systems, are duplicating work, are manually entering work into different systems. And so what we&#8217;re finding is that they&#8217;re spending an inordinate amount of time doing things that aren&#8217;t actually helping them build and create those next-generation things that help change our world.&#8221;</p>
+<p><a href="https://techcrunch.com/wp-content/uploads/2019/10/75b265bf-f670-4b9e-a26e-946cca1ff466.png"><img class="breakout aligncenter size-full wp-image-1899125" title="75b265bf-f670-4b9e-a26e-946cca1ff466" src="https://techcrunch.com/wp-content/uploads/2019/10/75b265bf-f670-4b9e-a26e-946cca1ff466.png" alt="75b265bf f670 4b9e a26e 946cca1ff466" width="1024" height="744" srcset="https://techcrunch.com/wp-content/uploads/2019/10/75b265bf-f670-4b9e-a26e-946cca1ff466.png 1238w, https://techcrunch.com/wp-content/uploads/2019/10/75b265bf-f670-4b9e-a26e-946cca1ff466.png?resize=150,109 150w, https://techcrunch.com/wp-content/uploads/2019/10/75b265bf-f670-4b9e-a26e-946cca1ff466.png?resize=300,218 300w, https://techcrunch.com/wp-content/uploads/2019/10/75b265bf-f670-4b9e-a26e-946cca1ff466.png?resize=768,558 768w, https://techcrunch.com/wp-content/uploads/2019/10/75b265bf-f670-4b9e-a26e-946cca1ff466.png?resize=680,494 680w, https://techcrunch.com/wp-content/uploads/2019/10/75b265bf-f670-4b9e-a26e-946cca1ff466.png?resize=50,36 50w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p>If you want to reduce this kind of duplication of work, then automation is the obvious thing to look at. And with more than 6,000 companies that found Code Barrel&#8217;s solution in Atlassian&#8217;s marketplace, plus the founders&#8217; obvious connection to the company, Automation for Jira must have been an obvious candidate for an acquisition.</p>
+<p>Wasmer also stressed that the fact that they built a no-code tool will allow anybody who uses Jira to create scripts without having to be a programmer. Automation for Jira allows users to set up time-based rules or those that run based on triggers inside of Jira. It also features third-party integrations with SMS, Slack and Microsoft Teams, among others.</p>
+<p>For the time being, Automation for Jira will remain in the <a href="https://marketplace.atlassian.com/apps/1215460/automation-for-jira">Atlassian Marketplace</a> and will continue to sell at the same price of $5/user/month for teams with up to 10 users and $2.5/user/month for teams between 11 and 100 users, with prices going down from there for larger enterprises. Surely, Atlassian will start integrating some of the tool&#8217;s features into Jira, but for the time being the company doesn&#8217;t have anything to announce on that front.</p>
+<img src="http://feeds.feedburner.com/~r/techcrunch/startups/~4/Lnap631Hso4" height="1" width="1" alt=""/>]]></content:encoded>
+							<wfw:commentRss>https://techcrunch.com/2019/10/17/atlassian-acquires-code-barrel-makers-of-automation-for-jira/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1898509</post-id>	<feedburner:origLink>https://techcrunch.com/2019/10/17/atlassian-acquires-code-barrel-makers-of-automation-for-jira/</feedburner:origLink></item>
+		<item>
+		<title>Zubale, founded in Mexico City by two HBS grads, just raised $4.4 million to put locals to work over their phones</title>
+		<link>http://feedproxy.google.com/~r/techcrunch/startups/~3/PORwkFaq8qQ/</link>
+				<comments>https://techcrunch.com/2019/10/17/zubale-founded-in-mexico-city-last-year-by-two-hbs-grads-just-raised-4-4-million-to-put-locals-to-work-over-their-smart-phones/#comments</comments>
+				<pubDate>Thu, 17 Oct 2019 19:10:20 +0000</pubDate>
+		<dc:creator><![CDATA[Connie Loizos]]></dc:creator>
+				<category><![CDATA[Recent Funding]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[latin america]]></category>
+		<category><![CDATA[liquid 2 ventures]]></category>
+		<category><![CDATA[mexico city]]></category>
+		<category><![CDATA[NFX]]></category>
+		<category><![CDATA[on-demand economy]]></category>
+		<category><![CDATA[Zubale]]></category>
+
+		<guid isPermaLink="false">https://techcrunch.com/?p=1898396</guid>
+				<description><![CDATA[A year ago, at a demo day south of San Francisco, we watched a number of recently formed startups pitch investors on their companies. One that stood out to us at the time was Zubale, a Mexico City-based outfit whose founders were looking to connect big corporations with Latin Americans eager to address tasks on [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p id="speakable-summary">A year ago, at a <a href="https://techcrunch.com/2018/10/28/these-14-startups-endorsed-by-the-seed-stage-investment-firm-pear-just-hit-the-fundraising-trail/">demo day south of San Francisco</a>, we watched a number of recently formed startups pitch investors on their companies. One that stood out to us at the time was <a href="https://www.zubale.com/">Zubale</a>, a Mexico City-based outfit whose founders were looking to connect big corporations with Latin Americans eager to address tasks on their behalf. A person could conduct on-the-ground market research for a brand, for example, then earn mobile phone credits or other redeemable digital rewards.</p>
+<p>Fast-forward and <a class="crunchbase-link" href="https://crunchbase.com/organization/zubale" target="_blank" data-type="organization" data-entity="zubale">Zubale, <span class="crunchbase-tooltip-indicator"></span></a> which had 10 employees at the time, now has 40 full-time employees, and has completed 170,000 tasks on behalf of the consumer brands on which it is squarely focused &#8212; and for two reasons.</p>
+<p>First, according to Zubale co-founder Allison Campbell, the retail industry across Latin America is generating $2 trillion per year, but companies are also shelling out $40 billion on &#8220;super painful and high spend&#8221; that includes employees who complete in-store tasks like stocking shelves, checking prices and building displays.</p>
+<p>Campbell says Zubale can save &#8212; even make &#8212; these companies money by crowdsourcing the same tasks to independent contractors who can choose from an inventory of similar jobs near them.</p>
+<p>Campell and her co-founder, Sebastian Monroy, also know a few things about retail in emerging markets. Before heading to HBS, Campbell spent nearly eight years with Walmart, first as a merchandise manager, then as a director of international strategic initiatives, roles that placed her in Gurgaon, India, then Shanghai and Shenzhen, China.</p>
+<p>Monroy&#8217;s path was similar; he spent more than seven years working in a variety of sales roles for Proctor &amp; Gamble in Mexico before heading to Harvard, where he met Campbell on their first day of business school. (&#8220;We realized we were wearing the same exact glasses and took a picture together,&#8221; she says with a laugh. They decided to team up on Zubale a year later.)</p>
+<p>Indeed, though one could see Zubale using its platform to crowdsource any number of tasks, à la TaskRabbit, the opportunity is so massive in catering to retailers that the startup plans to stay in its lane for the foreseeable future.</p>
+<p>If anything, says Campell, Zubale &#8212; which plans to eventually expand from Mexico into other countries, including Brazil, Chile and Peru &#8212; may end up offering the contractors more in the way of financial services products, given that there remains a dearth of these and that these individuals are constantly checking the app anyway.</p>
+<p>It makes sense. While 85% of Mexico&#8217;s population of 125 million now has a smart phone &#8212; giving rise to more app-driven startups like Zubale &#8212; only 10% have a credit card, and only 35% have a checking account. It&#8217;s for that reason that many of the people who work for Zubale still choose to earn mobile phone credit and other digital rewards that they can redeem through making online purchases.</p>
+<p>They &#8220;love us,&#8221; too, says Campbell, because they can &#8220;increase their income by 40%&#8221; by performing work for Zubale. In fact, she suggests Zubale hasn&#8217;t had to do much in the way of marketing, thanks to Facebook Groups where the company is discussed, as well as through other word of mouth, including workers&#8217; friends who want more jobs and find it easier to find and complete jobs in 30-minute increments at the same store location rather than run from store to store or job to job. (On average, she adds, they complete 20 jobs for the company per week.)</p>
+<p>Certainly, investors like the company. Campbell and Monroy say they had a lot of inbound interest when they began seeking seed funding more recently. They chose the venture firm <a class="crunchbase-link" href="https://crunchbase.com/organization/nfxcapital" target="_blank" data-type="organization" data-entity="nfxcapital">NFX <span class="crunchbase-tooltip-indicator"></span></a> to lead the $4.4 million round, given its expertise in marketplaces and network effects-driven businesses. Other participants in the round include Industry Ventures, Joe Montana&#8217;s Liquid 2 Ventures and XFactor Fund, along with individual investors Jonathan Swanson (who is the chairman of Thumbtack), Sergio Romo (the CEO of Grow Mobility) and Bob White (the founder and a former managing director of Bain Capital).</p>
+<p>Meanwhile, the company&#8217;s very first check came from the seed-stage firm Pear in Palo Alto, which had hosted that demo day.</p>
+<img src="http://feeds.feedburner.com/~r/techcrunch/startups/~4/PORwkFaq8qQ" height="1" width="1" alt=""/>]]></content:encoded>
+							<wfw:commentRss>https://techcrunch.com/2019/10/17/zubale-founded-in-mexico-city-last-year-by-two-hbs-grads-just-raised-4-4-million-to-put-locals-to-work-over-their-smart-phones/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1898396</post-id>	<feedburner:origLink>https://techcrunch.com/2019/10/17/zubale-founded-in-mexico-city-last-year-by-two-hbs-grads-just-raised-4-4-million-to-put-locals-to-work-over-their-smart-phones/</feedburner:origLink></item>
+		<item>
+		<title>The Information will launch Ticker, a tech news app that costs $29 per year</title>
+		<link>http://feedproxy.google.com/~r/techcrunch/startups/~3/LmH9MxDDvkk/</link>
+				<comments>https://techcrunch.com/2019/10/17/the-information-ticker/#respond</comments>
+				<pubDate>Thu, 17 Oct 2019 16:30:58 +0000</pubDate>
+		<dc:creator><![CDATA[Anthony Ha]]></dc:creator>
+				<category><![CDATA[Apps]]></category>
+		<category><![CDATA[Media]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[Jessica Lessin]]></category>
+		<category><![CDATA[the information]]></category>
+		<category><![CDATA[Ticker]]></category>
+
+		<guid isPermaLink="false">https://techcrunch.com/?p=1898976</guid>
+				<description><![CDATA[Since it was founded by journalist Jessica Lessin in 2013, The Information has stood out in the tech news landscape for its focus on an ad-free, subscription-driven business model (a focus that seems increasingly prescient). Now, the upcoming launch of an app called Ticker suggests that the company is looking to expand its audience while [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p id="speakable-summary">Since it was founded by journalist <a class="crunchbase-link" href="https://crunchbase.com/person/jessica-e-lessin" target="_blank" data-type="person" data-entity="jessica-e-lessin">Jessica Lessin <span class="crunchbase-tooltip-indicator"></span></a> in 2013, <a href="https://www.theinformation.com/">The Information</a> has stood out in the tech news landscape for its focus on an ad-free, subscription-driven business model (a focus that seems <a href="https://techcrunch.com/2019/10/15/product-lessons-from-building-our-subscription-service-extra-crunch/">increasingly prescient</a>).</p>
+<p>Now, the upcoming launch of an app called <a href="https://www.theinformation.com/ticker">Ticker</a> suggests that the company is looking to expand its audience while maintaining that subscription model.</p>
+<p><a class="crunchbase-link" href="https://crunchbase.com/organization/the-information" target="_blank" data-type="organization" data-entity="the-information">The Information <span class="crunchbase-tooltip-indicator"></span></a> describes Ticker as its first consumer app. The assumption is that anyone who&#8217;s currently paying the $399 annual fee for an Information subscription needs it for their job — whether they&#8217;re an investor, entrepreneur or some other professional in the tech industry.</p>
+<p>The new app, meanwhile, is designed for anyone who might be interested in keeping up-to-date with the latest tech news, and it&#8217;s priced much more affordably, at $29 per year. (Information subscribers will get access as well.)</p>
+<p><img class="aligncenter size-large wp-image-1899073" title="The Information ticker app" src="https://techcrunch.com/wp-content/uploads/2019/10/1.-Ticker-TheInformation-Today.jpg?w=637" alt="The Information ticker app" width="637" height="680" srcset="https://techcrunch.com/wp-content/uploads/2019/10/1.-Ticker-TheInformation-Today.jpg 1024w, https://techcrunch.com/wp-content/uploads/2019/10/1.-Ticker-TheInformation-Today.jpg?resize=141,150 141w, https://techcrunch.com/wp-content/uploads/2019/10/1.-Ticker-TheInformation-Today.jpg?resize=281,300 281w, https://techcrunch.com/wp-content/uploads/2019/10/1.-Ticker-TheInformation-Today.jpg?resize=768,820 768w, https://techcrunch.com/wp-content/uploads/2019/10/1.-Ticker-TheInformation-Today.jpg?resize=637,680 637w, https://techcrunch.com/wp-content/uploads/2019/10/1.-Ticker-TheInformation-Today.jpg?resize=47,50 47w" sizes="(max-width: 637px) 100vw, 637px" /></p>
+<p>Apparently the app was inspired by the <a href="https://www.theinformation.com/briefings">Briefing</a> section of The Information website, which offers quick summaries (often drawn from reporting by other publications) of major tech news.</p>
+<p>Ticker, meanwhile, will include a section called Today with summaries of the day&#8217;s tech headlines — similar to Briefing, but written for a consumer audience. It will also include a calendar highlighting upcoming IPOs, conferences and other events that readers might want to know about. (Not included: The Information&#8217;s full articles and original reporting.)</p>
+<p>&#8220;More and more, we&#8217;ve been hearing from readers who don&#8217;t have a business reason to follow tech but are finding it more and more central to their lives,&#8221; Lessin said in a statement. &#8220;We are launching Ticker for them — giving them access to the best summaries of the most significant news, written by our team at The Information.&#8221;</p>
+<p>The company plans to launch Ticker later this fall. In the meantime, you can <a href="https://www.theinformation.com/ticker">sign up here</a>.</p>
+<div class="embed breakout">
+<blockquote class="wp-embedded-content" data-secret="ZyDUHRoNXF"><p><a href="https://techcrunch.com/2017/07/28/the-information-launches-a-media-startup-accelerator/">The Information launches a media startup accelerator</a></p></blockquote>
+<p><iframe title="&#8220;The Information launches a media startup accelerator&#8221; &#8212; TechCrunch" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; clip: rect(1px, 1px, 1px, 1px);" src="https://techcrunch.com/2017/07/28/the-information-launches-a-media-startup-accelerator/embed/#?secret=ZyDUHRoNXF" data-secret="ZyDUHRoNXF" width="800" height="450" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div>
+<img src="http://feeds.feedburner.com/~r/techcrunch/startups/~4/LmH9MxDDvkk" height="1" width="1" alt=""/>]]></content:encoded>
+							<wfw:commentRss>https://techcrunch.com/2019/10/17/the-information-ticker/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1898976</post-id>	<feedburner:origLink>https://techcrunch.com/2019/10/17/the-information-ticker/</feedburner:origLink></item>
+		<item>
+		<title>‘Cloud kitchens’ is an oxymoron</title>
+		<link>http://feedproxy.google.com/~r/techcrunch/startups/~3/2nfs9g72620/</link>
+				<comments>https://techcrunch.com/2019/10/17/cloud-kitchens-is-an-oxymoron/#comments</comments>
+				<pubDate>Thu, 17 Oct 2019 16:16:20 +0000</pubDate>
+		<dc:creator><![CDATA[Danny Crichton]]></dc:creator>
+				<category><![CDATA[Food]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[Transportation]]></category>
+		<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[cloud kitchens]]></category>
+		<category><![CDATA[CloudKitchens]]></category>
+		<category><![CDATA[Deliveroo]]></category>
+		<category><![CDATA[DoorDash]]></category>
+		<category><![CDATA[grubhub]]></category>
+		<category><![CDATA[Ola]]></category>
+
+		<guid isPermaLink="false">https://techcrunch.com/?p=1898942</guid>
+				<description><![CDATA[The biggest wave in consumer products right now has all the hallmarks of another bubble of misplaced investor expectations and sadly lower margins. Cloud kitchens (the category, and not just CloudKitchens the startup service) is essentially WeWork for restaurant kitchens. Instead of buying an expensive restaurant site on a heavily walked street, a cloud kitchen [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p id="speakable-summary">The biggest wave in consumer products right now has all the hallmarks of another bubble of misplaced investor expectations and sadly lower margins.</p>
+<p>Cloud kitchens (the category, and not just <a href="https://www.cloudkitchens.com">CloudKitchens</a> the startup service) is essentially WeWork for restaurant kitchens. Instead of buying an expensive restaurant site on a heavily walked street, a cloud kitchen is developed in a cheaper locale (an industrial district, perhaps), with dozens of kitchen stations that are individually rentable for short periods of time by chefs and restaurant proprietors.</p>
+<p>It’s a market that has exploded this year. CloudKitchens, <a href="https://www.vox.com/2018/3/20/17145032/travis-kalanick-uber-new-job-ceo-real-estate-startup-city-storage-systems">which has been funded by former Uber founder and CEO Travis Kalanick</a>, is perhaps the most well-known example, but others are competing, and none more so than meal delivery companies. DoorDash announced that it was <a href="https://techcrunch.com/2019/10/14/doordash-kitchens/">opening a shared kitchen in Redwood City</a> just this week, <a href="https://www.entrepreneur.com/article/340437">Amazon has announced it is getting in the game</a> and, around the world, companies like India-based transportation network <a href="https://qz.com/india/1426809/olas-foodpanda-buys-holachef-enters-indian-cloud-kitchen-space/">Ola are building out their own shared kitchens</a>.</p>
+<div class="embed breakout">
+<blockquote class="wp-embedded-content" data-secret="Ky1aHgM9ua"><p><a href="https://techcrunch.com/2019/10/14/doordash-kitchens/">DoorDash opens a shared kitchen in Redwood City</a></p></blockquote>
+<p><iframe title="&#8220;DoorDash opens a shared kitchen in Redwood City&#8221; &#8212; TechCrunch" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; clip: rect(1px, 1px, 1px, 1px);" src="https://techcrunch.com/2019/10/14/doordash-kitchens/embed/#?secret=Ky1aHgM9ua" data-secret="Ky1aHgM9ua" width="800" height="450" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div>
+<p>That has led to laudatory headlines galore. Mike Isaac and David Yaffe-Bellany talk about “<a href="https://www.nytimes.com/2019/08/14/technology/uber-eats-ghost-kitchens.html">the rise of the virtual restaurant</a>” at The New York Times, while Douglas Bell, contributing to Forbes, wrote that “<a href="https://www.forbes.com/sites/douglasbell/2019/08/26/deliveroos-virtual-restaurant-model-will-eat-the-food-service-industry-as-amazon-piles-in-to-fund-us-expansion/#6cbfb5585e89">Deliveroo’s Virtual Restaurant Model Will Eat The Food Service Industry</a>.”</p>
+<p>And there are not just headlines, but predictions of doom as well for millions of small-business restaurant owners. Mike Moritz, the famed partner at Sequoia, <a href="https://www.ft.com/content/5c104e5e-7aea-11e9-8b5c-33d0560f039c">wrote in Financial Times</a> earlier this year that:</p>
+<blockquote><p>The large chain restaurants that operate pick-up locations will be insulated from many of these services, as will the high-end restaurants that offer memorable experiences. But the local <i>trattoria</i>, <i>taqueria</i>, curry shop and sushi bar will be pressed to stay in business.</p></blockquote>
+<p>Latent in these pieces (there are dozens of them published on the web) lies a superficial storyline that’s appealing to the bright but not detail-oriented: that there are high software margins (or &#8220;cloud&#8221; margins, if you will) to come from a world in which kitchen space is suddenly shareable, and that’s going to lead to a complete disruption of restaurants as we know them.</p>
+<p>It’s the same sort of storyline that propelled WeWork to meteoric heights before eventually crashing the last few weeks back down to reality. As Jesse Hempel <a href="https://www.wired.com/story/this-is-why-wework-thinks-its-worth-20-billion/">wrote in Wired</a> a few years ago about the shareable office startup: “Over time, this could be a much bigger opportunity than coworking spaces, one in which everything WeWork has built so far will simply feed an algorithm that will design a perfectly efficient approach to office space.”</p>
+<p>Clearly, the AI algorithm for office efficiency (“WeWork Brain”?) wasn’t as profitable as hoped, with <a href="https://techcrunch.com/2019/10/08/wework-layoffs-2/">WeWork expected to lay off 500 software engineers</a> in the coming weeks.</p>
+<div class="embed breakout">
+<blockquote class="wp-embedded-content" data-secret="nbeg8VmuiW"><p><a href="https://techcrunch.com/2019/10/08/wework-layoffs-2/">Report: WeWork expected to cut 500 tech roles</a></p></blockquote>
+<p><iframe title="&#8220;Report: WeWork expected to cut 500 tech roles&#8221; &#8212; TechCrunch" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; clip: rect(1px, 1px, 1px, 1px);" src="https://techcrunch.com/2019/10/08/wework-layoffs-2/embed/#?secret=nbeg8VmuiW" data-secret="nbeg8VmuiW" width="800" height="450" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div>
+<p>And yet despite the seeming collapse of WeWork and the destruction of its narrative, we still haven’t learned our lesson. As Isaac and Yaffe-Bellany discuss in their NYT piece, “No longer must restaurateurs rent space for a dining room. All they need is a kitchen — or even just part of one.” Now I know what the two mean here, but let’s be uncharitable for a moment: you can’t rent a part of a kitchen. No one rents the stovetop and not the prep area.</p>
+<p>But it is that quickly slippery logic that can cause an entire industry to rise and eventually crumble. Just as with the whole “WeWork should really be valued as a software company” meme, the term &#8220;cloud kitchens&#8221; implies the flexibility (and I guess margins?) of data centers, when in reality, they couldn’t be further away in practice from them. Commercial kitchens require regulatory licenses and inspections, constant monitoring and maintenance, not to mention massive kitchen staffs (they aren’t automated kitchens!).</p>
+<p>So let’s look at how margins and leverage play out for the different players. If you are the owner of one of these cloud kitchens, how exactly do you get any pricing leverage in the marketplace? Isaac and Yaffe-Bellany again write, “Diners who order from the apps may have no idea that the restaurant doesn’t physically exist.”</p>
+<p>That sounds plausible, but if consumers don’t know where these restaurants physically are, what is stopping an owner from switching its kitchen to another &#8220;cloud&#8221;? In fact, why not just switch regularly and force a constant bidding war between different clouds? Unlike actual cloud infrastructure, where switching costs are often extremely prohibitive, the switching costs in kitchens seems rather minimal, perhaps as simple as packing up a box or two of ingredients and walking down the street.</p>
+<p>That’s why we are seeing almost no innovation coming from early-stage startups in this space. <a class="crunchbase-link" href="https://crunchbase.com/organization/deliveroo" target="_blank" data-type="organization" data-entity="deliveroo">Deliveroo, <span class="crunchbase-tooltip-indicator"></span></a> Uber Eats, DoorDash, <a class="crunchbase-link" href="https://crunchbase.com/organization/ola" target="_blank" data-type="organization" data-entity="ola">Ola <span class="crunchbase-tooltip-indicator"></span></a> and more — let alone Amazon — are hardly under-funded startups.</p>
+<p>In fact, this supposed rise of the cloud kitchen gets at the real crux of the matter: the true &#8220;expense&#8221; of restaurants isn’t rent or labor, but in fact is really marketing: how do you acquire and retain customers in one of the most competitive industries around?</p>
+<p>Isaac and Yaffe-Bellany argue that restaurants will join these meal delivery platforms to market their foods. “…[T]hey can hang a shingle inside a meal-delivery app and market their food to the app’s customers, without the hassle and expense of hiring waiters or paying for furniture and tablecloths.”</p>
+<p>Let me tell you from the world of media: Relying on other platforms to own your customers on your behalf and wait for &#8220;traffic&#8221; is a losing proposition, and one that I expect the vast majority of restaurant entrepreneurs to grok pretty quickly.</p>
+<p>Instead, it’s the meal delivery companies themselves that will take advantage of this infrastructure, an admission that actually says something provocative about their business models: that they are essentially inter-changeable, and the only way to get margin leverage in the industry is to market and sell their own private-label brands.</p>
+<p>For example, I get the same food delivered from the same restaurants regularly, but change the service based on which coupon is best this week (for me, that’s Uber Eats, which offered me $100 if I spent it by Friday). That inter-changeability makes it hard to build a durable, profitable business. Uber Eats, for instance, is <a href="https://qz.com/1693843/uber-eats-will-lose-money-until-at-least-2024-say-cowen-analysts/">expected to be unprofitable for another half decade or more</a>, while Grubhub’s profit margins <a href="https://ycharts.com/companies/GRUB/profit_margin">remain mired in the single digits</a>.</p>
+<p>The great hope for these companies is that cloud kitchens can fill the hole in the accounting math. Private brands drive large profits to grocery stores due to their higher margins, and the hope is that an Uber Burger or a DoorDash Pizza might do the same.</p>
+<p>The question, of course, is whether consumers “just want food” or whether they specifically want the pad thai from that restaurant down the street they love because it is raining and they don’t want to walk to it. Food brands have a prodigiously long gestation period, since food choices are deeply personal and take time to shift. Just because these meal delivery platforms start offering a burger or a rice bowl doesn’t suddenly mean that consumers are going to flock to those options.</p>
+<p>All of which takes us back to those misplaced investor expectations. Cloud kitchens is an interesting concept, and I have no doubt that we will see these sorts of business models for kitchens sprout up across urban cities as an option for some restaurant owners. I’m also sure that there will be at least one digital-only brand that becomes successful and is mentioned in every virtual restaurant article going forward as proof that this model is going to upend the restaurant industry.</p>
+<p>But the reality is that none of the players here — not the cloud kitchen owners themselves, not the restaurant owners and not the meal delivery platforms — are going to transform their margin structures with this approach. Cloud kitchens is just adding more competition to one of the most competitive industries in the world, and that isn’t a path to leverage.</p>
+<div class="embed breakout">
+<blockquote class="wp-embedded-content" data-secret="fHzt01Gd8N"><p><a href="https://techcrunch.com/2019/06/28/a-rare-glimpse-into-the-sweeping-and-potentially-troubling-cloud-kitchens-trend/">A rare glimpse into the sweeping &#8212; and potentially troubling  &#8212; cloud kitchens trend</a></p></blockquote>
+<p><iframe title="&#8220;A rare glimpse into the sweeping &#8212; and potentially troubling  &#8212; cloud kitchens trend&#8221; &#8212; TechCrunch" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; clip: rect(1px, 1px, 1px, 1px);" src="https://techcrunch.com/2019/06/28/a-rare-glimpse-into-the-sweeping-and-potentially-troubling-cloud-kitchens-trend/embed/#?secret=fHzt01Gd8N" data-secret="fHzt01Gd8N" width="800" height="450" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div>
+<img src="http://feeds.feedburner.com/~r/techcrunch/startups/~4/2nfs9g72620" height="1" width="1" alt=""/>]]></content:encoded>
+							<wfw:commentRss>https://techcrunch.com/2019/10/17/cloud-kitchens-is-an-oxymoron/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1898942</post-id>	<feedburner:origLink>https://techcrunch.com/2019/10/17/cloud-kitchens-is-an-oxymoron/</feedburner:origLink></item>
+		<item>
+		<title>Sentons launches SurfaceWave, a processor and tech to create software-defined surfaces that supercharge touch and gesture</title>
+		<link>http://feedproxy.google.com/~r/techcrunch/startups/~3/rKgv1Ce9iZQ/</link>
+				<comments>https://techcrunch.com/2019/10/17/sentons-launches-surfacewave-a-processor-and-tech-to-create-software-defined-surfaces-that-supercharge-touch-and-gesture/#respond</comments>
+				<pubDate>Thu, 17 Oct 2019 14:00:31 +0000</pubDate>
+		<dc:creator><![CDATA[Ingrid Lunden]]></dc:creator>
+				<category><![CDATA[Apps]]></category>
+		<category><![CDATA[Gadgets]]></category>
+		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[Hardware]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[Sentons]]></category>
+
+		<guid isPermaLink="false">https://techcrunch.com/?p=1898826</guid>
+				<description><![CDATA[As handset makers continue to work on ways of making smartphones more streamlined and sleek, while at the same time introducing new features that will get people buying more devices, a startup that is pioneering something called &#8220;software-defined&#8221; surfaces &#8212; essentially, using ultrasound and AI to turn any kind of material, and any kind of [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p id="speakable-summary">As handset makers continue to work on ways of making smartphones more streamlined and sleek, while at the same time introducing new features that will get people buying more devices, a startup that is pioneering something called &#8220;software-defined&#8221; surfaces &#8212; essentially, using ultrasound and AI to turn any kind of material, and any kind of surface, into one that will respond to gestures, touch and other forces &#8212; is setting out its stall to help them and other hardware makers change up the game.</p>
+<p><a href="http://sentons.com">Sentons</a>, the startup out of Silicon Valley that is building software-defined surface technology, is today announcing the launch of SurfaceWave, a processor and accompanying gesture engine that can be used in smartphones and other hardware to create virtual wheels and buttons to control and navigate apps and features on the devices themselves. The SurfaceWave processor and engine are available to &#8220;any mobile manufacturer.&#8221;</p>
+<p>Before this, <a class="crunchbase-link" href="https://crunchbase.com/organization/sentons" target="_blank" data-type="organization" data-entity="sentons">Sentons <span class="crunchbase-tooltip-indicator"></span></a> had already inked direct deals to test market interest in its technology. There were already three smartphones released &#8212; two of which were only sold in Asia (models and customer names undisclosed by Sentons) and one of which is made by Asus in partnership with Tencent, the <a href="https://www.asus.com/uk/Phone/ROG-Phone/">Republic of Gamers phone</a> (the Air Triggers are powered by Sentons). Jess Lee, the company&#8217;s CEO, told me in an interview that there are another 10-12 devices &#8220;in process&#8221; right now due to be released in coming cycles. He would not comment on whether his former employer is one of them.</p>
+<p>Sentons has been around since 2011, but very much under the radar until this year, when it announced that Lee &#8212; who had been at Apple, after his previous company, the cutting-edge imaging startup InVisage, was <a href="https://techcrunch.com/2017/11/09/apple-has-acquired-imaging-sensor-startup-invisage-technologies/">acquired by the iPhone maker</a> &#8212; was <a href="https://www.prnewswire.com/news-releases/sentons-names-jess-lee-as-ceo-announces-appointment-of-neas-forest-baskett-to-board-of-directors-300843893.html">coming on as CEO</a>.</p>
+<p>The company has quietly raised <a href="https://my.pitchbook.com/profile/55208-35/company/profile#investors">about $37 million</a> mainly from two investors, NEA and Chinese-American firm Northern Light Venture Capital, with Khosla also holding a stake. Lee confirmed to me that Sentons is currently raising another, probably larger, round. (Given the company&#8217;s partnership with Tencent and Asus, those are two companies I would think are candidates as strategic investors.)</p>
+<h2>The sound of silence</h2>
+<p>Sentons&#8217; core idea is focused around sound &#8212; specifically ultra sound.</p>
+<p><img class="aligncenter size-large wp-image-1898868" title="posterImage-4813" src="https://techcrunch.com/wp-content/uploads/2019/10/posterImage-4813.png?w=568" alt="posterImage 4813" width="568" height="320" srcset="https://techcrunch.com/wp-content/uploads/2019/10/posterImage-4813.png 568w, https://techcrunch.com/wp-content/uploads/2019/10/posterImage-4813.png?resize=150,85 150w, https://techcrunch.com/wp-content/uploads/2019/10/posterImage-4813.png?resize=300,169 300w, https://techcrunch.com/wp-content/uploads/2019/10/posterImage-4813.png?resize=50,28 50w" sizes="(max-width: 568px) 100vw, 568px" />Its system is based around a processor that emits ultrasonic &#8220;pings&#8221; (similar to sonar array, the company says, which is used for example on submarines to navigate and communicate) to detect physical movement and force on the surface of an object. The company says that this technique is much more sophisticated than capacitive touch that has been used on smartphones up to now, because combined with Sentons&#8217; algorithms it can measure force and intent as well as touch.</p>
+<p>Combined with the processor that emits the pings and houses the gesture engine, Sentons also uses &#8220;sensor modules&#8221; around the perimeter of a device to detect when those pings are interrupted. The system trains itself and can adjust both to temporal &#8220;buttons&#8221; and also other unintended things like when a screen cracks and your gestures move over to a different area of the phone.</p>
+<p><img class="alignright size-large wp-image-1898866" title="Asus-ROG-350x176" src="https://techcrunch.com/wp-content/uploads/2019/10/Asus-ROG-350x176.jpg?w=350" alt="Asus ROG 350x176" width="350" height="176" srcset="https://techcrunch.com/wp-content/uploads/2019/10/Asus-ROG-350x176.jpg 350w, https://techcrunch.com/wp-content/uploads/2019/10/Asus-ROG-350x176.jpg?resize=150,75 150w, https://techcrunch.com/wp-content/uploads/2019/10/Asus-ROG-350x176.jpg?resize=300,151 300w, https://techcrunch.com/wp-content/uploads/2019/10/Asus-ROG-350x176.jpg?resize=50,25 50w" sizes="(max-width: 350px) 100vw, 350px" />Gaming &#8212; the main use case for Asus&#8217;s ROG phone &#8212; is an obvious category ripe for software-defined surfaces. The medium always strives for more immersive experiences, and as more games are either natively made for phones, or ported there because of the popularity of mobile gaming, handset makers and publishers are always trying to come up with ways to enhance what is, ultimately, very limited real estate (even with larger screens). Using any and all parts of a device to experience motion and other physical responses, and to control the game, is a natural fit for what Sentons has built.</p>
+<p>But the bigger picture and longer-term goal is to apply Sentons&#8217; technology for other uses on devices &#8212; photography and building enhanced camera tools is one obvious example &#8212; and on other &#8220;hardware,&#8221; like connected cars, clothes and even the human body, as Sentons&#8217; technology can also work on and through human tissue.</p>
+<p>&#8220;Every surface is an opportunity,&#8221; Lee said, noting that conversations around health and medical technology are still very early, while other areas like wearables and automotive are seeing &#8220;engagement&#8221; already. &#8220;In the cabin of a vehicle, you have a wealth of tactile materials, whether it&#8217;s leather dashboards or metal buttons, and all of those are extremely interesting to us,&#8221; he added.</p>
+<p>At the same time, the more immediate opportunity for Sentons is the mobile industry.</p>
+<p>Smartphone sales <a href="https://www.gartner.com/en/newsroom/press-releases/2019-08-27-gartner-says-global-smartphone-sales-continued-to-dec">have slowed down</a>, and for some vendors <a href="https://www.idc.com/promo/smartphone-market-share/vendor">declined</a>, in recent years; and while some of that might have to do with premium device prices continuing to climb, and much <a href="https://en.wikipedia.org/wiki/List_of_countries_by_smartphone_penetration">higher smartphone penetration globally</a>, some have laid the blame in part on a lack of innovation. Specifically, newer phones are just not providing enough &#8220;must have&#8221; new features to merit making a purchase of a new device if you already have one.</p>
+<p>You could argue that making a technology like this widely available and open to all comers might make those who are trying to make their devices stand out with special features less inclined to jump on the bandwagon.</p>
+<p>&#8220;Yes, you could say there is more value in scarcity, an approach we took in the last company,&#8221; Lee said, referring to InVisage and how very under the radar it was before being snapped up by Apple.</p>
+<p>However, he thinks a different approach is needed here. &#8220;Whether we launched this platform to everyone or not, the gates have opened, the piñata has broken, and we see a lot more opportunities and want to go for them,&#8221; he said.</p>
+<p>&#8220;You can call it a multi-pronged approach,&#8221; he continued, &#8220;but ensuring the adoption of software-defined interactions [by trying to work with as many companies as possible] gets the technology or use out there quickly.&#8221; He noted that when a new gesture is introduced on devices, it can take time for the world to absorb it, &#8220;and we are positive there will be followers, perhaps with different technology, that will compete with us, so a broad launch is what we are going for.&#8221;</p>
+<img src="http://feeds.feedburner.com/~r/techcrunch/startups/~4/rKgv1Ce9iZQ" height="1" width="1" alt=""/>]]></content:encoded>
+							<wfw:commentRss>https://techcrunch.com/2019/10/17/sentons-launches-surfacewave-a-processor-and-tech-to-create-software-defined-surfaces-that-supercharge-touch-and-gesture/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1898826</post-id>	<feedburner:origLink>https://techcrunch.com/2019/10/17/sentons-launches-surfacewave-a-processor-and-tech-to-create-software-defined-surfaces-that-supercharge-touch-and-gesture/</feedburner:origLink></item>
+		<item>
+		<title>ArsenalBio emerges from stealth with $85 million and a dream team to fight cancer</title>
+		<link>http://feedproxy.google.com/~r/techcrunch/startups/~3/zUFCQoUC0ZE/</link>
+				<comments>https://techcrunch.com/2019/10/17/arsenalbio-emerges-from-stealth-with-85-million-and-a-dream-team-to-fight-cancer/#respond</comments>
+				<pubDate>Thu, 17 Oct 2019 13:55:28 +0000</pubDate>
+		<dc:creator><![CDATA[Jonathan Shieber]]></dc:creator>
+				<category><![CDATA[Health]]></category>
+		<category><![CDATA[Recent Funding]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[ArsenalBio]]></category>
+
+		<guid isPermaLink="false">https://techcrunch.com/?p=1898838</guid>
+				<description><![CDATA[The story behind ArsenalBio begins with Sean Parker&#8217;s Institute for Cancer Immunotherapy. Founded in 2016, the Institute has been instrumental in providing a space for the top researchers into cancer across different fields to collaborate and communicate on the latest breakthroughs in settings that range from formal meetings to informal retreats. It was at one [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p id="speakable-summary">The story behind <a class="crunchbase-link" href="https://crunchbase.com/organization/arsenalbio" target="_blank" data-type="organization" data-entity="arsenalbio">ArsenalBio <span class="crunchbase-tooltip-indicator"></span></a> begins with Sean Parker&#8217;s <a href="https://www.parkerici.org/">Institute for Cancer Immunotherapy</a>.</p>
+<p>Founded in 2016, the Institute has been instrumental in providing a space for the top researchers into cancer across different fields to collaborate and communicate on the latest breakthroughs in settings that range from formal meetings to informal retreats.</p>
+<p>It was at one of these informal retreats that luminaries like Dr. Bradley Bernstein, a professor of pathology and researcher at the Broad Institute; W. Nicholas Haining, vice president of discovery oncology at Merck Research Laboratories; Dr. Alexander Mason, an associate professor of immunology at the University of California San Francisco; and E. John Wherry, a professor of systems immunology at the University of Pennsylvania, began to talk about the current state of the art in cancer diagnostics and therapies and the technologies powering cell-based therapies to potentially cure cancer.</p>
+<p>Parker suggested that rather than have each of these researchers spin their technologies out into separate companies that would develop one discrete innovation that would be needed to get to a cell-based therapy for solid tumors, the researchers should combine forces and build an arsenal of tools for the discovery and development of potential cures.</p>
+<p>&#8220;<span style="font-weight: 400;">I look at this as a tour de force of a combination of bringing academics together who typically would start separate companies and get them working together with a dream team management team,&#8221; says Beth Seidenberg, the founder of Westlake Village BioPartners and an investor in ArsenalBio. </span></p>
+<p>Indeed, the management team is just as impressive as the researchers behind the project. Kleiner Perkins founding partner Brooke Byers recruited Dr. Ken Drazan to serve as a consultant to the company as it was getting off the ground. Drazan, now the company&#8217;s chief executive, was the former president of the cancer research and diagnostics startup Grail and has served as an executive and founder at a number of healthcare startups and large medical companies.</p>
+<p><div id="attachment_1898857" style="width: 362px" class="wp-caption alignright"><img aria-describedby="caption-attachment-1898857" class="wp-image-1898857" title="DrazanK Headshot" src="https://techcrunch.com/wp-content/uploads/2019/10/DrazanK-Headshot.png" alt="DrazanK Headshot" width="352" height="388" srcset="https://techcrunch.com/wp-content/uploads/2019/10/DrazanK-Headshot.png 496w, https://techcrunch.com/wp-content/uploads/2019/10/DrazanK-Headshot.png?resize=136,150 136w, https://techcrunch.com/wp-content/uploads/2019/10/DrazanK-Headshot.png?resize=273,300 273w, https://techcrunch.com/wp-content/uploads/2019/10/DrazanK-Headshot.png?resize=45,50 45w" sizes="(max-width: 352px) 100vw, 352px" /><p id="caption-attachment-1898857" class="wp-caption-text">Ken Drazan, chief executive of ArsenalBio</p></div></p>
+<p>With Drazan on board, the company quickly recruited the rest of the management team: Jane Grogan, the former principal scientist in charge of adaptive tumor and cell therapy at Genentech; Michael Kalos, the former vice president of immuno-oncology and cell therapies at Janssen Oncology; and Tarjei Mikkelsen, the former vice president of biology at 10x Genomics.</p>
+<p>ArsenalBio initially formed as a shell company with seed financing from investors in 2018, basically on the back of its technical team and nascent executive staff.</p>
+<p>Alongside the powerhouse executive team and scientific founders, ArsenalBio has now raked in $85 million in financing from investors including Westlake Village, the PICI, Kleiner Perkins, the University of California San Francisco Foundation Investment Company, Euclidean Capital and Osage Venture Partners.</p>
+<p>The idea is to improve the ability of T cell therapies to fight a broader range of cancers more effectively. T cell treatments have already shown amazing promise with certain types of cancer, but have not been able to effectively treat the solid tumors that represent the deadliest manifestation of the disease.</p>
+<p>To tackle solid tumors like sarcomas, carcinomas and lymphomas, doctors need to figure out how to deliver the T cells first to the area around the tumor and then to the right tissues where the tumor is spreading. That requires a set of biological instructions, which, in many cases have yet to be discovered.</p>
+<p>&#8220;We need to get the cells to deal with the tumor microenvironment,&#8221; says Seidenberg.</p>
+<p>T cells are the human body&#8217;s natural response to fighting off infections and disease. Cancers essentially turn off that natural immune response by signaling to the cells that a tumor is actually something they should ignore rather than attack.</p>
+<p><span style="font-weight: 400;">&#8220;Our goal is to program [cells] by delivering additional  instructions to tell the T cell to ignore the instructions from the tumor… to ignore the signals,&#8221; says Drazan. </span></p>
+<p>The company is still developing its first product strategies now, Drazan says. But ArsenalBio will be selling two different types of technologies. The first will be the medicines themselves that will be used to cure certain types of cancer. The second will be the sequences of genes that can be used to counteract or override the signals that are coming from different types of tumors which prohibit T cells from performing their normal functions.</p>
+<p>Drazan compared those sequences to programs on GitHub that other researchers, clinicians and companies could use to develop their own therapies.</p>
+<p>“ArsenalBio allows us to rewrite vast stretches of code to give T cells dramatic new functions &#8212; that means they can be made to be more effective at killing cancer and a broad spectrum of other diseases,” said Sean Parker, founder and chairman of PICI and ArsenalBio director, in a statement. “It’s also very rewarding to see ArsenalBio born from the deep collaboration of PICI investigators &#8212; who worked together across research centers, hospitals and universities on the science behind these technologies. The company’s very existence demonstrates how much faster and better we can get therapies from bench to bedside when we collaborate and put patients first.”</p>
+<img src="http://feeds.feedburner.com/~r/techcrunch/startups/~4/zUFCQoUC0ZE" height="1" width="1" alt=""/>]]></content:encoded>
+							<wfw:commentRss>https://techcrunch.com/2019/10/17/arsenalbio-emerges-from-stealth-with-85-million-and-a-dream-team-to-fight-cancer/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1898838</post-id>	<feedburner:origLink>https://techcrunch.com/2019/10/17/arsenalbio-emerges-from-stealth-with-85-million-and-a-dream-team-to-fight-cancer/</feedburner:origLink></item>
+		<item>
+		<title>Microsoft accessibility grants go out to companies aiming to improve tech for people with disabilities</title>
+		<link>http://feedproxy.google.com/~r/techcrunch/startups/~3/CosL3KRtI8A/</link>
+				<comments>https://techcrunch.com/2019/10/17/microsoft-accessibility-grants-go-out-to-companies-aiming-to-improve-tech-for-the-disabled/#comments</comments>
+				<pubDate>Thu, 17 Oct 2019 13:01:46 +0000</pubDate>
+		<dc:creator><![CDATA[Devin Coldewey]]></dc:creator>
+				<category><![CDATA[Apps]]></category>
+		<category><![CDATA[Education]]></category>
+		<category><![CDATA[Gadgets]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[Disabilities]]></category>
+		<category><![CDATA[disability]]></category>
+		<category><![CDATA[Microsoft]]></category>
+
+		<guid isPermaLink="false">https://techcrunch.com/?p=1897108</guid>
+				<description><![CDATA[The tech world has a lot to offer those with disabilities, but it can be hard to get investors excited about the accessibility space. That's why Microsoft's AI for Accessibility grants are so welcome: equity-free Azure credits and cash for companies looking to adapt AI to the needs of those with disabilities. The company just announced ten more, including education for the blind startup ObjectiveEd.]]></description>
+								<content:encoded><![CDATA[<p id="speakable-summary">The tech world has a lot to offer those with disabilities, but it can be hard to get investors excited about the accessibility space. That&#8217;s why Microsoft&#8217;s AI for Accessibility grants are so welcome: equity-free Azure credits and cash for companies looking to adapt AI to the needs of those with disabilities. The company just announced ten more, including education for the blind startup ObjectiveEd.</p>
+<p>The grant program was started a while back with a $5 million, 5-year mission to pump a little money into deserving startups and projects — and get them familiar with Microsoft&#8217;s cloud infrastructure, of course.</p>
+<p>Applications are perennially accepted, and &#8220;anybody who wants to explore the value of AI and machine learning for people with disabilities is welcome to apply,&#8221; said Microsoft&#8217;s Mary Bellard. As long as they have &#8220;great ideas and roots in the disability community.&#8221;</p>
+<p>Among the grantees this time around is <a href="https://techcrunch.com/2019/05/16/objectiveed-is-building-a-better-digital-curriculum-for-vision-impaired-kids/">ObjectiveEd, which I wrote about earlier this year</a>. The company is working on an iPad-based elementary school curriculum for blind and low-vision students that&#8217;s also accessible to sighted kids and easy for teachers to deploy.</p>
+<div class="embed breakout">
+<blockquote class="wp-embedded-content" data-secret="9PKcUJ1yGx"><p><a href="https://techcrunch.com/2019/05/16/objectiveed-is-building-a-better-digital-curriculum-for-vision-impaired-kids/">ObjectiveEd is building a better digital curriculum for vision-impaired kids</a></p></blockquote>
+<p><iframe title="&#8220;ObjectiveEd is building a better digital curriculum for vision-impaired kids&#8221; &#8212; TechCrunch" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; clip: rect(1px, 1px, 1px, 1px);" src="https://techcrunch.com/2019/05/16/objectiveed-is-building-a-better-digital-curriculum-for-vision-impaired-kids/embed/#?secret=9PKcUJ1yGx" data-secret="9PKcUJ1yGx" width="800" height="450" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div>
+<p>Part of that, as you might guess, is braille. But there aren&#8217;t nearly enough teachers capable of teaching braille as students who need to learn it, and the most common technique is very hands-on: a student reads braille (on a hardware braille display) out loud and a teacher corrects them. Depending on whether a student has access to the expensive braille display and a suitable tutor at home, that can mean as little as an hour a week dedicated to these crucial lessons.</p>
+<p><div id="attachment_1898556" style="width: 1034px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-1898556" class="breakout size-full wp-image-1898556" title="ObjectiveEd 2" src="https://techcrunch.com/wp-content/uploads/2019/10/ObjectiveEd-2.jpg" alt="ObjectiveEd 2" width="1024" height="620" srcset="https://techcrunch.com/wp-content/uploads/2019/10/ObjectiveEd-2.jpg 2000w, https://techcrunch.com/wp-content/uploads/2019/10/ObjectiveEd-2.jpg?resize=150,91 150w, https://techcrunch.com/wp-content/uploads/2019/10/ObjectiveEd-2.jpg?resize=300,182 300w, https://techcrunch.com/wp-content/uploads/2019/10/ObjectiveEd-2.jpg?resize=768,465 768w, https://techcrunch.com/wp-content/uploads/2019/10/ObjectiveEd-2.jpg?resize=680,411 680w, https://techcrunch.com/wp-content/uploads/2019/10/ObjectiveEd-2.jpg?resize=50,30 50w" sizes="(max-width: 1024px) 100vw, 1024px" /><p id="caption-attachment-1898556" class="wp-caption-text">A refreshable braille display for use with apps like ObjectiveEd&#8217;s.</p></div></p>
+<p>&#8220;We thought, wouldn&#8217;t it be cool if we could send a sentence to the braille display, have the student speak the words out loud, then have Microsoft&#8217;s Azure Services translate that to text and compare that to the braille display, then correct the student if necessary and move on. All within the context of a game, to make it fun,&#8221; said ObjectiveEd founder Marty Schultz.</p>
+<p>And that&#8217;s just what the company&#8217;s next app does. Speech-to-text accuracy is high enough now that it can be used for a variety of educational and accessibility purposes, so all it will take for a student to get some extra time in on their braille lessons is an iPad and braille display — admittedly more than a thousand dollars worth of hardware, but no ever one said being blind was cheap.</p>
+<p>Braille literacy is dropping, and, I suggested, no surprise there: With pervasive and effective audio interfaces, audio books, and screen readers, there are fewer times when blind and low-vision people truly need braille. But as Schulz and Bellard both pointed out, it&#8217;s great to be able to rely on audio for media consumption, but for serious engagement with the written word and many educational purposes, braille is either necessary or a very useful alternative to speech.</p>
+<p>Both Schultz and Bellard noted that they are not trying to replace teachers at all — &#8220;Teachers teach, we help kids practice,&#8221; Schultz said. &#8220;We&#8217;re not experts in teaching, but we can follow their advice to make these tools useful to students.&#8221;</p>
+<p>There are ten other grantees in this round of Microsoft&#8217;s program, covering a wide variety of approaches and technologies. I like the SmartEar, for instance, which listens for things like doorbells or alarms and alerts deaf people of them via their smartphone.</p>
+<p>And City University of London has a great idea in personalizing object recognition. It&#8217;s pretty straightforward for a computer vision system to recognize a mug or keychain on a table. But for a blind person it&#8217;s more useful if a system can identify <em>their</em> mug or keychain, and then perhaps say, it&#8217;s on the brown table left of the door, or what have you.</p>
+<p>Here are the ten grantees besides ObjectiveEd (descriptions provided by Microsoft, as I wasn&#8217;t able to investigate each one, but may in the future):</p>
+<ul>
+<li><a href="https://app.abilitrek.com/"> AbiliTrek </a> : A platform for the disability community to rate and review the accessibility of any establishment, with the ability to tailor search results to the specific needs of any individual.</li>
+<li>Azur Tech Concept – <a href="https://www.smartear.fr/"> SmartEar </a> : A service that actively listens for environmental sounds (i.e. doorbell, fire alarm, phone call) and retransmits them in colored flashes on small portable boxes or a smart phone to support the deaf community.</li>
+<li>Balance for Autism – Financial Accessibility: An interactive program which provides information and activities designed to better match people with programs and services</li>
+<li>City University of London – <a href="https://orbit.city.ac.uk/"> The ORBIT </a> : Developing a data set to train AI systems for personalizing object recognition, which is becoming increasingly important for tools used by the blind community.</li>
+<li>Communote – BeatCaps : A new form of transcription that uses beat tracking to generate subtitles that visualize the rhythm of music. These visualizations allow the hard of hearing to experience music.</li>
+<li>Filmgsindl GmbH – EVE: A system that recognizes speech and generates automatic live subtitles for people with a hearing disability.</li>
+<li><a href="http://www.hc-initiative.org/"> Humanistic Co-Design </a> : A cooperative of individuals, organizations and institutions working together to increase awareness about how designers, makers, and engineers can apply their skills in collaboration with people who have disabilities.</li>
+<li>iMerciv –  <a href="https://mapinhood.com/"> MapinHood </a> : A Toronto-based startup developing a navigation app for pedestrians who are blind or have low vision and want to choose the routes they take if they’re walking to work, or to any other destination.</li>
+<li><a href="https://inable.org/"> inABLE </a> and I-Stem – I-Assistant: A serves that uses text-to-speech, speech recognition, and AI to give students a more interactive and conversational alternative to in-person testing in the classroom.</li>
+<li>Open University – <a href="https://iet.open.ac.uk/projects/admins"> ADMINS </a> : A chatbot that provides administrative support for people with disabilities who have difficulty filling out online academic forms.</li>
+</ul>
+<p>The grants will take the form of Azure credits and/or cash for immediate needs like user studies and keeping the lights on. If you&#8217;re working on something you think might be a good match for this program, <a href="https://ai4prod.microsoftcrmportals.com/AIAcccessibilityGrantApplication/">you can apply for it right here</a>.</p>
+<img src="http://feeds.feedburner.com/~r/techcrunch/startups/~4/CosL3KRtI8A" height="1" width="1" alt=""/>]]></content:encoded>
+							<wfw:commentRss>https://techcrunch.com/2019/10/17/microsoft-accessibility-grants-go-out-to-companies-aiming-to-improve-tech-for-the-disabled/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1897108</post-id>	<feedburner:origLink>https://techcrunch.com/2019/10/17/microsoft-accessibility-grants-go-out-to-companies-aiming-to-improve-tech-for-the-disabled/</feedburner:origLink></item>
+		<item>
+		<title>Work management platform Asana launches new automation tools</title>
+		<link>http://feedproxy.google.com/~r/techcrunch/startups/~3/NFm6L2xsKrk/</link>
+				<comments>https://techcrunch.com/2019/10/17/work-management-platform-asana-launches-new-automation-tools/#comments</comments>
+				<pubDate>Thu, 17 Oct 2019 13:00:39 +0000</pubDate>
+		<dc:creator><![CDATA[Frederic Lardinois]]></dc:creator>
+				<category><![CDATA[Startups]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[Asana]]></category>
+		<category><![CDATA[business process management]]></category>
+		<category><![CDATA[machine learning]]></category>
+
+		<guid isPermaLink="false">https://techcrunch.com/?p=1898567</guid>
+				<description><![CDATA[Work management platform Asana today announced the launch of a new feature that will take the work out of some of the most mundane and repetitive tasks on its platform. Asana Automation, as the new feature is called, allows users to create their own &#8220;if this then that&#8221; rules, but also features a new voice [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p id="speakable-summary">Work management platform <a href="https://asana.com/">Asana</a> today announced the launch of a new feature that will take the work out of some of the most mundane and repetitive tasks on its platform. <a class="crunchbase-link" href="https://crunchbase.com/organization/asana" target="_blank" data-type="organization" data-entity="asana">Asana <span class="crunchbase-tooltip-indicator"></span></a> Automation, as the new feature is called, allows users to create their own &#8220;if this then that&#8221; rules, but also features a new voice transcription service, as well as an OCR tool and new smart templates that integrate some of the service&#8217;s machine learning smarts.</p>
+<p>&#8220;Earlier this year we launched Workload, empowering teams to be more agile when planning, monitoring and managing their efforts,&#8221; said Asana head of product Alex Hood. &#8220;Now with Automation, we’re introducing the ability to automate your routine tasks so you can spend more energy on your craft and leave the repetitive busywork to Asana.”</p>
+<p><a href="https://techcrunch.com/wp-content/uploads/2019/10/Automation-Rule-and-integration.png"><img class="breakout aligncenter size-full wp-image-1898575" title="Automation Rule and integration" src="https://techcrunch.com/wp-content/uploads/2019/10/Automation-Rule-and-integration.png" alt="Automation Rule and integration" width="1024" height="640" srcset="https://techcrunch.com/wp-content/uploads/2019/10/Automation-Rule-and-integration.png 2880w, https://techcrunch.com/wp-content/uploads/2019/10/Automation-Rule-and-integration.png?resize=150,94 150w, https://techcrunch.com/wp-content/uploads/2019/10/Automation-Rule-and-integration.png?resize=300,188 300w, https://techcrunch.com/wp-content/uploads/2019/10/Automation-Rule-and-integration.png?resize=768,480 768w, https://techcrunch.com/wp-content/uploads/2019/10/Automation-Rule-and-integration.png?resize=680,425 680w, https://techcrunch.com/wp-content/uploads/2019/10/Automation-Rule-and-integration.png?resize=50,31 50w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p>The rule builder comes with more than 70 pre-built and preset rules at launch, but users can obviously build their own rules as well. Asana customers can use the service to automatically route tasks to a specific team member, for example. Like with the rest of the new features the company announced today, the idea here is to automate many of the processes that keep teams busy all day, doing &#8220;work about work.&#8221;</p>
+<p>The new OCR and transcription services, which are now available in Asana&#8217;s iPhone app, are pretty self-explanatory. They make it easier to capture what was said in a meeting or written on a whiteboard, which users can then assign to a given task in Asana.</p>
+<p>Smart project templates, too, take some of the grunt work out of using Asana. &#8220;Now when using a template, such as an event plan or campaign launch, a complete workback schedule can be instantly layered on,&#8221; the company explains. &#8220;When a conflict arises between task deadlines, Asana will automatically correct, enabling teams to spend less time setting up projects and workflows, and more time getting work done.&#8221;</p>
+<img src="http://feeds.feedburner.com/~r/techcrunch/startups/~4/NFm6L2xsKrk" height="1" width="1" alt=""/>]]></content:encoded>
+							<wfw:commentRss>https://techcrunch.com/2019/10/17/work-management-platform-asana-launches-new-automation-tools/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1898567</post-id>	<feedburner:origLink>https://techcrunch.com/2019/10/17/work-management-platform-asana-launches-new-automation-tools/</feedburner:origLink></item>
+		<item>
+		<title>Ekos announces $8M Series A to build software for craft breweries</title>
+		<link>http://feedproxy.google.com/~r/techcrunch/startups/~3/P-aoUgcVRlk/</link>
+				<comments>https://techcrunch.com/2019/10/17/ekos-announces-8m-series-a-to-build-software-for-craft-breweries/#respond</comments>
+				<pubDate>Thu, 17 Oct 2019 12:43:44 +0000</pubDate>
+		<dc:creator><![CDATA[Ron Miller]]></dc:creator>
+				<category><![CDATA[Cloud]]></category>
+		<category><![CDATA[Funding]]></category>
+		<category><![CDATA[Recent Funding]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[Ekos]]></category>
+		<category><![CDATA[Noro-Moseley Partners]]></category>
+
+		<guid isPermaLink="false">https://techcrunch.com/?p=1898842</guid>
+				<description><![CDATA[Ekos, a Charlotte, N.C. startup that creates software to help craft breweries and other beverage companies organize their businesses, announced an $8 million Series A today led by Noro-Moseley Partners, an Atlanta  venture firm. Prior to taking this funding, the company had bootstrapped for the previous five years, building a business with 1,700 customers in [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p id="speakable-summary"><a href="http://goekos.com/">Ekos</a>, a Charlotte, N.C. startup that creates software to help craft breweries and other beverage companies organize their businesses, announced an $8 million Series A today led by <a href="https://www.noromoseley.com/">Noro-Moseley Partners</a>, an Atlanta  venture firm.</p>
+<p>Prior to taking this funding, the company had bootstrapped for the previous five years, building a business with 1,700 customers in 40 countries. The company has created an entire suite of tools to track everything from what&#8217;s in the tank to recipes, raw materials, inventory and so on &#8212; everything you need to run a brewery, cidery or wine-making business.</p>
+<p>Prior to launching the company in 2014, the founders were thinking about building software for this market niche, so they went around and asked brewers what they were using to track their businesses. Some were just tracking it manually using clipboards and whiteboards. Others were using ERP software like SAP, NetSuite or Microsoft Dynamics. Some were using Google Sheets.</p>
+<p>McKinney said he couldn&#8217;t believe there wasn&#8217;t a set of tools specifically geared for this market, so he and co-founder and CTO Greg Forehand did what any good entrepreneurs would do: They built it. Today&#8217;s product includes an app to track the business on a mobile phone, and the ability to set up a drag and drop workflow for the entire operation.</p>
+<p>He says he and Forehand actually came up with the business idea independently. He became aware of Forehand in an early sales call. It was certainly odd that two people in the same city came up with the same idea at the same time. Eventually the two met and decided to join forces and form a business together.</p>
+<p>It turned out to be a good decision. Upon launching in 2014, the business took off immediately. They got covered in a brewing industry publication, <a href="https://www.brewbound.com/">Brewbound</a>, which helped spread the message. By the end of the first year they had 100 breweries on the platform. He said that word also spread by word of mouth, and although they planned to concentrate on the U.S. market for starters, before they knew it they were getting calls from breweries in Canada, New Zealand and Australia. Today he says they have customers just about any place there is a brewery across 40 countries.</p>
+<p>The company currently has 32 employees, including just two sales people, who also help the customers with initial setup for their particular needs. They have expanded from beer to cider to wine, and over time they hope to expand into other food and alcoholic beverage markets.</p>
+<p>McKinney has big plans for the money. He wants to hire 40 new employees by the end of 2020, including sales and marketing folks, as well as software engineers. He says he recognizes that this will be a big change for his small operation, but it&#8217;s something they have been planning for and discussing over the last eight months as they went through the process to find funding.</p>
+<p>&#8220;I believe very much in being transparent with our team internally, so that nothing is really a surprise. Our team is pretty pumped about the opportunity for our customers and the things we&#8217;re going to build, and also getting some new team members in place,&#8221; he said.</p>
+<img src="http://feeds.feedburner.com/~r/techcrunch/startups/~4/P-aoUgcVRlk" height="1" width="1" alt=""/>]]></content:encoded>
+							<wfw:commentRss>https://techcrunch.com/2019/10/17/ekos-announces-8m-series-a-to-build-software-for-craft-breweries/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1898842</post-id>	<feedburner:origLink>https://techcrunch.com/2019/10/17/ekos-announces-8m-series-a-to-build-software-for-craft-breweries/</feedburner:origLink></item>
+		<item>
+		<title>Galileo Financial raises $77 million for its fintech services that were 19 years in the making</title>
+		<link>http://feedproxy.google.com/~r/techcrunch/startups/~3/FGYFIdmX97w/</link>
+				<comments>https://techcrunch.com/2019/10/17/galileo-financial-raises-77-million-for-its-fintech-services-that-were-19-years-in-the-making/#comments</comments>
+				<pubDate>Thu, 17 Oct 2019 12:01:53 +0000</pubDate>
+		<dc:creator><![CDATA[Jonathan Shieber]]></dc:creator>
+				<category><![CDATA[Finance]]></category>
+		<category><![CDATA[Recent Funding]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[Accel Partners]]></category>
+		<category><![CDATA[Galileo Financial Services]]></category>
+
+		<guid isPermaLink="false">https://techcrunch.com/?p=1898830</guid>
+				<description><![CDATA[Clay Wilkes had already been retired for six years when he launched Galileo Financial Services in 2000. The serial entrepreneur, who had been an early pioneer in telecommunications technologies (like voice over internet protocols), saw the need for better connectivity between secondary services and financial institutions 19 years ago, just as new digital services around [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p id="speakable-summary">Clay Wilkes had already been retired for six years when he launched Galileo Financial Services in 2000.</p>
+<p>The serial entrepreneur, who had been an early pioneer in telecommunications technologies (like voice over internet protocols), saw the need for better connectivity between secondary services and financial institutions 19 years ago, just as new digital services around payroll processing, transit vouchers, store cards and other services were launching.</p>
+<p>Now the company runs the backend integrations with financial institutions for some of the biggest names in financial technology and has just raised $77 million in financing from Accel Partners.</p>
+<p>Not that Galileo necessarily needed the money. The company has been profitable for years since its bootstrapped beginnings and counts fintech giants like Chime Banking, Robinhood, Monzo and TransferWise among its customers. In fact, the debit and credit card service provider will process nearly $26 billion in financing by the end of the year, according to the company.</p>
+<p>For financial services companies that are launching these days there are a few ways to get to market quickly. One is to partner with a financial institution that will handle the money for them in accounts that are FDIC assured; the other is to become a financial provider that&#8217;s fully regulated themselves.</p>
+<p>Most companies have opted for the second route, and when they do, they need to find a way to hook into a bank&#8217;s financial system and the payment technologies that form the backbone of transaction processing through the debit and credit cards that a huge portion of the world relies on to buy things.</p>
+<p>Accel partner John Locke, who is joining the Galileo board of directors, calls the company almost the flip side of the Braintree and Stripe investments that power transactions for most online merchants.</p>
+<p>Rather than focus on the companies that are taking online orders and processing payments, Galileo deals with the consumers who are spending the money and powers the ways in which companies are trying to offer new services to get those consumers to switch from traditional banks to their upstart challengers (ironically still mostly powered by traditional banks).</p>
+<p><span style="font-weight: 400;">&#8220;Through the API what they’re doing is creating and managing accounts, authorizing merchant transactions, monitoring fraud, initiating disputes and chargebacks, being able to configure products and a wide variety of product,&#8221; said Wilkes. &#8220;We support [direct deposit accounts] and we do credit products… all of these capabilities are capabilities that fit on our platform.&#8221;</span></p>
+<p>Wilkes wouldn&#8217;t talk about the company&#8217;s valuation except to say that it&#8217;s worth &#8220;a substantial amount.&#8221;</p>
+<p>What he will talk about is how Galileo will use the money it has raised. The Salt Lake City-based startup is planning to greatly expand its geographical reach beyond North America. It&#8217;s &#8220;actively pursuing opportunities in Brazil and Colombia and Argentina,&#8221; according to Wilkes. In fact, the company plans to open an office in Mexico City in the coming months to service new Latin American business.</p>
+<p>Meanwhile, it already has something of a stranglehold on the market in the United Kingdom. &#8220;The top five largest fintechs in the U.K. are all clients today,&#8221; Wilkes said.</p>
+<p>Unlike other companies in the market that take a fixed percentage of transactions, Galileo charges a variable amount of a few cents for every transaction that it processes to connect a startup with its banking back end. <span style="font-weight: 400;"> </span></p>
+<p><span style="font-weight: 400;">“We’re in a golden era of fintech innovation and Galileo has quietly built the API infrastructure layer powering the industry’s most innovative products,&#8221; said Locke in a statement. &#8220;Clay and his team have built a very impressive business with many parallels to companies like Qualtrics and Atlassian: bootstrapping first to build a quiet, profitable powerhouse and now, ready to go big globally. We’re excited to help Clay and team take Galileo to the next level.”</span></p>
+<img src="http://feeds.feedburner.com/~r/techcrunch/startups/~4/FGYFIdmX97w" height="1" width="1" alt=""/>]]></content:encoded>
+							<wfw:commentRss>https://techcrunch.com/2019/10/17/galileo-financial-raises-77-million-for-its-fintech-services-that-were-19-years-in-the-making/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1898830</post-id>	<feedburner:origLink>https://techcrunch.com/2019/10/17/galileo-financial-raises-77-million-for-its-fintech-services-that-were-19-years-in-the-making/</feedburner:origLink></item>
+		<item>
+		<title>Pendo scores $100M Series E investment on $1 billion valuation</title>
+		<link>http://feedproxy.google.com/~r/techcrunch/startups/~3/vPzBVB2fDA8/</link>
+				<comments>https://techcrunch.com/2019/10/17/pendo-scores-100m-series-e-on-1-billion-valuation/#comments</comments>
+				<pubDate>Thu, 17 Oct 2019 10:00:09 +0000</pubDate>
+		<dc:creator><![CDATA[Ron Miller]]></dc:creator>
+				<category><![CDATA[Cloud]]></category>
+		<category><![CDATA[Enterprise]]></category>
+		<category><![CDATA[Fundings & Exits]]></category>
+		<category><![CDATA[Recent Funding]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[Pendo]]></category>
+		<category><![CDATA[Sapphire Ventures]]></category>
+
+		<guid isPermaLink="false">https://techcrunch.com/?p=1898450</guid>
+				<description><![CDATA[Pendo, the late-stage startup that helps companies understand how customers are interacting with their apps, announced a $100 million Series E investment today on a valuation of $1 billion. The round was led by Sapphire Ventures . Also participating were new investors General Atlantic and Tiger Global, and existing investors Battery Ventures, Meritech Capital, FirstMark, [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p id="speakable-summary"><a href="http://www.pendo.io/">Pendo</a>, the late-stage startup that helps companies understand how customers are interacting with their apps, announced a $100 million Series E investment today on a valuation of $1 billion.</p>
+<p>The round was led by <a class="crunchbase-link" href="https://crunchbase.com/organization/sapphire-ventures" target="_blank" data-type="organization" data-entity="sapphire-ventures">Sapphire Ventures <span class="crunchbase-tooltip-indicator"></span></a>. Also participating were new investors General Atlantic and Tiger Global, and existing investors Battery Ventures, Meritech Capital, FirstMark, Geodesic Capital and Cross Creek. <a class="crunchbase-link" href="https://crunchbase.com/organization/pendo-io" target="_blank" data-type="organization" data-entity="pendo-io">Pendo <span class="crunchbase-tooltip-indicator"></span></a> has now raised $206 million, according to the company.</p>
+<p>Company CEO and co-founder Todd Olson says that one of the reasons they need so much money is they are defining a market, and the potential is quite large. &#8220;Honestly, we need to help realize the total market opportunity. I think what&#8217;s exciting about what we&#8217;ve seen in six years is that this problem of improving digital experiences is something that&#8217;s becoming top of mind for all businesses,&#8221; Olson said.</p>
+<p>The company integrates with customer apps, capturing user behavior and feeding data back to product teams to help prioritize features and improve the user experience. In addition, the product provides ways to help those users either by walking them through different features, pointing out updates and new features or providing other notes. Developers can also ask for feedback to get direct input from users.</p>
+<p>Olson says early on its customers were mostly other technology companies, but over time they have expanded into lots of other verticals, including insurance, financial services and retail, and these companies are seeing digital experience as increasingly important. &#8220;A lot of this money is going to help grow our go-to-market teams and our product teams to make sure we&#8217;re getting our message out there, and we&#8217;re helping companies deal with this transformation,&#8221; he says. Today, the company has more than 1,200 customers.</p>
+<p>While he wouldn&#8217;t commit to going public, he did say it&#8217;s something the executive team certainly thinks about, and it has started to put the structure in place to prepare should that time ever come. &#8220;This is certainly an option that we are considering, and we&#8217;re looking at ways in which to put us in a position to be able to do so, if and when the markets are good and we decide that&#8217;s the course we want to take.&#8221;</p>
+<img src="http://feeds.feedburner.com/~r/techcrunch/startups/~4/vPzBVB2fDA8" height="1" width="1" alt=""/>]]></content:encoded>
+							<wfw:commentRss>https://techcrunch.com/2019/10/17/pendo-scores-100m-series-e-on-1-billion-valuation/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1898450</post-id>	<feedburner:origLink>https://techcrunch.com/2019/10/17/pendo-scores-100m-series-e-on-1-billion-valuation/</feedburner:origLink></item>
+		<item>
+		<title>How to radically change finance through startups at TechCrunch Disrupt Berlin</title>
+		<link>http://feedproxy.google.com/~r/techcrunch/startups/~3/ZAO0s0s46UM/</link>
+				<comments>https://techcrunch.com/2019/10/17/how-to-radically-change-finance-through-startups-at-techcrunch-disrupt-berlin/#comments</comments>
+				<pubDate>Thu, 17 Oct 2019 09:50:15 +0000</pubDate>
+		<dc:creator><![CDATA[Danny Crichton]]></dc:creator>
+				<category><![CDATA[Europe]]></category>
+		<category><![CDATA[Events]]></category>
+		<category><![CDATA[Finance]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[Charlie Delingpole]]></category>
+		<category><![CDATA[Disrupt]]></category>
+		<category><![CDATA[disrupt berlin]]></category>
+		<category><![CDATA[TechCrunch Disrupt Berlin 2019]]></category>
+		<category><![CDATA[Yoni Assia]]></category>
+
+		<guid isPermaLink="false">https://techcrunch.com/?p=1898448</guid>
+				<description><![CDATA[Fintech has been a very popular area for venture investment, and this is particularly true in Europe. Dozens of high-growth fintech startups have launched over the past decade, from challenger banks and neobanks to new payment services and better ways to save and invest wealth. Embedded finance, or why fintech mega VC rounds have become [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p id="speakable-summary"><a href="https://techcrunch.com/2019/07/23/embedded-finance-or-why-fintech-mega-vc-rounds-have-become-so-common/">Fintech has been a very popular area for venture investment</a>, and this is particularly true in Europe. Dozens of high-growth fintech startups have launched over the past decade, from challenger banks and neobanks to new payment services and better ways to save and invest wealth.</p>
+<div class="embed breakout">
+<blockquote class="wp-embedded-content" data-secret="4fkjehS8NA"><p><a href="https://techcrunch.com/2019/07/23/embedded-finance-or-why-fintech-mega-vc-rounds-have-become-so-common/">Embedded finance, or why fintech mega VC rounds have become so common</a></p></blockquote>
+<p><iframe title="&#8220;Embedded finance, or why fintech mega VC rounds have become so common&#8221; &#8212; TechCrunch" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; clip: rect(1px, 1px, 1px, 1px);" src="https://techcrunch.com/2019/07/23/embedded-finance-or-why-fintech-mega-vc-rounds-have-become-so-common/embed/#?secret=4fkjehS8NA" data-secret="4fkjehS8NA" width="800" height="450" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div>
+<p>On the Extra Crunch stage at <a href="https://techcrunch.com/events/disrupt-berlin-2019/tickets/?ref=speakerpost10&amp;unii-trigger-open=J7WN34">TechCrunch Disrupt Berlin</a>, we wanted to dive deeper into what it takes to build a great fintech startup, and also radically reshape finance along the way. That’s why we invited two deep thinkers — Yoni Assia of <a href="https://www.etoro.com">eToro</a> and Charlie Delingpole of <a href="https://complyadvantage.com">ComplyAdvantage</a> — to discuss how entrepreneurs today can affect the future of finance in the years to come, as well as the lessons learned from building their own successful fintech startups.</p>
+<p>Assia has been a lifelong finance geek, day trading in his youth while learning computer science before eventually founding eToro in 2006. EToro’s social trading platform allows investors to follow peer investors and mirror their trades, all the while creating a hub for analysis and discussion around investment opportunities. The company has raised nearly a quarter-billion dollars in venture capital, <a href="https://www.crunchbase.com/organization/etoro#section-overview">according to Crunchbase</a>.</p>
+<p>Over the past few years, Assia has <a href="https://www.theblockcrypto.com/post/34412/yoni-assia">dived head first into the crypto world</a>, and eToro now supports crypto trading in addition to more traditional public equities. Assia’s ambition has been to make eToro the single-largest crypto trading platform in the world. Despite its popularity and success, eToro has almost always focused its efforts on the European and nearby market, and <a href="https://techcrunch.com/2019/03/07/etoro-bringing-crypto-trading-and-wallet-to-the-us/">only this year officially launched its trading features in the U.S.</a></p>
+<div class="embed breakout">
+<blockquote class="wp-embedded-content" data-secret="kAL6Crgx2N"><p><a href="https://techcrunch.com/2019/03/07/etoro-bringing-crypto-trading-and-wallet-to-the-us/">EToro bringing crypto trading and wallet to the US</a></p></blockquote>
+<p><iframe title="&#8220;EToro bringing crypto trading and wallet to the US&#8221; &#8212; TechCrunch" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; clip: rect(1px, 1px, 1px, 1px);" src="https://techcrunch.com/2019/03/07/etoro-bringing-crypto-trading-and-wallet-to-the-us/embed/#?secret=kAL6Crgx2N" data-secret="kAL6Crgx2N" width="800" height="450" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div>
+<p>Delingpole has also had the entrepreneurial bug his entire life, and ComplyAdvantage is his third startup. ComplyAdvantage is an API-based know-your-customer/anti-money-laundering (KYC/AML) service for identifying the actors behind financial transactions. More than five years into the company, it has raised tens of millions in venture capital from the likes of Index Ventures and Balderton Capital, and works with hundreds of customers processing data on tens of millions of names per day.</p>
+<p>ComplyAdvantage’s product challenge is combining structured, semi-structured and unstructured data in real time to provide banks and other clients with risk assessments that are attuned to the changing nature of geopolitics every day. As such, Delingpole has had to work with everyone from financial asset control regulators to banking procurement directors to integrate his product into their workflows.</p>
+<p>Together, Assia and Delingpole will discuss the changing landscape for fintech and how founders today can tackle the space.</p>
+<p><a href="https://techcrunch.com/events/disrupt-berlin-2019/tickets/?ref=speakerpost10&amp;unii-trigger-open=J7WN34">Buy your ticket to Disrupt Berlin</a> and join us on the Extra Crunch stage for an in-depth look at this white-hot market.</p>
+<p>	<iframe
+			id="wpcom-iframe-c98bc66ab504d3407da982a3cb4a6527"
+			width="99%"
+			height="1100"
+			src="https://tcprotectedembed.com/protected-iframe/c98bc66ab504d3407da982a3cb4a6527"
+			scrolling=""
+			frameborder="0"
+			class="wpcom-protected-iframe"
+	>
+	</iframe>
+	<script type="text/javascript">
+		( function() {
+			var func = function() {
+				var iframe = document.getElementById('wpcom-iframe-c98bc66ab504d3407da982a3cb4a6527')
+				if ( iframe ) {
+					iframe.onload = function() {
+						iframe.contentWindow.postMessage( {
+							'msg_type': 'poll_size',
+							'frame_id': 'wpcom-iframe-c98bc66ab504d3407da982a3cb4a6527'
+						}, "https:\/\/tcprotectedembed.com" );
+					}
+				}
+
+				// Autosize iframe
+				var funcSizeResponse = function( e ) {
+
+					var origin = document.createElement( 'a' );
+					origin.href = e.origin;
+
+					// Verify message origin
+					if ( 'tcprotectedembed.com' !== origin.host )
+						return;
+
+					// Verify message is in a format we expect
+					if ( 'object' !== typeof e.data || undefined === e.data.msg_type )
+						return;
+
+					switch ( e.data.msg_type ) {
+						case 'poll_size:response':
+							var iframe = document.getElementById( e.data._request.frame_id );
+
+							if ( iframe && '' === iframe.width )
+								iframe.width = '100%';
+							if ( iframe && '' === iframe.height )
+								iframe.height = parseInt( e.data.height );
+
+							return;
+						default:
+							return;
+					}
+				}
+
+				if ( 'function' === typeof window.addEventListener ) {
+					window.addEventListener( 'message', funcSizeResponse, false );
+				} else if ( 'function' === typeof window.attachEvent ) {
+					window.attachEvent( 'onmessage', funcSizeResponse );
+				}
+			}
+			if (document.readyState === 'complete') { func.apply(); /* compat for infinite scroll */ }
+			else if ( document.addEventListener ) { document.addEventListener( 'DOMContentLoaded', func, false ); }
+			else if ( document.attachEvent ) { document.attachEvent( 'onreadystatechange', func ); }
+		} )();
+	</script>
+	</p>
+<img src="http://feeds.feedburner.com/~r/techcrunch/startups/~4/ZAO0s0s46UM" height="1" width="1" alt=""/>]]></content:encoded>
+							<wfw:commentRss>https://techcrunch.com/2019/10/17/how-to-radically-change-finance-through-startups-at-techcrunch-disrupt-berlin/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1898448</post-id>	<feedburner:origLink>https://techcrunch.com/2019/10/17/how-to-radically-change-finance-through-startups-at-techcrunch-disrupt-berlin/</feedburner:origLink></item>
+	</channel>
+</rss>

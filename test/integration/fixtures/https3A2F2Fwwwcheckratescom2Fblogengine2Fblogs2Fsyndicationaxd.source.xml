@@ -1,0 +1,955 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:blogChannel="http://backend.userland.com/blogChannelModule" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pingback="http://madskills.com/public/xml/rss/module/pingback/" xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:betag="http://dotnetblogengine.net/schemas/tags">
+  <channel>
+    <title>Checkrates.com</title>
+    <description>Mortgages and Loans</description>
+    <link>https://www.checkrates.com/blogengine/blogs/</link>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>BlogEngine.NET 3.3.5.0</generator>
+    <language>en-US</language>
+    <blogChannel:blogRoll>https://www.checkrates.com/blogengine/blogs/opml.axd</blogChannel:blogRoll>
+    <blogChannel:blink>http://www.dotnetblogengine.net/syndication.axd</blogChannel:blink>
+    <dc:creator>My name</dc:creator>
+    <dc:title>Checkrates.com</dc:title>
+    <geo:lat>0.000000</geo:lat>
+    <geo:long>0.000000</geo:long>
+    <item>
+      <title>Bank of America vs. City of Miami: Tough Ruling on Home Lenders</title>
+      <description>&lt;p&gt;The Supreme Court handed down it's decision on May 1, 2017 and it has implications that will rock the home lending industry. Even though the court has not ruled that the city is an aggrieved party, it has granted the city of Miami to sue on behalf it's citizens if they have been harmed by predatory lending. After several court cases, this one finally landed in the Supreme court. Giving local governments the standing to sue lenders on behalf of their citizens will be a legal nightmare for lenders according to Wells Fargo and Bank of America, who were defendants in the suit.&amp;nbsp;&lt;img style="float: left;" src="https://www.checkrates.com/blogengine/blogs/image.axd?picture=/Big Bank Logos.jpg" alt="" /&gt;&lt;/p&gt;
+&lt;p&gt;This case was the result of the City of Miami accusing the banks of charging higher fees and rates to minority borrowers. The were accused of violating the &lt;a title="Fair Housing Act" href="https://en.wikipedia.org/wiki/Fair_Housing_Act" target="_blank"&gt;Fair Housing Act&lt;/a&gt;&amp;nbsp;which prohibits lenders for discriminating against applicants based on their race. The Supreme court ruled that the City of Miami was harmed by a reduced tax base and increased costs. The lender allege that the increased legal exposure will result in higher costs for all borrowers.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</description>
+      <link>https://www.checkrates.com/blogengine/blogs/post/bank-of-america-vs-city-of-miami-ruling-tough-on-home-lenders</link>
+      <comments>https://www.checkrates.com/blogengine/blogs/post/bank-of-america-vs-city-of-miami-ruling-tough-on-home-lenders#comment</comments>
+      <guid>https://www.checkrates.com/blogengine/blogs/post.aspx?id=e596137c-22a9-4b0d-9a9e-dbebae8f8e9c</guid>
+      <pubDate>Thu, 28 Sep 2017 09:47:00 -0700</pubDate>
+      <category>Blog</category>
+      <dc:publisher>admin</dc:publisher>
+      <pingback:server>https://www.checkrates.com/blogengine/blogs/pingback.axd</pingback:server>
+      <pingback:target>https://www.checkrates.com/blogengine/blogs/post.aspx?id=e596137c-22a9-4b0d-9a9e-dbebae8f8e9c</pingback:target>
+      <slash:comments>0</slash:comments>
+      <trackback:ping>https://www.checkrates.com/blogengine/blogs/trackback.axd?id=e596137c-22a9-4b0d-9a9e-dbebae8f8e9c</trackback:ping>
+      <wfw:comment>https://www.checkrates.com/blogengine/blogs/post/bank-of-america-vs-city-of-miami-ruling-tough-on-home-lenders#comment</wfw:comment>
+      <wfw:commentRss>https://www.checkrates.com/blogengine/blogs/syndication.axd?post=e596137c-22a9-4b0d-9a9e-dbebae8f8e9c</wfw:commentRss>
+    </item>
+    <item>
+      <title>2017 Mortgage Insurance Rates | Annual and Monthly MIP Rates</title>
+      <description>&lt;p&gt;&lt;span style="font-size: large;"&gt;2017 FHA Mortgage Insurance Rates&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;For 30-Year Mortgages with less than a 5%&amp;nbsp; down payment, the mandatory monthly mortgage insurance rate is .85% divided by 12 months. EXAMPLE: $100,000 mortgage multiplied by .85% is $850 per year. So each year the 12 payments will be $70.83 per month.&lt;/p&gt;
+&lt;p&gt;For 30 Year Mortgages with more than a 5% down payment, the mandatory monthly mortgage insurance rate is .8% divided by 12 months. EXAMPLE: $100,000 mortgage multiplied by .80% is $800 per year. So each year the 12 payments will be $66.67 per month.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;img class="mainImage accessible nofocus" title="View source image" src="http://www.furlongteam.com/assets/uploads/2014/11/fha-logo.jpg" alt="Image result for fha logo" width="200" height="200" data-bm="79" /&gt;&lt;/p&gt;</description>
+      <link>https://www.checkrates.com/blogengine/blogs/post/2017-FHA-Mortgage-Insurance-Rates</link>
+      <comments>https://www.checkrates.com/blogengine/blogs/post/2017-FHA-Mortgage-Insurance-Rates#comment</comments>
+      <guid>https://www.checkrates.com/blogengine/blogs/post.aspx?id=5cb56ead-511e-4d83-b6bf-fb20106faf0e</guid>
+      <pubDate>Sun, 30 Jul 2017 22:20:00 -0700</pubDate>
+      <dc:publisher>Admin</dc:publisher>
+      <pingback:server>https://www.checkrates.com/blogengine/blogs/pingback.axd</pingback:server>
+      <pingback:target>https://www.checkrates.com/blogengine/blogs/post.aspx?id=5cb56ead-511e-4d83-b6bf-fb20106faf0e</pingback:target>
+      <slash:comments>0</slash:comments>
+      <trackback:ping>https://www.checkrates.com/blogengine/blogs/trackback.axd?id=5cb56ead-511e-4d83-b6bf-fb20106faf0e</trackback:ping>
+      <wfw:comment>https://www.checkrates.com/blogengine/blogs/post/2017-FHA-Mortgage-Insurance-Rates#comment</wfw:comment>
+      <wfw:commentRss>https://www.checkrates.com/blogengine/blogs/syndication.axd?post=5cb56ead-511e-4d83-b6bf-fb20106faf0e</wfw:commentRss>
+    </item>
+    <item>
+      <title>FHA Making Big Changes | FHA Lowers Annual Premium to .85%</title>
+      <description>&lt;p&gt;&lt;!-- [if gte mso 9]&gt;&lt;xml&gt;
+ &lt;w:WordDocument&gt;
+  &lt;w:View&gt;Normal&lt;/w:View&gt;
+  &lt;w:Zoom&gt;0&lt;/w:Zoom&gt;
+  &lt;w:TrackMoves/&gt;
+  &lt;w:TrackFormatting/&gt;
+  &lt;w:PunctuationKerning/&gt;
+  &lt;w:ValidateAgainstSchemas/&gt;
+  &lt;w:SaveIfXMLInvalid&gt;false&lt;/w:SaveIfXMLInvalid&gt;
+  &lt;w:IgnoreMixedContent&gt;false&lt;/w:IgnoreMixedContent&gt;
+  &lt;w:AlwaysShowPlaceholderText&gt;false&lt;/w:AlwaysShowPlaceholderText&gt;
+  &lt;w:DoNotPromoteQF/&gt;
+  &lt;w:LidThemeOther&gt;EN-US&lt;/w:LidThemeOther&gt;
+  &lt;w:LidThemeAsian&gt;X-NONE&lt;/w:LidThemeAsian&gt;
+  &lt;w:LidThemeComplexScript&gt;X-NONE&lt;/w:LidThemeComplexScript&gt;
+  &lt;w:Compatibility&gt;
+   &lt;w:BreakWrappedTables/&gt;
+   &lt;w:SnapToGridInCell/&gt;
+   &lt;w:WrapTextWithPunct/&gt;
+   &lt;w:UseAsianBreakRules/&gt;
+   &lt;w:DontGrowAutofit/&gt;
+   &lt;w:SplitPgBreakAndParaMark/&gt;
+   &lt;w:DontVertAlignCellWithSp/&gt;
+   &lt;w:DontBreakConstrainedForcedTables/&gt;
+   &lt;w:DontVertAlignInTxbx/&gt;
+   &lt;w:Word11KerningPairs/&gt;
+   &lt;w:CachedColBalance/&gt;
+  &lt;/w:Compatibility&gt;
+  &lt;w:BrowserLevel&gt;MicrosoftInternetExplorer4&lt;/w:BrowserLevel&gt;
+  &lt;m:mathPr&gt;
+   &lt;m:mathFont m:val="Cambria Math"/&gt;
+   &lt;m:brkBin m:val="before"/&gt;
+   &lt;m:brkBinSub m:val="&amp;#45;-"/&gt;
+   &lt;m:smallFrac m:val="off"/&gt;
+   &lt;m:dispDef/&gt;
+   &lt;m:lMargin m:val="0"/&gt;
+   &lt;m:rMargin m:val="0"/&gt;
+   &lt;m:defJc m:val="centerGroup"/&gt;
+   &lt;m:wrapIndent m:val="1440"/&gt;
+   &lt;m:intLim m:val="subSup"/&gt;
+   &lt;m:naryLim m:val="undOvr"/&gt;
+  &lt;/m:mathPr&gt;&lt;/w:WordDocument&gt;
+&lt;/xml&gt;&lt;![endif]--&gt;&lt;/p&gt;
+&lt;p&gt;&lt;!-- [if gte mso 9]&gt;&lt;xml&gt;
+ &lt;w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="267"&gt;
+  &lt;w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/&gt;
+  &lt;w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/&gt;
+  &lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/&gt;
+  &lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" Name="toc 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" Name="toc 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" Name="toc 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" Name="toc 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" Name="toc 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" Name="toc 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" Name="toc 7"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" Name="toc 8"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" Name="toc 9"/&gt;
+  &lt;w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/&gt;
+  &lt;w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/&gt;
+  &lt;w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/&gt;
+  &lt;w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/&gt;
+  &lt;w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/&gt;
+  &lt;w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/&gt;
+  &lt;w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/&gt;
+  &lt;w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/&gt;
+  &lt;w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/&gt;
+  &lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/&gt;
+  &lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/&gt;
+  &lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/&gt;
+  &lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/&gt;
+  &lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/&gt;
+  &lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/&gt;
+  &lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/&gt;
+  &lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/&gt;
+  &lt;w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/&gt;
+  &lt;w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/&gt;
+  &lt;w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/&gt;
+  &lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/&gt;
+  &lt;w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/&gt;
+  &lt;w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/&gt;
+  &lt;w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/&gt;
+  &lt;w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/&gt;
+  &lt;w:LsdException Locked="false" Priority="37" Name="Bibliography"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/&gt;
+ &lt;/w:LatentStyles&gt;
+&lt;/xml&gt;&lt;![endif]--&gt;&lt;!-- [if gte mso 10]&gt;
+&lt;style&gt;
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+&lt;/style&gt;
+&lt;![endif]--&gt;&lt;/p&gt;
+&lt;h1&gt;&lt;span style="font-size: 18.0pt; mso-fareast-font-family: 'Times New Roman';"&gt;FACT SHEET: Making Homeownership More Accessible and Sustainable&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;When President Obama took office, our housing market was in free-fall, and rising unemployment and plunging house prices posed numerous challenges for families and the broader economy.&amp;nbsp; The President took immediate action to stabilize the housing market and protect the middle class.&amp;nbsp; These steps helped millions of middle class families stay in their homes, save money on their mortgages, and turn their communities around.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;Today, the housing market is on firmer footing. Rising home values have brought millions of families out from being underwater, new foreclosures are at the lowest levels since 2006, and home sales have substantially increased.&amp;nbsp; The President&amp;rsquo;s push for tough enforcement against past abuses and strong new consumer protections have helped curb irresponsible lending and have given responsible Americans more confidence and security in their most substantial investment. And the Consumer Financial Protection Bureau has pioneered new, streamlined mortgage forms to make simpler and easier for families to buy a house.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;Still, there&amp;rsquo;s more work to do: too many creditworthy families who can afford&amp;mdash;and want to purchase&amp;mdash;a home are shut out of homeownership opportunities due to today&amp;rsquo;s tight lending market.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;That is why today, the President announced a major new step that his Administration is taking to make mortgages more affordable and accessible for creditworthy families. The Federal Housing Administration (FHA) will reduce annual mortgage insurance premiums by 0.5 percentage point from 1.35 percent to 0.85 percent. For the typical first-time homebuyer, this reduction will translate into a $900 reduction in their annual mortgage payment. Existing homeowners who refinance into an FHA mortgage will see similar reductions to their mortgage payments as well. In total, this action will help millions of families save billions of dollars in mortgage payments in the coming years, helping to support the housing market recovery. The new premium level is fully consistent with the FHA&amp;rsquo;s commitment to continue strengthening its financial health through growing reserves. At the same time, full documentation and continued strong underwriting means lending will remain prudent and sustainable &amp;ndash; benefitting both homeowners and FHA.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;This step is part of the President&amp;rsquo;s broader effort to expand responsible lending to creditworthy borrowers and increase access to sustainable rental housing for families not ready or wanting to buy a home. In the coming months the Administration will be taking additional steps to cut red tape and clarify lending standards to build on the measures announced today. And the Administration will continue to urge bipartisan progress in Congress to pass comprehensive housing finance reform legislation that will secure a stable and resilient housing finance system &amp;ndash; one that will ensure broad access to mortgages at affordable rates and better serve future generations.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="rtecenter"&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;&amp;nbsp;&lt;strong&gt;&lt;span style="text-decoration: underline;"&gt;&lt;span style="font-family: 'Arial','sans-serif';"&gt;Making Homeownership More Accessible and Sustainable&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal" style="margin-top: 0in;"&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;&amp;Oslash;&amp;nbsp; &lt;strong&gt;&lt;span style="text-decoration: underline;"&gt;&lt;span style="font-family: 'Arial','sans-serif';"&gt;Reduce FHA Premiums to Help Make Mortgages More Affordable:&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal" style="margin-top: 0in;"&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;&amp;Oslash;&amp;nbsp; FHA is reducing annual FHA mortgage insurance premiums by 0.5 percentage point from 1.35 percent to 0.85 percent, an average savings of $900 annually for new borrowers.&lt;/span&gt;&lt;/p&gt;
+&lt;p class="rteindent1"&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;&amp;Oslash;&amp;nbsp; Lowered premiums will help more than 800,000 homeowners save on their monthly mortgage costs and enable up to 250,000 new homebuyers to purchase a home.&lt;/span&gt;&lt;/p&gt;
+&lt;p class="rteindent1"&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;&amp;Oslash;&amp;nbsp; These steps will help support home sales, lower housing expenses for affected households, and help bring more balance to the housing market.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal" style="margin-top: 0in;"&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;&amp;Oslash;&amp;nbsp; &lt;strong&gt;&lt;span style="text-decoration: underline;"&gt;&lt;span style="font-family: 'Arial','sans-serif';"&gt;Build on Successful Policies that Have Helped Lead the Housing Recovery:&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal" style="margin-top: 0in;"&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;&amp;Oslash;&amp;nbsp; Today&amp;rsquo;s action builds on the successful steps the Administration started taking immediately after the President took office &amp;ndash; actions that helped create today&amp;rsquo;s strong recovery in housing.&lt;/span&gt;&lt;/p&gt;
+&lt;p class="rteindent1"&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;&amp;Oslash;&amp;nbsp; The Administration&amp;rsquo;s mortgage modifications, private modifications, and other federal mortgage assistance have helped over 8 million borrowers, more than twice the number of foreclosure completions; more than 3 million borrowers have saved money through refinancing; and the Administration has invested billions in neighborhood stabilization and anti-blight initiatives.&lt;/span&gt;&lt;/p&gt;
+&lt;p class="rteindent1"&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;&amp;Oslash;&amp;nbsp; Today, the housing market continues to strengthen: house prices are up nearly 30 percent from crisis lows; 10 million fewer borrowers are underwater with homes worth less than their mortgages; and new foreclosures are at a 9-year low.&lt;/span&gt;&lt;/p&gt;
+&lt;p class="rteindent1"&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;&amp;Oslash;&amp;nbsp; The President continues to strongly support long-term housing finance reform through legislation that requires private capital to take the risks and rewards in mortgage lending while preserving broad and affordable access for all creditworthy families.&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal" style="margin-top: 0in;"&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;&amp;Oslash;&amp;nbsp; &lt;strong&gt;&lt;span style="text-decoration: underline;"&gt;&lt;span style="font-family: 'Arial','sans-serif';"&gt;Preserve Sound Underwriting and Strong Consumer Protections:&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal" style="margin-top: 0in;"&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;&amp;Oslash;&amp;nbsp; FHA will continue to preserve sound underwriting standards with full documentation requirements and a prudent evaluation of a borrower&amp;rsquo;s ability to sustain payments.&lt;/span&gt;&lt;/p&gt;
+&lt;p class="rteindent1"&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;&amp;Oslash;&amp;nbsp; CFPB and others will continue to monitor and enforce important consumer protections that helped eliminate the worst lending practices of the past so that mortgages are underwritten in a more sustainable manner.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal" style="margin-top: 0in;"&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;&amp;Oslash;&amp;nbsp; &lt;strong&gt;&lt;span style="text-decoration: underline;"&gt;&lt;span style="font-family: 'Arial','sans-serif';"&gt;Continue to Strengthen FHA&amp;rsquo;s Financial Health:&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal" style="margin-top: 0in;"&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;&amp;Oslash;&amp;nbsp; Even after today&amp;rsquo;s reduction, FHA annual mortgage insurance premiums will remain at 0.85 percent, higher than historic norms.&lt;/span&gt;&lt;/p&gt;
+&lt;p class="rteindent1"&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;&amp;Oslash;&amp;nbsp; Even with this reduction, FHA is projected to add $7 to $10 billion annually in new capital reserves &amp;ndash; in part due to improved risk management and credit policies &amp;ndash; and maintain a positive financial trajectory for the Mutual Mortgage Insurance (MMI) Fund.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;Reduce FHA Premiums to Help Make Mortgages More Affordable &lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="margin-left: 0in; text-indent: -.25in; mso-list: l1 level1 lfo1; tab-stops: list .5in;"&gt;&lt;span style="font-size: 10.0pt; mso-bidi-font-size: 9.0pt; font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; color: #333333;"&gt;&lt;span style="mso-list: Ignore;"&gt;&amp;middot;&lt;span style="font: 7.0pt 'Times New Roman';"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;FHA is reducing annual FHA mortgage insurance premiums by 0.5 percentage points from 1.35 percent to 0.85 percent&lt;/span&gt;&lt;/strong&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;. This reduction in premiums will produce an average savings of $900 annually for all new FHA borrowers.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin-left: 0in; text-indent: -.25in; mso-list: l1 level1 lfo1; tab-stops: list .5in;"&gt;&lt;span style="font-size: 10.0pt; mso-bidi-font-size: 9.0pt; font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; color: #333333;"&gt;&lt;span style="mso-list: Ignore;"&gt;&amp;middot;&lt;span style="font: 7.0pt 'Times New Roman';"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;More than 800,000 FHA borrowers are projected to take advantage of these lower rates in the first year, saving millions of dollars in total.&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="margin-left: 0in; text-indent: -.25in; mso-list: l1 level1 lfo1; tab-stops: list .5in;"&gt;&lt;span style="font-size: 10.0pt; mso-bidi-font-size: 9.0pt; font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; color: #333333;"&gt;&lt;span style="mso-list: Ignore;"&gt;&amp;middot;&lt;span style="font: 7.0pt 'Times New Roman';"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;Lowered premiums will create opportunities for 250,000 new homeowners to purchase a home over the next three years.&lt;/span&gt;&lt;/strong&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt; In recent years, many aspiring homeowners have been waiting on the sidelines before buying a new home. By making mortgages more affordable and helping create further confidence among those wanting to buy a home, the FHA premium reduction will help hundreds of thousands of additional families own a home for the first time.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin-left: 0in; text-indent: -.25in; mso-list: l1 level1 lfo1; tab-stops: list .5in;"&gt;&lt;span style="font-size: 10.0pt; mso-bidi-font-size: 9.0pt; font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; color: #333333;"&gt;&lt;span style="mso-list: Ignore;"&gt;&amp;middot;&lt;span style="font: 7.0pt 'Times New Roman';"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;The new home buying activity and benefits of the cost savings to borrowers will help further strengthen the housing market.&lt;/span&gt;&lt;/strong&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt; An increase in first-time homebuyers and more affordable mortgages will help spur more residential construction and help create new jobs in the housing sector.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;Preserve Sound Underwriting and Strong Consumer Protections&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="margin-left: 0in; text-indent: -.25in; mso-list: l0 level1 lfo2; tab-stops: list .5in;"&gt;&lt;span style="font-size: 10.0pt; mso-bidi-font-size: 9.0pt; font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; color: #333333;"&gt;&lt;span style="mso-list: Ignore;"&gt;&amp;middot;&lt;span style="font: 7.0pt 'Times New Roman';"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;FHA will preserve sound underwriting standards with full documentation requirements and a prudent evaluation of a borrower&amp;rsquo;s ability to sustain payments. &lt;/span&gt;&lt;/strong&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;Today&amp;rsquo;s lending standards are not only tighter than the pre-crisis period, but also much tighter than historical norms. Since 2009 FHA has instituted a credit score floor and required manual underwriting for higher-risk borrowers. Continued access will only be extended to borrowers who can sustain their payments on a well-underwritten and fully documented mortgage.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin-left: 0in; text-indent: -.25in; mso-list: l0 level1 lfo2; tab-stops: list .5in;"&gt;&lt;span style="font-size: 10.0pt; mso-bidi-font-size: 9.0pt; font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; color: #333333;"&gt;&lt;span style="mso-list: Ignore;"&gt;&amp;middot;&lt;span style="font: 7.0pt 'Times New Roman';"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;The Consumer Financial Protection Bureau (CFPB) and others continue to develop and implement important consumer protections that helped eliminate the worst lending practices of the past&lt;/span&gt;&lt;/strong&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt; so that mortgages are underwritten in a more sustainable manner.&amp;nbsp; These improvements came because the President fought for and signed into law the strongest consumer protections in history.&amp;nbsp; The Wall Street Reform and Consumer Protection Act tasked the CFPB with protecting families making financial decisions. The first-ever independent consumer watchdog, the CFPB protects middle class families by making it safer and simpler to apply for a mortgage and know that it is sustainable.&amp;nbsp; To this end, the CFPB has done the following:&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin-left: 1.0in;"&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;o&amp;nbsp;&amp;nbsp; &lt;span style="text-decoration: underline;"&gt;Required lenders to evaluate a borrower&amp;rsquo;s ability to repay their loan&lt;/span&gt;, so homeownership can once again help families build long-term wealth.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin-left: 1.0in;"&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;o&amp;nbsp;&amp;nbsp; &lt;span style="text-decoration: underline;"&gt;Prohibited lenders from paying bonuses&lt;/span&gt; for putting borrowers into more expensive loans.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin-left: 1.0in;"&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;o&amp;nbsp;&amp;nbsp; &lt;span style="text-decoration: underline;"&gt;Created rules to ensure borrowers understand their loans &lt;/span&gt;and receive timely and useful information about their monthly payments and any upcoming changes to their loan.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin-left: 1.0in;"&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;o&amp;nbsp;&amp;nbsp; &lt;span style="text-decoration: underline;"&gt;Set additional protections for those borrowers who are offered riskier, higher-cost mortgages&lt;/span&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin-left: 1.0in;"&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;o&amp;nbsp;&amp;nbsp; &lt;span style="text-decoration: underline;"&gt;Established a consumer help hotline&lt;/span&gt; that has already addressed more than [175,000] complaints and helps keep CFPB informed of new problems facing families so it can better address new challenges.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin-left: 1.0in;"&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;o&amp;nbsp;&amp;nbsp; &lt;span style="text-decoration: underline;"&gt;Required servicers to make good faith efforts to contact delinquent borrowers&lt;/span&gt; and inform them of their options to avoid foreclosure as well as ensure certain other borrower protections are followed.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;Continue to Strengthen FHA&amp;rsquo;s Financial Health&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="margin-left: 0in; text-indent: -.25in; mso-list: l3 level1 lfo3; tab-stops: list .5in;"&gt;&lt;span style="font-size: 10.0pt; mso-bidi-font-size: 9.0pt; font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; color: #333333;"&gt;&lt;span style="mso-list: Ignore;"&gt;&amp;middot;&lt;span style="font: 7.0pt 'Times New Roman';"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;Even after today&amp;rsquo;s reduction, FHA annual mortgage insurance premiums will be at 0.85 percent, above the historic norms of roughly 0.55 percent. Upfront premiums and the life-of-loan MIP structure will remain unchanged. &lt;/span&gt;&lt;/strong&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;This robust premium structure will more than cover the related estimated credit losses posed to the insurance fund from newly originated loans, continuing to strengthen the Fund and protect taxpayers.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin-left: 0in; text-indent: -.25in; mso-list: l3 level1 lfo3; tab-stops: list .5in;"&gt;&lt;span style="font-size: 10.0pt; mso-bidi-font-size: 9.0pt; font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; color: #333333;"&gt;&lt;span style="mso-list: Ignore;"&gt;&amp;middot;&lt;span style="font: 7.0pt 'Times New Roman';"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;This reduction will continue to allow FHA to maintain a positive financial trajectory for the Mutual Mortgage Insurance (MMI) Fund. &lt;/span&gt;&lt;/strong&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;FHA is projected to add $7-$10 billion annually in new capital reserves each year, as a result of improved risk management and a stronger housing market.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin-left: 0in; text-indent: -.25in; mso-list: l3 level1 lfo3; tab-stops: list .5in;"&gt;&lt;span style="font-size: 10.0pt; mso-bidi-font-size: 9.0pt; font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; color: #333333;"&gt;&lt;span style="mso-list: Ignore;"&gt;&amp;middot;&lt;span style="font: 7.0pt 'Times New Roman';"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;FHA&amp;rsquo;s Office of Risk Management will continue to monitor and ensure effective credit risk management and loss mitigation&lt;/span&gt;&lt;/strong&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;. The Office will highlight changes that would strengthen credit policies and reduce losses on claims, ensuring that financial reserves will continue to grow.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin-left: 0in; text-indent: -.25in; mso-list: l3 level1 lfo3; tab-stops: list .5in;"&gt;&lt;span style="font-size: 10.0pt; mso-bidi-font-size: 9.0pt; font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; color: #333333;"&gt;&lt;span style="mso-list: Ignore;"&gt;&amp;middot;&lt;span style="font: 7.0pt 'Times New Roman';"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;Build on Successful Policies that Have Helped Lead the Housing Recovery&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="margin-left: 0in; text-indent: -.25in; mso-list: l3 level1 lfo3; tab-stops: list .5in;"&gt;&lt;span style="font-size: 10.0pt; mso-bidi-font-size: 9.0pt; font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; color: #333333;"&gt;&lt;span style="mso-list: Ignore;"&gt;&amp;middot;&lt;span style="font: 7.0pt 'Times New Roman';"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;The President&amp;rsquo;s housing policies have helped the housing recovery continue to strengthen. &lt;/span&gt;&lt;/strong&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;Helped by the Administration&amp;rsquo;s programs, the housing market is turning around. Homebuilding has more than doubled since crisis lows, spurring job growth in construction and other housing-related sectors. Meanwhile, strengthening home prices have brought millions of families out from being underwater and put hundreds of billions of dollars in wealth back in the pockets of America&amp;rsquo;s middle class.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin-left: 1.0in;"&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;o&amp;nbsp;&amp;nbsp; &lt;span style="text-decoration: underline;"&gt;Year over year home prices have risen for 32 straight months&lt;/span&gt;, and are up nearly 30 percent since crisis lows. Rising prices have brought nearly 10 million families out from being underwater since the beginning of 2012, cutting the number of homeowners who are underwater&amp;mdash;with homes worth less than their mortgages&amp;mdash;by nearly 80 percent.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin-left: 1.0in;"&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;o&amp;nbsp;&amp;nbsp; &lt;span style="text-decoration: underline;"&gt;Housing wealth is growing again, with owners&amp;rsquo; equity up more than $4 trillion&lt;/span&gt; since hitting a low at the beginning of 2009.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin-left: 1.0in;"&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;o&amp;nbsp;&amp;nbsp; &lt;span style="text-decoration: underline;"&gt;Homebuilding continues to come back, leading to an upswing in construction jobs&lt;/span&gt;. The annual rate of housing starts has recently been more than double its April 2009 low of 478,000, while the number of residential construction jobs continues to rebound.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin-left: 1.0in;"&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;o&amp;nbsp;&amp;nbsp; &lt;span style="text-decoration: underline;"&gt;Existing single-family home sales have increased as much as 50 percent&lt;/span&gt; from their crisis low and are close to historical norms of about 5.0 million units.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin-left: 1.0in;"&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;o&amp;nbsp;&amp;nbsp; &lt;span style="text-decoration: underline;"&gt;The number of mortgages more than 90 days delinquent has decreased by more than 50 percent&lt;/span&gt; to under 2 million loans, the lowest level since 2008.&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoNormal" style="margin: 0in; margin-bottom: .0001pt; text-indent: -.25in; mso-list: l4 level1 lfo4; tab-stops: list .5in;"&gt;&lt;span style="font-size: 10.0pt; mso-bidi-font-size: 9.0pt; font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; color: #333333;"&gt;&lt;span style="mso-list: Ignore;"&gt;&amp;middot;&lt;span style="font: 7.0pt 'Times New Roman';"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;The recovery has been driven by Administration actions to stabilize and heal our housing market. &lt;/span&gt;&lt;/strong&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;Within a month of taking office, the President launched a series of housing initiatives to help millions of homeowners stay in their homes or transition into sustainable housing opportunities. This relief was provided through a combination of direct assistance and through setting important industry standards and templates that transformed the way the industry responded to the crisis. Among other important actions, the Administration:&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin-left: 1.0in;"&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;o&amp;nbsp;&amp;nbsp; &lt;span style="text-decoration: underline;"&gt;Launched mortgage modification initiatives that have led to more than 8 million homeowners getting government or private sector relief&amp;ndash; twice as many as those who went through foreclosure during the last six years&lt;/span&gt;. The Home Affordable Modification Program (HAMP) has helped over 1.4 million borrowers through permanent loan modifications.&amp;nbsp; Combined with 2.5 million Federal Housing Administration (FHA) homeowner interventions and the 4.2 million helped through private lender programs largely modeled after the HAMP template, more than &lt;span style="text-decoration: underline;"&gt;8 million homeowners&lt;/span&gt; have been helped.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin-left: 1.0in;"&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;o&amp;nbsp;&amp;nbsp; &lt;span style="text-decoration: underline;"&gt;Worked with regulators to create refinancing opportunities for millions of underwater borrowers&lt;/span&gt; through the Home Affordable Refinancing Program (HARP), with more than 3.2 million families helped through September 2014, and helped additional borrowers refinance underwater mortgages through FHA&amp;rsquo;s Short Refinance Program.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin-left: 1.0in;"&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;o&amp;nbsp;&amp;nbsp; &lt;span style="text-decoration: underline;"&gt;Established the Hardest Hit Fund (HHF) and committed $7.6 billion in resources to states to develop locally-tailored programs&lt;/span&gt; that reduce blight and assist struggling homeowners in their communities, helping over 200,000 borrowers with programs that reduce principal or help them bridge unemployment.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin-left: 1.0in;"&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;o&amp;nbsp;&amp;nbsp; &lt;span style="text-decoration: underline;"&gt;Allocated $7 billion through HUD&amp;rsquo;s Neighborhood Stabilization Program (NSP) to address foreclosed and abandoned homes in thousands of neighborhoods&lt;/span&gt;.&amp;nbsp; NSP is projected to support close to 90,000 jobs and treat over 100,000 properties &amp;ndash; including those with affordable rental and homeownership units &amp;ndash; creating a positive ripple effect throughout communities.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin-left: 1.0in;"&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;o&amp;nbsp;&amp;nbsp; &lt;span style="text-decoration: underline;"&gt;Negotiated the National Mortgage Servicing Settlement with 49 state Attorneys General &lt;/span&gt;to hold banks accountable and assist struggling homeowners. The Settlement has provided over 600,000 homeowners more than $50 billion in committed relief.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin-left: 1.0in;"&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;o&amp;nbsp;&amp;nbsp; &lt;span style="text-decoration: underline;"&gt;In FY 2014, the Department of Justice filed more than 150 mortgage fraud cases, and obtained convictions of more than 600 defendants&lt;/span&gt;. The Department's mortgage fraud efforts in that same period also resulted in recoveries of more than $3 billion.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin-left: 1.0in;"&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;o&amp;nbsp;&amp;nbsp; Other key efforts included launching an &lt;span style="text-decoration: underline;"&gt;Office of Housing Counseling at HUD that has assisted more than 9 million families&lt;/span&gt;, and &lt;span style="text-decoration: underline;"&gt;rehousing or providing assistance to remain housed to 1.3 million homeless or at-risk Americans&lt;/span&gt; &amp;ndash; including veterans &amp;ndash; through the Homeless Prevention and Rapid Rehousing Program (HPRP). In the last four years, veteran homelessness is down 33 percent nationwide, and unsheltered veteran homelessness has been reduced by 43 percent.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin-left: 0in; text-indent: -.25in; mso-list: l2 level1 lfo5; tab-stops: list .5in;"&gt;&lt;span style="font-size: 10.0pt; mso-bidi-font-size: 9.0pt; font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; color: #333333;"&gt;&lt;span style="mso-list: Ignore;"&gt;&amp;middot;&lt;span style="font: 7.0pt 'Times New Roman';"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;Continue to cut red tape so responsible families can get a mortgage. &lt;/span&gt;&lt;/strong&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;While progress has been made, there are still millions of families with strong enough credit profiles to qualify for a mortgage but who are nonetheless being denied loans by lenders. The Administration will not tolerate a return to shoddy underwriting or unsustainable mortgage lending, but believes there are too many middle-class families with good credit by historical standards who remain shut out in today&amp;rsquo;s tight market and deserve a chance to buy their own home. HUD and independent agencies like the Federal Housing Finance Agency (FHFA) are working with stakeholders to clarify put-back and indemnification policies and enhance lender understanding of these policies to encourage originators to extend lending to all creditworthy families.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin-left: 0in; text-indent: -.25in; mso-list: l2 level1 lfo5; tab-stops: list .5in;"&gt;&lt;span style="font-size: 10.0pt; mso-bidi-font-size: 9.0pt; font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; color: #333333;"&gt;&lt;span style="mso-list: Ignore;"&gt;&amp;middot;&lt;span style="font: 7.0pt 'Times New Roman';"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt;Lay the foundation of a stronger housing finance system for middle class families and economic stability.&lt;/span&gt;&lt;/strong&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; color: #333333;"&gt; The President believes it is time to turn the page on the flaws of the past and build a new sustainable housing finance system that will provide a path to secure homeownership for responsible middle class families. The President continues to support long-term reform centered on several core principles: require more private capital in the system; end the failed Fannie/Freddie duopoly business model in order to improve system stability and better protect taxpayers; ensure broad access for all creditworthy families to sustainable products like the 30-year fixed rate mortgage in good times and bad; and help ensure sustainable rental options are widely available. As in the past, the President stands ready to work with members of Congress in both parties to enact commonsense housing finance legislation based on these core principles.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; color: #333333; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;"&gt;Strengthen access to affordable rental housing. &lt;/span&gt;&lt;/strong&gt;&lt;span style="font-size: 9.0pt; font-family: 'Arial','sans-serif'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; color: #333333; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;"&gt;The President has consistently supported policies to expand access to affordable rental housing for families who are not ready for, or who do not want to own their own home. Important efforts have included pushing for greater funding for affordable housing such as through programs like the Housing Trust and Capital Magnet Funds, protecting the affordable rental housing market during the economic crisis through HUD&amp;rsquo;s Tax Credit Assistance Program and Treasury&amp;rsquo;s Credit Exchange Program, and the launch of a Treasury program that partnered with state and local housing finance agencies to enable the development and rehabilitation of 40,000 affordable rental units. Recently, HUD and Treasury successfully rolled-out another partnership to help state and local housing agencies finance affordable rental housing at significantly lower interest rates, starting with the rebuilding of a 1,100 apartment complex after Superstorm Sandy in Queens, NY. More broadly, the Administration will continue its push for expanding support for affordable rental housing, and reducing barriers to housing development that increase housing costs and prevent working families from accessing jobs&lt;/span&gt;&lt;/p&gt;</description>
+      <link>https://www.checkrates.com/blogengine/blogs/post/FHA-LOWERS-MORTGAGE-INSURANCE-PREMIUM-TO-85</link>
+      <comments>https://www.checkrates.com/blogengine/blogs/post/FHA-LOWERS-MORTGAGE-INSURANCE-PREMIUM-TO-85#comment</comments>
+      <guid>https://www.checkrates.com/blogengine/blogs/post.aspx?id=20e110ae-f189-49c0-8550-55f8d9d8bedd</guid>
+      <pubDate>Thu, 8 Jan 2015 13:30:00 -0700</pubDate>
+      <category>Blog</category>
+      <dc:publisher>admin</dc:publisher>
+      <pingback:server>https://www.checkrates.com/blogengine/blogs/pingback.axd</pingback:server>
+      <pingback:target>https://www.checkrates.com/blogengine/blogs/post.aspx?id=20e110ae-f189-49c0-8550-55f8d9d8bedd</pingback:target>
+      <slash:comments>27</slash:comments>
+      <trackback:ping>https://www.checkrates.com/blogengine/blogs/trackback.axd?id=20e110ae-f189-49c0-8550-55f8d9d8bedd</trackback:ping>
+      <wfw:comment>https://www.checkrates.com/blogengine/blogs/post/FHA-LOWERS-MORTGAGE-INSURANCE-PREMIUM-TO-85#comment</wfw:comment>
+      <wfw:commentRss>https://www.checkrates.com/blogengine/blogs/syndication.axd?post=20e110ae-f189-49c0-8550-55f8d9d8bedd</wfw:commentRss>
+    </item>
+    <item>
+      <title>Mortgage Servicing | The Mortgage World Can Do Much Better than OCWEN. </title>
+      <description>&lt;p&gt;The Wells Fargo 'state of the mortgage industry' came out this week which is a perennial analysis of the mortgage industry. WF analysts Greg Reiter, Mark Fontanilla, Randy Ahlgren, and Maria Mascia came out with &lt;a title="Wells Fargo 2015 Mortgage Predictions" href="http://www.housingwire.com/articles/32453-wells-fargos-7-housing-predictions-for-2015" target="_blank"&gt;"The 7 housing predictions for 2015"&lt;/a&gt; and one of those predictions seems to take dead aim at OCWEN when they say, "Probes into the non-bank servicing sector highlighted the fact that &amp;nbsp;the legacy space is highly exposed to non-bank servicers." Wells Fargo seems to be saying that the use of their competitor is likely to end with regulators levying big fines and delaying foreclosures&amp;nbsp;for what&amp;nbsp;&amp;nbsp;has been described as horrible servicing tactics by many in the industry.&lt;/p&gt;
+&lt;p&gt;.&lt;img src="/blogengine/Blogs/image.axd?picture=%2f2015%2f01%2fOcwen.png" alt="" /&gt;&lt;/p&gt;
+&lt;p&gt;Ocwen just settled for $150 Million to the New York Department of Financial Services. This comes after the other 49 states via the states attorney generals, along with&amp;nbsp;the CFPB have levied up to $2.1 billion in their 'enforcement action' for deceptive practices in foreclosing on homes. Ocwen has been inflating fees, taking shortcuts, forging documents, and just generally being terrible people when it comes to servicing mortgages that are delinquent. The CFPB officially made this statement, "Ocwen is charged with engaging in unfair and deceptive acts or practices in violation of the federal Consumer Financial Protection Act and state laws. Ocwen&amp;rsquo;s unlawful conduct has resulted in injury to consumers who have had home loans serviced by Ocwen, Litton , and Homeward. The harm includes payment of improper fees and charges, unreasonable delays and expenses to obtain loss mitigation relief, and improper denial of loss mitigation relief."&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blogengine/Blogs/image.axd?picture=%2f2015%2f01%2fOcwen+riots.png" alt="" /&gt;&lt;/p&gt;
+&lt;p&gt;Ocwen started in 1988 as "Newco" spelled backwards. It's Still run by it's founder, William Erbey, who has sparked this company off the guardrails more than a few times and has attracted a lot of regulator attention. The talented Erbey positioned Ocwen to capitalize massively from the financial crisis. The servicing rights&amp;nbsp;obtained by&amp;nbsp;Ocwen are a 'who's who' of failed sub-prime and Alt-A mortgage lenders. IndyMac, Lehman, Aurora Bank, Citi, Genworth, Ally, and the list goes on. Ocwen is in the business of cleaning up these messes as cheaply as possible. The critics will say that this is where the problem begins because cutting costs has meant that 60% of Ocwen's staff is based overseas and they offer little, if any, help to homeowners. A look at the structure of Ocwen may provide insight as to why they may not be helping homeowners. &amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blogengine/Blogs/image.axd?picture=%2f2015%2f01%2fOcwen+Heartless.png" alt="" /&gt;&lt;/p&gt;
+&lt;p&gt;Ocwen claims they help homeowners and helping homeowners is a good business practice for Ocwen since they are paid to service loans and if a home goes to foreclosure, Ocwen would lose servicing revenue from the customer. But the states attorney General's are not buying it and neither is the CFPB. Evidently Ocwen has figured out a way to make more money by foreclosing because they opened a division called Altisource that many regulators&amp;nbsp;said was a direct conflict of interest to Ocwen's customers and their lender clients. Ocwen responded to this by moving Altisource HQ to Luxemborg and providing greater separation from it's parent for the illusory sake of avoiding regulators scrutiny. However, the appearance of self-dealing remains.&amp;nbsp;Altisource conveniently provides asset management,&amp;nbsp;property preservation, property inspection,&amp;nbsp;property valuation,&amp;nbsp;etc. to be paid for by Ocwen customers who&amp;nbsp;find themselves in default and the lenders who invested in their loans. It's win-win for Ocwen, but regulators don't like this arrangement very much.&lt;/p&gt;
+&lt;p&gt;It seems Wells Fargo is at least mildly&amp;nbsp;amused by Ocwen to make note of non-bank servicers in their 2015 predictions. Ocwen probably enjoys some advantage that Wells Fargo envies. And Ocwen will likely remain a non-bank servicer since their last attempt at being a real bank resulted&amp;nbsp;in the FDIC ordering them to sell their deposits and cease and desist in 2005. Perhaps Wells may be looking to buy servicing rights from Ocwen. This mention by Wells definitely has some raised some curiosity in the mortgage industry. &lt;/p&gt;</description>
+      <link>https://www.checkrates.com/blogengine/blogs/post/Ocwen-Bad-practices</link>
+      <comments>https://www.checkrates.com/blogengine/blogs/post/Ocwen-Bad-practices#comment</comments>
+      <guid>https://www.checkrates.com/blogengine/blogs/post.aspx?id=08e02096-fbe5-413c-9a45-fecf11b9ec48</guid>
+      <pubDate>Sat, 3 Jan 2015 20:19:00 -0700</pubDate>
+      <category>Blog</category>
+      <dc:publisher>Admin</dc:publisher>
+      <pingback:server>https://www.checkrates.com/blogengine/blogs/pingback.axd</pingback:server>
+      <pingback:target>https://www.checkrates.com/blogengine/blogs/post.aspx?id=08e02096-fbe5-413c-9a45-fecf11b9ec48</pingback:target>
+      <slash:comments>21</slash:comments>
+      <trackback:ping>https://www.checkrates.com/blogengine/blogs/trackback.axd?id=08e02096-fbe5-413c-9a45-fecf11b9ec48</trackback:ping>
+      <wfw:comment>https://www.checkrates.com/blogengine/blogs/post/Ocwen-Bad-practices#comment</wfw:comment>
+      <wfw:commentRss>https://www.checkrates.com/blogengine/blogs/syndication.axd?post=08e02096-fbe5-413c-9a45-fecf11b9ec48</wfw:commentRss>
+    </item>
+    <item>
+      <title>Fannie Mae Treats Gift From Relatives or Domestic Partner as Borrowers Own Funds</title>
+      <description>&lt;p&gt;&amp;nbsp;&lt;img class="rg_i" style="width: 300px; height: 168px; margin-left: -7px; margin-right: -5px; margin-top: 0px;" src="data:image/jpeg;base64,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" alt="" name="9Mo9HfNQ6qDRJM:" data-sz="f" /&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0pt;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0pt;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0pt;"&gt;&lt;strong&gt;&lt;span style="font-family: TimesNewRomanPS-BoldMT; font-size: 12pt;"&gt;Minimum Borrower Contribution Requirement from Borrower&amp;rsquo;s Own Funds&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0pt;"&gt;&lt;strong&gt;&lt;span style="background: yellow; font-family: TimesNewRomanPSMT; font-size: 12pt; mso-highlight: yellow;"&gt;If the borrower receives a gift from a relative or domestic partner who has lived with the borrower for the last 12 months, or from a fianc&amp;eacute; or fianc&amp;eacute;e,&lt;/span&gt;&lt;/strong&gt;&lt;span style="background: yellow; font-family: TimesNewRomanPSMT; font-size: 12pt; mso-highlight: yellow;"&gt; &lt;strong&gt;&lt;span style="color: red;"&gt;the gift is considered the borrower&amp;rsquo;s own funds &lt;/span&gt;and may be used to satisfy the&lt;/strong&gt;&lt;/span&gt; &lt;strong&gt;&lt;span style="background: yellow; font-family: TimesNewRomanPSMT; font-size: 12pt; mso-highlight: yellow;"&gt;minimum borrower contribution requirement &lt;span style="text-decoration: underline;"&gt;as long as both individuals will use the home being purchased as their&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0pt;"&gt;&lt;strong&gt;&lt;span style="text-decoration: underline;"&gt;&lt;span style="background: yellow; font-family: TimesNewRomanPSMT; font-size: 12pt; mso-highlight: yellow;"&gt;principal residence.&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0pt;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0pt;"&gt;&lt;strong&gt;&lt;span style="font-family: TimesNewRomanPS-BoldMT; font-size: 12pt;"&gt;Documentation Requirements&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0pt;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0pt;"&gt;&lt;span style="font-family: TimesNewRomanPSMT; font-size: 12pt;"&gt;Gifts must be evidenced by a letter signed by the donor, called a gift letter. The gift letter must:&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0pt;"&gt;&lt;span style="font-family: TimesNewRomanPSMT; font-size: 12pt;"&gt;&amp;bull; specify the dollar amount of the gift;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0pt;"&gt;&lt;span style="font-family: TimesNewRomanPSMT; font-size: 12pt;"&gt;&amp;bull; specify the date the funds were transferred;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0pt;"&gt;&lt;span style="font-family: TimesNewRomanPSMT; font-size: 12pt;"&gt;&amp;bull; include the donor&amp;rsquo;s statement that no repayment is expected; and&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0pt;"&gt;&lt;span style="font-family: TimesNewRomanPSMT; font-size: 12pt;"&gt;&amp;bull; indicate the donor&amp;rsquo;s name, address, telephone number, and relationship to the borrower.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0pt;"&gt;&lt;span style="background: yellow; font-family: TimesNewRomanPSMT; font-size: 12pt; mso-highlight: yellow;"&gt;When a gift from a relative or domestic partner is being pooled with the borrower&amp;rsquo;s funds to&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0pt;"&gt;&lt;span style="background: yellow; font-family: TimesNewRomanPSMT; font-size: 12pt; mso-highlight: yellow;"&gt;make up the required minimum cash down payment, the following items must also be included:&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0pt 0.5in;"&gt;&amp;nbsp;&lt;span style="background: yellow; font-family: TimesNewRomanPSMT; font-size: 12pt; mso-highlight: yellow;"&gt;&amp;bull; A certification from the donor stating that he or she has lived with the borrower for the past 12 months and will continue to do so in the new residence.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0pt 0.5in;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0pt 0.5in;"&gt;&lt;span style="background: yellow; font-family: TimesNewRomanPSMT; font-size: 12pt; mso-highlight: yellow;"&gt;&amp;bull; Documents that demonstrate a history of borrower and donor shared residency. The donor&amp;rsquo;s address must be the same as the borrower&amp;rsquo;s address. Examples include but are not limited to a copy of a driver&amp;rsquo;s license, a bill, or a bank statement.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890&lt;/p&gt;</description>
+      <link>https://www.checkrates.com/blogengine/blogs/post/Fannie-Mae-Acceptable-Gift-Funds</link>
+      <comments>https://www.checkrates.com/blogengine/blogs/post/Fannie-Mae-Acceptable-Gift-Funds#comment</comments>
+      <guid>https://www.checkrates.com/blogengine/blogs/post.aspx?id=0ed6d765-bb3a-4440-91d0-f8aa868ed3fe</guid>
+      <pubDate>Thu, 16 Oct 2014 12:12:00 -0700</pubDate>
+      <category>Blog</category>
+      <dc:publisher>Admin</dc:publisher>
+      <pingback:server>https://www.checkrates.com/blogengine/blogs/pingback.axd</pingback:server>
+      <pingback:target>https://www.checkrates.com/blogengine/blogs/post.aspx?id=0ed6d765-bb3a-4440-91d0-f8aa868ed3fe</pingback:target>
+      <slash:comments>53</slash:comments>
+      <trackback:ping>https://www.checkrates.com/blogengine/blogs/trackback.axd?id=0ed6d765-bb3a-4440-91d0-f8aa868ed3fe</trackback:ping>
+      <wfw:comment>https://www.checkrates.com/blogengine/blogs/post/Fannie-Mae-Acceptable-Gift-Funds#comment</wfw:comment>
+      <wfw:commentRss>https://www.checkrates.com/blogengine/blogs/syndication.axd?post=0ed6d765-bb3a-4440-91d0-f8aa868ed3fe</wfw:commentRss>
+    </item>
+    <item>
+      <title>Mortgage Shopping: Be in Control </title>
+      <description>&lt;p&gt;&lt;span style="font-size: small;"&gt;Many first time home buyers don&amp;rsquo;t realize the power they have when shopping around for a mortgage. Mortgage lending is a highly competitive industry, even in times of&amp;nbsp;housing market downturns. Hey, if a lender doesn&amp;rsquo;t get you the mortgage, the company doesn&amp;rsquo;t get that interest payment every month. Believe it or not, you&amp;rsquo;re in the driver&amp;rsquo;s seat when it comes to mortgage loan shopping. You&amp;rsquo;re the individual that lenders are looking for. So you have choices.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0pt;"&gt;&lt;span style="font-size: small;"&gt;Golden rule: When mortgage shopping, there&amp;rsquo;s no deal you &lt;span style="text-decoration: underline;"&gt;can&amp;rsquo;t&lt;/span&gt; walk away from. Again, you can always walk out the door and go to lender number two or three. Even in times of tight money and credit crunches, you have choices, options and power. Get a good faith estimate from your lender. Choose reputable lenders. And then remember,&amp;nbsp; this is a business deal so go with the best deal offered.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0pt;"&gt;&lt;span style="font-size: small;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 0pt;"&gt;&lt;span style="font-size: small;"&gt;And remember this, even if you&amp;rsquo;ve never owned a home before. Once you own the&amp;nbsp;home you can still&amp;nbsp;shop around for a better deal &amp;ndash; a no closing costs deal at a lower rate, or switch your low-rate ARM to a 30-year fixed and enjoy the peace of mind a fixed rate mortgage offers.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blogengine/Blogs/image.axd?picture=%2f2016%2f04%2fbigstockphoto_New_Keys_Darling_1234592+(5).jpg" alt="" /&gt;&lt;/p&gt;</description>
+      <link>https://www.checkrates.com/blogengine/blogs/post/Mortgage-Shopping-Be-in-Control</link>
+      <comments>https://www.checkrates.com/blogengine/blogs/post/Mortgage-Shopping-Be-in-Control#comment</comments>
+      <guid>https://www.checkrates.com/blogengine/blogs/post.aspx?id=ba520c36-9f0b-48ef-bb7d-20cb2fba2553</guid>
+      <pubDate>Mon, 22 Sep 2014 00:44:00 -0700</pubDate>
+      <category>Blog</category>
+      <dc:publisher>Admin</dc:publisher>
+      <pingback:server>https://www.checkrates.com/blogengine/blogs/pingback.axd</pingback:server>
+      <pingback:target>https://www.checkrates.com/blogengine/blogs/post.aspx?id=ba520c36-9f0b-48ef-bb7d-20cb2fba2553</pingback:target>
+      <slash:comments>30</slash:comments>
+      <trackback:ping>https://www.checkrates.com/blogengine/blogs/trackback.axd?id=ba520c36-9f0b-48ef-bb7d-20cb2fba2553</trackback:ping>
+      <wfw:comment>https://www.checkrates.com/blogengine/blogs/post/Mortgage-Shopping-Be-in-Control#comment</wfw:comment>
+      <wfw:commentRss>https://www.checkrates.com/blogengine/blogs/syndication.axd?post=ba520c36-9f0b-48ef-bb7d-20cb2fba2553</wfw:commentRss>
+    </item>
+    <item>
+      <title>Satellite TV: Time To Say Goodbye To Cable</title>
+      <description>&lt;div style="margin: 0in 0in 0pt;"&gt;It just may be.&lt;/div&gt;
+&lt;div style="margin: 0in 0in 0pt;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div style="margin: 0in 0in 0pt;"&gt;That cable company you&amp;rsquo;ve been with for the past 20 years raises its prices monthly, or so it seems. And, if you want on-demand viewing, hi-def and other entertainment goodies, you&amp;rsquo;ll pay extra. We've all got a friend who has&amp;nbsp;every cable bell and whistle (including over 400 commercial music channels) and&amp;nbsp;pays $200+ a month. You have got to be kidding me! That&amp;rsquo;s a week&amp;rsquo;s groceries!&lt;/div&gt;
+&lt;div style="margin: 0in 0in 0pt;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div style="margin: 0in 0in 0pt;"&gt;Satellite TV has had to fight its way through the cable morass. It sounds confusing. And what if there&amp;rsquo;s a tree in the way and your azimuth shifts during an earth tremor and blah, blah, blah.&lt;/div&gt;
+&lt;div style="margin: 0in 0in 0pt;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div style="margin: 0in 0in 0pt;"&gt;Because the digital entertainment market is &lt;span style="text-decoration: underline;"&gt;so&lt;/span&gt; competitive,&amp;nbsp;satellite companies have to provide more &amp;ndash; more channels, more features and more for your viewing dollar, including hi-def reruns of &lt;em&gt;Gilligan&amp;rsquo;s Island&lt;/em&gt;. That means you have choices and when the consumer has choices, the consumer has power.&lt;/div&gt;
+&lt;div style="margin: 0in 0in 0pt;"&gt;
+&lt;div style="margin: 0in 0in 0pt;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div style="margin: 0in 0in 0pt;"&gt;You&amp;rsquo;ve heard it before. Knowledge is power. The more you know about satellite dish options &amp;ndash; the pros and cons &amp;ndash; the better your final choice.&lt;/div&gt;
+&lt;div style="margin: 0in 0in 0pt;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div style="margin: 0in 0in 0pt;"&gt;&lt;strong&gt;What to Look For&lt;/strong&gt;&lt;/div&gt;
+&lt;div style="margin: 0in 0in 0pt;"&gt;Whether you&amp;rsquo;ve taken the plunge and gone HD, or plan to, Dish delivers HD. You want it.&lt;/div&gt;
+&lt;div style="margin: 0in 0in 0pt;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div style="margin: 0in 0in 0pt;"&gt;Number of channels. Yeah, but if most of them are beaming in from Zimbabwe, who&amp;rsquo;s watching? It&amp;rsquo;s not the number of channels, it&amp;rsquo;s the quality of the content. And only you can decide what&amp;rsquo;s quality viewing. (BTW, if you&amp;rsquo;re hooked on the Golf History Channel, seek immediate medical attention.)&lt;/div&gt;
+&lt;div style="margin: 0in 0in 0pt;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div style="margin: 0in 0in 0pt;"&gt;Free installation. This is not a project you want to do yourself, even if you sort of know what you&amp;rsquo;re doing and the installation guide is clear enough. Most providers deliver free installation.&lt;/div&gt;
+&lt;div style="margin: 0in 0in 0pt;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div style="margin: 0in 0in 0pt;"&gt;Multiple viewer sites. Today&amp;rsquo;s satellite companies offer up to four different feeds to one house so you and the kids can watch four different shows on different sets.&lt;/div&gt;
+&lt;div style="margin: 0in 0in 0pt;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div style="margin: 0in 0in 0pt;"&gt;Length of contract. The shorter the better. Be sure to find out what the company does with the hardware it&amp;rsquo;s installed. You don&amp;rsquo;t want some burley guy named Bubba pulling out your dish along with a few shingles.&lt;/div&gt;
+&lt;div style="margin: 0in 0in 0pt;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div style="margin: 0in 0in 0pt;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;/div&gt;</description>
+      <link>https://www.checkrates.com/blogengine/blogs/post/Satellite-TV-Time-To-Say-Goodbye-To-Cable</link>
+      <comments>https://www.checkrates.com/blogengine/blogs/post/Satellite-TV-Time-To-Say-Goodbye-To-Cable#comment</comments>
+      <guid>https://www.checkrates.com/blogengine/blogs/post.aspx?id=366df709-8b95-4d75-8ff1-21710c90f4d6</guid>
+      <pubDate>Mon, 22 Sep 2014 00:30:00 -0700</pubDate>
+      <category>Blog</category>
+      <dc:publisher>Admin</dc:publisher>
+      <pingback:server>https://www.checkrates.com/blogengine/blogs/pingback.axd</pingback:server>
+      <pingback:target>https://www.checkrates.com/blogengine/blogs/post.aspx?id=366df709-8b95-4d75-8ff1-21710c90f4d6</pingback:target>
+      <slash:comments>52</slash:comments>
+      <trackback:ping>https://www.checkrates.com/blogengine/blogs/trackback.axd?id=366df709-8b95-4d75-8ff1-21710c90f4d6</trackback:ping>
+      <wfw:comment>https://www.checkrates.com/blogengine/blogs/post/Satellite-TV-Time-To-Say-Goodbye-To-Cable#comment</wfw:comment>
+      <wfw:commentRss>https://www.checkrates.com/blogengine/blogs/syndication.axd?post=366df709-8b95-4d75-8ff1-21710c90f4d6</wfw:commentRss>
+    </item>
+    <item>
+      <title>Mortgage deals fall 76% as crunch tightens grip</title>
+      <description>&lt;div id="ds-byline" class="byline"&gt;By Tristan Stewart-Robertson&lt;/div&gt;
+&lt;div id="ds-bylinetext" class="ds-bylinetext"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div id="ds-keypoints" class="ds-keypoints"&gt;&amp;nbsp;MORE than 38,000 different mortgage deals offered by lenders have disappeared in the past year, according to new figures exposing the growing credit crunch.&lt;/div&gt;
+&lt;div id="va-bodytext" class="va-bodytext"&gt;Mortgage Monitor, a group of independent analysts, said the number of deals on offer had dropped by 76 per cent in a year &amp;ndash; 56 per cent in the past six months alone &amp;ndash; making it harder for Britons to re-finance their homes&lt;/div&gt;
+&lt;p&gt;Mortgages available now are much more challenging, compared with 68,000 this time last year, the report, out today, claims.&lt;br /&gt;&lt;br /&gt;The survey says this is because banks and building societies respond to the credit crunch by avoiding "higher risk" mortgages, particularly those that fix rates over a longer term, or require deposits of less than 10 per cent.&lt;br /&gt;&lt;br /&gt;The most dramatic decline has been seen in the fixed-rate market, where a staggering 38,000 deals have vanished in the past year, shrinking the market by 82 per cent.&lt;br /&gt;&lt;br /&gt;The tracker market has also been hit hard, with a 56 per cent fall. The "five-year" tracker has seen the biggest decline, with just 26 deals now, compared to 131 six months ago.&lt;br /&gt;&lt;br /&gt;Tracy Collins, of the Guild of Independent Mortgage Advisers, said her clients are "panicking" and trying to renegotiate their mortgages even as the deals on offer get worse.&lt;br /&gt;&lt;br /&gt;She said: "Clients are phoning up wanting to book a rate even when their redemption periods might not be up until the end of September. They want a deal in place now so they know what they will be paying."&lt;br /&gt;&lt;br /&gt;Les Jacobs, the chairman of Mortgage Monitor, said more consumers were turning to services such as theirs to find the best deals possible.&lt;br /&gt;&lt;br /&gt;He added: "We know that the number of mortgage deals available is on a dramatic decline, but there are still some good deals out there.&lt;br /&gt;&lt;br /&gt;"It's a matter of being quick and taking advantage of those deals while you can."&lt;br /&gt;&lt;br /&gt;The Royal Institution of Chartered Surveyors also warned at the weekend that UK house prices could fall at least 40 per cent this year as would-be buyers struggle to find a mortgage.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Consumer spending could slump by 8 per cent compared with a year ago, it added, also predicting house prices will fall 5 per cent this year, a more modest decline than some forecasts.&lt;/p&gt;</description>
+      <link>https://www.checkrates.com/blogengine/blogs/post/UK-Mortgage-deals-fall-76-as-crunch-tightens-grip</link>
+      <comments>https://www.checkrates.com/blogengine/blogs/post/UK-Mortgage-deals-fall-76-as-crunch-tightens-grip#comment</comments>
+      <guid>https://www.checkrates.com/blogengine/blogs/post.aspx?id=2208d104-afc5-4120-b792-29d5ccd79024</guid>
+      <pubDate>Mon, 22 Sep 2014 00:19:00 -0700</pubDate>
+      <category>Blog</category>
+      <dc:publisher>Admin</dc:publisher>
+      <pingback:server>https://www.checkrates.com/blogengine/blogs/pingback.axd</pingback:server>
+      <pingback:target>https://www.checkrates.com/blogengine/blogs/post.aspx?id=2208d104-afc5-4120-b792-29d5ccd79024</pingback:target>
+      <slash:comments>50</slash:comments>
+      <trackback:ping>https://www.checkrates.com/blogengine/blogs/trackback.axd?id=2208d104-afc5-4120-b792-29d5ccd79024</trackback:ping>
+      <wfw:comment>https://www.checkrates.com/blogengine/blogs/post/UK-Mortgage-deals-fall-76-as-crunch-tightens-grip#comment</wfw:comment>
+      <wfw:commentRss>https://www.checkrates.com/blogengine/blogs/syndication.axd?post=2208d104-afc5-4120-b792-29d5ccd79024</wfw:commentRss>
+    </item>
+    <item>
+      <title>Jumbo Rates: How to Get the Lowest Rate | Checkrates.com</title>
+      <description>&lt;p&gt;&lt;!--[if gte mso 9]&gt;&lt;xml&gt;
+ &lt;w:WordDocument&gt;
+  &lt;w:View&gt;Normal&lt;/w:View&gt;
+  &lt;w:Zoom&gt;0&lt;/w:Zoom&gt;
+  &lt;w:TrackMoves/&gt;
+  &lt;w:TrackFormatting/&gt;
+  &lt;w:PunctuationKerning/&gt;
+  &lt;w:ValidateAgainstSchemas/&gt;
+  &lt;w:SaveIfXMLInvalid&gt;false&lt;/w:SaveIfXMLInvalid&gt;
+  &lt;w:IgnoreMixedContent&gt;false&lt;/w:IgnoreMixedContent&gt;
+  &lt;w:AlwaysShowPlaceholderText&gt;false&lt;/w:AlwaysShowPlaceholderText&gt;
+  &lt;w:DoNotPromoteQF/&gt;
+  &lt;w:LidThemeOther&gt;EN-US&lt;/w:LidThemeOther&gt;
+  &lt;w:LidThemeAsian&gt;X-NONE&lt;/w:LidThemeAsian&gt;
+  &lt;w:LidThemeComplexScript&gt;X-NONE&lt;/w:LidThemeComplexScript&gt;
+  &lt;w:Compatibility&gt;
+   &lt;w:BreakWrappedTables/&gt;
+   &lt;w:SnapToGridInCell/&gt;
+   &lt;w:WrapTextWithPunct/&gt;
+   &lt;w:UseAsianBreakRules/&gt;
+   &lt;w:DontGrowAutofit/&gt;
+   &lt;w:SplitPgBreakAndParaMark/&gt;
+   &lt;w:DontVertAlignCellWithSp/&gt;
+   &lt;w:DontBreakConstrainedForcedTables/&gt;
+   &lt;w:DontVertAlignInTxbx/&gt;
+   &lt;w:Word11KerningPairs/&gt;
+   &lt;w:CachedColBalance/&gt;
+  &lt;/w:Compatibility&gt;
+  &lt;w:BrowserLevel&gt;MicrosoftInternetExplorer4&lt;/w:BrowserLevel&gt;
+  &lt;m:mathPr&gt;
+   &lt;m:mathFont m:val="Cambria Math"/&gt;
+   &lt;m:brkBin m:val="before"/&gt;
+   &lt;m:brkBinSub m:val="&amp;#45;-"/&gt;
+   &lt;m:smallFrac m:val="off"/&gt;
+   &lt;m:dispDef/&gt;
+   &lt;m:lMargin m:val="0"/&gt;
+   &lt;m:rMargin m:val="0"/&gt;
+   &lt;m:defJc m:val="centerGroup"/&gt;
+   &lt;m:wrapIndent m:val="1440"/&gt;
+   &lt;m:intLim m:val="subSup"/&gt;
+   &lt;m:naryLim m:val="undOvr"/&gt;
+  &lt;/m:mathPr&gt;&lt;/w:WordDocument&gt;
+&lt;/xml&gt;&lt;![endif]--&gt;&lt;/p&gt;
+&lt;p&gt;&lt;!--[if gte mso 9]&gt;&lt;xml&gt;
+ &lt;w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="267"&gt;
+  &lt;w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/&gt;
+  &lt;w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/&gt;
+  &lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/&gt;
+  &lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" Name="toc 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" Name="toc 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" Name="toc 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" Name="toc 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" Name="toc 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" Name="toc 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" Name="toc 7"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" Name="toc 8"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" Name="toc 9"/&gt;
+  &lt;w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/&gt;
+  &lt;w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/&gt;
+  &lt;w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/&gt;
+  &lt;w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/&gt;
+  &lt;w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/&gt;
+  &lt;w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/&gt;
+  &lt;w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/&gt;
+  &lt;w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/&gt;
+  &lt;w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/&gt;
+  &lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/&gt;
+  &lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/&gt;
+  &lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/&gt;
+  &lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/&gt;
+  &lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/&gt;
+  &lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/&gt;
+  &lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/&gt;
+  &lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/&gt;
+  &lt;w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/&gt;
+  &lt;w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/&gt;
+  &lt;w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/&gt;
+  &lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/&gt;
+  &lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/&gt;
+  &lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/&gt;
+  &lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/&gt;
+  &lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/&gt;
+  &lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/&gt;
+  &lt;w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/&gt;
+  &lt;w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/&gt;
+  &lt;w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/&gt;
+  &lt;w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/&gt;
+  &lt;w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/&gt;
+  &lt;w:LsdException Locked="false" Priority="37" Name="Bibliography"/&gt;
+  &lt;w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/&gt;
+ &lt;/w:LatentStyles&gt;
+&lt;/xml&gt;&lt;![endif]--&gt;&lt;!--[if gte mso 10]&gt;
+&lt;style&gt;
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin-top:0in;
+	mso-para-margin-right:0in;
+	mso-para-margin-bottom:10.0pt;
+	mso-para-margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;}
+&lt;/style&gt;
+&lt;![endif]--&gt;&lt;/p&gt;
+&lt;p class="MsoNormal" style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; line-height: normal; mso-outline-level: 1;"&gt;&lt;strong&gt;&lt;span style="font-size: 24.0pt; font-family: 'Times New Roman','serif'; mso-fareast-font-family: 'Times New Roman'; mso-font-kerning: 18.0pt;"&gt;How to Obtain the Lowest Jumbo Rate&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p class="MsoNormal" style="mso-margin-top-alt: auto; margin-bottom: 12.0pt; line-height: normal;"&gt;&lt;span style="font-size: 12.0pt; font-family: 'Times New Roman','serif'; mso-fareast-font-family: 'Times New Roman';"&gt;You can save a lot of money by finding the lowest Jumbo Rate. A small difference in your Jumbo rate, even 1/8 % can save hundreds of dollars each month. To search for the lowest jumbo rate, it is helpful to know how they are priced. Proper structuring and preparation of your mortgage and knowing how the banks price their loans will help you find the lowest rate. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blogengine/Blogs/image.axd?picture=%2f2015%2f01%2fLuxury+Home.jpg" alt="" /&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;span style="text-decoration: underline;"&gt;&lt;span style="font-size: 12.0pt; font-family: 'Times New Roman','serif'; mso-fareast-font-family: 'Times New Roman';"&gt;A larger down payment equals a lower Rate&lt;/span&gt;&lt;/span&gt;&lt;span style="font-size: 12.0pt; font-family: 'Times New Roman','serif'; mso-fareast-font-family: 'Times New Roman';"&gt; &amp;ndash;Sure you can find a 10% down Jumbo Program because many banks offer them, but do not expect a great rate if all you you are willing to put down is 10%. The normal down payment is 20% down but the best rate goes to the borrower with 25% or more down. Consider putting more down. &lt;span style="mso-spacerun: yes;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="text-decoration: underline;"&gt;&lt;span style="font-size: 12.0pt; font-family: 'Times New Roman','serif'; mso-fareast-font-family: 'Times New Roman';"&gt;Learn your credit score&lt;/span&gt;&lt;/span&gt;&lt;span style="font-size: 12.0pt; font-family: 'Times New Roman','serif'; mso-fareast-font-family: 'Times New Roman';"&gt; &amp;ndash;&amp;nbsp; &lt;span style="mso-spacerun: yes;"&gt;Now is not the time to find out your ex-spouse is still using your credit to open accounts. &lt;/span&gt;It is imperative to know your score 90 days before you mortgage shop. The three credit bureaus are &lt;a href="http://www.transunion.com/"&gt;Trans Union&lt;/a&gt;, &lt;a href="http://www.experian.com/"&gt;Experian&lt;/a&gt;, and &lt;a href="http://www.equifax.com/"&gt;Equifax&lt;/a&gt;. &lt;span style="mso-spacerun: yes;"&gt;&amp;nbsp;&lt;/span&gt;Each of these companies will score your credit independently and the mortgage company will use the &amp;ldquo;mid-score&amp;rdquo; of the three. Make sure you review each one for errors because one mistake can reduce your score by 50-100 points making you not eligible for a jumbo mortgage or not qualified for their best rates costing you thousands. You can obtain copies of these reports at &lt;a href="http://annualcreditreport.com"&gt;http://annualcreditreport.com&lt;/a&gt; for free once per year.Banks like Chase only offer the best rate to those borrowers with a credit score of 780, those under 780 have a higher rate. Credit scores are crucial. &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="text-decoration: underline;"&gt;&lt;span style="font-size: 12.0pt; font-family: 'Times New Roman','serif'; mso-fareast-font-family: 'Times New Roman';"&gt;Find a Jumbo lender and track the rates-&lt;/span&gt;&lt;/span&gt;&lt;span style="font-size: 12.0pt; font-family: 'Times New Roman','serif'; mso-fareast-font-family: 'Times New Roman';"&gt; Most loan officers will gladly quote a rate and then call you when rates have reached the target you are looking for. If the prevailing rate is 4.5% and you would consider a refinance when the rates are at 4%, the loan officer will call you on the day the rate is available and you can refinance. &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="text-decoration: underline;"&gt;&lt;span style="font-size: 12.0pt; font-family: 'Times New Roman','serif'; mso-fareast-font-family: 'Times New Roman';"&gt;ARM loans can work wonders for the right person&lt;/span&gt;&lt;/span&gt;&lt;span style="font-size: 12.0pt; font-family: 'Times New Roman','serif'; mso-fareast-font-family: 'Times New Roman';"&gt; &amp;ndash; ARM loans can have a fixed period and are usually at least 1% lower than comparable 30 year fixed rate mortgages. This can save thousands per year. ARMS have a fixed rate period of 3, 5, 7 or 10 years and then they adjust monthly after the fixed period is over. ARMS have caps on how much they can increase of 2% per year and 5% lifetime cap over the start rate. If you know you aren't going to stay in the home beyond a certain time period, or better yet, if you will be able to pay off the loan early then this might be the way to go. &lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;br /&gt;&lt;span style="text-decoration: underline;"&gt;&lt;span style="font-size: 12.0pt; font-family: 'Times New Roman','serif'; mso-fareast-font-family: 'Times New Roman';"&gt;Check jumbo rates and stay current&lt;/span&gt;&lt;/span&gt;&lt;span style="font-size: 12.0pt; font-family: 'Times New Roman','serif'; mso-fareast-font-family: 'Times New Roman';"&gt; &amp;ndash; Mortgage rates change with the market and can change several times per day. Make Checkrates.com the place for you to &lt;a title="Today's Jumbo Rates" href="http://www.checkrates.com/Jumbo-Mortgage/Mortgage/Rates" target="_blank"&gt;track jumbo rates&lt;/a&gt;.&lt;/span&gt;&lt;/p&gt;</description>
+      <link>https://www.checkrates.com/blogengine/blogs/post/How-to-get-the-Lowest-Jumbo-Rate</link>
+      <comments>https://www.checkrates.com/blogengine/blogs/post/How-to-get-the-Lowest-Jumbo-Rate#comment</comments>
+      <guid>https://www.checkrates.com/blogengine/blogs/post.aspx?id=669cb751-20c1-42e1-8460-51669761743c</guid>
+      <pubDate>Tue, 9 Sep 2014 12:34:00 -0700</pubDate>
+      <category>Blog</category>
+      <dc:publisher>Admin</dc:publisher>
+      <pingback:server>https://www.checkrates.com/blogengine/blogs/pingback.axd</pingback:server>
+      <pingback:target>https://www.checkrates.com/blogengine/blogs/post.aspx?id=669cb751-20c1-42e1-8460-51669761743c</pingback:target>
+      <slash:comments>25</slash:comments>
+      <trackback:ping>https://www.checkrates.com/blogengine/blogs/trackback.axd?id=669cb751-20c1-42e1-8460-51669761743c</trackback:ping>
+      <wfw:comment>https://www.checkrates.com/blogengine/blogs/post/How-to-get-the-Lowest-Jumbo-Rate#comment</wfw:comment>
+      <wfw:commentRss>https://www.checkrates.com/blogengine/blogs/syndication.axd?post=669cb751-20c1-42e1-8460-51669761743c</wfw:commentRss>
+    </item>
+    <item>
+      <title>Expedia/Hotwire corporate contact number.</title>
+      <description>&lt;p&gt;For employment verification, you must use a third party service located at &lt;a href="http://www.theworknumber.com"&gt;www.theworknumber.com&lt;/a&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;To contact Expedia's corporate headquarters;&lt;/p&gt;
+&lt;p&gt;Expedia Corporate Office&lt;br /&gt; 3150 139th Ave. SE&lt;br /&gt; Bellevue, WA 98005 USA&lt;br /&gt; Corporate Phone Number: 1-425-679-7200&lt;br /&gt; Corporate Fax Number: 1-425-702-2722&lt;br /&gt; Corporate Email: &lt;a href="mailto:info@expedia.com"&gt;&lt;span style="color: #003399;"&gt;info@expedia.com&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Do not expect a quick response using Email.&lt;/p&gt;</description>
+      <link>https://www.checkrates.com/blogengine/blogs/post/Expedia-Corporate-contacts</link>
+      <comments>https://www.checkrates.com/blogengine/blogs/post/Expedia-Corporate-contacts#comment</comments>
+      <guid>https://www.checkrates.com/blogengine/blogs/post.aspx?id=3449c952-982a-4592-90ff-039ea8c72111</guid>
+      <pubDate>Wed, 9 Jul 2014 11:35:00 -0700</pubDate>
+      <category>Blog</category>
+      <dc:publisher>Admin</dc:publisher>
+      <pingback:server>https://www.checkrates.com/blogengine/blogs/pingback.axd</pingback:server>
+      <pingback:target>https://www.checkrates.com/blogengine/blogs/post.aspx?id=3449c952-982a-4592-90ff-039ea8c72111</pingback:target>
+      <slash:comments>41</slash:comments>
+      <trackback:ping>https://www.checkrates.com/blogengine/blogs/trackback.axd?id=3449c952-982a-4592-90ff-039ea8c72111</trackback:ping>
+      <wfw:comment>https://www.checkrates.com/blogengine/blogs/post/Expedia-Corporate-contacts#comment</wfw:comment>
+      <wfw:commentRss>https://www.checkrates.com/blogengine/blogs/syndication.axd?post=3449c952-982a-4592-90ff-039ea8c72111</wfw:commentRss>
+    </item>
+  </channel>
+</rss>

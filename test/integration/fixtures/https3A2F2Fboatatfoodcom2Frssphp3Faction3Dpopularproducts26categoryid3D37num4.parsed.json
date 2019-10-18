@@ -1,0 +1,14 @@
+{
+  "responseStatus": 200,
+  "responseDetails": null,
+  "responseData": {
+    "feed": {
+      "feedUrl": "https://boatatfood.com/rss.php?action=popularproducts&categoryid=37",
+      "title": "BOATAT FOOD: 熱門產品",
+      "link": "https://boatatfood.com",
+      "description": "BOATAT FOOD 的熱門產品列表",
+      "author": "",
+      "entries": []
+    }
+  }
+}

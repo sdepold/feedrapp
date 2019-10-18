@@ -1,0 +1,24 @@
+{
+  "responseStatus": 200,
+  "responseDetails": null,
+  "responseData": {
+    "feed": {
+      "feedUrl": "http://www.ft.com/rss/markets/europe",
+      "title": "European equities",
+      "link": "https://www.ft.com/stream/6d14eb4d-7185-4a7c-b41b-f3d58c1cd4a2",
+      "description": "European equities",
+      "author": "",
+      "entries": [
+        {
+          "title": "Stocks to watch: Hiscox, Lancashire, Asos, Hammerson, Klépierre",
+          "link": "https://www.ft.com/content/2c8659ec-eff9-11e9-bfa4-b25f11f42901",
+          "content": "No news may be good news for Go-Ahead’s Thameslink franchise, says HSBC",
+          "contentSnippet": "No news may be good news for Go-Ahead’s Thameslink franchise, says HSBC",
+          "publishedDate": "2019-10-16T15:23:20.000Z",
+          "categories": [],
+          "author": ""
+        }
+      ]
+    }
+  }
+}

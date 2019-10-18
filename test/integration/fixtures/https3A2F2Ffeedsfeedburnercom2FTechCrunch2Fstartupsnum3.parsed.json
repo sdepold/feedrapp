@@ -1,0 +1,156 @@
+{
+  "responseStatus": 200,
+  "responseDetails": null,
+  "responseData": {
+    "feed": {
+      "feedUrl": "https://feeds.feedburner.com/TechCrunch/startups",
+      "title": "Startups – TechCrunch",
+      "link": "https://techcrunch.com",
+      "description": "Startup and Technology News",
+      "author": "",
+      "entries": [
+        {
+          "title": "YellowHeart allows musicians and concert organizers to take more control of resold tickets",
+          "link": "http://feedproxy.google.com/~r/techcrunch/startups/~3/S_Tax6v4Fo0/",
+          "content": "<p id=\"speakable-summary\"><a href=\"https://www.yellowheart.io\">YellowHeart</a> is trying to solve a problem that should be familiar to anyone who&#8217;s ever tried to buy a ticket for a popular concert: Those tickets will often get snatched up by scalpers, who then resell them at a much higher price.</p>\n<p>In fact, the startup&#8217;s CEO, Josh Katz, said he founded the company because he&#8217;s a music &#8220;megafan&#8221; himself, and he was &#8220;just tired of getting ripped off by scalpers.&#8221; At the same time, he said this isn&#8217;t just a problem for concertgoers. Instead, he painted it as a &#8220;lose-lose for the fan and the artist,&#8221; because the musicians aren&#8217;t sharing in the profits from the marked-up tickets, either.</p>\n<p>So <a class=\"crunchbase-link\" href=\"https://crunchbase.com/organization/yellowheart\" target=\"_blank\" data-type=\"organization\" data-entity=\"yellowheart\">YellowHeart <span class=\"crunchbase-tooltip-indicator\"></span></a> can allow a musician, concert venue or other &#8220;event initiator&#8221; to set up rules for how their tickets are resold. Katz said he&#8217;s hoping that some brave artists will simply say their tickets can&#8217;t be sold at a marked-up price, but he predicted that many more will set price ceilings and dictate that any resale profits are then split between the seller, the artist and/or a charity of the artist&#8217;s choosing.</p>\n<p>&#8220;No matter where the tickets are sold, they have to abide by those rules,&#8221; Katz added. That&#8217;s because the ticket sales run on a public blockchain, and &#8220;all transactions go through YellowHeart, all the revenue flows through YellowHeart.&#8221;</p>\n<p>The plan is to launch the ticketing platform in the second quarter of next year. Katz said users should be able to sell their tickets on any marketplace that works with YellowHeart&#8217;s smart contracts — but he acknowledged that it will take some time to bring partners on-board and for those integrations to go live.</p>\n<div class=\"embed breakout\">\n<blockquote class=\"wp-embedded-content\" data-secret=\"124PfnmTZP\"><p><a href=\"https://techcrunch.com/2016/12/01/bots-act-punishing-online-scalpers-passes-senate-moves-on-to-the-house/\">BOTS Act punishing online scalpers passes Senate, moves on to the House</a></p></blockquote>\n<p><iframe title=\"&#8220;BOTS Act punishing online scalpers passes Senate, moves on to the House&#8221; &#8212; TechCrunch\" class=\"wp-embedded-content\" sandbox=\"allow-scripts\" security=\"restricted\" style=\"position: absolute; clip: rect(1px, 1px, 1px, 1px);\" src=\"https://techcrunch.com/2016/12/01/bots-act-punishing-online-scalpers-passes-senate-moves-on-to-the-house/embed/#?secret=124PfnmTZP\" data-secret=\"124PfnmTZP\" width=\"800\" height=\"450\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\"></iframe></div>\n<p>Katz argued that the blockchain approach has other benefits, like the fact that each ticket will have &#8220;a unique key that is tied to a user’s identity and sits in their virtual wallet,&#8221; which should eliminate forgery. (The ticketing process, by the way, will be &#8220;fully digital end-to-end,&#8221; except that venues will have the option to print tickets at the box office.)</p>\n<p>Katz has a background in the music industry, having previously founded <a href=\"http://www.elmediagroup.com/nyedition\">El Media Group</a>, which creates custom playlists for hotels, restaurants and other clients. He founded YellowHeart with The Chainsmokers, along with their manager Adam Alpert, who&#8217;s also CEO of Disruptor Records.</p>\n<p>&#8220;With The Chainsmokers, we’ve been outspoken about the issue of scalpers for years, and are excited to partner with YellowHeart to provide a smart and effective solution that gives control back to artists and fans,&#8221; Alpert said in a statement.</p>\n<p>And Katz suggested that YellowHeart&#8217;s platform could eventually be used in any other kind of event ticketing.</p>\n<p>&#8220;I am anticipating this being a great platform for sports and theater as well,&#8221; he said. &#8220;Myself and Adam and Drew [Taggart] and Alex [Pall of The Chainsmokers] come out of music, so that&#8217;s where we’re starting.&#8221;</p>\n<img src=\"http://feeds.feedburner.com/~r/techcrunch/startups/~4/S_Tax6v4Fo0\" height=\"1\" width=\"1\" alt=\"\"/>",
+          "contentSnippet": "YellowHeart is trying to solve a problem that should be familiar to anyone who&#8217;s ever tried to buy a ticket for a ",
+          "publishedDate": "2019-10-18T16:05:42.000Z",
+          "categories": [
+            {
+              "name": "Blockchain"
+            },
+            {
+              "name": "eCommerce"
+            },
+            {
+              "name": "Media"
+            },
+            {
+              "name": "Startups"
+            },
+            {
+              "name": "TC"
+            },
+            {
+              "name": "ticketing"
+            },
+            {
+              "name": "YellowHeart"
+            }
+          ],
+          "author": "Anthony Ha"
+        },
+        {
+          "title": "Three of the best tackle the thorny issue of Brexit for startups at Disrupt Berlin",
+          "link": "http://feedproxy.google.com/~r/techcrunch/startups/~3/t16hqqST2KE/",
+          "content": "<p id=\"speakable-summary\">The turbulence of Brexit has left both U.K. and European startups alike wondering about the best path forward. From recruiting to acquiring investment to scaling into other parts of Europe, the challenges seem to be mounting. By December, who knows what will have happened on the Brexit landscape, such is the chaos.</p>\n<p>At <a href=\"https://techcrunch.com/events/disrupt-berlin-2019/tickets/?ref=speakerpost10&amp;unii-trigger-open=J7WN34\">Disrupt Berlin in December</a>, we’ll hear from investor Bindi Karia, who has deep European ties; founder Glenn Shoosmith, who&#8217;s expanding his startup internationally; and German-born but U.K.-domiciled VC Volker Hirsch on how to make the right decisions in the face of these obstacles.</p>\n<p><a href=\"https://www.crunchbase.com/organization/bindi-karia-9ca4\">Bindi Karia</a> works as a venture partner at large London-based VC Draper Esprit, and has held positions in and around the tech industry for as long as she’s been working. She’s been a consultant at PwC Consulting, worked in corporate environments like Microsoft Ventures, served within a startup at Trayport and was an advisor across a number of organizations (Startup Europe, Techstars Startup Weekend, Tech London Advocates, European Innovation Council, WEF). She’s been a banker with Silicon Valley Bank and currently invests as a partner at a large London-based VC firm, as well as serving on the advisory board for seven different startups. She brings a wealth of knowledge to the conversation and understands the differing perspectives involved in each startup’s journey to success.</p>\n<p><a href=\"https://www.crunchbase.com/person/volker-hirsch\">Volker Hirsch</a> will bring us not only his perspective as a former entrepreneur-turned-VC but also as a German-born citizen living in the U.K. and dealing with Brexit. He is a partner at Amadeus, working on its early-stage funds, whose investment focus is on artificial intelligence and machine learning, autonomous systems, human-machine interfaces, cybersecurity, enterprise SaaS, digital health and medical technologies.</p>\n<p>Volker has founded or co-founded a total of six companies to date. He is currently co-founder of Blue Beck, a 40-strong mobile development house, and a venture partner at Emerge Education, Europe’s leading early-stage edtech investor.</p>\n<p>Prior to joining Amadeus Capital, Volker was amongst the first angel investors in companies like Pi-Top, Bibblio (where he is also chairman), Aula Education and Wonde. His personal investment portfolio comprises about a dozen investments with companies based across Europe and the U.S.</p>\n<p>Previously, Volker was the chief strategy officer at Scoreloop, a mobile social gaming platform, which he helped grow from (almost) inception to 450 million users at its peak. When the company was acquired by BlackBerry in 2011, he served as BlackBerry’s global head of Business Development – Games.</p>\n<p>Lastly, <a href=\"https://www.crunchbase.com/person/glenn-shoosmith\">Glenn Shoosmith</a> will bring his perspective as a founder with a substantial operation in the U.K. but who recently expanded into the U.S. Originally founded as BookingBug in 2008, the renamed JRNI (pronounced &#8220;journey&#8221;) has become one of the market-leading multichannel appointment scheduling and customer journey platforms, helping leading global retailers, banks, central and local governments enhance their customer experience and save costs. JRNI has a team of more than 100 based in London, Boston and Sydney.</p>\n<p>Glenn has been a passionate advocate for London and the U.K. as a technology hub within Europe, and in the past has helped shape government policy toward innovation and technology, both as an early advocate for Tech City, and as an advisor and representative of the government nationally and internationally.</p>\n<p><a href=\"https://techcrunch.com/events/disrupt-berlin-2019/tickets/?ref=speakerpost10&amp;unii-trigger-open=J7WN34\">Buy your ticket to Disrupt Berlin</a> to listen to this discussion — and many others. The conference will take place December 11-12.</p>\n<p>\t<iframe\n\t\t\tid=\"wpcom-iframe-c98bc66ab504d3407da982a3cb4a6527\"\n\t\t\twidth=\"99%\"\n\t\t\theight=\"1100\"\n\t\t\tsrc=\"https://tcprotectedembed.com/protected-iframe/c98bc66ab504d3407da982a3cb4a6527\"\n\t\t\tscrolling=\"\"\n\t\t\tframeborder=\"0\"\n\t\t\tclass=\"wpcom-protected-iframe\"\n\t>\n\t</iframe>\n\t<script type=\"text/javascript\">\n\t\t( function() {\n\t\t\tvar func = function() {\n\t\t\t\tvar iframe = document.getElementById('wpcom-iframe-c98bc66ab504d3407da982a3cb4a6527')\n\t\t\t\tif ( iframe ) {\n\t\t\t\t\tiframe.onload = function() {\n\t\t\t\t\t\tiframe.contentWindow.postMessage( {\n\t\t\t\t\t\t\t'msg_type': 'poll_size',\n\t\t\t\t\t\t\t'frame_id': 'wpcom-iframe-c98bc66ab504d3407da982a3cb4a6527'\n\t\t\t\t\t\t}, \"https:\\/\\/tcprotectedembed.com\" );\n\t\t\t\t\t}\n\t\t\t\t}\n\n\t\t\t\t// Autosize iframe\n\t\t\t\tvar funcSizeResponse = function( e ) {\n\n\t\t\t\t\tvar origin = document.createElement( 'a' );\n\t\t\t\t\torigin.href = e.origin;\n\n\t\t\t\t\t// Verify message origin\n\t\t\t\t\tif ( 'tcprotectedembed.com' !== origin.host )\n\t\t\t\t\t\treturn;\n\n\t\t\t\t\t// Verify message is in a format we expect\n\t\t\t\t\tif ( 'object' !== typeof e.data || undefined === e.data.msg_type )\n\t\t\t\t\t\treturn;\n\n\t\t\t\t\tswitch ( e.data.msg_type ) {\n\t\t\t\t\t\tcase 'poll_size:response':\n\t\t\t\t\t\t\tvar iframe = document.getElementById( e.data._request.frame_id );\n\n\t\t\t\t\t\t\tif ( iframe && '' === iframe.width )\n\t\t\t\t\t\t\t\tiframe.width = '100%';\n\t\t\t\t\t\t\tif ( iframe && '' === iframe.height )\n\t\t\t\t\t\t\t\tiframe.height = parseInt( e.data.height );\n\n\t\t\t\t\t\t\treturn;\n\t\t\t\t\t\tdefault:\n\t\t\t\t\t\t\treturn;\n\t\t\t\t\t}\n\t\t\t\t}\n\n\t\t\t\tif ( 'function' === typeof window.addEventListener ) {\n\t\t\t\t\twindow.addEventListener( 'message', funcSizeResponse, false );\n\t\t\t\t} else if ( 'function' === typeof window.attachEvent ) {\n\t\t\t\t\twindow.attachEvent( 'onmessage', funcSizeResponse );\n\t\t\t\t}\n\t\t\t}\n\t\t\tif (document.readyState === 'complete') { func.apply(); /* compat for infinite scroll */ }\n\t\t\telse if ( document.addEventListener ) { document.addEventListener( 'DOMContentLoaded', func, false ); }\n\t\t\telse if ( document.attachEvent ) { document.attachEvent( 'onreadystatechange', func ); }\n\t\t} )();\n\t</script>\n\t</p>\n<img src=\"http://feeds.feedburner.com/~r/techcrunch/startups/~4/t16hqqST2KE\" height=\"1\" width=\"1\" alt=\"\"/>",
+          "contentSnippet": "The turbulence of Brexit has left both U.K. and European startups alike wondering about the best path forward. From recr",
+          "publishedDate": "2019-10-18T14:29:57.000Z",
+          "categories": [
+            {
+              "name": "Europe"
+            },
+            {
+              "name": "Events"
+            },
+            {
+              "name": "Startups"
+            },
+            {
+              "name": "TC"
+            },
+            {
+              "name": "Bindi Karia"
+            },
+            {
+              "name": "Brexit"
+            },
+            {
+              "name": "Glenn Shoosmith"
+            },
+            {
+              "name": "TechCrunch Disrupt Berlin 2019"
+            },
+            {
+              "name": "Volker Hirsch"
+            }
+          ],
+          "author": "Mike Butcher"
+        },
+        {
+          "title": "Greylock GP Sarah Guo is as bullish on SaaS as ever",
+          "link": "http://feedproxy.google.com/~r/techcrunch/startups/~3/TPupPid1Tnw/",
+          "content": "<p id=\"speakable-summary\"><iframe src=\"https://player.simplecast.com/db644aa4-f6ca-4d15-bdc7-1a50fc36b583?dark=true\" width=\"100%\" height=\"200px\" frameborder=\"no\" scrolling=\"no\" seamless=\"\"></iframe></p>\n<p id=\"speakable-summary\">Hello and welcome back to <a href=\"https://itunes.apple.com/us/podcast/equity/id1215439780?mt=2\" target=\"_blank\" rel=\"noopener noreferrer\">Equity</a>, TechCrunch’s venture capital-focused podcast, where each week we discuss other people’s money and what sense their investment choices make (or don&#8217;t).</p>\n<p>This week was honestly a treat. We had <a href=\"http://twitter.com/kateclarktweets\">Kate Clark</a> in the studio along with <a href=\"http://twitter.com/alex\">Alex Wilhelm</a> and a special guest, <a href=\"https://www.linkedin.com/in/sarahxguo\">Sarah Guo from Greylock Partners</a>, a venture firm (obviously). Guo has the distinction of having the best-ever fun fact on the show.</p>\n<p>We kicked off with <a class=\"crunchbase-link\" href=\"https://crunchbase.com/organization/grammarly\" target=\"_blank\" data-type=\"organization\" data-entity=\"grammarly\">Grammarly, <span class=\"crunchbase-tooltip-indicator\"></span></a> a company that recently <a href=\"https://techcrunch.com/2019/10/10/grammarly-raises-90m-at-over-1b-valuation-for-its-ai-based-grammar-and-writing-tools/\">put $90 million into its accounts</a>. We chatted about for whom it was built, and if we use it today. One thing that felt clear was that consumers are more willing than before to pay for their tooling. And that means that companies like Grammarly may prove <a href=\"https://news.crunchbase.com/news/as-comma-complexity-continues-grammarly-raises-90m/\">strong investment candidates</a>.</p>\n<p>Next, we hit on two more rounds, namely Tiger Global&#8217;s investment into <a class=\"crunchbase-link\" href=\"https://crunchbase.com/organization/lattice-2\" target=\"_blank\" data-type=\"organization\" data-entity=\"lattice-2\">Lattice <span class=\"crunchbase-tooltip-indicator\"></span></a> and <a href=\"https://news.crunchbase.com/news/clari-raises-60m-more-in-series-d-for-sales-analytics-software/\">Clari&#8217;s $60 million Series D</a>. Starting with Lattice, a performance management company founded by none other than Sam Altman&#8217;s brother, Jack. The startup raised $25 million from Tiger Global; read more about that <a href=\"https://techcrunch.com/2019/10/10/tiger-global-values-people-management-tool-lattice-at-200m/\">here</a>.</p>\n<p>Clari led us to a discussion of vertical SaaS, and Guo&#8217;s views on the future of SaaS products (she&#8217;s bullish). Alex and Guo had a lot to say on this subject.</p>\n<p>After talking over a few rounds, the discussion turned to <a href=\"https://news.crunchbase.com/news/the-q3-2019-global-venture-capital-report-seed-stage-deals-increase-while-broader-funding-environment-shows-signs-of-erosion/\">the Q3 venture market</a>. A few things stood out from the data and projections. First, that early-stage fundraising was a little light in the quarter. It could be a single-quarter wobble, but the data was worth chewing on all the same. And, second, that seed deal and dollar volume were hot once again.</p>\n<p>And we wrapped with a discussion of <a href=\"https://techcrunch.com/2019/10/08/tempest-virtual-sobriety-school/\">Tempest, a new sobriety-focused startup that raised a $10 million round</a>. Honestly, we aren&#8217;t sure how we feel about the business model. Please let us know if you have thoughts.</p>\n<p>It was a good time. A big thanks to Guo for coming on the show, and a shout-out to the team that makes Equity happen: Chris Gates and Henry Pickavet.</p>\n<div class=\"article-content\">\n<div class=\"article-content\">\n<p><em>Equity drops every Friday at 6:00 am PT, so subscribe to us on <a href=\"https://itunes.apple.com/us/podcast/id1215439780\" target=\"_blank\" rel=\"noopener noreferrer\">iTunes</a>, <a href=\"https://overcast.fm/itunes1215439780/equity\" target=\"_blank\" rel=\"noopener noreferrer\">Overcast</a>, Pocketcast, Downcast and all the casts.</em></p>\n</div>\n</div>\n<img src=\"http://feeds.feedburner.com/~r/techcrunch/startups/~4/TPupPid1Tnw\" height=\"1\" width=\"1\" alt=\"\"/>",
+          "contentSnippet": "\nHello and welcome back to Equity, TechCrunch’s venture capital-focused podcast, where each week we discuss other people",
+          "publishedDate": "2019-10-18T13:00:25.000Z",
+          "categories": [
+            {
+              "name": "Podcasts"
+            },
+            {
+              "name": "SaaS"
+            },
+            {
+              "name": "Startups"
+            },
+            {
+              "name": "TC"
+            },
+            {
+              "name": "Venture Capital"
+            },
+            {
+              "name": "@jack"
+            },
+            {
+              "name": "economy"
+            },
+            {
+              "name": "entrepreneurship"
+            },
+            {
+              "name": "Equity podcast"
+            },
+            {
+              "name": "finance"
+            },
+            {
+              "name": "grammarly"
+            },
+            {
+              "name": "Greylock Partners"
+            },
+            {
+              "name": "Lattice"
+            },
+            {
+              "name": "money"
+            },
+            {
+              "name": "Private Equity"
+            },
+            {
+              "name": "sam altman"
+            },
+            {
+              "name": "Sarah Guo"
+            },
+            {
+              "name": "Startup company"
+            },
+            {
+              "name": "tempest"
+            },
+            {
+              "name": "tiger global"
+            },
+            {
+              "name": "venture capital"
+            }
+          ],
+          "author": "Kate Clark"
+        }
+      ]
+    }
+  }
+}

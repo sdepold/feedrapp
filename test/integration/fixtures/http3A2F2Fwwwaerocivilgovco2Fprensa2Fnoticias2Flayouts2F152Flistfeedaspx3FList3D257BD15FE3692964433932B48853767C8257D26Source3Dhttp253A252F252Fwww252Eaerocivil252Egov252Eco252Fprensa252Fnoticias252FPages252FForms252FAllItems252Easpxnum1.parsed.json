@@ -1,0 +1,24 @@
+{
+  "responseStatus": 200,
+  "responseDetails": null,
+  "responseData": {
+    "feed": {
+      "feedUrl": "http://www.aerocivil.gov.co/prensa/noticias/_layouts/15/listfeed.aspx?List=%7BD105FE36-9296-4433-932B-4088530767C8%7D&Source=http%3A%2F%2Fwww%2Eaerocivil%2Egov%2Eco%2Fprensa%2Fnoticias%2FPages%2FForms%2FAllItems%2Easpx",
+      "title": "Bilbioteca de Noticias",
+      "link": "http://www.aerocivil.gov.co/prensa/noticias/Pages/Forms/AllItems.aspx",
+      "description": "RSS Noticias Aeronáutica Civil de Colombia",
+      "author": "",
+      "entries": [
+        {
+          "title": "Colombia-promueve-la-conectividad-aérea-con-la-llegada-de-nuevas-aerolíneas-en-rutas-internacionales",
+          "link": "http://www.aerocivil.gov.co/prensa/noticias/Pages/Forms/DispForm.aspx?ID=308",
+          "content": "<div><b>Title:</b> Colombia promueve la conectividad aérea con la llegada de nuevas aerolíneas en rutas internacionales</div>\n<div><b>Article Date:</b> 10/17/2019</div>\n<div><b>Descripción:</b> El Gobierno Nacional, a través de la Aeronáutica Civil, continúa trabajando para proporcionar mejores servicios para los usuarios del transporte aéreo, fortaleciendo la competitividad y conectividad aérea con la aprobación de nuevas rutas...</div>\n<div><b>Page Image:</b> <img alt=\"\" height=\"262\" src=\"/prensa/noticias/PublishingImages/jetsmart.png\" width=\"500\" style=\"BORDER: 0px solid; \"></div>\n",
+          "contentSnippet": "Title: Colombia promueve la conectividad aérea con la llegada de nuevas aerolíneas en rutas internacionales\nArticle Date",
+          "publishedDate": "2019-10-17T16:07:08.000Z",
+          "categories": [],
+          "author": "Carlos Manuel Perilla Quintero"
+        }
+      ]
+    }
+  }
+}

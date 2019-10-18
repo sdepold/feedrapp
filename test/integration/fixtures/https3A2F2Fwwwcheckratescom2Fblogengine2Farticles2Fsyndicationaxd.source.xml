@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:blogChannel="http://backend.userland.com/blogChannelModule" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pingback="http://madskills.com/public/xml/rss/module/pingback/" xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:betag="http://dotnetblogengine.net/schemas/tags">
+  <channel>
+    <title>Checkrates.com Blog</title>
+    <description>We write about about the housing and mortgage industry</description>
+    <link>https://www.checkrates.com/blogengine/articles/</link>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>BlogEngine.NET 3.3.5.0</generator>
+    <language>en-US</language>
+    <blogChannel:blogRoll>https://www.checkrates.com/blogengine/articles/opml.axd</blogChannel:blogRoll>
+    <blogChannel:blink>http://www.checkrates.com/articles/syndication.axd</blogChannel:blink>
+    <dc:creator>Jason Brooks</dc:creator>
+    <dc:title>Checkrates.com Blog</dc:title>
+    <geo:lat>0.000000</geo:lat>
+    <geo:long>0.000000</geo:long>
+    <item>
+      <title>Top 5 Homebuyer Mistakes</title>
+      <description>&lt;p&gt;&lt;strong&gt;5 Typical Mistakes Made by First-time Homebuyers&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;When it comes to making one of the biggest decisions and most likely largest single investment opportunity in your life, you want to make sure that you do things the right way. Unfortunately, there are things that people have done when it came to buying that first house that they should not have done.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://www.checkrates.com/blogengine/articles/image.axd?picture=/iStock-640228626.jpg" alt="Home Buyers" width="400" height="300" /&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;There are a lot of factors that go into making a sound buying decision when it comes to that very first home. You really want to be sure that you have planned ahead before you jump right into the home buying experience.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;5 Typical Mistakes Made by First-time Homebuyers&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Fail to realize that there is more to it than affording a house payment &lt;/strong&gt;- One of the biggest mistake first-time home buyers seem to make is that they focus too heavily on the mortgage payment. They fail to take all of the other things into consideration and end up in a situation known as house poor. That is when you buy a house and end up with a mortgage that all you do is afford to make the payment.&lt;/p&gt;
+&lt;p&gt;You need to take your time and go through everything associated with home ownership and be sure that the mortgage payment will fit in with all of your bills. Then, only make the final decision when you are comfortable in the cost of the home versus your finances. It is always a good idea to take a little extra time when it comes to such a big investment.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Looking for a house before worrying about the mortgage&lt;/strong&gt; - If you ask any realtor if you should have a good idea of the mortgage situation before you begin your home search. The overwhelming majority of them will tell you that you should already have talked to some mortgage lenders. This is mainly because you do not want to find out after you find some good homes to choose from and then you discover that you cannot afford the mortgage payment for your new home.&lt;/p&gt;
+&lt;p&gt;The mortgage lender will be able to help go over with you with what amount of a mortgage that you will be able to handle, based on your personal finances. This will go long way in helping you avoid the surprises that can happen when it comes to first-time home buying.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Not seeking the help of a real estate agent&lt;/strong&gt; - It is hard to believe that anyone would not take advantage of the knowledge and expertise of a local real estate agent when they start looking for their first home. An agent will be able to help you navigate through all of the home listings in order to find homes that are going to be a good fit for you. Without the help of an agent, you will more than likely miss some potentially good homes.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Putting all of their savings into the down payment &lt;/strong&gt;- The down payment on the purchase of a home is the way that the buyer avoids having to pay any mortgage insurance in order to secure the loan. The mistake a first-time home buyer often makes is that they drain their entire savings in order to come up with the down payment that is required for the mortgage on the house they are looking to purchase.&lt;/p&gt;
+&lt;p&gt;This is definitely not a really good idea, you should always leave enough money in your savings for a good emergency fund. This will help to prevent you from becoming house poor after a short time, especially if some unexpected large expense happens.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Taking out additional loans before the mortgage closing &lt;/strong&gt;- One thing you have to realize when it comes to a mortgage, nothing is definite until you sign the papers on closing day. This is because on the final before closing they take one last look at your credit report to ensure that nothing has changed that could jeopardize your ability to repay the loan.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;If they see that you took out additional lines of credit that could change the numbers that they used to calculate your mortgage. It could end up being a deal breaker and you might end up losing your approval. So, if you are looking at adding additional credit accounts, you would be wise to wait until after closing.&lt;/p&gt;</description>
+      <link>https://www.checkrates.com/blogengine/articles/post/Top-5-Homebuyer-Mistakes</link>
+      <author>jason.brooks@checkrates.com</author>
+      <comments>https://www.checkrates.com/blogengine/articles/post/Top-5-Homebuyer-Mistakes#comment</comments>
+      <guid>https://www.checkrates.com/blogengine/articles/post.aspx?id=da6ed4c5-b34c-400a-9548-2d5047808ae9</guid>
+      <pubDate>Sun, 1 Oct 2017 11:25:00 -0700</pubDate>
+      <category>Articles</category>
+      <dc:publisher>admin</dc:publisher>
+      <pingback:server>https://www.checkrates.com/blogengine/articles/pingback.axd</pingback:server>
+      <pingback:target>https://www.checkrates.com/blogengine/articles/post.aspx?id=da6ed4c5-b34c-400a-9548-2d5047808ae9</pingback:target>
+      <slash:comments>0</slash:comments>
+      <trackback:ping>https://www.checkrates.com/blogengine/articles/trackback.axd?id=da6ed4c5-b34c-400a-9548-2d5047808ae9</trackback:ping>
+      <wfw:comment>https://www.checkrates.com/blogengine/articles/post/Top-5-Homebuyer-Mistakes#comment</wfw:comment>
+      <wfw:commentRss>https://www.checkrates.com/blogengine/articles/syndication.axd?post=da6ed4c5-b34c-400a-9548-2d5047808ae9</wfw:commentRss>
+    </item>
+    <item>
+      <title>Things to Consider When Choosing Long Term Care</title>
+      <description>&lt;p&gt;: &lt;a href="http://oc.brcclx.com/t/?lid=26603688&amp;amp;cr=10278&amp;amp;last_updated=1414186085"&gt;&lt;img src="http://imgsynergy.com/product_creatives/8a276087910e1d00b843641a1014c36a.jpeg" alt="Caring For a Parent" width="180" height="23" border="0" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: medium;"&gt;Caring for your elderly parents can be stressful. There are usually many years when the children are watching carefully and monitoring parents ability to care for themselves. Sometimes an injury or health incident occurs where it becomes clear that the parent must live in a long term care facility. This is never an easy&amp;nbsp;decision.&amp;nbsp;In some cases, children who help care for a disabled parent are under the age of 18. It can be a trying experience, but there are many resources willing to assist those who ask for help.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://oc.brcclx.com/t/?lid=26603688&amp;amp;cr=10276&amp;amp;last_updated=1414186055"&gt;&lt;img src="http://imgsynergy.com/product_creatives/7f2afa5983f725edefad1b0452fccd28.jpg" alt="Caring For a Parent" width="300" height="250" border="0" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;span style="font-size: medium;"&gt;Adult Children Caring for Disabled Parents&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="font-size: medium;"&gt;One of the challenges adult children&amp;nbsp;face is preparing for their own retirement while caring for a disabled parent.&lt;/span&gt;&lt;/p&gt;
+&lt;p class="cb-split"&gt;&lt;span style="font-size: medium;"&gt;&amp;nbsp;Taking over your parents' finances and&amp;nbsp;deciding where they should live can be stressful. Sometimes your parents want to keep their independence and don't want your input.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: medium;"&gt;For the adult child, deciding to place a parent in a nursing home, even temporarily, can generate feelings of guilt and create stress as well as place a strain on the relationship.&lt;/span&gt;&lt;/p&gt;</description>
+      <link>https://www.checkrates.com/blogengine/articles/post/Long-Term-Care</link>
+      <author>jason.brooks@checkrates.com</author>
+      <comments>https://www.checkrates.com/blogengine/articles/post/Long-Term-Care#comment</comments>
+      <guid>https://www.checkrates.com/blogengine/articles/post.aspx?id=d209ad61-f5d7-4425-a09a-3e92755ae2ea</guid>
+      <pubDate>Sat, 22 Apr 2017 06:15:00 -0700</pubDate>
+      <category>Insurance</category>
+      <betag:tag>Long Term Care</betag:tag>
+      <dc:publisher>admin</dc:publisher>
+      <pingback:server>https://www.checkrates.com/blogengine/articles/pingback.axd</pingback:server>
+      <pingback:target>https://www.checkrates.com/blogengine/articles/post.aspx?id=d209ad61-f5d7-4425-a09a-3e92755ae2ea</pingback:target>
+      <slash:comments>0</slash:comments>
+      <trackback:ping>https://www.checkrates.com/blogengine/articles/trackback.axd?id=d209ad61-f5d7-4425-a09a-3e92755ae2ea</trackback:ping>
+      <wfw:comment>https://www.checkrates.com/blogengine/articles/post/Long-Term-Care#comment</wfw:comment>
+      <wfw:commentRss>https://www.checkrates.com/blogengine/articles/syndication.axd?post=d209ad61-f5d7-4425-a09a-3e92755ae2ea</wfw:commentRss>
+    </item>
+    <item>
+      <title>WJ Bradley Is Out Of Business</title>
+      <description>&lt;p&gt;&lt;span style="font-size: medium;"&gt;This is a letter that&amp;nbsp;the employees of WJB allegedly&amp;nbsp;got today on&amp;nbsp;Sunday, March 13, 2016. WJ Bradley is allegedly closed for good. Rumors have been circulating for months regarding the struggles of this&amp;nbsp;company. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: medium;"&gt;&lt;img src="/blogengine/Articles/image.axd?picture=%2f2016%2f03%2fWJBRADLEY.png" alt="" /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;span style="font-family: 'Times New Roman','serif'; font-size: small; mso-fareast-font-family: 'Times New Roman';"&gt;All -&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: small;"&gt;&lt;span style="font-family: 'Times','serif';"&gt;W.J. Bradley Mortgage Capital&amp;nbsp;LLC and certain affiliated companies&amp;nbsp;(collectively, the "Company") have made&amp;nbsp;a strategic decision to wind-down their businesses.&amp;nbsp; The Company will cease operations and stop funding new loans starting March 13, 2016.&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: small;"&gt;&lt;span style="font-family: 'Times','serif';"&gt;The Company is in the process&amp;nbsp;of reaching out to its customers, vendors, employees and other key stakeholders to help&amp;nbsp;them understand what this means to them and the proposed next steps.&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: small;"&gt;&lt;span style="font-family: 'Times','serif';"&gt;Concurrently to this message, the Company is issuing directives to its employees, reminding them of the Company&amp;rsquo;s Privacy Policy and of their obligation to preserve and protect customer and Company information.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: small;"&gt;&lt;span style="font-family: 'Times','serif';"&gt;The&amp;nbsp;Company will immediately begin an orderly wind-down and secure data and collateral to the best of its ability in order to&amp;nbsp;maximize value for its creditors and other stakeholders while minimizing liabilities and future claims.&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: small;"&gt;&lt;span style="font-family: 'Times','serif';"&gt;You should not work or come into the office on Monday, March 14, 2016 or on any other day unless you receive written instructions requesting that you work. &amp;nbsp;Unless otherwise informed, any work time invested on March 14, 2016 or beyond will be unpaid. &amp;nbsp;&lt;/span&gt;&lt;span style="font-family: 'Times','serif'; mso-bidi-font-family: Calibri;"&gt;Wages earned through March 11, 2016, (and commissions earned through March 13, 2016) are being processed for payment. &amp;nbsp;For those employees paid by direct deposit, funds should appear in your account via ACH as early as Tuesday. &amp;nbsp;Employees paid with manual checks should receive those checks by overnight delivery to your home as early as Tuesday.&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: small;"&gt;&lt;span style="font-family: 'Times','serif';"&gt;While the Company is ceasing operations and winding down, it remains subject to the licensing laws of each state in which it operates and to the requirements of the agencies that regulate its business, including the Consumer Financial Protection Bureau.&amp;nbsp; This means that you must continue to comply with your obligations to the Company and its customers in the same manner and to the same extent as if the wind down was not occurring.&amp;nbsp;&amp;nbsp;Your NMLS record will continue to reflect the Company as your employer until changed by you. If our borrowers request that their loan application be transferred another lender, you must obtain the borrower&amp;rsquo;s prior written authorization to do so.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: small;"&gt;&lt;span style="font-family: 'Times','serif';"&gt;In an effort to minimize impact to current loan applicants, the attached Transfer Authorization letter can be sent to your customers who wish to request a transfer of their W.J. Bradley Loan Application file to a new lender. The Company &lt;/span&gt;&lt;span style="font-family: 'Times','serif'; mso-bidi-font-family: Calibri;"&gt;must have signed authorization from a borrower prior to transferring data or personal, non-public information. Please inform your customers interested in transferring a loan application to a new lender that a signed copy of the Transfer Authorization letter must be sent to &lt;/span&gt;&lt;span style="font-family: 'Times','serif';"&gt;&lt;a href="mailto:CSI@wjbradley.com"&gt;&lt;span style="color: #0000ff;"&gt;CSI@wjbradley.com&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;span style="font-family: 'Times','serif'; mso-bidi-font-family: Calibri;"&gt;. Upon receipt, the customer will receive an approval response from an authorized Company party acknowledging the request for transfer. &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: small;"&gt;&lt;span style="font-family: 'Times','serif';"&gt;Effective immediately, you must get approval from an officer of the Company to spend, purchase, create a new purchase order, enter into a contract, agree to a sub-contract, charge a credit card transaction or commit the company to any liability in any amount from today until further notice.&amp;nbsp; You must also receive approval from an officer to make any commitments from a consumer or receive any deposits from a borrower. This includes both one-time and recurring expenses, as well as travel and entertainment expenses that you would charge in through the expense reporting process.&amp;nbsp; Please note that if you have received prior budget approval for an expense, you must obtain a new approval before you incur the cost.&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family: 'Times','serif'; font-size: 10.5pt;"&gt;&lt;span style="font-size: small;"&gt;Should&amp;nbsp;you have questions, please direct them to &lt;a href="mailto:contact@wjbradley.com"&gt;&lt;span style="color: #0000ff;"&gt;contact@wjbradley.com&lt;/span&gt;&lt;/a&gt;.&amp;nbsp;&amp;nbsp;Expect additional communications within 24 hours.&lt;/span&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blogengine/Articles/image.axd?picture=%2f2016%2f03%2fWJBRADLEY.png" alt="" /&gt;&lt;/p&gt;</description>
+      <link>https://www.checkrates.com/blogengine/articles/post/WJ-Bradley-has-Closed-Their-Doors</link>
+      <author>jason.brooks@checkrates.com</author>
+      <comments>https://www.checkrates.com/blogengine/articles/post/WJ-Bradley-has-Closed-Their-Doors#comment</comments>
+      <guid>https://www.checkrates.com/blogengine/articles/post.aspx?id=adc23afb-e54c-4b46-8086-2d8e8c823f4c</guid>
+      <pubDate>Sun, 13 Mar 2016 20:34:00 -0700</pubDate>
+      <category>Mortgage</category>
+      <betag:tag>WJ Bradley Out of Business</betag:tag>
+      <dc:publisher>Admin</dc:publisher>
+      <pingback:server>https://www.checkrates.com/blogengine/articles/pingback.axd</pingback:server>
+      <pingback:target>https://www.checkrates.com/blogengine/articles/post.aspx?id=adc23afb-e54c-4b46-8086-2d8e8c823f4c</pingback:target>
+      <slash:comments>0</slash:comments>
+      <trackback:ping>https://www.checkrates.com/blogengine/articles/trackback.axd?id=adc23afb-e54c-4b46-8086-2d8e8c823f4c</trackback:ping>
+      <wfw:comment>https://www.checkrates.com/blogengine/articles/post/WJ-Bradley-has-Closed-Their-Doors#comment</wfw:comment>
+      <wfw:commentRss>https://www.checkrates.com/blogengine/articles/syndication.axd?post=adc23afb-e54c-4b46-8086-2d8e8c823f4c</wfw:commentRss>
+    </item>
+    <item>
+      <title>Jumbo Rates are Lower than Conforming Rates</title>
+      <description>&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 10pt;"&gt;&lt;span style="font-family: Calibri; font-size: medium;"&gt;2015 has been a banner year for the banks in terms of Jumbo lending. Most jumbo loan amounts begin when Fannie and Freddie limit their loans at $417,000. However on California, many counties offer conforming loans up to $625,000. This used to be considered a benefit because Fannie Mae loans offered lower rates than Jumbo loans. This is no longer true and you can find jumbo loans on a 30 year fixed for as .25% lower than the conforming rate.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 10pt;"&gt;&lt;span style="font-family: Calibri; font-size: medium;"&gt;It seems that some retail regional lenders are beating the major banks on rate as well. A recent survey by Checkrates.com in the bay area compared the rates of Wells Fargo, Bank of America, Citimortgage, and Chase to a few smaller lenders like Parkside lending consistently beat the major banks by .125% to .25% on many days. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 10pt;"&gt;&lt;span style="font-family: Calibri;"&gt;&lt;span style="font-size: medium;"&gt;As Fannie Mae and Freddie continue to increase fees, while the MBS market is continuing to pay generous spreads to the non-conforming loans, we expect the &amp;ldquo;Jumbo rate advantage&amp;rdquo; to continue for years to come. &lt;span style="mso-spacerun: yes;"&gt;&amp;nbsp;&lt;/span&gt;&lt;span style="mso-spacerun: yes;"&gt;&amp;nbsp;&lt;/span&gt;&lt;span style="mso-spacerun: yes;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 10pt;"&gt;&lt;span style="font-family: Calibri; font-size: medium;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 10pt;"&gt;&amp;nbsp;&lt;/p&gt;</description>
+      <link>https://www.checkrates.com/blogengine/articles/post/Jumbo-Rates-are-Lower-than-Conforming-Rates</link>
+      <author>jason.brooks@checkrates.com</author>
+      <comments>https://www.checkrates.com/blogengine/articles/post/Jumbo-Rates-are-Lower-than-Conforming-Rates#comment</comments>
+      <guid>https://www.checkrates.com/blogengine/articles/post.aspx?id=db939214-df9e-454b-9679-98a3a53eed65</guid>
+      <pubDate>Fri, 31 Jul 2015 10:31:00 -0700</pubDate>
+      <category>Articles</category>
+      <category>Mortgage</category>
+      <betag:tag>Jumbo Rates</betag:tag>
+      <dc:publisher>Admin</dc:publisher>
+      <pingback:server>https://www.checkrates.com/blogengine/articles/pingback.axd</pingback:server>
+      <pingback:target>https://www.checkrates.com/blogengine/articles/post.aspx?id=db939214-df9e-454b-9679-98a3a53eed65</pingback:target>
+      <slash:comments>0</slash:comments>
+      <trackback:ping>https://www.checkrates.com/blogengine/articles/trackback.axd?id=db939214-df9e-454b-9679-98a3a53eed65</trackback:ping>
+      <wfw:comment>https://www.checkrates.com/blogengine/articles/post/Jumbo-Rates-are-Lower-than-Conforming-Rates#comment</wfw:comment>
+      <wfw:commentRss>https://www.checkrates.com/blogengine/articles/syndication.axd?post=db939214-df9e-454b-9679-98a3a53eed65</wfw:commentRss>
+    </item>
+    <item>
+      <title>How to Find the Right SBA Lender</title>
+      <description>&lt;p&gt;&amp;nbsp;&lt;span style="font-family: Calibri; font-size: medium;"&gt;If you want to grow your business, then one of the best ways to do is to apply for federal grants or loans. This is what makes the SBA loans so appealing, because they are partially guaranteed by the US Small Business Administration. However, if you want to obtain them you will have to find a financial institution that offers them, as they can&amp;rsquo;t be obtained from the SBA directly. &lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 8pt;"&gt;&lt;strong&gt;&lt;span style="font-family: Calibri; font-size: medium;"&gt;What type of SBA loan is good for me?&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 8pt;"&gt;&lt;span style="font-family: Calibri; font-size: medium;"&gt;There are 4 types of SBA loans and each one comes with its own set of characteristics that you have to oblige. You have the 7a General Small Business Loan, 7a SBA Express, CDC/504 Real Estate and Equipment Loan and finally the disaster loans.&amp;nbsp;&lt;/span&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blogengine/Articles/image.axd?picture=%2f2015%2f06%2fSBA+Loans+Image.jpg" alt="" /&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 8pt;"&gt;&lt;span style="font-family: Calibri; font-size: medium;"&gt;The most appropriate one for small businesses is the 7a General Small Business Loan, as it can be used for a multitude of purposes, ranging from purchasing real estate to equipment or accessing capital, depending on the situation.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-family: Calibri; font-size: medium;"&gt;How to find the best SBA lender?&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family: Calibri; font-size: medium;"&gt;Before you acquire the SBA loan you will need to find a good, reliable lender. However since there are many such lenders out there is can be hard to find the right one for you, hence the need to find a good guideline to help you make the right choice.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-family: Calibri; font-size: medium;"&gt;Apply electronically&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family: Calibri; font-size: medium;"&gt;The&amp;nbsp;largest SBA lenders will allow you to apply to the SBA electronically and get your loan pre-approved. Check if the lender offers such a service, as this will allow you to narrow down the list. Smaller lenders will want a face to face meeting. It just depends on what you want. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-family: Calibri; font-size: medium;"&gt;How much money you want to borrow?&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family: Calibri; font-size: medium;"&gt;Then, there&amp;rsquo;s the amount of money you want to borrow. Many lenders are offering you $150000 or less, but if you want more things can be a little tricky because not a lot of them can give you a lot of money. Find the desired amount you apply for and see if the lenders you want provide you with this amount.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;strong&gt;&lt;span style="font-family: Calibri; font-size: medium;"&gt;Check online for approved lenders&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;span style="font-family: Calibri; font-size: medium;"&gt;A good source in this regard is actually the SBA website which you can find at &lt;/span&gt;&lt;a href="https://www.sba.gov/tools/linc"&gt;&lt;span style="color: #0563c1; font-family: Calibri; font-size: medium;"&gt;https://www.sba.gov/tools/linc&lt;/span&gt;&lt;/a&gt;&lt;span style="font-family: Calibri; font-size: medium;"&gt;. You can easily find the local lenders and then sort them based on things like loan volume or proximity. There&amp;rsquo;s even a list of the 100 most active lenders on the market, so check that out as well. A great source to find an SBA lender is Checkrates.com by going here: &lt;a href="http://www.checkrates.com/SBA/Mortgage/Rates"&gt;http://www.checkrates.com/SBA/Mortgage/Rates&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 8pt;"&gt;&lt;strong&gt;&lt;span style="font-family: Calibri; font-size: medium;"&gt;Ask questions&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 8pt;"&gt;&lt;span style="font-family: Calibri; font-size: medium;"&gt;If you want to get the best experience, go and talk with the lending company directly. You can ask questions that pertain to the total SBA loan volume or if they participate in the SBA Preferred Lender Program, as this will provide you with a good insight and a great experience overall.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 8pt;"&gt;&lt;strong&gt;&lt;span style="font-family: Calibri; font-size: medium;"&gt;Experience&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 8pt;"&gt;&lt;span style="font-family: Calibri; font-size: medium;"&gt;If a bank or any other lending institution has worked with the SBA for many years, then they are definitely the best choice you can make, as you will lower the overall risks tremendously.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 8pt;"&gt;&lt;strong&gt;&lt;span style="font-family: Calibri; font-size: medium;"&gt;Ask&amp;nbsp;if they handle the paperwork&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family: Calibri; font-size: medium;"&gt;Most of the lending institutions will require you to handle the paperwork, but there are some that do that on their own. If this is important to you, then talk with the financial institution and see if they do such a thing or not.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0in 0in 8pt;"&gt;&lt;span style="font-family: Calibri; font-size: medium;"&gt;As you can see, there are multiple methods you can use in order to find the best SBA lender! Try to follow our tips and you will definitely be able to create a list of good, trustworthy lenders that you can work with! Do that, and you will be impressed by the results! It's not as hard as you think to get an SBA loan. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</description>
+      <link>https://www.checkrates.com/blogengine/articles/post/How-to-Find-an-SBA-Lender</link>
+      <author>jason.brooks@checkrates.com</author>
+      <comments>https://www.checkrates.com/blogengine/articles/post/How-to-Find-an-SBA-Lender#comment</comments>
+      <guid>https://www.checkrates.com/blogengine/articles/post.aspx?id=b03819b3-b657-4505-b74f-460ee80e1b07</guid>
+      <pubDate>Wed, 24 Jun 2015 07:27:00 -0700</pubDate>
+      <category>SBA Loans</category>
+      <betag:tag>How to Find an SBA Lender</betag:tag>
+      <dc:publisher>Admin</dc:publisher>
+      <pingback:server>https://www.checkrates.com/blogengine/articles/pingback.axd</pingback:server>
+      <pingback:target>https://www.checkrates.com/blogengine/articles/post.aspx?id=b03819b3-b657-4505-b74f-460ee80e1b07</pingback:target>
+      <slash:comments>0</slash:comments>
+      <trackback:ping>https://www.checkrates.com/blogengine/articles/trackback.axd?id=b03819b3-b657-4505-b74f-460ee80e1b07</trackback:ping>
+      <wfw:comment>https://www.checkrates.com/blogengine/articles/post/How-to-Find-an-SBA-Lender#comment</wfw:comment>
+      <wfw:commentRss>https://www.checkrates.com/blogengine/articles/syndication.axd?post=b03819b3-b657-4505-b74f-460ee80e1b07</wfw:commentRss>
+    </item>
+    <item>
+      <title>Homebuyer Checklist- This Is How You Prepare to Buy a Home</title>
+      <description>&lt;p&gt;Checkrates.com is devoted to helping people buy homes. When done correctly, you will&amp;nbsp;have the home of your dreams and a budget that makes it&amp;nbsp;easy to&amp;nbsp;enjoy your life. Selecting the right lender and Realtor&amp;nbsp;is really important. In fact, we believe that you should have a lender and a&amp;nbsp;loan approved before you go home shopping. If this philosophy makes the most sense to you then here are the steps you should take in the months before you buy a home.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blogengine/Articles/image.axd?picture=%2f2015%2f01%2fhome.jpg" alt="" /&gt;&lt;/p&gt;
+&lt;p&gt;1. Get a copy of your credit report and correct any errors. Everything starts with your credit report; How your loan is priced, what kind of loan you qualify for and whether you can buy a home at all.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;2. Reduce your debt. Pay down card balances to less than 50% of the limit. If you can pay them down&amp;nbsp;to less than 30% of the limit, even better.&amp;nbsp;Old collection account from that cable company? Pay it now. If you find yourself with medical collections, wait until you speak with a lender about paying those off because some programs allow medical collections to remain outstanding.&amp;nbsp;As a general rule, prioritize to pay down those cards with the highest interest rates first.&lt;/p&gt;
+&lt;p&gt;3. Find a lender and&amp;nbsp;determine how much you can afford to pay for a home. Decide how much you are willing to spend for a home. Both in terms of down payment and monthly payments.&amp;nbsp;You can use the FHA for 3.5% down loans, Conventional for 5-20% down loans, or the VA (if you are eligible) for 0% down loans. You're going to need more than this for moving costs, utilities sign up costs, and reserve fund.&amp;nbsp;&lt;br /&gt;&amp;nbsp;&lt;br /&gt;4.&amp;nbsp;Read up and learn basic mortgage terms. Read the FAQ's on checkrates.com&lt;/p&gt;
+&lt;p&gt;5. Get pre-approved for a mortgage loan. This usually entails a loan application with a mortgage company which should not take more than 30 minutes. They will pull your credit and examine your income and asset accounts. Usually you will need to give them income and asset documents consisting of paystubs covering 30 days and you last two tax returns with all schedules and w-2 forms. As for the assets, you will have to provide statements covering 60 days from the accounts sufficient to cover your down payment. You will have to document all large deposits that are not payroll related.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;6. Research neighborhoods that you want to a house (drive &amp;amp; online, if you like something ask your Relator to show it to you) Crime, Schools, Activities, Sports,&amp;nbsp;etc. should all be taken into account.&lt;/p&gt;
+&lt;p&gt;6. Hire a realtor by interviewing several of them who specialize in the neighborhoods you are interested in. Make sure they are full-time&amp;nbsp;and reputable. Experience counts. &amp;nbsp;&lt;/p&gt;
+&lt;p&gt;7. Visit homes and keep a journal with pictures. Plan on doing this for a few months.&amp;nbsp;This&amp;nbsp;will help you learn the market so you know when the "deal" is in front of you.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;8. Once you find a house you like, have your real estate agent determine the price you should offer. Look at comparable houses the sold in the last 6 months. You will be spending for an appraisal and home inspections which will be around $1000, so make sure you are reasonably sure you want the home.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;9. Have real estate agent write the offer. Make it as strong as possible but don't overpay. Your Realtor should be very involved at this point.&lt;/p&gt;
+&lt;p&gt;10. Complete all mortgage loan application requirements. Get an insurance quote as this can uncover past insurance issues such as mold or roof problems.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;11. Hire a home inspector to examine the house &amp;amp; be there for the inspection. You will learn a lot about the house.&lt;/p&gt;
+&lt;p&gt;12. Get an agreement on repairs to be made by the Seller. Sometimes its best to have the big things done and overlook the small items.&lt;/p&gt;
+&lt;p&gt;13. Inspect the repairs, walk through the house and look for issues that you didn't see before. Ask the lender if the closing figures are completed. Make sure the funds will be available on closing day by ordering wire transfers early.&lt;/p&gt;
+&lt;p&gt;14.&amp;nbsp;Wire the down payment, sign the&amp;nbsp;mortgage&amp;nbsp;and pick up the&amp;nbsp;keys for your home. Don't forget the garage door opener!&lt;/p&gt;
+&lt;p&gt;15. Keep the closing papers for your tax preparer! They will need your settlement statement.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</description>
+      <link>https://www.checkrates.com/blogengine/articles/post/Homebuyer-Checklist-This-Is-How-You-Prepare-to-Buy-a-Home</link>
+      <author>jason.brooks@checkrates.com</author>
+      <comments>https://www.checkrates.com/blogengine/articles/post/Homebuyer-Checklist-This-Is-How-You-Prepare-to-Buy-a-Home#comment</comments>
+      <guid>https://www.checkrates.com/blogengine/articles/post.aspx?id=94011e8d-49a1-46e9-bc13-1384e50b0b6d</guid>
+      <pubDate>Mon, 29 Dec 2014 21:11:00 -0700</pubDate>
+      <category>Articles</category>
+      <category>Mortgage</category>
+      <dc:publisher>Admin</dc:publisher>
+      <pingback:server>https://www.checkrates.com/blogengine/articles/pingback.axd</pingback:server>
+      <pingback:target>https://www.checkrates.com/blogengine/articles/post.aspx?id=94011e8d-49a1-46e9-bc13-1384e50b0b6d</pingback:target>
+      <slash:comments>0</slash:comments>
+      <trackback:ping>https://www.checkrates.com/blogengine/articles/trackback.axd?id=94011e8d-49a1-46e9-bc13-1384e50b0b6d</trackback:ping>
+      <wfw:comment>https://www.checkrates.com/blogengine/articles/post/Homebuyer-Checklist-This-Is-How-You-Prepare-to-Buy-a-Home#comment</wfw:comment>
+      <wfw:commentRss>https://www.checkrates.com/blogengine/articles/syndication.axd?post=94011e8d-49a1-46e9-bc13-1384e50b0b6d</wfw:commentRss>
+    </item>
+    <item>
+      <title>VA Mortgage: What is an IRRRL </title>
+      <description>&lt;div class="firstBlock"&gt;
+&lt;p&gt;The Interest Rate Reduction Refinancing Loan (IRRRL) offers current VA mortgage holders an excellent opportunity to take advantage of low interest rates. But before you call your lender, there's a few things you need to know.&lt;/p&gt;
+&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;The new interest rate must be lower than your existing rate. To make it worthwhile your new interest rate should be at least 1 % lower than your existing rate.&lt;/li&gt;
+&lt;li&gt;Under the IRRRL program, you cannot receive cash proceeds from the refinance. This means that if your existing mortgage is $90,000 you cannot tack on $20,000 from the home's equity for a remodeling project. However, you can add up to $6,000 for energy efficiency improvements.&lt;/li&gt;
+&lt;li&gt;You do not need to reapply for a &lt;a href="http://militaryfamily.about.com/od/reserveandguard/qt/Va-Loan-Certificate-Of-Eligibility-Reserve-Guard.htm" data-ordinal="1" data-source="inlineLink" data-component="link" data-type="internalLink"&gt;Certificate of Eligibility&lt;/a&gt;. The lender can electronically receive confirmation from the VA.
+&lt;div id="native" class="adsense" style="display: none;"&gt;
+&lt;div id="google_ads_iframe_/479/abt.parenting/parenting_militaryfamily/native_0__container__" style="border: 0pt currentColor; border-image: none;"&gt;&lt;iframe id="google_ads_iframe_/479/abt.parenting/parenting_militaryfamily/native_0" style="border: 0px currentColor; border-image: none; vertical-align: bottom;" name="google_ads_iframe_/479/abt.parenting/parenting_militaryfamily/native_0" src="javascript:&amp;quot;&amp;lt;html&amp;gt;&amp;lt;body style='background:transparent'&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;&amp;quot;" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="640" height="325"&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;iframe id="google_ads_iframe_/479/abt.parenting/parenting_militaryfamily/native_0__hidden__" style="border: 0px currentColor; border-image: none; vertical-align: bottom; display: none; visibility: hidden;" name="google_ads_iframe_/479/abt.parenting/parenting_militaryfamily/native_0__hidden__" src="javascript:&amp;quot;&amp;lt;html&amp;gt;&amp;lt;body style='background:transparent'&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;&amp;quot;" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="0" height="0"&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;The VA does not require an appraisal or credit check. However, your lender might require these documents.&lt;/li&gt;
+&lt;li&gt;If your current mortgage is an FHA or Conventional loan, you cannot refinance through the IRRRL program.&lt;/li&gt;
+&lt;li&gt;You cannot combine your existing mortgage and a second mortgage under the IRRRL program.&lt;/li&gt;
+&lt;li&gt;You don't need to pay any upfront fees. All refinancing costs can be built into the loan.&lt;/li&gt;
+&lt;li&gt;Contrary to popular belief, you do not need to refinance with the lender holding your existing mortgage. Any lender can provide you with an IRRRL.&lt;/li&gt;
+&lt;li&gt;Fees and terms vary among lenders and unfortunately some lenders prey upon Veterans. According to the VA, "Some lenders may say that VA requires certain closing costs to be charged and included in the loan. The only cost required by VA is a funding fee of one-half of one percent of the loan amount which may be paid in cash or included in the loan."&lt;/li&gt;
+&lt;/ol&gt;</description>
+      <link>https://www.checkrates.com/blogengine/articles/post/VA-Mortgage-What-is-an-IRRRL</link>
+      <author>jason.brooks@checkrates.com</author>
+      <comments>https://www.checkrates.com/blogengine/articles/post/VA-Mortgage-What-is-an-IRRRL#comment</comments>
+      <guid>https://www.checkrates.com/blogengine/articles/post.aspx?id=6c73fe1b-7f77-4614-b64b-8bfeb3497188</guid>
+      <pubDate>Thu, 16 Oct 2014 14:12:00 -0700</pubDate>
+      <category>Articles</category>
+      <category>Mortgage</category>
+      <betag:tag>VA IRRRL</betag:tag>
+      <dc:publisher>Admin</dc:publisher>
+      <pingback:server>https://www.checkrates.com/blogengine/articles/pingback.axd</pingback:server>
+      <pingback:target>https://www.checkrates.com/blogengine/articles/post.aspx?id=6c73fe1b-7f77-4614-b64b-8bfeb3497188</pingback:target>
+      <slash:comments>0</slash:comments>
+      <trackback:ping>https://www.checkrates.com/blogengine/articles/trackback.axd?id=6c73fe1b-7f77-4614-b64b-8bfeb3497188</trackback:ping>
+      <wfw:comment>https://www.checkrates.com/blogengine/articles/post/VA-Mortgage-What-is-an-IRRRL#comment</wfw:comment>
+      <wfw:commentRss>https://www.checkrates.com/blogengine/articles/syndication.axd?post=6c73fe1b-7f77-4614-b64b-8bfeb3497188</wfw:commentRss>
+    </item>
+    <item>
+      <title>Homebuilders offering Incentives as Market Slows</title>
+      <description>&lt;p&gt;The market in 2014 is nowhere near as imperiled as it was during the housing bubble of 2006-2008. But Homebuilders may be overbuilt at the moment. Peter Schiff says, &amp;ldquo;If you remember, during the housing bubble instead of dropping prices, which would have been a sign of trouble, the builders started throwing in freebies,&amp;rdquo; Schiff explains. &amp;ldquo;Some of the developers were even throwing in brand new cars so they didn&amp;rsquo;t have to acknowledge prices were falling. Now they&amp;rsquo;re doing it all over again. Builders are loading up on incentives because they&amp;rsquo;re having a hard time selling their homes. This is really a precursor to falling prices.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;This is bad news for mortgage lenders such as Fannie Mae. They are in the business of making real estate loans and basing those off of market value. When builders offer furniture, cash rebates, and&amp;nbsp;home theaters&amp;nbsp;rather than dropping prices, it distorts the equity in each loan which can quickly evaporate if the home were to default. Lender have taken steps to prevent this sort of fraud prior to underwriting but the builder s will usually find ways to push the rules.&lt;/p&gt;
+&lt;p&gt;The SPDR S&amp;amp;P Homebuilders ETF (&lt;a href="http://finance.yahoo.com/q?s=XLB" data-rapid_p="11"&gt;XLB&lt;/a&gt;) has been performing miserably in 2014, many think that builders pulled the trigger on too many homes based on the strong sales figures from 2013 on re-sales. But these were heavily skewed by all the investor buyers that have since evaporated from the market. In many markets demand is still strong such as Denver and Dallas. But the vast majority of markets are seeing weakness on new home sales in the second half of 2014.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: small;"&gt;2014 Homebuilder performance&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;div id="darla_csc_holder" class="darla" style="display: none;"&gt;&lt;iframe id="darla_csc_writer_0" class="darla" style="display: none;" src="http://l.yimg.com/rq/darla/2-8-4/html/r-csc.html" frameborder="no" marginwidth="0" marginheight="0" scrolling="no"&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;div id="MouseoverMask" class="End-0 Start-0 T-0 B-0"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;&lt;img src="/blogengine/Articles/image.axd?picture=%2f2014%2f10%2f2014+Homebuilder+ETF+checkrates.png" alt="" /&gt;&lt;/p&gt;</description>
+      <link>https://www.checkrates.com/blogengine/articles/post/Hoembuilders-showing-weakness</link>
+      <author>jason.brooks@checkrates.com</author>
+      <comments>https://www.checkrates.com/blogengine/articles/post/Hoembuilders-showing-weakness#comment</comments>
+      <guid>https://www.checkrates.com/blogengine/articles/post.aspx?id=18425f38-5d7f-4af8-a54e-cb8eb5671e74</guid>
+      <pubDate>Thu, 16 Oct 2014 12:19:00 -0700</pubDate>
+      <category>Articles</category>
+      <category>Mortgage</category>
+      <betag:tag>2014 Homebuilder report</betag:tag>
+      <dc:publisher>Admin</dc:publisher>
+      <pingback:server>https://www.checkrates.com/blogengine/articles/pingback.axd</pingback:server>
+      <pingback:target>https://www.checkrates.com/blogengine/articles/post.aspx?id=18425f38-5d7f-4af8-a54e-cb8eb5671e74</pingback:target>
+      <slash:comments>0</slash:comments>
+      <trackback:ping>https://www.checkrates.com/blogengine/articles/trackback.axd?id=18425f38-5d7f-4af8-a54e-cb8eb5671e74</trackback:ping>
+      <wfw:comment>https://www.checkrates.com/blogengine/articles/post/Hoembuilders-showing-weakness#comment</wfw:comment>
+      <wfw:commentRss>https://www.checkrates.com/blogengine/articles/syndication.axd?post=18425f38-5d7f-4af8-a54e-cb8eb5671e74</wfw:commentRss>
+    </item>
+    <item>
+      <title>4506T- Mortgage Company Delays Closing Until I file my Tax Return? </title>
+      <description>&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blogengine/Articles/image.axd?picture=%2f2014%2f08%2fMortgage+Delayed.jpg" alt="" /&gt;&lt;/p&gt;
+&lt;p&gt;If you are applying for a mortgage and the lender calls you with the news that you must file your most recent&amp;nbsp;tax return before you can close, then you must file it. Even though this is incredibly frustrating and may result in being homeless while the IRS processes your&amp;nbsp;tax return, it must be done and most loan officers will tell you this is a major cause of delayed closings.&amp;nbsp;It is crucial that you E-file if you need the loan quickly. Mailing in your returns can take up to 8 weeks. E-filing takes a matter of days. Your lender will be sending a form 4506T to the IRS to verify the income you are submitting to them matches the records with the IRS.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Let's take a look at the most common reasons filing your tax return will be required:&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style="color: #ff6600; font-size: small;"&gt;You need the income to qualify&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Lenders need a two year average of income and if they need your most recent return filed, it is likely because the years prior to that had lower income which will bring down your average&lt;/p&gt;
+&lt;p&gt;&lt;span style="color: #ff6600; font-size: small;"&gt;You have un-reimbursed business expenses&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;This could leave open the possibility that there is more to the story regarding&amp;nbsp;your income than your simple W-2 forms.&lt;/p&gt;
+&lt;p&gt;&lt;span style="color: #ff6600; font-size: small;"&gt;You have a business that is either a sole-proprietor or you have corporate/partnership income&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;If you are making&amp;nbsp;$100,00 per year at your job but you also own a business that loses money every year, the underwriter MUST document that&amp;nbsp;to prove you are not losing money every&amp;nbsp;month as a business owner. This&amp;nbsp;is used to calculate your income average whether that is good or bad is a matter of how well your business did in the prior year.&lt;/p&gt;
+&lt;p&gt;&lt;span style="color: #ff6600; font-size: small;"&gt;You have rental property&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Too often what is on the lease is at odds with what is reported on the tax return so the underwriters have 'tightened up' on rental income by requiring the&amp;nbsp;actual net income used on your Schedule E.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;So if you are thinking about buying&amp;nbsp;a home and you file a tax return other than 1040EZ, then&amp;nbsp;have your taxes filed a few weeks before your application. For more information about E-filing, visit the IRS at &amp;nbsp;&lt;a href="http://www.irs.gov/Filing"&gt;http://www.irs.gov/Filing&lt;/a&gt;. &lt;em&gt;One final tip: When filing tax and applying for a mortgage, keep your name straight by using your&amp;nbsp;name exactly&amp;nbsp;as it appears on your social security card. Make sure you do this&amp;nbsp;when you&amp;nbsp;file taxes, apply for your mortgage, open your bank account,&amp;nbsp;and on all of your pay documents from your employer.&lt;/em&gt;&amp;nbsp;Before you apply for a mortgage&amp;nbsp;would be a great time to make the corrections. Otherwise, you can expect a lot of explanations to the lender,&amp;nbsp;court papers, etc.&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</description>
+      <link>https://www.checkrates.com/blogengine/articles/post/4506T-Mortgage-Company-Delays-Closing-Until-I-file-my-Tax-Return</link>
+      <author>jason.brooks@checkrates.com</author>
+      <comments>https://www.checkrates.com/blogengine/articles/post/4506T-Mortgage-Company-Delays-Closing-Until-I-file-my-Tax-Return#comment</comments>
+      <guid>https://www.checkrates.com/blogengine/articles/post.aspx?id=5049e6a0-c51a-47f3-8623-2f161626ad7c</guid>
+      <pubDate>Tue, 19 Aug 2014 22:30:00 -0700</pubDate>
+      <category>Articles</category>
+      <category>Mortgage</category>
+      <betag:tag>4506T mortgage company delays closing until I file taxes</betag:tag>
+      <dc:publisher>Admin</dc:publisher>
+      <pingback:server>https://www.checkrates.com/blogengine/articles/pingback.axd</pingback:server>
+      <pingback:target>https://www.checkrates.com/blogengine/articles/post.aspx?id=5049e6a0-c51a-47f3-8623-2f161626ad7c</pingback:target>
+      <slash:comments>0</slash:comments>
+      <trackback:ping>https://www.checkrates.com/blogengine/articles/trackback.axd?id=5049e6a0-c51a-47f3-8623-2f161626ad7c</trackback:ping>
+      <wfw:comment>https://www.checkrates.com/blogengine/articles/post/4506T-Mortgage-Company-Delays-Closing-Until-I-file-my-Tax-Return#comment</wfw:comment>
+      <wfw:commentRss>https://www.checkrates.com/blogengine/articles/syndication.axd?post=5049e6a0-c51a-47f3-8623-2f161626ad7c</wfw:commentRss>
+    </item>
+    <item>
+      <title>Do VA mortgages require Flood Insurance? </title>
+      <description>&lt;p&gt;&lt;img style="margin-right: auto; margin-left: auto; display: block;" src="/blogengine/Articles/image.axd?picture=%2f2014%2f08%2fNational+Flood+Insurance+Program.gif" alt="" /&gt;&lt;/p&gt;
+&lt;p&gt;This depends on whether or not the property is located in a flood zone as defined by FEMA. During the loan process the lender must insure that your property is not located in a 'Special Flood Hazard Area' or SHFA.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The VA guidelines are clear on this&amp;nbsp; - You need flood insurance if you are in a flood zone &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;The lender is responsible for ensuring that flood insurance is obtained and maintained on any building or personal property that secures a VA loan if the property is located in a special flood hazard area (SFHA), as identified by the Federal Emergency Management Agency (FEMA).&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;So how does a lender determine this? By ordering a 'flood cert' from any number of vendors with access to FEMA maps. Your lender will do this for you.&amp;nbsp;For a small charge of around $20 (paid when you close), the lender can determine the danger of a home flooding almost anywhere in the country and this information is used to determine the insurance premium.&lt;/p&gt;
+&lt;p&gt;You can obtain flood insurance through the &lt;strong&gt;National Flood Insurance Program&lt;/strong&gt; (&lt;a href="https://www.floodsmart.gov/floodsmart/pages/choose_your_policy/agent_locator.jsp"&gt;https://www.floodsmart.gov/floodsmart/pages/choose_your_policy/agent_locator.jsp&lt;/a&gt;)&amp;nbsp;by visiting their site, entering your zip code, and selecting an agent. They will send you a quote within minutes and you will be covered!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Flood insurance is required&amp;nbsp;to protect you and the lender.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img style="width: 700px; height: 500px;" src="/blogengine/Articles/image.axd?picture=%2f2014%2f08%2fFlooded+Home.jpg" alt="" width="1023" height="769" /&gt;&lt;/p&gt;</description>
+      <link>https://www.checkrates.com/blogengine/articles/post/VA-Mortgage-Flood-Insurance-Requirements</link>
+      <author>jason.brooks@checkrates.com</author>
+      <comments>https://www.checkrates.com/blogengine/articles/post/VA-Mortgage-Flood-Insurance-Requirements#comment</comments>
+      <guid>https://www.checkrates.com/blogengine/articles/post.aspx?id=db5b2d95-2ba8-4382-a228-a023eb561772</guid>
+      <pubDate>Mon, 18 Aug 2014 20:10:00 -0700</pubDate>
+      <category>Articles</category>
+      <category>Mortgage</category>
+      <betag:tag>VA Mortgage Flood Insurance Requirements</betag:tag>
+      <dc:publisher>Admin</dc:publisher>
+      <pingback:server>https://www.checkrates.com/blogengine/articles/pingback.axd</pingback:server>
+      <pingback:target>https://www.checkrates.com/blogengine/articles/post.aspx?id=db5b2d95-2ba8-4382-a228-a023eb561772</pingback:target>
+      <slash:comments>0</slash:comments>
+      <trackback:ping>https://www.checkrates.com/blogengine/articles/trackback.axd?id=db5b2d95-2ba8-4382-a228-a023eb561772</trackback:ping>
+      <wfw:comment>https://www.checkrates.com/blogengine/articles/post/VA-Mortgage-Flood-Insurance-Requirements#comment</wfw:comment>
+      <wfw:commentRss>https://www.checkrates.com/blogengine/articles/syndication.axd?post=db5b2d95-2ba8-4382-a228-a023eb561772</wfw:commentRss>
+    </item>
+  </channel>
+</rss>

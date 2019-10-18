@@ -1,0 +1,51 @@
+{
+  "responseStatus": 200,
+  "responseDetails": null,
+  "responseData": {
+    "feed": {
+      "feedUrl": "https://news.google.com/news/rss/headlines/section/q/us%20mortgage/us%20mortgage?ned=us&hl=en&gl=US",
+      "title": "\"us mortgage\" - Google News",
+      "link": "https://news.google.com/search?q=us+mortgage&hl=en-US&gl=US&ceid=US:en",
+      "description": "Google News",
+      "author": "",
+      "entries": [
+        {
+          "title": "Spike in U.S. mortgage activity catches big banks flat footed - Reuters",
+          "link": "https://www.reuters.com/article/usa-banks-mortgages/spike-in-us-mortgage-activity-catches-big-banks-flat-footed-idUSL2N26U0XJ",
+          "content": "<a href=\"https://www.reuters.com/article/usa-banks-mortgages/spike-in-us-mortgage-activity-catches-big-banks-flat-footed-idUSL2N26U0XJ\" target=\"_blank\">Spike in U.S. mortgage activity catches big banks flat footed</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+          "contentSnippet": "Spike in U.S. mortgage activity catches big banks flat footed&nbsp;&nbsp;Reuters",
+          "publishedDate": "2019-10-18T11:00:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Roundup: Food manufacturing help / New car inspection stickers / US mortgage rates rise - Greater Baton Rouge Business Report",
+          "link": "https://www.businessreport.com/newsletters/roundup-food-manufacturing-help-new-car-inspection-stickers-u-s-mortgage-rates-rise",
+          "content": "<a href=\"https://www.businessreport.com/newsletters/roundup-food-manufacturing-help-new-car-inspection-stickers-u-s-mortgage-rates-rise\" target=\"_blank\">Roundup: Food manufacturing help / New car inspection stickers / US mortgage rates rise</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Greater Baton Rouge Business Report</font>",
+          "contentSnippet": "Roundup: Food manufacturing help / New car inspection stickers / US mortgage rates rise&nbsp;&nbsp;Greater Baton Rouge B",
+          "publishedDate": "2019-10-17T15:10:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "US mortgage rates rise this week but remain low - Star Tribune",
+          "link": "http://www.startribune.com/us-mortgage-rates-rise-this-week-but-remain-low/563296862/",
+          "content": "<a href=\"http://www.startribune.com/us-mortgage-rates-rise-this-week-but-remain-low/563296862/\" target=\"_blank\">US mortgage rates rise this week but remain low</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Star Tribune</font>",
+          "contentSnippet": "US mortgage rates rise this week but remain low&nbsp;&nbsp;Star Tribune",
+          "publishedDate": "2019-10-17T16:05:54.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Mortgage rates rise sharply on positive developments surrounding Brexit and China - The Washington Post",
+          "link": "https://www.washingtonpost.com/business/2019/10/17/mortgage-rates-rise-sharply-positive-developments-surrounding-brexit-china/",
+          "content": "<a href=\"https://www.washingtonpost.com/business/2019/10/17/mortgage-rates-rise-sharply-positive-developments-surrounding-brexit-china/\" target=\"_blank\">Mortgage rates rise sharply on positive developments surrounding Brexit and China</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Washington Post</font>",
+          "contentSnippet": "Mortgage rates rise sharply on positive developments surrounding Brexit and China&nbsp;&nbsp;The Washington Post",
+          "publishedDate": "2019-10-17T14:33:00.000Z",
+          "categories": [],
+          "author": ""
+        }
+      ]
+    }
+  }
+}
