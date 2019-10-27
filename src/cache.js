@@ -46,10 +46,10 @@ module.exports = (duration = TTL) => async (req, res, next) => {
   }
 
   res.sendResponse = res.send;
-  res.send = (body) => {
+  res.send = async (body) => {
     memoryCache.put(cacheKey, { body, callback: req.query.callback }, duration);
     console.timeEnd(cacheKey); // eslint-disable-line no-console
-    res.sendResponse(body);
+    res.sendResponse(await addAds(req, body));
   };
 
   return next();
