@@ -3,6 +3,7 @@ const redis = require("redis");
 const client = redis.createClient();
 const { promisify } = require("util");
 
+const keys = promisify(client.keys).bind(client);
 const hget = promisify(client.hget).bind(client);
 const hkeys = promisify(client.hkeys).bind(client);
 const hgetall = promisify(client.hgetall).bind(client);
@@ -75,6 +76,24 @@ const tracking = (module.exports = {
       totalRequests,
       servedAds,
       versions
+    };
+  },
+
+  async getSupportersOverTime() {
+    const values = (await keys("*"))
+      .filter(k => k.startsWith("feedr-20"))
+      .sort();
+    const serves = await Promise.all(
+      values.map(async key => await hget(key, "ad:served"))
+    );
+
+    return {
+      labels: values,
+      datasets: [
+        {
+          data: serves
+        }
+      ]
     };
   },
 

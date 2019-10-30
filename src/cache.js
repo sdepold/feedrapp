@@ -30,7 +30,7 @@ function toCacheKey(req) {
 }
 
 module.exports = (duration = TTL) => async (req, res, next) => {
-  if (!req.headers.accept.includes('text/html')) {
+  if (!req.headers.accept || !req.headers.accept.includes('text/html')) {
     tracking.trackToday(`feedUrl:${req.query.q || 'none'}`);
     tracking.trackToday(`options:support:${req.query.support || 'disabled'}`);
     tracking.trackToday(`options:version:${req.query.version || 'unknown'}`);
