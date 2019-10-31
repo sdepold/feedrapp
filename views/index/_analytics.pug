@@ -1,24 +1,11 @@
 section#analytics-section.doc-section
   h2.section-title Analytics
   .section-block
-    .analytics
-      each data, title in {today: tracking.today, yesterday: tracking.yesterday}
-        .analytics-data
-          h3= title
-          ul
-            li= `Supporters: ${data.supporters} / ${data.supporterRequests}`
-            li= `Total request: ${data.totalRequests}`
-            li= `Ads served: ${data.servedAds}`
-            each hits, key in data.versions 
-              - const version = key.match(/options:version:(.*)/)[1]
-              li= `Version ${version}: ${hits}`
+    h3 Misc
+    ul
+      li= `Supporter requests till next ad: ${tracking.supportRequestsTillNextAd}`
 
-      .analytics-data
-        h3 Misc
-        ul
-          li= `Supporter requests till next ad: ${tracking.supportRequestsTillNextAd}`
-
-canvas#supporters
+    canvas#supporters
 
 script(type="text/javascript", src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js")
 script.

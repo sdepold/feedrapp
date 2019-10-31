@@ -80,20 +80,57 @@ const tracking = (module.exports = {
   },
 
   async getSupportersOverTime() {
+    const addColors = arr => {
+      const colors = [
+        "#45B39D",
+        "#2471A3",
+        "#943126",
+        "#2C3E50",
+        "#F1C40F",
+        "#145A32",
+        "#1C2833",
+        "#7B7D7D",
+        "#BFC9CA",
+        '#E6B0AA',
+        '#A9DFBF',
+        '#566573'
+      ];
+
+      return arr.map((o, i) => ({ ...o, borderColor: colors[i] }));
+    };
+    const readValues = (values, prop) => {
+      return Promise.all(values.map(async key => await hget(key, prop)));
+    };
     const values = (await keys("*"))
       .filter(k => k.startsWith("feedr-20"))
       .sort();
-    const serves = await Promise.all(
-      values.map(async key => await hget(key, "ad:served"))
+    const servedAds = await readValues(values, "ad:served");
+    const supportRequests = await readValues(values, "supportRequest");
+    const versionKeys = (await Promise.all(
+      values.map(async key => await hgetall(key))
+    )).reduce((acc, keys) => {
+      Object.keys(keys)
+        .filter(k => k.startsWith("options:version"))
+        .forEach(k => (acc = acc.includes(k) ? acc : acc.concat(k)));
+      return acc;
+    }, []);
+    const versions = await Promise.all(
+      versionKeys.map(async versionKey => {
+        return {
+          label: versionKey.replace("options:version:", "v"),
+          data: await readValues(values, versionKey),
+          hidden: true
+        };
+      })
     );
 
     return {
       labels: values,
-      datasets: [
-        {
-          data: serves
-        }
-      ]
+      datasets: addColors([
+        { label: "servedAds", data: servedAds },
+        { label: "supportRequests", data: supportRequests, hidden: true },
+        ...versions
+      ])
     };
   },
 
