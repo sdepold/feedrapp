@@ -18,6 +18,10 @@ module.exports = class TestFeedServer extends AbstractServer {
       }, 500);
     }));
 
+    router.get('/iso-8859-1', ((req, res) => {
+      res.send(readFileSync(`${fixtureDir}/special/iso-8859-1.xml`));
+    }));
+
     this.app.use('/', router);
   }
 };

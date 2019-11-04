@@ -1,17 +1,28 @@
 // 3rd-party modules
-const _ = require('lodash');
-const axios = require('axios');
+const _ = require("lodash");
+const request = require("request");
+const iconv = require("iconv-lite");
 
 module.exports = {
-  getResource: function getResource(url) {
-    return axios
-      .get(url)
-      .catch((err) => {
-        if (_.includes([301, 302], err.status)) {
-          return getResource(err.headers.location);
+  getResource: function getResource(url, options) {
+    // eslint-disable-next-line no-param-reassign
+    options = _.extend({ encoding: "UTF-8" }, options);
+
+    return new Promise((resolve, reject) => {
+      request.get(
+        {
+          uri: url,
+          encoding: null
+        },
+        (err, resp, body) => {
+          if (err) {
+            return reject(err);
+          }
+
+          resolve(iconv.decode(body, options.encoding));
         }
-        throw err;
-      });
+      );
+    });
   },
 
   badRequest: function badRequest(details) {

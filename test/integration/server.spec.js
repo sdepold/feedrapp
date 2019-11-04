@@ -27,7 +27,7 @@ const expectedFeed = {
       title: 'Eingewöhnung im Kindergarten &#8211; Woche 1'
     }
   ],
-  feedUrl: 'http://0.0.0.0:1338/atom',
+  feedUrl: 'http://0.0.0.0:1338/atom.xml',
   link: 'http://mamaskind.de',
   title: 'mamaskind'
 };
@@ -56,9 +56,10 @@ describe('Server', function () {
   });
 
   describe('json requests', () => {
-    describe.only('captured requests', () => {
+    describe('captured requests', () => {
       readdirSync(`${__dirname}/fixtures`)
         .filter((f) => f.endsWith('.json'))
+        .filter((f) => f.includes(process.env.FIXTURE || ''))
         .forEach((file) => {
           it(`can replay parsing of captured requests (${file})`, () => {
             const numOption = file.match(/num(\d)*/);
@@ -85,7 +86,7 @@ describe('Server', function () {
     it('can handle invisible characters', () =>
       axios
         .get(
-          'http://0.0.0.0:1337/?q=http://0.0.0.0:1338/invisible-characters&num=3',
+          'http://0.0.0.0:1337/?q=http://0.0.0.0:1338/invisible-characters.xml&num=3',
           jsonConfig
         )
         .then((res) => {
@@ -97,7 +98,7 @@ describe('Server', function () {
     it('parses atom feeds', () =>
       axios
         .get(
-          'http://0.0.0.0:1337/?q=http://0.0.0.0:1338/atom&num=1',
+          'http://0.0.0.0:1337/?q=http://0.0.0.0:1338/atom.xml&num=1',
           jsonConfig
         )
         .then((res) => {
@@ -110,9 +111,19 @@ describe('Server', function () {
           });
         }));
 
+    it('parses non-utf8 feeds', () =>
+      axios
+        .get(
+          'http://0.0.0.0:1337/?encoding=ISO-8859-1&q=http://0.0.0.0:1338/iso-8859-1',
+          jsonConfig
+        )
+        .then((res) => {
+          expect(res.data.responseData.feed.entries[3].contentSnippet).to.contain('sehr schön geworden');
+        }));
+
     it('parses rss feeds', () => {
       const expectation = _.extend({}, expectedFeed, {
-        feedUrl: 'http://0.0.0.0:1338/rss',
+        feedUrl: 'http://0.0.0.0:1338/rss.xml',
         description: 'ein Mama-Blog'
       });
 
@@ -125,7 +136,7 @@ describe('Server', function () {
       ];
 
       return axios
-        .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/rss&num=1', jsonConfig)
+        .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/rss.xml&num=1', jsonConfig)
         .then((res) => {
           expect(res.data).to.eql({
             responseStatus: 200,
@@ -140,7 +151,7 @@ describe('Server', function () {
     it('finds categories', () =>
       axios
         .get(
-          'http://0.0.0.0:1337/?q=http://0.0.0.0:1338/categories',
+          'http://0.0.0.0:1337/?q=http://0.0.0.0:1338/categories.xml',
           jsonConfig
         )
         .then((res) => {
@@ -151,7 +162,7 @@ describe('Server', function () {
 
     it('handles invalid feeds', () =>
       axios
-        .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/invalid', jsonConfig)
+        .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/invalid.xml', jsonConfig)
         .then((res) => {
           expect(res.data).to.eql({
             responseStatus: 400,
@@ -175,7 +186,7 @@ describe('Server', function () {
     describe('num', () => {
       it('defaults to 4 entries', () =>
         axios
-          .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/rss', jsonConfig)
+          .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/rss.xml', jsonConfig)
           .then((res) => {
             expect(res.data.responseData.feed.entries.length).to.eql(4);
           }));
@@ -183,7 +194,7 @@ describe('Server', function () {
       it('can be overwritten to just return 1 entry', () =>
         axios
           .get(
-            'http://0.0.0.0:1337/?q=http://0.0.0.0:1338/rss&num=1',
+            'http://0.0.0.0:1337/?q=http://0.0.0.0:1338/rss.xml&num=1',
             jsonConfig
           )
           .then((res) => {
@@ -196,7 +207,7 @@ describe('Server', function () {
     describe('/', () => {
       let $;
 
-      before(() =>
+      beforeEach(() =>
         axios.get('http://0.0.0.0:1337/', htmlConfig).then((res) => {
           $ = cheerio.load(res.data);
         })

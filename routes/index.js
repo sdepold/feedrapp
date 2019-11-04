@@ -65,7 +65,7 @@ function handleJsonRequest(req, res, next) {
 
 function getResponseData(req) {
   const feedUrl = req.query.q;
-  const feedOptions = _.pick(req.query, ['num']);
+  const feedOptions = _.pick(req.query, ['num', 'encoding']);
 
   if (feedUrl) {
     return new Feed(feedUrl).read(feedOptions).then((feed) => {

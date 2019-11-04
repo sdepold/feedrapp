@@ -34,3 +34,5 @@ addons:
 script:
   - yarn
   - yarn test
+services:
+  - redis-server
