@@ -40,6 +40,7 @@
     "sinon-chai": "^2.7.0"
   },
   "dependencies": {
+    "async-redis": "^1.1.7",
     "axios": "^0.15.3",
     "bluebird": "^3.5.0",
     "body-parser": "^1.16.0",

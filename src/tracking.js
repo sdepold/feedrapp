@@ -1,16 +1,12 @@
-const redis = require("redis");
+const redis = require("async-redis");
+const client = redis.createClient({
+  retry_strategy: () => console.log('Connection to redis was not possible!')
+});
 
-const client = redis.createClient();
-const { promisify } = require("util");
-
-const keys = promisify(client.keys).bind(client);
-const hget = promisify(client.hget).bind(client);
-const hkeys = promisify(client.hkeys).bind(client);
-const hgetall = promisify(client.hgetall).bind(client);
 let ready;
 
 client.on("ready", () => {
-  console.log("ok");
+  console.log('Connection to redis was established!');
   ready = true;
 });
 
@@ -39,7 +35,7 @@ const tracking = (module.exports = {
   },
 
   get: async (setName, key) => {
-    return await hget(setName, key);
+    return await client.hget(setName, key);
   },
 
   getDataFor: async date => {
@@ -54,16 +50,16 @@ const tracking = (module.exports = {
     }
 
     const supporters = JSON.parse(
-      await hget(feedrDateKey, "options:support:true")
+      await client.hget(feedrDateKey, "options:support:true")
     );
     const supporterRequests =
-      JSON.parse(await hget(feedrDateKey, "supportRequest")) || 0;
+      JSON.parse(await client.hget(feedrDateKey, "supportRequest")) || 0;
     const nonSupporters = JSON.parse(
-      await hget(feedrDateKey, "options:support:disabled")
+      await client.hget(feedrDateKey, "options:support:disabled")
     );
     const totalRequests = (supporters || 0) + (nonSupporters || 0);
-    const servedAds = JSON.parse(await hget(feedrDateKey, "ad:served")) || 0;
-    const versionKeys = await hgetall(feedrDateKey);
+    const servedAds = JSON.parse(await client.hget(feedrDateKey, "ad:served")) || 0;
+    const versionKeys = await client.hgetall(feedrDateKey);
     const versions = Object.entries(versionKeys || {}).reduce(
       (acc, [key, value]) =>
         key.startsWith("options:version") ? { ...acc, [key]: value } : acc,
@@ -80,6 +76,10 @@ const tracking = (module.exports = {
   },
 
   async getSupportersOverTime() {
+    if (!ready) {
+      return {};
+    }
+    
     const addColors = arr => {
       const colors = [
         "#45B39D",
@@ -91,23 +91,23 @@ const tracking = (module.exports = {
         "#1C2833",
         "#7B7D7D",
         "#BFC9CA",
-        '#E6B0AA',
-        '#A9DFBF',
-        '#566573'
+        "#E6B0AA",
+        "#A9DFBF",
+        "#566573"
       ];
 
       return arr.map((o, i) => ({ ...o, borderColor: colors[i] }));
     };
     const readValues = (values, prop) => {
-      return Promise.all(values.map(async key => await hget(key, prop)));
+      return Promise.all(values.map(async key => await client.hget(key, prop)));
     };
-    const values = (await keys("*"))
+    const values = (await client.keys("*"))
       .filter(k => k.startsWith("feedr-20"))
       .sort();
     const servedAds = await readValues(values, "ad:served");
     const supportRequests = await readValues(values, "supportRequest");
     const versionKeys = (await Promise.all(
-      values.map(async key => await hgetall(key))
+      values.map(async key => await client.hgetall(key))
     )).reduce((acc, keys) => {
       Object.keys(keys)
         .filter(k => k.startsWith("options:version"))
