@@ -6,7 +6,7 @@ const iconv = require("iconv-lite");
 module.exports = {
   getResource: function getResource(url, options) {
     // eslint-disable-next-line no-param-reassign
-    options = _.extend({ encoding: "UTF-8" }, options);
+    options = _.extend({ encoding: "utf8" }, options);
 
     return new Promise((resolve, reject) => {
       request.get(
