@@ -36,8 +36,8 @@ async function handleHtmlRequest(req, res, next) {
     "analytics"
   ];
 
-  const supportRequestsTillNextAd = tracking.supportRequestsTillNextAd();
-
+  const supportRequestsTillNextAd = await tracking.supportRequestsTillNextAd();
+  
   res.render("index", {
     title: "FeedrApp",
     sections,
