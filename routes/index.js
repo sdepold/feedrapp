@@ -1,15 +1,14 @@
-const _ = require('lodash');
-const Bluebird = require('bluebird');
-const express = require('express');
-const Feed = require('../src/feed');
-const helper = require('../src/helper');
+const _ = require("lodash");
+const Bluebird = require("bluebird");
+const express = require("express");
+const Feed = require("../src/feed");
+const helper = require("../src/helper");
 const router = express.Router();
-const ua = require('universal-analytics');
+const ua = require("universal-analytics");
 const tracking = require("../src/tracking");
 
-
-router.get('/', function (req, res, next) {
-  if (req.headers.accept.includes('text/html')) {
+router.get("/", function(req, res, next) {
+  if (req.headers.accept.includes("text/html")) {
     handleHtmlRequest(req, res, next);
   } else {
     handleJsonRequest(req, res, next);
@@ -28,19 +27,19 @@ function getYesterday() {
 
 async function handleHtmlRequest(req, res, next) {
   const sections = [
-    'introduction',
-    'usage',
-    'options',
-    'hosting',
-    'development',
-    'caching',
-    'analytics'
+    "introduction",
+    "usage",
+    "options",
+    "hosting",
+    "development",
+    "caching",
+    "analytics"
   ];
 
-  const supportRequestsTillNextAd = tracking.isReady() && JSON.parse(await tracking.get('feedr-ads', 'requestsSinceLastAd'));
+  const supportRequestsTillNextAd = tracking.supportRequestsTillNextAd();
 
-  res.render('index', {
-    title: 'FeedrApp',
+  res.render("index", {
+    title: "FeedrApp",
     sections,
     tracking: {
       today: await tracking.getDataFor(new Date()),
@@ -52,33 +51,46 @@ async function handleHtmlRequest(req, res, next) {
 }
 
 function handleJsonRequest(req, res, next) {
-  getResponseData(req).then(function (feed) {
-    if (req.query.callback) {
-      res.set('Content-Type', 'text/javascript; charset=utf-8');
-      res.send(`${req.query.callback}(${JSON.stringify(feed)});`);
-    } else {
-      res.json(feed);
-    }
-  })
+  getResponseData(req)
+    .then(function(feed) {
+      if (req.query.callback) {
+        res.set("Content-Type", "text/javascript; charset=utf-8");
+        res.send(`${req.query.callback}(${JSON.stringify(feed)});`);
+      } else {
+        res.json(feed);
+      }
+    })
     .then(() => trackRequest(req));
 }
 
 function getResponseData(req) {
   const feedUrl = req.query.q;
-  const feedOptions = _.pick(req.query, ['num', 'encoding']);
+  const feedOptions = _.pick(req.query, ["num", "encoding"]);
 
   if (feedUrl) {
-    return new Feed(feedUrl).read(feedOptions).then((feed) => {
-      return { responseStatus: 200, responseDetails: null, responseData: { feed } };
-    }).catch((error) => {
-      console.error({ feedUrl, error });
-      return helper.badRequest({ message: 'Parsing the provided feed url failed.' });
-    });
+    return new Feed(feedUrl)
+      .read(feedOptions)
+      .then(feed => {
+        return {
+          responseStatus: 200,
+          responseDetails: null,
+          responseData: { feed }
+        };
+      })
+      .catch(error => {
+        console.error({ feedUrl, error });
+        return helper.badRequest({
+          message: "Parsing the provided feed url failed."
+        });
+      });
   } else {
-    return Bluebird.resolve(helper.badRequest({
-      message: 'No q param found!',
-      details: 'Please add a query parameter "q" to the request URL which points to a feed!'
-    }));
+    return Bluebird.resolve(
+      helper.badRequest({
+        message: "No q param found!",
+        details:
+          'Please add a query parameter "q" to the request URL which points to a feed!'
+      })
+    );
   }
 }
 

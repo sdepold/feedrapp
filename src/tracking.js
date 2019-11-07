@@ -1,41 +1,37 @@
-const redis = require("async-redis");
-const client = redis.createClient({
-  retry_strategy: () => console.log('Connection to redis was not possible!')
-});
-
-let ready;
-
-client.on("ready", () => {
-  console.log('Connection to redis was established!');
-  ready = true;
-});
-
-client.on("error", e => {
-  console.log(e);
-});
+const redis = require("../models/redis-client");
 
 const tracking = (module.exports = {
-  client,
+  supportRequestsTillNextAd: async () => {
+    const client = redis.getClient();
 
-  trackToday: key => {
-    if (ready) {
-      const datePrefix = new Date()
-        .toJSON()
-        .slice(0, 10)
-        .replace(/-/g, "/");
-
-      tracking.track(`feedr-${datePrefix}`, key);
+    if (client) {
+      return JSON.parse(await tracking.get("feedr-ads", "requestsSinceLastAd"));
     }
   },
 
+  trackToday: key => {
+    const datePrefix = new Date()
+      .toJSON()
+      .slice(0, 10)
+      .replace(/-/g, "/");
+
+    tracking.track(`feedr-${datePrefix}`, key);
+  },
+
   track: (setName, key) => {
-    if (ready) {
+    const client = redis.getClient();
+
+    if (client) {
       client.hincrby(setName, key, 1);
     }
   },
 
   get: async (setName, key) => {
-    return await client.hget(setName, key);
+    const client = redis.getClient();
+
+    if (client) {
+      return await client.hget(setName, key);
+    }
   },
 
   getDataFor: async date => {
@@ -44,8 +40,9 @@ const tracking = (module.exports = {
       .slice(0, 10)
       .replace(/-/g, "/");
     const feedrDateKey = `feedr-${datePrefix}`;
+    const client = redis.getClient();
 
-    if (!ready) {
+    if (!client) {
       return null;
     }
 
@@ -58,7 +55,8 @@ const tracking = (module.exports = {
       await client.hget(feedrDateKey, "options:support:disabled")
     );
     const totalRequests = (supporters || 0) + (nonSupporters || 0);
-    const servedAds = JSON.parse(await client.hget(feedrDateKey, "ad:served")) || 0;
+    const servedAds =
+      JSON.parse(await client.hget(feedrDateKey, "ad:served")) || 0;
     const versionKeys = await client.hgetall(feedrDateKey);
     const versions = Object.entries(versionKeys || {}).reduce(
       (acc, [key, value]) =>
@@ -76,10 +74,12 @@ const tracking = (module.exports = {
   },
 
   async getSupportersOverTime() {
-    if (!ready) {
+    const client = redis.getClient();
+
+    if (!client) {
       return {};
     }
-    
+
     const addColors = arr => {
       const colors = [
         "#45B39D",
@@ -132,7 +132,5 @@ const tracking = (module.exports = {
         ...versions
       ])
     };
-  },
-
-  isReady: () => ready
+  }
 });
