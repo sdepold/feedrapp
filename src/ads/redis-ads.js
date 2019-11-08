@@ -1,4 +1,5 @@
 const tracking = require('../tracking');
+const redisClient = require('../../models/redis-client');
 
 const showAdThreshold = 250;
 
@@ -18,6 +19,10 @@ const redisAds = module.exports = {
   },
 
   async reset() {
-    return tracking.client.hset('feedr-ads', 'requestsSinceLastAd', 0);
+    const client = redisClient.getClient();
+
+    if (client) {
+      await client.hset('feedr-ads', 'requestsSinceLastAd', 0);
+    }
   }
 };
