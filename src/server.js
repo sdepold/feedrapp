@@ -4,9 +4,13 @@ const AbstractServer = require('./abstract-server');
 const cache = require('./cache');
 const indexRoute = require('../routes/index');
 const imprintRoute = require('../routes/imprint');
+const compression = require('compression');
 
 module.exports = class Server extends AbstractServer {
   injectMiddlewares() {
+    this.app.use(compression({
+      level: 9
+    }));
     this.app.use(cors());
     this.app.use(cache());
     super.injectMiddlewares();
