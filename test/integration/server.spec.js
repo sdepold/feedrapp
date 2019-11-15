@@ -83,6 +83,84 @@ describe('Server', function () {
         });
     });
 
+    context('support for multiple feed URLs', () => {
+      const qParam = [
+        'http://0.0.0.0:1338/invisible-characters.xml',
+        'http://0.0.0.0:1338/atom.xml',
+        'http://0.0.0.0:1338/rss.xml'
+      ]
+        .map((url) => encodeURIComponent(url))
+        .join(',');
+
+      it('appends the entries after each other', () =>
+        axios
+          .get(`http://0.0.0.0:1337/?q=${qParam}&num=3`, jsonConfig)
+          .then((res) => {
+            const dates = res.data.responseData.feed.entries.map(
+              (entry) => entry.publishedDate
+            );
+
+            expect(dates).to.deep.equal([
+              '2015-08-19T17:56:32.000Z',
+              '2015-08-18T19:36:07.000Z',
+              '2015-08-12T20:41:19.000Z',
+              '2015-08-18T19:37:11.000Z',
+              '2015-08-17T19:09:43.000Z',
+              '2015-08-18T18:47:00.000Z',
+              '2015-08-21T04:00:03.000Z',
+              '2015-08-20T04:00:23.000Z',
+              '2015-08-18T04:00:32.000Z'
+            ]);
+          }));
+
+      it('keeps the feed info of the first requested url', () =>
+        axios
+          .get(`http://0.0.0.0:1337/?q=${qParam}&num=3`, jsonConfig)
+          .then((res) => {
+            expect(res.data.responseData.feed.feedUrl).to.equal(
+              'http://0.0.0.0:1338/invisible-characters.xml'
+            );
+            expect(res.data.responseData.feed.title).to.equal(
+              'Penn Libraries News Center » Penn Libraries'
+            );
+            expect(res.data.responseData.feed.link).to.equal(
+              'https://pennlibnews.wordpress.com'
+            );
+            expect(res.data.responseData.feed.description).to.equal('');
+            expect(res.data.responseData.feed.author).to.equal('');
+          }));
+
+      it('ignores failing feeds', () =>
+        axios
+          .get(
+            `http://0.0.0.0:1337/?q=${qParam},${encodeURIComponent(
+              'http://0.0.0.0:1338/404.xml'
+            )}&num=3`,
+            jsonConfig
+          )
+          .then((res) => {
+            expect(res.data.responseData.feed.entries).to.have.length(9);
+            expect(res.data.responseData.feed.title).to.equal(
+              'Penn Libraries News Center » Penn Libraries'
+            );
+          }));
+
+      it('ignores failing feeds (if breaking feed is first)', () =>
+        axios
+          .get(
+            `http://0.0.0.0:1337/?q=${encodeURIComponent(
+              'http://0.0.0.0:1338/404.xml'
+            )},${qParam}&num=3`,
+            jsonConfig
+          )
+          .then((res) => {
+            expect(res.data.responseData.feed.entries).to.have.length(9);
+            expect(res.data.responseData.feed.title).to.equal(
+              'Penn Libraries News Center » Penn Libraries'
+            );
+          }));
+    });
+
     it('can handle invisible characters', () =>
       axios
         .get(
@@ -118,7 +196,9 @@ describe('Server', function () {
           jsonConfig
         )
         .then((res) => {
-          expect(res.data.responseData.feed.entries[3].contentSnippet).to.contain('sehr schön geworden');
+          expect(
+            res.data.responseData.feed.entries[3].contentSnippet
+          ).to.contain('sehr schön geworden');
         }));
 
     it('parses rss feeds', () => {
@@ -136,7 +216,10 @@ describe('Server', function () {
       ];
 
       return axios
-        .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/rss.xml&num=1', jsonConfig)
+        .get(
+          'http://0.0.0.0:1337/?q=http://0.0.0.0:1338/rss.xml&num=1',
+          jsonConfig
+        )
         .then((res) => {
           expect(res.data).to.eql({
             responseStatus: 200,
@@ -162,7 +245,10 @@ describe('Server', function () {
 
     it('handles invalid feeds', () =>
       axios
-        .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/invalid.xml', jsonConfig)
+        .get(
+          'http://0.0.0.0:1337/?q=http://0.0.0.0:1338/invalid.xml',
+          jsonConfig
+        )
         .then((res) => {
           expect(res.data).to.eql({
             responseStatus: 400,

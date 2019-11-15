@@ -37,7 +37,7 @@ async function handleHtmlRequest(req, res, next) {
   ];
 
   const supportRequestsTillNextAd = await tracking.supportRequestsTillNextAd();
-  
+
   res.render("index", {
     title: "FeedrApp",
     sections,
@@ -63,13 +63,46 @@ function handleJsonRequest(req, res, next) {
     .then(() => trackRequest(req));
 }
 
+// function sortByDate(arr) {
+//   return arr.sort(function(a, b) {
+//     a = new Date(a.publishedDate);
+//     b = new Date(b.publishedDate);
+
+//     return a < b ? 1 : a > b ? -1 : 0;
+//   });
+// }
+
+function getFeedData(feedUrls, feedOptions) {
+  const errors = [];
+
+  return Promise.all(
+    feedUrls.map(feedUrl =>
+      new Feed(feedUrl).read(feedOptions).catch(e => {
+        errors.push(e);
+      })
+    )
+  ).then(feeds => {
+    if (errors.length > 0 && feeds.filter(f => !!f).length === 0) {
+      throw errors[0];
+    }
+
+    return feeds.reduce(
+      (acc, feed = {}) => ({
+        ...feed,
+        ...acc,
+        entries: (acc.entries || []).concat(feed.entries || [])
+      }),
+      {}
+    );
+  });
+}
+
 function getResponseData(req) {
   const feedUrl = req.query.q;
   const feedOptions = _.pick(req.query, ["num", "encoding"]);
 
   if (feedUrl) {
-    return new Feed(feedUrl)
-      .read(feedOptions)
+    return getFeedData(feedUrl.split(","), feedOptions)
       .then(feed => {
         return {
           responseStatus: 200,

@@ -8,10 +8,10 @@ const testMatrix = {
     link: 'https://mamaskind.de'
   },
 
-  'https://api.zotero.org/groups/9097/items/top?start=0&limit=55&format=atom': {
-    title: 'Zotero / Continental European Philosophy Group / Top-Level Items',
+  'https://api.zotero.org/groups/43985/items/top?start=0&limit=55&format=atom': {
+    title: 'Zotero / javascript parent child Group / Top-Level Items',
     description: '',
-    link: 'https://api.zotero.org/groups/9097/items/top?format=atom&limit=55'
+    link: 'https://api.zotero.org/groups/43985/items/top?format=atom&limit=55'
   },
 
   'https://www.contentful.com/blog/feed.xml': {
