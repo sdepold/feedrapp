@@ -45,12 +45,41 @@ section#usage-section.doc-section
           }
         }
 
+    h3 Multiple feed URLs
+
+    p. 
+      It is also possible to provide several feed URLs separated by commas. 
+      Please note, that this feature is <strong>experimental</strong> and might change in the future!
     p.
-      Please note that you can also provide several URLs separated by commas like this:
-    
+      Here is an example:
     pre.command-line.language-bash
       code.language-bash
         | curl 'http://www.feedrapp.info/?q=http://www.ebaytechblog.com/feed/,https://www.contentful.com/blog/feed.xml'
-
     p.
       Feedr will now query all of the provided feeds and append all entries to the first feed.
+      The result looks like this:
+
+    pre.language-javascript
+      code.language-javascript.
+        {
+          "responseStatus": 200,
+          "responseDetails": null,
+          "responseData": {
+            "feed": {
+              /* The meta data is extract from the first feed URL */
+              "feedUrl": "http://www.ebaytechblog.com/feed/",
+              "title": "eBay Tech Blog",
+              "link": "http://www.ebaytechblog.com",
+              "description": "Where e-commerce meets world-class technology",
+              "author": "",
+              "entries": [
+                { /* Entry #1 of ebaytechblog.com */ },
+                { /* ... */ }
+                { /* Entry #n of ebaytechblog.com */ },
+                { /* Entry #1 of contentful.com */ },
+                { /* ... */ }
+                { /* Entry #n of contentful.com */ },
+              ]
+            }
+          }
+        }
