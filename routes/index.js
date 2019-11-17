@@ -6,6 +6,7 @@ const helper = require("../src/helper");
 const router = express.Router();
 const ua = require("universal-analytics");
 const tracking = require("../src/tracking");
+const sort = require('fast-sort');
 
 router.get("/", function(req, res, next) {
   if (req.headers.accept.includes("text/html")) {
@@ -63,14 +64,17 @@ function handleJsonRequest(req, res, next) {
     .then(() => trackRequest(req));
 }
 
-// function sortByDate(arr) {
-//   return arr.sort(function(a, b) {
-//     a = new Date(a.publishedDate);
-//     b = new Date(b.publishedDate);
+function sortEntries(arr, order) {
+  if (!order) {
+    return arr;
+  }
 
-//     return a < b ? 1 : a > b ? -1 : 0;
-//   });
-// }
+  const match = order.match(/^(-){0,1}(.*)$/);
+  const orderMethod = match[1] ? 'desc' : 'asc';
+  const orderField = match[2];
+
+  return sort(arr)[orderMethod](entry => entry[orderField]);
+}
 
 function getFeedData(feedUrls, feedOptions) {
   const errors = [];
@@ -90,7 +94,10 @@ function getFeedData(feedUrls, feedOptions) {
       (acc, feed = {}) => ({
         ...feed,
         ...acc,
-        entries: (acc.entries || []).concat(feed.entries || [])
+        entries: sortEntries(
+          (acc.entries || []).concat(feed.entries || []),
+          feedOptions.order
+        )
       }),
       {}
     );
@@ -99,7 +106,7 @@ function getFeedData(feedUrls, feedOptions) {
 
 function getResponseData(req) {
   const feedUrl = req.query.q;
-  const feedOptions = _.pick(req.query, ["num", "encoding"]);
+  const feedOptions = _.pick(req.query, ["num", "encoding", "order"]);
 
   if (feedUrl) {
     return getFeedData(feedUrl.split(","), feedOptions)

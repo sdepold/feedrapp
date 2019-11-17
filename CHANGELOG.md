@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## v1.6.0
+### Added
+- Support for multi feed queries through comma separated q parameter
+- Support for entry sorting
+
 ## v1.5.1 - 2017-07-12
 ### Changed
 - Caching mechanism was moved to Express middleware

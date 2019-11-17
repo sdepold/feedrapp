@@ -83,6 +83,88 @@ describe('Server', function () {
         });
     });
 
+    context('ordering', () => {
+      it('does not sort the entries by default', () =>
+        axios
+          .get(
+            'http://0.0.0.0:1337/?q=http://0.0.0.0:1338/random-order.xml&num=15'
+          )
+          .then((res) => {
+            const dates = res.data.responseData.feed.entries.map(
+              (entry) => entry.publishedDate
+            );
+
+            expect(dates).to.deep.equal([
+              '2016-08-21T04:00:03.000Z',
+              '2015-08-20T04:00:23.000Z',
+              '2015-08-18T04:00:32.000Z',
+              '2012-08-17T04:00:00.000Z',
+              '2015-08-16T17:20:07.000Z',
+              '2018-08-13T18:14:56.000Z'
+            ]);
+          }));
+
+      it('allows sorting date fields', () =>
+        axios
+          .get(
+            'http://0.0.0.0:1337/?q=http://0.0.0.0:1338/random-order.xml&num=15&order=publishedDate'
+          )
+          .then((res) => {
+            const dates = res.data.responseData.feed.entries.map(
+              (entry) => entry.publishedDate
+            );
+
+            expect(dates).to.deep.equal([
+              '2012-08-17T04:00:00.000Z',
+              '2015-08-16T17:20:07.000Z',
+              '2015-08-18T04:00:32.000Z',
+              '2015-08-20T04:00:23.000Z',
+              '2016-08-21T04:00:03.000Z',
+              '2018-08-13T18:14:56.000Z'
+            ]);
+          }));
+
+      it('allows defining an order field', () =>
+        axios
+          .get(
+            'http://0.0.0.0:1337/?q=http://0.0.0.0:1338/random-order.xml&num=15&order=title'
+          )
+          .then((res) => {
+            const titles = res.data.responseData.feed.entries.map(
+              (entry) => entry.title
+            );
+
+            expect(titles).to.deep.equal([
+              'Baby 2.0 schläft im eigenen Zimmer! Manchmal',
+              'Eingewöhnung im Kindergarten – Woche 1',
+              'Ich, die meckernde Schwiegermutter',
+              'Kaufempfehlung: Sehr gerne, Mama, du Arschbombe',
+              'Weniger Lego, mehr Oma und Erdbeerland – 26',
+              'Zelten mit Kleinkind – ein Abenteuer!'
+            ]);
+          }));
+
+      it('allows reverse ordering', () =>
+        axios
+          .get(
+            'http://0.0.0.0:1337/?q=http://0.0.0.0:1338/random-order.xml&num=15&order=-title'
+          )
+          .then((res) => {
+            const titles = res.data.responseData.feed.entries.map(
+              (entry) => entry.title
+            );
+
+            expect(titles).to.deep.equal([
+              'Zelten mit Kleinkind – ein Abenteuer!',
+              'Weniger Lego, mehr Oma und Erdbeerland – 26',
+              'Kaufempfehlung: Sehr gerne, Mama, du Arschbombe',
+              'Ich, die meckernde Schwiegermutter',
+              'Eingewöhnung im Kindergarten – Woche 1',
+              'Baby 2.0 schläft im eigenen Zimmer! Manchmal'
+            ]);
+          }));
+    });
+
     context('support for multiple feed URLs', () => {
       const qParam = [
         'http://0.0.0.0:1338/invisible-characters.xml',
