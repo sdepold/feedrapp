@@ -1,8 +1,8 @@
 const _ = require('lodash');
-const redisClient = require('../../models/redis-client');
+// const redisClient = require('../../models/redis-client');
 const tracking = require('../tracking');
-const redis = require('./redis-ads');
-const inMemory = require('./in-memory-ads');
+// const redis = require('./redis-ads');
+// const inMemory = require('./in-memory-ads');
 
 const selection = [
   {
@@ -44,21 +44,23 @@ const getAd = function () {
   return _.sample(selection);
 };
 
-const shouldShowAd = async function (req) {
-  const client = redisClient.getClient();
-  const adsTracker = client ? redis : inMemory;
-
-  if (req.query.support) {
-    adsTracker.trackSupportRequest();
-
-    if (await adsTracker.aboveThreshold()) {
-      await adsTracker.reset();
-
-      return true;
-    }
-  }
-
+const shouldShowAd = async function (/* req */) {
   return false;
+
+  // const client = redisClient.getClient();
+  // const adsTracker = client ? redis : inMemory;
+
+  // if (req.query.support) {
+  //   adsTracker.trackSupportRequest();
+
+  //   if (await adsTracker.aboveThreshold()) {
+  //     await adsTracker.reset();
+
+  //     return true;
+  //   }
+  // }
+
+  // return false;
 };
 
 const addAds = async function (req, response) {
