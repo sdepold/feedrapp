@@ -16,7 +16,12 @@
           "contentSnippet": "Fighting is continuing near the Syria-Turkey border despite a Trump administration boast it had helped broker a 'cease-f",
           "publishedDate": "2019-10-18T18:11:37.000Z",
           "categories": [],
-          "author": "USA TODAY"
+          "author": "USA TODAY",
+          "enclosure": {
+            "length": 0,
+            "type": "image/jpeg",
+            "url": "https://www.gannett-cdn.com/presto/2019/10/18/USAT/659aa060-1350-47bf-a718-5abde30af15d-AP_Turkey_Syria.JPG"
+          }
         }
       ]
     }

@@ -16,7 +16,11 @@
           "contentSnippet": "Mexikanische Soldaten mussten die Festnahme eines Sohns des inhaftierten Drogenbosses \"El Chapo\" abbrechen - wegen hefti",
           "publishedDate": "2019-10-18T18:11:18.000Z",
           "categories": [],
-          "author": ""
+          "author": "",
+          "enclosure": {
+            "type": "image/jpeg",
+            "url": "https://www.spiegel.de/images/image-1480547-thumbsmall-lpdf.jpg"
+          }
         },
         {
           "title": "Rot-rot-grüner Kompromiss: Mieten in Berlin sollen gedeckelt werden - auch rückwirkend",
@@ -25,7 +29,11 @@
           "contentSnippet": "Eine Mietsenkung ist vom Tisch, aber der Deckel kommt: In einer sechsstündigen Sitzung hat sich der Koalitionsausschuss ",
           "publishedDate": "2019-10-18T18:11:00.000Z",
           "categories": [],
-          "author": ""
+          "author": "",
+          "enclosure": {
+            "type": "image/jpeg",
+            "url": "https://www.spiegel.de/images/image-1465267-thumbsmall-wqot.jpg"
+          }
         },
         {
           "title": "Museumssegler in Bremerhaven: Gutachter attestieren \"Seute Deern\" Totalschaden",
@@ -34,7 +42,11 @@
           "contentSnippet": "Außenhaut, Kiel und Unterraum sollen zu 100 Prozent zerstört sein: Das Museumsschiff \"Seute Deern\" ist laut Gutachtern e",
           "publishedDate": "2019-10-18T17:45:00.000Z",
           "categories": [],
-          "author": ""
+          "author": "",
+          "enclosure": {
+            "type": "image/jpeg",
+            "url": "https://www.spiegel.de/images/image-1396147-thumbsmall-mpqc.jpg"
+          }
         },
         {
           "title": "Softwarekonzern: Oracle Co-Vorstand Mark Hurd ist tot",
@@ -43,7 +55,11 @@
           "contentSnippet": "Seit Jahren leitete Mark Hurd den US-Software-Konzern Oracle. Im September hatte er eine krankheitsbedingte Auszeit geno",
           "publishedDate": "2019-10-18T17:31:00.000Z",
           "categories": [],
-          "author": ""
+          "author": "",
+          "enclosure": {
+            "type": "image/jpeg",
+            "url": "https://www.spiegel.de/images/image-1480545-thumbsmall-svgh.jpg"
+          }
         }
       ]
     }

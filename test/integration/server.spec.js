@@ -81,6 +81,20 @@ describe('Server', function () {
             });
           });
         });
+
+      it('exposes enclosures', () =>
+        axios
+          .get('http://0.0.0.0:1337/?q=http://0.0.0.0:1338/enclosure.xml')
+          .then((res) => {
+            expect(
+              res.data.responseData.feed.entries[0].enclosure
+            ).to.deep.equal({
+              length: 12345,
+              type: 'image/jpeg',
+              url:
+                'https://www.bug.hr/img/izvrsna-ponuda-windows-10-pro-za-1080-eura-a-office-2016-za-2261-eura_g1gpQk.jpg'
+            });
+          }));
     });
 
     context('ordering', () => {
@@ -408,11 +422,7 @@ describe('Server', function () {
       );
 
       it('renders the imprint', () => {
-        expect(
-          $('h2')
-            .first()
-            .text()
-        ).to.eql('Contact');
+        expect($('h2').first().text()).to.eql('Contact');
       });
     });
   });
