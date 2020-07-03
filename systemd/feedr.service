@@ -8,7 +8,8 @@ Group=root
 Restart=always
 KillSignal=SIGQUIT
 WorkingDirectory=/home/sdlynx/repos/feedrapp/
-ExecStart=PORT=10201 /usr/bin/node /home/sdlynx/repos/feedrapp/bin/www
+Environment="PORT=10201"
+ExecStart=/usr/bin/node /home/sdlynx/repos/feedrapp/bin/www
 
 [Install]
 WantedBy=multi-user.target
