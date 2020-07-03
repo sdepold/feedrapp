@@ -1,0 +1,14 @@
+[Unit]
+Description=Feedr (Node.js HTTP Server)
+
+[Service]
+PIDFile=/var/run/feedr-99.pid
+User=root
+Group=root
+Restart=always
+KillSignal=SIGQUIT
+WorkingDirectory=/home/sdlynx/repos/feedrapp/
+ExecStart=PORT=10201 /usr/bin/node /home/sdlynx/repos/feedrapp/bin/www
+
+[Install]
+WantedBy=multi-user.target
