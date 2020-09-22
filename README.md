@@ -27,4 +27,25 @@ sudo make install
 ```bash
 rm Procfile
 mv Procfile-LB Procfile
+git commit -m "Use LB Procfile"
+git push heroku master
 ```
+
+### Spawn the workers
+
+```
+git push heroku master
+```
+
+### tmuxinator
+
+Assumption:
+
+You have the folders `~/Projects/feedr-app-[1-9]`:
+
+```
+brew install tmuxinator
+tmuxinator local
+```
+
+[Controls](https://tmuxcheatsheet.com/)
