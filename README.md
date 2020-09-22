@@ -19,3 +19,12 @@ parameters to point to the location of your cloned repository. Then execute the 
 cd systemd
 sudo make install
 ```
+
+## Load Balanced Hosting
+
+### Spawn the load balancer
+
+```bash
+rm Procfile
+mv Procfile-LB Procfile
+```
