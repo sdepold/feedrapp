@@ -3,7 +3,7 @@
 const express = require("express");
 const request = require("request");
 
-const serverCount = 2;
+const serverCount = 9;
 const servers = [...Array(serverCount).keys()].map(
   (i) => `https://feedr-app-${i + 1}.herokuapp.com`
 );
