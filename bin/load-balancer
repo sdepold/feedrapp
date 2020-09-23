@@ -2,6 +2,7 @@
 
 const express = require("express");
 const request = require("request");
+const cors = require('cors');
 
 const serverCount = 9;
 const servers = [...Array(serverCount).keys()].map(
@@ -29,6 +30,7 @@ const handler = (req, res) => {
 };
 const server = express()
   .use(profilerMiddleware)
+  .use(cors())
   .get("*", handler)
   .post("*", handler);
 
