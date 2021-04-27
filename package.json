@@ -63,7 +63,7 @@
     "node-fetch": "^2.6.0",
     "nyc": "^11.0.2",
     "pug": "^2.0.0-beta10",
-    "redis": "^2.8.0",
+    "redis": "^3.1.1",
     "request": "^2.88.0",
     "serve-favicon": "^2.3.2",
     "universal-analytics": "^0.4.13"
