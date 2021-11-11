@@ -5,6 +5,7 @@ COPY bin bin/
 COPY public public/
 COPY routes routes/
 COPY src src/
+COPY models models/
 COPY views views/
 COPY package.json .
 COPY yarn.lock .
