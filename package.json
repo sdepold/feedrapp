@@ -42,7 +42,7 @@
     "watch": "^1.0.2"
   },
   "dependencies": {
-    "axios": "^0.15.3",
+    "axios": "^0.21.2",
     "bluebird": "^3.5.0",
     "body-parser": "^1.16.0",
     "compression": "^1.7.4",
