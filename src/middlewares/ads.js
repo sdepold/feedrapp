@@ -3,15 +3,18 @@ const adsConfig = require("../../config/ads");
 const AD_CAP_LIMIT = adsConfig.limit;
 
 const getAd = (req) => {
-  const _pair = Object.entries(adsConfig.mapping).find(([needle]) =>
+  const pair = Object.entries(adsConfig.mapping).find(([needle]) =>
     req.query.q.includes(needle)
   );
-  const ads = _pair ? _pair[1] : adsConfig.mapping.default;
-  const ad = ads[Math.floor(Math.random() * ads.length)];
 
-  console.log(`Injecting ad into "${req.query.q}" -->`, JSON.stringify(ad));
+  if (pair) {
+    const [, ads] = pair;
+    const ad = ads[Math.floor(Math.random() * ads.length)];
 
-  return ad;
+    console.log(`Injecting ad into "${req.query.q}" -->`, JSON.stringify(ad));
+
+    return ad;
+  }
 };
 
 function handleCallback(_body, callbackArg, fn) {
@@ -56,8 +59,13 @@ module.exports =
         adsHits[req.query.q] = (adsHits[req.query.q] || 0) + 1;
 
         if (adsHits[req.query.q] >= AD_CAP_LIMIT) {
-          body = injectAd(body, req.query.callback, getAd(req));
-          adsHits[req.query.q] = 0;
+          const ad = getAd(req);
+
+          if (ad) {
+            console.log(req.query.support, adsHits[req.query.q], ad)
+            body = injectAd(body, req.query.callback, ad);
+            adsHits[req.query.q] = 0;
+          }
         }
       }
 
