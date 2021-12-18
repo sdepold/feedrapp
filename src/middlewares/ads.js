@@ -1,4 +1,4 @@
-const adsConfig = require('../../config/ads');
+const adsConfig = require("../../config/ads");
 
 const AD_CAP_LIMIT = adsConfig.limit;
 
@@ -16,8 +16,8 @@ function handleCallback(_body, callbackArg, fn) {
   let body = `${_body}`;
 
   if (callbackArg && body.startsWith(`${callbackArg}(`)) {
-    body = body.replace(`${callbackArg}(`, '');
-    body = body.replace(/\);?$/, '');
+    body = body.replace(`${callbackArg}(`, "");
+    body = body.replace(/\);?$/, "");
   }
 
   body = JSON.parse(body);
@@ -41,12 +41,16 @@ const injectAd = (body, callback, ad) =>
 
 const _adsHits = {};
 
+setInterval(() => {
+  console.log(_adsHits);
+}, 10000);
+
 module.exports =
   (adsHits = _adsHits) =>
   async (req, res, next) => {
     res.sendAdsResponse = res.send;
     res.send = async (body) => {
-      if (String(req.query.support) === 'true') {
+      if (String(req.query.support) === "true") {
         adsHits[req.query.q] = (adsHits[req.query.q] || 0) + 1;
 
         if (adsHits[req.query.q] >= AD_CAP_LIMIT) {
