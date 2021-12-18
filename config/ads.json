@@ -3,15 +3,27 @@
   "mapping": {
     ".de": [
       {
-        "title": "Huhu",
-        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-        "content": "omnom",
-        "contentSnippet": "omnom",
+        "title": "bitte.kaufen – Mein Wunschzettel",
+        "link": "https://bitte.kaufen",
+        "content": "bitte.kaufen ist eine plattformunabhängige Wunschlisten-App. Als Eltern ist uns wichtig, dass man bei kleinen Online-Shops und lokalen Geschäften einkaufen kann. Um das zu unterstützen, sind wir zu 100 % kostenlos und ohne lästige Werbebanner.",
+        "contentSnippet": "bitte.kaufen ist eine plattformunabhängige Wunschlisten-App. Als Eltern ist uns wichtig, dass man bei kleinen Online-Shops und lokalen Geschäften einkaufen kann.",
         "publishedDate": "2021-12-18T08:00:00.000Z",
         "categories": [{ "name": "ads" }],
-        "author": "Sascha",
-        "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg"
+        "author": "Sascha Depold",
+        "thumbnail": "https://bitte.kaufen/blog/wp-content/uploads/2021/02/bitte-kaufen-wunschlisten-app-online.jpeg"
       }
+    ],
+    "default": [
+        {
+            "title": "bitte.kaufen – My wishlist app",
+            "link": "https://bitte.kaufen",
+            "content": "bitte.kaufen is a platform-independent wishlist app. As parents, it's important to us that people can shop at small online stores and local businesses. To add to that, we are 100% free and without annoying banner ads.",
+            "contentSnippet": "bitte.kaufen is a platform-independent wishlist app. As parents, it's important to us that people can shop at small online stores and local businesses. To add to that, we are 100% free and without annoying banner ads.",
+            "publishedDate": "2021-12-18T08:00:00.000Z",
+            "categories": [{ "name": "ads" }],
+            "author": "Sascha Depold",
+            "thumbnail": "https://bitte.kaufen/blog/wp-content/uploads/2021/02/bitte-kaufen-wunschlisten-app-online.jpeg"
+          } 
     ]
   }
 }

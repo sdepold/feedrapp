@@ -8,7 +8,7 @@
     "start": "node ./bin/www",
     "start:test": "node ./bin/www-test",
     "start:watch": "watch 'npm start' src routes views",
-    "test": "yarn lint && yarn test:unit && yarn test:integration",
+    "test": "yarn test:unit && yarn test:integration",
     "test:integration": "mocha test/integration/**/*.spec.js",
     "test:unit": "mocha test/unit/**/*.spec.js",
     "test:coverage": "nyc yarn test"

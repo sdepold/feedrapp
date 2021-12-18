@@ -1,7 +1,7 @@
-const { expect } = require("chai");
-const { readFileSync } = require("fs");
-const Sinon = require("sinon");
-const adsMiddleware = require("../../src/middlewares/ads");
+const { expect } = require('chai');
+const { readFileSync } = require('fs');
+const Sinon = require('sinon');
+const adsMiddleware = require('../../src/middlewares/ads');
 
 const fixture = readFileSync(
   `${__dirname}/fixture/normal-response.json`
@@ -10,10 +10,10 @@ const adInjectedFixture = readFileSync(
   `${__dirname}/fixture/ad-injected-response.json`
 ).toString();
 
-const URL = "http://www.ebaytechblog.com/feed/";
+const URL = 'http://www.ebaytechblog.com/feed/';
 
-describe("Ads Middleware", () => {
-  it("does not touch the original response if support is turned off", async () => {
+describe('Ads Middleware', () => {
+  it('does not touch the original response if support is turned off', async () => {
     const req = { query: { q: URL, support: false } };
     const res = { send: Sinon.spy() };
     const next = Sinon.spy();
@@ -26,8 +26,8 @@ describe("Ads Middleware", () => {
     expect(res.sendAdsResponse.getCalls()[0].args[0]).to.deep.equal(fixture);
   });
 
-  it("supports callback param", async () => {
-    const req = { query: { q: URL, support: false, callback: "callback123" } };
+  it('supports callback param', async () => {
+    const req = { query: { q: URL, support: false, callback: 'callback123' } };
     const res = { send: Sinon.spy() };
     const next = Sinon.spy();
 
@@ -41,8 +41,8 @@ describe("Ads Middleware", () => {
     );
   });
 
-  describe("support is enabled", () => {
-    it("does not touch the original response if ad cap level is not reached", async () => {
+  describe('support is enabled', () => {
+    it('does not touch the original response if ad cap level is not reached', async () => {
       const req = { query: { q: URL, support: true } };
       const res = { send: Sinon.spy() };
       const next = Sinon.spy();
@@ -56,7 +56,7 @@ describe("Ads Middleware", () => {
       expect(res.sendAdsResponse.getCalls()[0].args[0]).to.deep.equal(fixture);
     });
 
-    it("replaces the first entry if ad cap level is reached", async () => {
+    it('replaces the first entry if ad cap level is reached', async () => {
       const req = { query: { q: URL, support: true } };
       const res = { send: Sinon.spy() };
       const next = Sinon.spy();
@@ -76,8 +76,8 @@ describe("Ads Middleware", () => {
       );
     });
 
-    it("supports callback params", async () => {
-      const req = { query:  { q: URL, support: true, callback: "callback123" } };
+    it('supports callback params', async () => {
+      const req = { query: { q: URL, support: true, callback: 'callback123' } };
       const res = { send: Sinon.spy() };
       const next = Sinon.spy();
       const adsHits = { [URL]: 5 };
