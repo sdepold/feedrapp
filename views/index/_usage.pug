@@ -8,7 +8,7 @@ section#usage-section.doc-section
 
     pre.command-line.language-bash
       code.language-bash
-        | curl 'http://www.feedrapp.info/?q=http://www.ebaytechblog.com/feed/'
+        | curl -H 'Accept: application/json' 'http://www.feedrapp.info/?q=http://www.ebaytechblog.com/feed/'
     
     p
       | The result will look like this (please note that the output is slightly truncated):
@@ -54,7 +54,7 @@ section#usage-section.doc-section
       Here is an example:
     pre.command-line.language-bash
       code.language-bash
-        | curl 'http://www.feedrapp.info/?q=http://www.ebaytechblog.com/feed/,https://www.contentful.com/blog/feed.xml'
+        | curl -H 'Accept: application/json' 'http://www.feedrapp.info/?q=http://www.ebaytechblog.com/feed/,https://www.contentful.com/blog/feed.xml'
     p.
       Feedr will now query all of the provided feeds and append all entries to the first feed.
       The result looks like this:

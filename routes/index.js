@@ -4,11 +4,9 @@ const express = require("express");
 const Feed = require("../src/feed");
 const helper = require("../src/helper");
 const router = express.Router();
-const ua = require("universal-analytics");
-const tracking = require("../src/tracking");
-const sort = require('fast-sort');
+const sort = require("fast-sort");
 
-router.get("/", function(req, res, next) {
+router.get("/", function (req, res, next) {
   if (req.headers.accept.includes("text/html")) {
     handleHtmlRequest(req, res, next);
   } else {
@@ -34,34 +32,23 @@ async function handleHtmlRequest(req, res, next) {
     "hosting",
     "development",
     "caching",
-    "analytics"
   ];
-
-  const supportRequestsTillNextAd = await tracking.supportRequestsTillNextAd();
 
   res.render("index", {
     title: "FeedrApp",
     sections,
-    tracking: {
-      today: await tracking.getDataFor(new Date()),
-      yesterday: await tracking.getDataFor(getYesterday()),
-      supportRequestsTillNextAd: 250 - (supportRequestsTillNextAd || 0),
-      supporters: await tracking.getSupportersOverTime()
-    }
   });
 }
 
 function handleJsonRequest(req, res, next) {
-  getResponseData(req)
-    .then(function(feed) {
-      if (req.query.callback) {
-        res.set("Content-Type", "text/javascript; charset=utf-8");
-        res.send(`${req.query.callback}(${JSON.stringify(feed)});`);
-      } else {
-        res.json(feed);
-      }
-    })
-    .then(() => trackRequest(req));
+  getResponseData(req).then(function (feed) {
+    if (req.query.callback) {
+      res.set("Content-Type", "text/javascript; charset=utf-8");
+      res.send(`${req.query.callback}(${JSON.stringify(feed)});`);
+    } else {
+      res.json(feed);
+    }
+  });
 }
 
 function sortEntries(arr, order) {
@@ -70,23 +57,23 @@ function sortEntries(arr, order) {
   }
 
   const match = order.match(/^(-){0,1}(.*)$/);
-  const orderMethod = match[1] ? 'desc' : 'asc';
+  const orderMethod = match[1] ? "desc" : "asc";
   const orderField = match[2];
 
-  return sort(arr)[orderMethod](entry => entry[orderField]);
+  return sort(arr)[orderMethod]((entry) => entry[orderField]);
 }
 
 function getFeedData(feedUrls, feedOptions) {
   const errors = [];
 
   return Promise.all(
-    feedUrls.map(feedUrl =>
-      new Feed(feedUrl).read(feedOptions).catch(e => {
+    feedUrls.map((feedUrl) =>
+      new Feed(feedUrl).read(feedOptions).catch((e) => {
         errors.push(e);
       })
     )
-  ).then(feeds => {
-    if (errors.length > 0 && feeds.filter(f => !!f).length === 0) {
+  ).then((feeds) => {
+    if (errors.length > 0 && feeds.filter((f) => !!f).length === 0) {
       throw errors[0];
     }
 
@@ -97,7 +84,7 @@ function getFeedData(feedUrls, feedOptions) {
         entries: sortEntries(
           (acc.entries || []).concat(feed.entries || []),
           feedOptions.order
-        )
+        ),
       }),
       {}
     );
@@ -110,17 +97,17 @@ function getResponseData(req) {
 
   if (feedUrl) {
     return getFeedData(feedUrl.split(","), feedOptions)
-      .then(feed => {
+      .then((feed) => {
         return {
           responseStatus: 200,
           responseDetails: null,
-          responseData: { feed }
+          responseData: { feed },
         };
       })
-      .catch(error => {
+      .catch((error) => {
         console.error({ feedUrl, error });
         return helper.badRequest({
-          message: "Parsing the provided feed url failed."
+          message: "Parsing the provided feed url failed.",
         });
       });
   } else {
@@ -128,14 +115,8 @@ function getResponseData(req) {
       helper.badRequest({
         message: "No q param found!",
         details:
-          'Please add a query parameter "q" to the request URL which points to a feed!'
+          'Please add a query parameter "q" to the request URL which points to a feed!',
       })
     );
   }
-}
-
-function trackRequest(req) {
-  // ua('UA-100419142-1', { https: true })
-  //   .pageview(req.originalUrl)
-  //   .send();
 }

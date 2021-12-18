@@ -1,0 +1,17 @@
+{
+  "limit": 5,
+  "mapping": {
+    ".de": [
+      {
+        "title": "Huhu",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "content": "omnom",
+        "contentSnippet": "omnom",
+        "publishedDate": "2021-12-18T08:00:00.000Z",
+        "categories": [{ "name": "ads" }],
+        "author": "Sascha",
+        "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg"
+      }
+    ]
+  }
+}

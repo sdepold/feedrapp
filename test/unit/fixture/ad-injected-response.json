@@ -1,0 +1,55 @@
+{
+  "responseStatus": 200,
+  "responseDetails": null,
+  "responseData": {
+    "feed": {
+      "feedUrl": "http://www.ebaytechblog.com/feed/",
+      "title": "eBay Tech Blog",
+      "link": "https://tech.ebayinc.com/rss",
+      "description": "",
+      "author": "",
+      "entries": [
+        {
+          "title": "Huhu",
+          "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "content": "omnom",
+          "contentSnippet": "omnom",
+          "publishedDate": "2021-12-18T08:00:00.000Z",
+          "categories": [{ "name": "ads" }],
+          "author": "Sascha",
+          "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg"
+        },
+        {
+          "title": "eBay’s Mavenization Strategy of Legacy Domain Business Libraries ",
+          "link": "https://tech.ebayinc.com/engineering/ebays-mavenization-strategy-of-legacy-domain-business-libraries/",
+          "content": "<div style=\"margin-bottom: 10px;\"><img src=\"https://static.ebayinc.com/static/assets/Uploads/Blog/Posts/_resampled/FitWzIwMCwxMTNd/211209-Mavenization-Strategy-tech-blog-v1-01-inc-16x9-A.jpg\" width=\"200\" height=\"113\" alt=\"eBay’s Mavenization Strategy of Legacy Domain Business Libraries \" /></div><div>A brand new methodology to ameliorate the development and release process for eBay site business</div>",
+          "contentSnippet": "A brand new methodology to ameliorate the development and release process for eBay site business",
+          "publishedDate": "2021-12-14T08:00:00.000Z",
+          "categories": [{ "name": "article" }],
+          "author": "Paul  Zhang and Tao Jin",
+          "thumbnail": "https://static.ebayinc.com/api/assets/Uploads/Blog/Posts/_resampled/FitWzkwMCw1MDZd/211209-Mavenization-Strategy-tech-blog-v1-01-inc-16x9-A.jpg"
+        },
+        {
+          "title": "The Staging Dichotomy: Part Two",
+          "link": "https://tech.ebayinc.com/engineering/the-staging-dichotomy-part-two/",
+          "content": "<div style=\"margin-bottom: 10px;\"><img src=\"https://static.ebayinc.com/static/assets/Uploads/Blog/Posts/_resampled/FitWzIwMCwxMTNd/211130-Staging-Dichotomy-tech-blog-v1-01-inc-16x9-B2.jpg\" width=\"200\" height=\"113\" alt=\"The Staging Dichotomy: Part Two\" /></div><div>A two-part series on how eBay turned around an impeding staging environment into its biggest asset for developer productivity.</div>",
+          "contentSnippet": "A two-part series on how eBay turned around an impeding staging environment into its biggest asset for developer product",
+          "publishedDate": "2021-12-08T08:00:00.000Z",
+          "categories": [{ "name": "article" }],
+          "author": "Senthil Padmanabhan",
+          "thumbnail": "https://static.ebayinc.com/api/assets/Uploads/Blog/Posts/_resampled/FitWzkwMCw1MDZd/211130-Staging-Dichotomy-tech-blog-v1-01-inc-16x9-B2.jpg"
+        },
+        {
+          "title": "The Staging Dichotomy: Part One",
+          "link": "https://tech.ebayinc.com/engineering/the-staging-dichotomy-part-one/",
+          "content": "<div style=\"margin-bottom: 10px;\"><img src=\"https://static.ebayinc.com/static/assets/Uploads/Blog/Posts/_resampled/FitWzIwMCwxMTNd/211130-Staging-Dichotomy-tech-blog-v1-01-inc-16x9-B1.jpg\" width=\"200\" height=\"113\" alt=\"The Staging Dichotomy: Part One\" /></div><div>A two-part series on how eBay turned around an impeding staging environment into its biggest asset for developer productivity.</div>",
+          "contentSnippet": "A two-part series on how eBay turned around an impeding staging environment into its biggest asset for developer product",
+          "publishedDate": "2021-12-06T08:00:00.000Z",
+          "categories": [{ "name": "article" }],
+          "author": "Senthil Padmanabhan",
+          "thumbnail": "https://static.ebayinc.com/api/assets/Uploads/Blog/Posts/_resampled/FitWzkwMCw1MDZd/211130-Staging-Dichotomy-tech-blog-v1-01-inc-16x9-B1.jpg"
+        }
+      ]
+    }
+  }
+}

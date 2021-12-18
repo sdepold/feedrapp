@@ -3,7 +3,7 @@ const Feed = require('../../src/feed');
 
 const testMatrix = {
   'http://mamaskind.de/feed/atom/': {
-    title: 'Mamaskind',
+    title: 'Mamaskind Mamablog',
     description: '',
     link: 'https://mamaskind.de'
   },
@@ -22,7 +22,7 @@ const testMatrix = {
   }
 };
 
-describe('Feed', function () {
+describe.only('Feed', function () {
   this.timeout(10000);
 
   describe('read', () => {

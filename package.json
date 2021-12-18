@@ -42,7 +42,6 @@
     "watch": "^1.0.2"
   },
   "dependencies": {
-    "async-redis": "^1.1.7",
     "axios": "^0.15.3",
     "bluebird": "^3.5.0",
     "body-parser": "^1.16.0",
@@ -63,7 +62,6 @@
     "node-fetch": "^2.6.0",
     "nyc": "^11.0.2",
     "pug": "^2.0.0-beta10",
-    "redis": "^2.8.0",
     "request": "^2.88.0",
     "serve-favicon": "^2.3.2",
     "universal-analytics": "^0.4.13"

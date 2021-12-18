@@ -1,7 +1,8 @@
 const cors = require('cors');
 
 const AbstractServer = require('./abstract-server');
-const cache = require('./cache');
+const adsMiddleware = require('./middlewares/ads');
+const cacheMiddleware = require('./middlewares/cache');
 const indexRoute = require('../routes/index');
 const imprintRoute = require('../routes/imprint');
 const compression = require('compression');
@@ -12,7 +13,8 @@ module.exports = class Server extends AbstractServer {
       level: 9
     }));
     this.app.use(cors());
-    this.app.use(cache());
+    this.app.use(adsMiddleware());
+    this.app.use(cacheMiddleware());
     super.injectMiddlewares();
   }
 
