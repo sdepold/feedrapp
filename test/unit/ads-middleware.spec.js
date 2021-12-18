@@ -60,7 +60,7 @@ describe('Ads Middleware', () => {
       const req = { query: { q: URL, support: true } };
       const res = { send: Sinon.spy() };
       const next = Sinon.spy();
-      const adsHits = { [URL]: 5 };
+      const adsHits = { [URL]: 10 };
 
       await adsMiddleware(adsHits)(req, res, next);
       res.send(fixture);
@@ -80,7 +80,7 @@ describe('Ads Middleware', () => {
       const req = { query: { q: URL, support: true, callback: 'callback123' } };
       const res = { send: Sinon.spy() };
       const next = Sinon.spy();
-      const adsHits = { [URL]: 5 };
+      const adsHits = { [URL]: 10 };
 
       await adsMiddleware(adsHits)(req, res, next);
       res.send(`callback123(${fixture});`);
