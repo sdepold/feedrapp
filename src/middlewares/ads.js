@@ -9,6 +9,8 @@ const getAd = (req) => {
   const ads = _pair ? _pair[1] : adsConfig.mapping.default;
   const ad = ads[Math.floor(Math.random() * ads.length)];
 
+  console.log(`Injecting ad into "${req.query.q}" -->`, JSON.stringify(ad));
+
   return ad;
 };
 
