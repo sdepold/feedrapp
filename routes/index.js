@@ -16,14 +16,6 @@ router.get("/", function (req, res, next) {
 
 module.exports = router;
 
-function getYesterday() {
-  let date = new Date();
-
-  date.setDate(date.getDate() - 1);
-
-  return date;
-}
-
 async function handleHtmlRequest(req, res, next) {
   const sections = [
     "introduction",
