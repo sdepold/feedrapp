@@ -9,6 +9,9 @@ const fixture = readFileSync(
 const adInjectedFixture = readFileSync(
   `${__dirname}/fixture/ad-injected-response.json`
 ).toString();
+const adFallbackInjectedFixture = readFileSync(
+  `${__dirname}/fixture/ad-fallback-injected-response.json`
+).toString();
 
 const URL = "http://www.ebaytechblog.de/feed/";
 const URL_US = "http://www.ebaytechblog.com/feed/";
@@ -94,7 +97,7 @@ describe("Ads Middleware", () => {
       );
     });
 
-    it("does not inject the ad into non-supported pages", async () => {
+    it("does inject fallback ad into non-supported pages", async () => {
       const req = { query: { q: URL_US, support: true } };
       const res = { send: Sinon.spy() };
       const next = Sinon.spy();
@@ -107,7 +110,9 @@ describe("Ads Middleware", () => {
 
       const response = res.sendAdsResponse.getCalls()[0].args[0];
 
-      expect(response).to.deep.equal(fixture);
+      expect(response).to.deep.equal(
+        JSON.stringify(JSON.parse(adFallbackInjectedFixture))
+      );
     });
   });
 });
