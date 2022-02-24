@@ -39,11 +39,11 @@ module.exports =
   (duration = TTL) =>
   async (req, res, next) => {
     const cacheKey = toCacheKey(req);
-    console.time(cacheKey); // eslint-disable-line no-console
+    // console.time(cacheKey); // eslint-disable-line no-console
     const cacheResult = memoryCache.get(cacheKey);
 
     if (cacheResult) {
-      console.timeEnd(cacheKey); // eslint-disable-line no-console
+      // console.timeEnd(cacheKey); // eslint-disable-line no-console
 
       return res.send(formatResponse(req, cacheResult));
     }
@@ -55,7 +55,7 @@ module.exports =
         { body, callback: req.query.callback },
         duration
       );
-      console.timeEnd(cacheKey); // eslint-disable-line no-console
+      // console.timeEnd(cacheKey); // eslint-disable-line no-console
       res.sendCacheResponse(body);
     };
 
