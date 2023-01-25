@@ -39,7 +39,9 @@ function handleCallback(_body, callbackArg, fn) {
 
 const injectAd = (body, callback, ad) =>
   handleCallback(body, callback, (data) => {
-    data.responseData.feed.entries[0] = ad;
+    if (data.responseData.feed && data.responseData.feed.entries) {
+      data.responseData.feed.entries[0] = ad;
+    }
 
     return data;
   });
@@ -62,7 +64,7 @@ module.exports =
           const ad = getAd(req);
 
           if (ad) {
-            console.log(req.query.support, adsHits[req.query.q], ad)
+            console.log(req.query.support, adsHits[req.query.q], ad);
             body = injectAd(body, req.query.callback, ad);
             adsHits[req.query.q] = 0;
           }
