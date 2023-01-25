@@ -7,7 +7,11 @@ const router = express.Router();
 const sort = require("fast-sort");
 
 router.get("/", function (req, res, next) {
-  if (req.headers.accept.includes("text/html")) {
+  if (
+    req.headers &&
+    req.headers.accept &&
+    req.headers.accept.includes("text/html")
+  ) {
     handleHtmlRequest(req, res, next);
   } else {
     handleJsonRequest(req, res, next);
