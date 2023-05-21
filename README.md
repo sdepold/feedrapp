@@ -1,51 +1,23 @@
-# feedrapp
-[![Travis build status](http://img.shields.io/travis/sdepold/feedrapp.svg?style=flat)](https://travis-ci.org/sdepold/feedrapp)
-[![dependencies Status](https://david-dm.org/sdepold/feedrapp/status.svg)](https://david-dm.org/sdepold/feedrapp)
-[![devDependencies Status](https://david-dm.org/sdepold/feedrapp/dev-status.svg)](https://david-dm.org/sdepold/feedrapp?type=dev)
+# Nextra Docs Template 
 
-A service for parsing RSS and Atom feeds.
+This is a template for creating documentation with [Nextra](https://nextra.site).
 
-## Documentation
+[**Live Demo →**](https://nextra-docs-template.vercel.app)
 
-Please see https://feedrapp.info for further information.
+[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
 
-## Systemd Service
+## Quick Start
 
-Once you have downloaded this repository to your desired location, you can install it as
-a `systemd` service. Update `systemd/feedr.service` `WorkingDirectory` and `ExecStart`
-parameters to point to the location of your cloned repository. Then execute the following:
+Click the button to clone this repository and deploy it on Vercel:
 
-```bash
-cd systemd
-sudo make install
-```
+[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
 
-## Load Balanced Hosting
+## Local Development
 
-### Spawn the load balancer
+First, run `pnpm i` to install the dependencies.
 
-```bash
-rm Procfile
-mv Procfile-LB Procfile
-git commit -m "Use LB Procfile"
-git push heroku master
-```
+Then, run `pnpm dev` to start the development server and visit localhost:3000.
 
-### Spawn the workers
+## License
 
-```
-git push heroku master
-```
-
-### tmuxinator
-
-Assumption:
-
-You have the folders `~/Projects/feedr-app-[1-9]`:
-
-```
-brew install tmuxinator
-tmuxinator local
-```
-
-[Controls](https://tmuxcheatsheet.com/)
+This project is licensed under the MIT License.
