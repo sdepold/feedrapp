@@ -1,5 +1,5 @@
-import React from "react";
 import { DocsThemeConfig } from "nextra-theme-docs";
+import { Footer } from "./components/footer";
 
 const config: DocsThemeConfig = {
   logo: <span>Feedr App</span>,
@@ -7,16 +7,7 @@ const config: DocsThemeConfig = {
     link: "https://github.com/shuding/nextra-docs-template",
   },
   docsRepositoryBase: "https://github.com/sdepold/feedrapp",
-  footer: {
-    text: (
-      <>
-        MIT {new Date().getFullYear()} ©&nbsp;
-        <a href="https://depold.com" target="_blank">
-          Sascha Depold
-        </a>
-      </>
-    ),
-  },
+  footer: { text: <Footer /> },
   useNextSeoProps() {
     return {
       titleTemplate: "%s – Feedr App",
