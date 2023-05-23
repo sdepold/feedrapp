@@ -39,7 +39,7 @@ You can create your own copy of FeedrApp using the button below :)
 The hosting is powered and sponsored by Vercel. Thanks!
 
 <a href="https://vercel.com?utm_source=feedr-app&utm_campaign=oss" target="_blank">
-    <img src="https://images.ctfassets.net/e5382hct74si/78Olo8EZRdUlcDUFQvnzG7/fa4cdb6dc04c40fceac194134788a0e2/1618983297-powered-by-vercel.svg">
+    <img src="https://images.ctfassets.net/e5382hct74si/78Olo8EZRdUlcDUFQvnzG7/fa4cdb6dc04c40fceac194134788a0e2/1618983297-powered-by-vercel.svg" height="32">
 </a>
 
 ## License
