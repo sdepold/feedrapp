@@ -42,6 +42,33 @@ The hosting is powered and sponsored by Vercel. Thanks!
     <img src="https://images.ctfassets.net/e5382hct74si/78Olo8EZRdUlcDUFQvnzG7/fa4cdb6dc04c40fceac194134788a0e2/1618983297-powered-by-vercel.svg" height="32">
 </a>
 
+## Local development
+
+The following instructions outline the installation and bootup process on your local development machine.
+You will need Node.JS (e.g. version 18) and Yarn installed.
+
+```sh
+# Clone the repo
+git clone https://github.com/sdepold/feedrapp.git
+
+# Enter the directory
+cd feedrapp
+
+# Install dependencies
+yarn
+
+# Run the app in development mode
+yarn dev
+
+# To create and start a "production" build, run the following commands
+yarn build
+yarn start
+```
+
+After starting the app either in development or production mode, you can open http://localhost:3000 to visit the page.
+
+You can see the parsing results through http://localhost:3000/api/?q=https://bitte.kaufen/magazin/feed/
+
 ## License
 
 MIT
