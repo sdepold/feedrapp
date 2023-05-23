@@ -28,9 +28,11 @@ In addition to the `q` parameter, Feedr supports other optional parameters.
 | encoding  | The text encoding of the to be parsed feed. Defaults to "utf8". Find supported values [here](https://github.com/ashtuchkin/iconv-lite/wiki/Supported-Encodings).                                                                                                                                              | encoding=ISO-8859-1              |
 | order     | Specifies the order of entries. By default there is no ordering happening and the entries are kept in the order of the original RSS feed. The order can be overridden by providing any of the entry's fields (e.g. publishedDate, title, …). In order to reverse the order, just prefix the field with a `-`. | order=title order=-publishedDate |
 
-## License
+## Run it yourself
 
-MIT
+You can create your own copy of FeedrApp using the button below :)
+
+[![Deploy your own FeedrApp copy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsdepold%2Ffeedrapp)
 
 ## Hosting
 
@@ -39,3 +41,7 @@ The hosting is powered and sponsored by Vercel. Thanks!
 <a href="https://vercel.com?utm_source=feedr-app&utm_campaign=oss" target="_blank">
     <img src="https://images.ctfassets.net/e5382hct74si/78Olo8EZRdUlcDUFQvnzG7/fa4cdb6dc04c40fceac194134788a0e2/1618983297-powered-by-vercel.svg">
 </a>
+
+## License
+
+MIT
