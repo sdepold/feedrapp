@@ -1,0 +1,15 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "q",
+          "value": "foo"
+        }
+      ],
+      "destination": "/api/"
+    }
+  ]
+}

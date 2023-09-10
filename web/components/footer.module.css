@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+.link {
+  align-self: flex-end;
+}
+
+.image {
+  height: 26px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .link {
+    align-self: center;
+    margin-top: 1em;
+  }
+}

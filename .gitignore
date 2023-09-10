@@ -30,3 +30,5 @@ node_modules
 dist
 public/stylesheets/style.css
 .nyc_output
+.DS_Store
+.next
