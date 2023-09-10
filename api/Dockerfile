@@ -1,4 +1,4 @@
-FROM node:18-alpine AS BUILD_IMAGE
+FROM node:16-alpine AS BUILD_IMAGE
 
 RUN apk update && apk add yarn curl bash python3 g++ make 
 
@@ -21,7 +21,7 @@ RUN npm prune --production
 # run node prune
 RUN curl -sf https://gobinaries.com/tj/node-prune | sh
 
-FROM node:18-alpine AS RUN_IMAGE
+FROM node:16-alpine AS RUN_IMAGE
 
 WORKDIR /srv/app
 COPY --from=BUILD_IMAGE /srv/app .
