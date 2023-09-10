@@ -1,0 +1,42 @@
+version: "3.9"
+services:
+  website:
+    image: ghcr.io/sdepold/feedr-web:1.12.0
+    restart: always
+    deploy:
+      resources:
+        limits:
+          cpus: "0.5"
+          memory: 512M
+        reservations:
+          cpus: "0.5"
+          memory: 512M
+  api:
+    image: ghcr.io/sdepold/feedr-api:1.12.0
+    restart: always
+    deploy:
+      resources:
+        limits:
+          cpus: "1.5"
+          memory: 1024M
+        reservations:
+          cpus: "1.5"
+          memory: 1024M
+
+  nginx:
+    container_name: nginx
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+    restart: always
+    deploy:
+      resources:
+        limits:
+          memory: 256M
+        reservations:
+          memory: 256M
+    depends_on:
+      - api
+      - website
