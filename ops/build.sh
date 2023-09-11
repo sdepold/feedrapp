@@ -10,6 +10,7 @@ pushd web
 npm version $version
 popd
 
+git commit -am "Bump to v$version";
 git push
 git push --tags
 # end versioning
