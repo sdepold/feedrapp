@@ -1,21 +1,7 @@
 const adsConfig = require("../../config/ads");
+const { getCarbonAd } = require("../models/carbon-ads");
 
 const AD_CAP_LIMIT = adsConfig.limit;
-
-const getAd = (req) => {
-  const pair = Object.entries(adsConfig.mapping).find(([needle]) =>
-    req.query.q.includes(needle)
-  );
-
-  if (pair) {
-    const [, ads] = pair;
-    const ad = ads[Math.floor(Math.random() * ads.length)];
-
-    console.log(`Injecting ad into "${req.query.q}" -->`, JSON.stringify(ad));
-
-    return ad;
-  }
-};
 
 function handleCallback(_body, callbackArg, fn) {
   let body = `${_body}`;
@@ -61,7 +47,7 @@ module.exports =
         adsHits[req.query.q] = (adsHits[req.query.q] || 0) + 1;
 
         if (adsHits[req.query.q] >= AD_CAP_LIMIT) {
-          const ad = getAd(req);
+          const ad = await getCarbonAd(req);
 
           if (ad) {
             console.log(req.query.support, adsHits[req.query.q], ad);
