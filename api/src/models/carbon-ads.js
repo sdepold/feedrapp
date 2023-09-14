@@ -1,4 +1,5 @@
 const fetch = require("node-fetch");
+const minify = require('html-minifier').minify;
 
 const PLACEMENT = "feedrappinfo";
 const SERVE = "CWYDL53M";
@@ -23,14 +24,20 @@ function getAdLink(ad) {
 }
 
 function getAdContent(ad) {
-  return `
+  return minify(`
         <div id="carbonads">
             <span>
                 <span class="carbon-wrap">
-                    <a href="${getAdLink(ad)}" class="carbon-img" target="_blank" rel="noopener sponsored">
-                        <img src="${ad.smallImage}" alt="ads via Carbon" border="0" height="100" width="130" style="max-width: 130px" />
+                    <a href="${getAdLink(
+                      ad
+                    )}" class="carbon-img" target="_blank" rel="noopener sponsored">
+                        <img src="${
+                          ad.smallImage
+                        }" alt="ads via Carbon" border="0" height="100" width="130" style="max-width: 130px" />
                     </a>
-                    <a href="${getAdLink(ad)}" class="carbon-text" target="_blank" rel="noopener sponsored">
+                    <a href="${getAdLink(
+                      ad
+                    )}" class="carbon-text" target="_blank" rel="noopener sponsored">
                         ${ad.description}
                     </a>
                 </span>
@@ -44,7 +51,10 @@ function getAdContent(ad) {
                 </a>
             </span>
         </div>
-    `;
+    `, {
+        collapseInlineTagWhitespace: true,
+        collapseWhitespace: true,
+    });
 }
 
 function formatCarbonAd(ad) {
