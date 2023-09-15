@@ -42,12 +42,12 @@ describe("Ads Middleware", () => {
     const next = Sinon.spy();
 
     await adsMiddleware({})(req, res, next);
-    res.send(`callback123(${fixture});`);
+    res.send(`callback123(${JSON.stringify(fixture)});`);
 
     expect(next).to.have.been.calledOnce;
     expect(res.sendAdsResponse).to.have.been.calledOnce;
     expect(res.sendAdsResponse.getCalls()[0].args[0]).to.deep.equal(
-      `callback123(${fixture});`
+      `callback123(${JSON.stringify(fixture)});`
     );
   });
 
@@ -58,11 +58,11 @@ describe("Ads Middleware", () => {
       const next = Sinon.spy();
 
       await adsMiddleware({})(req, res, next);
-      res.send(fixture);
+      await res.send(JSON.stringify(fixture));
 
       expect(next).to.have.been.calledOnce;
       expect(res.sendAdsResponse).to.have.been.calledOnce;
-      expect(res.sendAdsResponse.getCalls()[0].args[0]).to.deep.equal(fixture);
+      expect(res.sendAdsResponse.getCalls()[0].args[0]).to.deep.equal(JSON.stringify(fixture));
     });
 
     it("replaces the first entry if ad cap level is reached", async () => {
@@ -101,12 +101,12 @@ describe("Ads Middleware", () => {
       );
     });
 
-    it("does inject fallback ad into broken feeds", async () => {
+    it("does inject fallback ad into broken feeds ignoring the normal limit", async () => {
       const req = { query: { q: URL_BROKEN, support: true } };
       const res = { send: Sinon.spy() };
       const next = Sinon.spy();
 
-      await adsMiddleware({ [URL_BROKEN]: 10 })(req, res, next);
+      await adsMiddleware({ [URL_BROKEN]: 0 })(req, res, next);
       await res.send(JSON.stringify(brokenFixture));
 
       expect(next).to.have.been.calledOnce;

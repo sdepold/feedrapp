@@ -47,11 +47,15 @@ module.exports =
       if (String(req.query.support) === "true") {
         adsHits[req.query.q] = (adsHits[req.query.q] || 0) + 1;
 
-        if (adsHits[req.query.q] >= AD_CAP_LIMIT) {
+        const reachedLimit = adsHits[req.query.q] >= AD_CAP_LIMIT;
+        const requestFailed = body.includes(`"responseStatus":400`);
+
+        if (requestFailed || reachedLimit) {
           const ad = await getCarbonAd(req);
 
           if (ad) {
-            console.log(req.query.support, adsHits[req.query.q], ad);
+            console.log("Injecting Ad", ad, "into", req.query.q);
+
             body = injectAd(body, req.query.callback, ad);
             adsHits[req.query.q] = 0;
           }
