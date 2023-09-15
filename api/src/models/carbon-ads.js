@@ -1,43 +1,18 @@
-const fetch = require("node-fetch");
-const minify = require('html-minifier').minify;
-
-const PLACEMENT = "feedrappinfo";
-const SERVE = "CWYDL53M";
-const AD_URL = `https://srv.carbonads.net/ads/${SERVE}.json?segment=placement:${PLACEMENT}`;
-
-async function getRawCarbonAd() {
-  const result = await fetch(AD_URL);
-
-  if (!result.ok) {
-    throw new Error(
-      `Failed to fetch ad: ${result.status} ${result.statusText}`
-    );
-  }
-
-  const { ads } = await result.json();
-
-  return ads[0];
-}
-
-function getAdLink(ad) {
-  return `https:${ad.statlink}?segment=placement:${PLACEMENT}`;
-}
+const adsService = require("./carbon-ads-service");
+const minify = require("html-minifier").minify;
 
 function getAdContent(ad) {
-  return minify(`
+  const link = adsService.getAdLink(ad);
+
+  return minify(
+    `
         <div id="carbonads">
             <span>
                 <span class="carbon-wrap">
-                    <a href="${getAdLink(
-                      ad
-                    )}" class="carbon-img" target="_blank" rel="noopener sponsored">
-                        <img src="${
-                          ad.smallImage
-                        }" alt="ads via Carbon" border="0" height="100" width="130" style="max-width: 130px" />
+                    <a href="${link}" class="carbon-img" target="_blank" rel="noopener sponsored">
+                        <img src="${ad.smallImage}" alt="ads via Carbon" border="0" height="100" width="130" style="max-width: 130px" />
                     </a>
-                    <a href="${getAdLink(
-                      ad
-                    )}" class="carbon-text" target="_blank" rel="noopener sponsored">
+                    <a href="${link}" class="carbon-text" target="_blank" rel="noopener sponsored">
                         ${ad.description}
                     </a>
                 </span>
@@ -51,16 +26,19 @@ function getAdContent(ad) {
                 </a>
             </span>
         </div>
-    `, {
-        collapseInlineTagWhitespace: true,
-        collapseWhitespace: true,
-    });
+    `,
+    {
+      collapseInlineTagWhitespace: true,
+      collapseWhitespace: true,
+    }
+  );
 }
 
 function formatCarbonAd(ad) {
+    console.log(ad)
   return {
     title: "Carbon Ad",
-    link: getAdLink(ad),
+    link: adsService.getAdLink(ad),
     content: getAdContent(ad),
     contentSnippet: ad.description,
     publishedDate: new Date(Number(ad.timestamp) * 1000).toISOString(),
@@ -72,7 +50,7 @@ function formatCarbonAd(ad) {
 
 async function getCarbonAd() {
   try {
-    return formatCarbonAd(await getRawCarbonAd());
+    return formatCarbonAd(await adsService.getRawCarbonAd());
   } catch (e) {
     console.log(e);
 
@@ -80,4 +58,4 @@ async function getCarbonAd() {
   }
 }
 
-module.exports = { getCarbonAd, formatCarbonAd, getAdContent, getRawCarbonAd };
+module.exports = { getCarbonAd, formatCarbonAd, getAdContent };

@@ -11,9 +11,7 @@ function handleCallback(_body, callbackArg, fn) {
     body = body.replace(/\);?$/, "");
   }
 
-  body = JSON.parse(body);
-
-  const data = fn(body);
+  const data = fn(JSON.parse(body));
   const response = JSON.stringify(data);
 
   if (callbackArg) {
@@ -27,6 +25,8 @@ const injectAd = (body, callback, ad) =>
   handleCallback(body, callback, (data) => {
     if (data.responseData.feed && data.responseData.feed.entries) {
       data.responseData.feed.entries[0] = ad;
+    } else if (!data.responseData.feed) {
+      data.responseData.feed = { entries: [ad] };
     }
 
     return data;
@@ -42,6 +42,7 @@ module.exports =
   (adsHits = _adsHits) =>
   async (req, res, next) => {
     res.sendAdsResponse = res.send;
+
     res.send = async (body) => {
       if (String(req.query.support) === "true") {
         adsHits[req.query.q] = (adsHits[req.query.q] || 0) + 1;

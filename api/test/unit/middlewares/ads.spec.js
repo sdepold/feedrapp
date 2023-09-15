@@ -1,22 +1,28 @@
+const carbonAdsService = require("../../../src/models/carbon-ads-service");
 const { expect } = require("chai");
-const { readFileSync } = require("fs");
 const Sinon = require("sinon");
-const adsMiddleware = require("../../src/middlewares/ads");
+const adsMiddleware = require("../../../src/middlewares/ads");
 
-const fixture = readFileSync(
-  `${__dirname}/fixture/normal-response.json`
-).toString();
-const adInjectedFixture = readFileSync(
-  `${__dirname}/fixture/ad-injected-response.json`
-).toString();
-const adFallbackInjectedFixture = readFileSync(
-  `${__dirname}/fixture/ad-fallback-injected-response.json`
-).toString();
+const fixture = require(`../fixture/normal-response.json`);
+const brokenFixture = require(`../fixture/broken-response.json`);
+const adInjectedFixture = require(`../fixture/ad-injected-response.json`);
+const adFallbackInjectedFixture = require(`../fixture/ad-fallback-injected-response.json`);
+const carbonAdFixture = require("../fixture/carbon-ad.json");
 
 const URL = "http://www.ebaytechblog.de/feed/";
-const URL_US = "http://www.ebaytechblog.com/feed/";
+const URL_BROKEN = "http://www.ebaybrokentechblog.com/feed/";
 
 describe("Ads Middleware", () => {
+  beforeEach(() => {
+    Sinon.stub(carbonAdsService, "getRawCarbonAd").returns(
+      Promise.resolve(carbonAdFixture)
+    );
+  });
+
+  afterEach(() => {
+    carbonAdsService.getRawCarbonAd.restore();
+  });
+
   it("does not touch the original response if support is turned off", async () => {
     const req = { query: { q: URL, support: false } };
     const res = { send: Sinon.spy() };
@@ -65,7 +71,7 @@ describe("Ads Middleware", () => {
       const next = Sinon.spy();
 
       await adsMiddleware({ [URL]: 10 })(req, res, next);
-      res.send(fixture);
+      await res.send(JSON.stringify(fixture));
 
       expect(next).to.have.been.calledOnce;
       expect(res.sendAdsResponse).to.have.been.calledOnce;
@@ -73,9 +79,7 @@ describe("Ads Middleware", () => {
       const response = res.sendAdsResponse.getCalls()[0].args[0];
 
       expect(response).to.not.deep.equal(fixture);
-      expect(response).to.deep.equal(
-        JSON.stringify(JSON.parse(adInjectedFixture))
-      );
+      expect(response).to.deep.equal(JSON.stringify(adInjectedFixture));
     });
 
     it("supports callback params", async () => {
@@ -84,7 +88,7 @@ describe("Ads Middleware", () => {
       const next = Sinon.spy();
 
       await adsMiddleware({ [URL]: 10 })(req, res, next);
-      res.send(`callback123(${fixture});`);
+      await res.send(`callback123(${JSON.stringify(fixture)});`);
 
       expect(next).to.have.been.calledOnce;
       expect(res.sendAdsResponse).to.have.been.calledOnce;
@@ -93,17 +97,17 @@ describe("Ads Middleware", () => {
 
       expect(response).to.not.deep.equal(fixture);
       expect(response).to.deep.equal(
-        `callback123(${JSON.stringify(JSON.parse(adInjectedFixture))});`
+        `callback123(${JSON.stringify(adInjectedFixture)});`
       );
     });
 
-    it("does inject fallback ad into non-supported pages", async () => {
-      const req = { query: { q: URL_US, support: true } };
+    it("does inject fallback ad into broken feeds", async () => {
+      const req = { query: { q: URL_BROKEN, support: true } };
       const res = { send: Sinon.spy() };
       const next = Sinon.spy();
 
-      await adsMiddleware({ [URL_US]: 10 })(req, res, next);
-      res.send(fixture);
+      await adsMiddleware({ [URL_BROKEN]: 10 })(req, res, next);
+      await res.send(JSON.stringify(brokenFixture));
 
       expect(next).to.have.been.calledOnce;
       expect(res.sendAdsResponse).to.have.been.calledOnce;
@@ -111,7 +115,7 @@ describe("Ads Middleware", () => {
       const response = res.sendAdsResponse.getCalls()[0].args[0];
 
       expect(response).to.deep.equal(
-        JSON.stringify(JSON.parse(adFallbackInjectedFixture))
+        JSON.stringify(adFallbackInjectedFixture)
       );
     });
   });
