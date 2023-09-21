@@ -18,7 +18,7 @@ git push --tags
 # build the api
 pushd api
 docker build --platform=linux/amd64 -t "ghcr.io/sdepold/feedr-api:$version" .
-docker push "$ghcr.io/sdepold/feedr-api:$version"
+docker push "ghcr.io/sdepold/feedr-api:$version"
 popd
 
 # build the web
