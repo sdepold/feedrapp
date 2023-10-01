@@ -1,5 +1,5 @@
 const adsConfig = require("../../config/ads");
-const { getCarbonAd } = require("../models/carbon-ads");
+const { getEthicalAd } = require("../models/ethical-ads");
 
 const AD_CAP_LIMIT = adsConfig.limit;
 
@@ -51,7 +51,7 @@ module.exports =
         const requestFailed = body.includes(`"responseStatus":400`);
 
         if (requestFailed || reachedLimit) {
-          const ad = await getCarbonAd(req);
+          const ad = await getEthicalAd(req);
 
           if (ad) {
             console.log("Injecting Ad", ad, "into", req.query.q);

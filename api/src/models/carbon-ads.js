@@ -35,7 +35,6 @@ function getAdContent(ad) {
 }
 
 function formatCarbonAd(ad) {
-    console.log(ad)
   return {
     title: "Carbon Ad",
     link: adsService.getAdLink(ad),

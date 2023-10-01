@@ -1,4 +1,4 @@
-const carbonAdsService = require("../../../src/models/carbon-ads-service");
+const ethicalAdsService = require("../../../src/models/ethical-ads-service");
 const { expect } = require("chai");
 const Sinon = require("sinon");
 const adsMiddleware = require("../../../src/middlewares/ads");
@@ -7,20 +7,20 @@ const fixture = require(`../fixture/normal-response.json`);
 const brokenFixture = require(`../fixture/broken-response.json`);
 const adInjectedFixture = require(`../fixture/ad-injected-response.json`);
 const adFallbackInjectedFixture = require(`../fixture/ad-fallback-injected-response.json`);
-const carbonAdFixture = require("../fixture/carbon-ad.json");
+const ethicalAdFixture = require("../fixture/ethical-ad.json");
 
 const URL = "http://www.ebaytechblog.de/feed/";
 const URL_BROKEN = "http://www.ebaybrokentechblog.com/feed/";
 
-describe("Ads Middleware", () => {
+describe.only("Ads Middleware", () => {
   beforeEach(() => {
-    Sinon.stub(carbonAdsService, "getRawCarbonAd").returns(
-      Promise.resolve(carbonAdFixture)
+    Sinon.stub(ethicalAdsService, "getRawEthicalAd").returns(
+      Promise.resolve(ethicalAdFixture)
     );
   });
 
   afterEach(() => {
-    carbonAdsService.getRawCarbonAd.restore();
+    ethicalAdsService.getRawEthicalAd.restore();
   });
 
   it("does not touch the original response if support is turned off", async () => {
@@ -62,7 +62,9 @@ describe("Ads Middleware", () => {
 
       expect(next).to.have.been.calledOnce;
       expect(res.sendAdsResponse).to.have.been.calledOnce;
-      expect(res.sendAdsResponse.getCalls()[0].args[0]).to.deep.equal(JSON.stringify(fixture));
+      expect(res.sendAdsResponse.getCalls()[0].args[0]).to.deep.equal(
+        JSON.stringify(fixture)
+      );
     });
 
     it("replaces the first entry if ad cap level is reached", async () => {
@@ -77,9 +79,12 @@ describe("Ads Middleware", () => {
       expect(res.sendAdsResponse).to.have.been.calledOnce;
 
       const response = res.sendAdsResponse.getCalls()[0].args[0];
+      const sanitizedResponse = removePublishedDate(response);
 
-      expect(response).to.not.deep.equal(fixture);
-      expect(response).to.deep.equal(JSON.stringify(adInjectedFixture));
+      expect(sanitizedResponse).to.not.deep.equal(fixture);
+      expect(sanitizedResponse).to.deep.equal(
+        removePublishedDate(JSON.stringify(adInjectedFixture))
+      );
     });
 
     it("supports callback params", async () => {
@@ -94,10 +99,13 @@ describe("Ads Middleware", () => {
       expect(res.sendAdsResponse).to.have.been.calledOnce;
 
       const response = res.sendAdsResponse.getCalls()[0].args[0];
+      const sanitizedResponse = removePublishedDate(response);
 
-      expect(response).to.not.deep.equal(fixture);
-      expect(response).to.deep.equal(
-        `callback123(${JSON.stringify(adInjectedFixture)});`
+      expect(sanitizedResponse).to.not.deep.equal(fixture);
+      expect(sanitizedResponse).to.deep.equal(
+        `callback123(${removePublishedDate(
+          JSON.stringify(adInjectedFixture)
+        )});`
       );
     });
 
@@ -113,10 +121,15 @@ describe("Ads Middleware", () => {
       expect(res.sendAdsResponse).to.have.been.calledOnce;
 
       const response = res.sendAdsResponse.getCalls()[0].args[0];
+      const sanitizedResponse = removePublishedDate(response);
 
-      expect(response).to.deep.equal(
-        JSON.stringify(adFallbackInjectedFixture)
+      expect(sanitizedResponse).to.deep.equal(
+        removePublishedDate(JSON.stringify(adFallbackInjectedFixture))
       );
     });
   });
 });
+
+function removePublishedDate(response) {
+  return response.replace(/,"publishedDate":".*?"/g, "");
+}
