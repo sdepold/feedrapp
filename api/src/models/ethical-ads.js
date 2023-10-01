@@ -1,5 +1,5 @@
-const adsService = require("./ethical-ads-service");
-const minify = require("html-minifier").minify;
+const adsService = require('./ethical-ads-service');
+const minify = require('html-minifier').minify;
 
 function formatEthicalAd(ad) {
   return {
@@ -8,9 +8,9 @@ function formatEthicalAd(ad) {
     content: ad.html,
     contentSnippet: ad.text,
     publishedDate: new Date().toISOString(),
-    categories: [{ name: "ads" }],
-    author: "Ethical Ads",
-    thumbnail: ad.image,
+    categories: [{ name: 'ads' }],
+    author: 'Ethical Ads',
+    thumbnail: ad.image
   };
 }
 

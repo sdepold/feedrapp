@@ -1,5 +1,5 @@
-const adsConfig = require("../../config/ads");
-const { getEthicalAd } = require("../models/ethical-ads");
+const adsConfig = require('../../config/ads');
+const { getEthicalAd } = require('../models/ethical-ads');
 
 const AD_CAP_LIMIT = adsConfig.limit;
 
@@ -7,8 +7,8 @@ function handleCallback(_body, callbackArg, fn) {
   let body = `${_body}`;
 
   if (callbackArg && body.startsWith(`${callbackArg}(`)) {
-    body = body.replace(`${callbackArg}(`, "");
-    body = body.replace(/\);?$/, "");
+    body = body.replace(`${callbackArg}(`, '');
+    body = body.replace(/\);?$/, '');
   }
 
   const data = fn(JSON.parse(body));
@@ -44,17 +44,17 @@ module.exports =
     res.sendAdsResponse = res.send;
 
     res.send = async (body) => {
-      if (String(req.query.support) === "true") {
+      if (String(req.query.support) === 'true') {
         adsHits[req.query.q] = (adsHits[req.query.q] || 0) + 1;
 
         const reachedLimit = adsHits[req.query.q] >= AD_CAP_LIMIT;
-        const requestFailed = body.includes(`"responseStatus":400`);
+        const requestFailed = body.includes('"responseStatus":400');
 
         if (requestFailed || reachedLimit) {
           const ad = await getEthicalAd(req);
 
           if (ad) {
-            console.log("Injecting Ad", ad, "into", req.query.q);
+            console.log('Injecting Ad', ad, 'into', req.query.q);
 
             body = injectAd(body, req.query.callback, ad);
             adsHits[req.query.q] = 0;

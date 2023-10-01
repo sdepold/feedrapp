@@ -1,7 +1,7 @@
-const fetch = require("node-fetch");
+const fetch = require('node-fetch');
 
-const PLACEMENT = "feedrappinfo";
-const SERVE = "CWYDL53M";
+const PLACEMENT = 'feedrappinfo';
+const SERVE = 'CWYDL53M';
 const AD_URL = `https://srv.carbonads.net/ads/${SERVE}.json?segment=placement:${PLACEMENT}`;
 
 async function getRawCarbonAd() {
@@ -27,5 +27,5 @@ module.exports = {
   getAdLink,
   PLACEMENT,
   SERVE,
-  AD_URL,
+  AD_URL
 };

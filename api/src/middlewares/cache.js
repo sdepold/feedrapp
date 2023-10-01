@@ -1,7 +1,7 @@
 const TTL = 30 * 60 * 1000; // 30 minutes
-const memoryCache = require("memory-cache");
-const querystring = require("querystring");
-const { setContentType } = require("../helper");
+const memoryCache = require('memory-cache');
+const querystring = require('querystring');
+const { setContentType } = require('../helper');
 
 function formatResponse(req, cacheResult) {
   if (cacheResult.callback) {
@@ -18,9 +18,9 @@ function toCacheKey(req) {
   const queryParams = Object.assign(
     {
       isApiRequest: !(
-        req.headers.accept && req.headers.accept.includes("text/html")
+        req.headers.accept && req.headers.accept.includes('text/html')
       ),
-      path: req.path,
+      path: req.path
     },
     req.query
   );
@@ -29,7 +29,7 @@ function toCacheKey(req) {
     // Sanitize callback instead of removing it.
     // This fixes the situation where a feed was requested first without a callback
     // and later on with a callback.
-    queryParams.callback = "callback";
+    queryParams.callback = 'callback';
   }
   delete queryParams._;
 

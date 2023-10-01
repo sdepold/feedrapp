@@ -1,13 +1,14 @@
-const _ = require("lodash");
-const Bluebird = require("bluebird");
-const express = require("express");
-const Feed = require("../feed");
-const helper = require("../helper");
-const router = express.Router();
-const sort = require("fast-sort");
+const _ = require('lodash');
+const Bluebird = require('bluebird');
+const express = require('express');
+const Feed = require('../feed');
+const helper = require('../helper');
 
-router.get("/api", function (req, res, next) {
-  getResponseData(req).then(function (feed) {
+const router = express.Router();
+const sort = require('fast-sort');
+
+router.get('/api', (req, res, next) => {
+  getResponseData(req).then((feed) => {
     helper.setContentType(req.query.callback, res);
 
     if (req.query.callback) {
@@ -26,7 +27,7 @@ function sortEntries(arr, order) {
   }
 
   const match = order.match(/^(-){0,1}(.*)$/);
-  const orderMethod = match[1] ? "desc" : "asc";
+  const orderMethod = match[1] ? 'desc' : 'asc';
   const orderField = match[2];
 
   return sort(arr)[orderMethod]((entry) => entry[orderField]);
@@ -53,7 +54,7 @@ function getFeedData(feedUrls, feedOptions) {
         entries: sortEntries(
           (acc.entries || []).concat(feed.entries || []),
           feedOptions.order
-        ),
+        )
       }),
       {}
     );
@@ -62,30 +63,27 @@ function getFeedData(feedUrls, feedOptions) {
 
 function getResponseData(req) {
   const feedUrl = req.query.q;
-  const feedOptions = _.pick(req.query, ["num", "encoding", "order"]);
+  const feedOptions = _.pick(req.query, ['num', 'encoding', 'order']);
 
   if (feedUrl) {
-    return getFeedData(feedUrl.split(","), feedOptions)
-      .then((feed) => {
-        return {
-          responseStatus: 200,
-          responseDetails: null,
-          responseData: { feed },
-        };
-      })
+    return getFeedData(feedUrl.split(','), feedOptions)
+      .then((feed) => ({
+        responseStatus: 200,
+        responseDetails: null,
+        responseData: { feed }
+      }))
       .catch((error) => {
         console.error({ feedUrl, error });
         return helper.badRequest({
-          message: "Parsing the provided feed url failed.",
+          message: 'Parsing the provided feed url failed.'
         });
       });
-  } else {
-    return Bluebird.resolve(
+  }
+  return Bluebird.resolve(
       helper.badRequest({
-        message: "No q param found!",
+        message: 'No q param found!',
         details:
-          'Please add a query parameter "q" to the request URL which points to a feed!',
+          'Please add a query parameter "q" to the request URL which points to a feed!'
       })
     );
-  }
 }
