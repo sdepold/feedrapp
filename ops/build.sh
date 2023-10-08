@@ -1,5 +1,7 @@
 #!/bin/bash
 
+old_version=$(node -e "console.log(require('./package.json').version)")
+
 # start versioning
 pushd api
 npm version minor
@@ -9,6 +11,9 @@ popd
 pushd web
 npm version $version
 popd
+
+# Update docker-compose
+sed -i "" "s/$old_version/$version/g" ops/docker-compose.yml
 
 git commit -am "Bump to v$version";
 git push
