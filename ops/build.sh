@@ -1,6 +1,9 @@
 #!/bin/bash
 
+# load the previous version
+pushd api
 old_version=$(node -e "console.log(require('./package.json').version)")
+popd
 
 # start versioning
 pushd api
