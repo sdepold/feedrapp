@@ -14,9 +14,14 @@ function formatEthicalAd(ad) {
   };
 }
 
-async function getEthicalAd() {
+async function getEthicalAd(req) {
   try {
-    return formatEthicalAd(await adsService.getRawEthicalAd());
+    const payload = {
+      user_ip: req.ip,
+      user_ua: req.headers['user-agent']
+    };
+
+    return formatEthicalAd(await adsService.getRawEthicalAd(payload));
   } catch (e) {
     console.log(e);
 

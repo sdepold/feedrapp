@@ -2,7 +2,7 @@ const fetch = require('node-fetch');
 
 const AD_URL = 'https://server.ethicalads.io/api/v1/decision/';
 
-async function getRawEthicalAd() {
+async function getRawEthicalAd(payload={}) {
   const result = await fetch(AD_URL, {
     method: 'POST',
     headers: {
@@ -11,6 +11,7 @@ async function getRawEthicalAd() {
       Authorization: 'Token 0240ea84e680a7d8eab2236e4a82432655d79607'
     },
     body: JSON.stringify({
+      ...payload,
       publisher: 'feedrappinfo',
       placements: [
         {

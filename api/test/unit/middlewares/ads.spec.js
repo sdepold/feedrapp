@@ -24,7 +24,7 @@ describe("Ads Middleware", () => {
   });
 
   it("does not touch the original response if support is turned off", async () => {
-    const req = { query: { q: URL, support: false } };
+    const req = { query: { q: URL, support: false }, headers: {} };
     const res = { send: Sinon.spy() };
     const next = Sinon.spy();
 
@@ -37,7 +37,7 @@ describe("Ads Middleware", () => {
   });
 
   it("supports callback param", async () => {
-    const req = { query: { q: URL, support: false, callback: "callback123" } };
+    const req = { query: { q: URL, support: false, callback: "callback123" }, headers: {} };
     const res = { send: Sinon.spy() };
     const next = Sinon.spy();
 
@@ -53,7 +53,7 @@ describe("Ads Middleware", () => {
 
   describe("support is enabled", () => {
     it("does not touch the original response if ad cap level is not reached", async () => {
-      const req = { query: { q: URL, support: true } };
+      const req = { query: { q: URL, support: true }, headers: {} };
       const res = { send: Sinon.spy() };
       const next = Sinon.spy();
 
@@ -68,7 +68,7 @@ describe("Ads Middleware", () => {
     });
 
     it("replaces the first entry if ad cap level is reached", async () => {
-      const req = { query: { q: URL, support: true } };
+      const req = { query: { q: URL, support: true }, headers: {} };
       const res = { send: Sinon.spy() };
       const next = Sinon.spy();
 
@@ -88,7 +88,7 @@ describe("Ads Middleware", () => {
     });
 
     it("supports callback params", async () => {
-      const req = { query: { q: URL, support: true, callback: "callback123" } };
+      const req = { query: { q: URL, support: true, callback: "callback123" }, headers: {} };
       const res = { send: Sinon.spy() };
       const next = Sinon.spy();
 
@@ -110,7 +110,7 @@ describe("Ads Middleware", () => {
     });
 
     it("does inject fallback ad into broken feeds ignoring the normal limit", async () => {
-      const req = { query: { q: URL_BROKEN, support: true } };
+      const req = { query: { q: URL_BROKEN, support: true }, headers: {} };
       const res = { send: Sinon.spy() };
       const next = Sinon.spy();
 
