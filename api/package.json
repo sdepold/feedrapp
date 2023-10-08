@@ -1,6 +1,6 @@
 {
   "name": "feedrapp",
-  "version": "1.26.0",
+  "version": "1.27.0",
   "description": "A service for parsing RSS and Atom feeds.",
   "main": "dist/index.js",
   "scripts": {
