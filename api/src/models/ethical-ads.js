@@ -1,5 +1,5 @@
 const adsService = require('./ethical-ads-service');
-const minify = require('html-minifier').minify;
+const requestIp = require('request-ip');
 
 function formatEthicalAd(ad) {
   return {
@@ -17,7 +17,7 @@ function formatEthicalAd(ad) {
 async function getEthicalAd(req) {
   try {
     const payload = {
-      user_ip: req.ip,
+      user_ip: requestIp.getClientIp(req),
       user_ua: req.headers['user-agent']
     };
 
