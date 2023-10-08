@@ -1,0 +1,29 @@
+{
+  "responseStatus": 200,
+  "responseDetails": null,
+  "responseData": {
+    "feed": {
+      "feedUrl": "http://rssfeeds.usatoday.com/UsatodaycomWorld-TopStories",
+      "title": "GANNETT Syndication Service",
+      "link": "https://api-internal.usatoday.com.akadns.net",
+      "description": "USATODAY - World Top Stories",
+      "author": "",
+      "entries": [
+        {
+          "title": "Trump says Kurds are 'very happy' with U.S.-brokered deal and U.S. has 'taken control' of oil",
+          "link": "http://rssfeeds.usatoday.com/~/607927146/0/usatodaycomworld-topstories~Trump-says-Kurds-are-very-happy-with-USbrokered-deal-and-US-has-taken-control-of-oil/",
+          "content": "<p>Fighting is continuing near the Syria-Turkey border despite a Trump administration boast it had helped broker a 'cease-fire,' Kurdish authorities say.</p><Img align=\"left\" border=\"0\" height=\"1\" width=\"1\" alt=\"\" style=\"border:0;float:left;margin:0;padding:0;width:1px!important;height:1px!important;\" hspace=\"0\" src=\"http://rssfeeds.usatoday.com/~/i/607927146/0/usatodaycomworld-topstories\">\r\n<div style=\"clear:left\"><a href=\"https://www.gannett-cdn.com/presto/2019/10/18/USAT/659aa060-1350-47bf-a718-5abde30af15d-AP_Turkey_Syria.JPG\" title=\"View image\"><img border=\"0\" style=\"max-width:100%\" src=\"https://www.gannett-cdn.com/presto/2019/10/18/USAT/659aa060-1350-47bf-a718-5abde30af15d-AP_Turkey_Syria.JPG\"/></a></div>\r\n<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"http://rssfeeds.usatoday.com/_/28/607927146/UsatodaycomWorld-TopStories\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Share on Google+\" href=\"http://rssfeeds.usatoday.com/_/30/607927146/UsatodaycomWorld-TopStories\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/googleplus20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"http://rssfeeds.usatoday.com/_/29/607927146/UsatodaycomWorld-TopStories,\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Tweet This\" href=\"http://rssfeeds.usatoday.com/_/24/607927146/UsatodaycomWorld-TopStories\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/twitter20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"http://rssfeeds.usatoday.com/_/19/607927146/UsatodaycomWorld-TopStories\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"http://rssfeeds.usatoday.com/_/20/607927146/UsatodaycomWorld-TopStories\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&nbsp;&#160;</div>",
+          "contentSnippet": "Fighting is continuing near the Syria-Turkey border despite a Trump administration boast it had helped broker a 'cease-f",
+          "publishedDate": "2019-10-18T18:11:37.000Z",
+          "categories": [],
+          "author": "USA TODAY",
+          "enclosure": {
+            "length": 0,
+            "type": "image/jpeg",
+            "url": "https://www.gannett-cdn.com/presto/2019/10/18/USAT/659aa060-1350-47bf-a718-5abde30af15d-AP_Turkey_Syria.JPG"
+          }
+        }
+      ]
+    }
+  }
+}

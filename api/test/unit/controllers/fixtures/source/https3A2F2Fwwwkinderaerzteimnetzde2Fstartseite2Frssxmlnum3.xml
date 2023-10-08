@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+	<channel>
+		
+		<title>Aktuelle Meldungen von www.kinderaerzte-im-netz.de</title>
+		<link>https://www.kinderaerzte-im-netz.de/</link>
+		<description>News von www.kinderaerzte-im-netz.de</description>
+		<language>de</language>
+		<image>
+			<title>Aktuelle Meldungen von www.kinderaerzte-im-netz.de</title>
+			<url>https://www.kinderaerzte-im-netz.de/typo3conf/ext/tt_news/ext_icon.gif</url>
+			<link>https://www.kinderaerzte-im-netz.de/</link>
+			<width>18</width>
+			<height>16</height>
+			<description>News von www.kinderaerzte-im-netz.de</description>
+		</image>
+		<generator>TYPO3 - get.content.right</generator>
+		<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+		
+		
+		
+		<lastBuildDate>Fri, 18 Oct 2019 00:08:00 +0000</lastBuildDate>
+		
+		
+		<item>
+			<title>Gesundheitsminister Spahn: Kinder- und Jugendarzt darf auch Erwachsene impfen </title>
+			<link>https://www.kinderaerzte-im-netz.de/news-archiv/meldung/article/gesundheitsminister-spahn-kinder-und-jugendarzt-darf-auch-erwachsene-impfen/</link>
+			<description>
+Gesundheitsminister Jens Spahn (CDU) will einem fehlenden Impfschutz in Deutschland nicht nur bei...</description>
+			<content:encoded></content:encoded>
+			
+			
+			<pubDate>Fri, 18 Oct 2019 00:08:00 +0000</pubDate>
+			<!--  -->
+		</item>
+		
+		<item>
+			<title>Studie: Impfstoff könnte fast drei Viertel der HPV-assoziierten Krebsformen verhindern</title>
+			<link>https://www.kinderaerzte-im-netz.de/news-archiv/meldung/article/studie-impfstoff-koennte-fast-drei-viertel-der-hpv-assoziierten-krebsformen-verhindern/</link>
+			<description>Das Humane Papillomavirus (HPV) verursacht fast alle Gebärmutterhalskrebsarten und einige...</description>
+			<content:encoded></content:encoded>
+			
+			
+			<pubDate>Fri, 18 Oct 2019 00:00:00 +0000</pubDate>
+			<!--  -->
+		</item>
+		
+		<item>
+			<title>Auch Jugendliche sollten auf regelmäßige Schlafenszeiten achten</title>
+			<link>https://www.kinderaerzte-im-netz.de/news-archiv/meldung/article/auch-jugendliche-sollten-auf-regelmaessige-schlafenszeiten-achten/</link>
+			<description>
+Teenager sollten nicht nur darauf achten, dass sie gut und ausreichend schlafen, sondern auch...</description>
+			<content:encoded></content:encoded>
+			
+			
+			<pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
+			<!--  -->
+		</item>
+		
+	</channel>
+</rss>

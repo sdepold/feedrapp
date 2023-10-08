@@ -9,19 +9,13 @@ module.exports = {
     options = _.extend({ encoding: "utf8" }, options);
 
     return new Promise((resolve, reject) => {
-      request.get(
-        {
-          uri: url,
-          encoding: null,
-        },
-        (err, resp, body) => {
-          if (err) {
-            return reject(err);
-          }
-
-          resolve(iconv.decode(body, options.encoding));
+      request.get({ uri: url, encoding: null }, (err, resp, body) => {
+        if (err) {
+          return reject(err);
         }
-      );
+
+        resolve(iconv.decode(body, options.encoding));
+      });
     });
   },
 

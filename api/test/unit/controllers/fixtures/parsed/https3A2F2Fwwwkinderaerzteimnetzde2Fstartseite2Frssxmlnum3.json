@@ -1,0 +1,42 @@
+{
+  "responseStatus": 200,
+  "responseDetails": null,
+  "responseData": {
+    "feed": {
+      "feedUrl": "https://www.kinderaerzte-im-netz.de/startseite/rss.xml",
+      "title": "Aktuelle Meldungen von www.kinderaerzte-im-netz.de",
+      "link": "https://www.kinderaerzte-im-netz.de/",
+      "description": "News von www.kinderaerzte-im-netz.de",
+      "author": "",
+      "entries": [
+        {
+          "title": "Gesundheitsminister Spahn: Kinder- und Jugendarzt darf auch Erwachsene impfen ",
+          "link": "https://www.kinderaerzte-im-netz.de/news-archiv/meldung/article/gesundheitsminister-spahn-kinder-und-jugendarzt-darf-auch-erwachsene-impfen/",
+          "content": "\r\nGesundheitsminister Jens Spahn (CDU) will einem fehlenden Impfschutz in Deutschland nicht nur bei...",
+          "contentSnippet": "\r\nGesundheitsminister Jens Spahn (CDU) will einem fehlenden Impfschutz in Deutschland nicht nur bei...",
+          "publishedDate": "2019-10-18T00:08:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Studie: Impfstoff könnte fast drei Viertel der HPV-assoziierten Krebsformen verhindern",
+          "link": "https://www.kinderaerzte-im-netz.de/news-archiv/meldung/article/studie-impfstoff-koennte-fast-drei-viertel-der-hpv-assoziierten-krebsformen-verhindern/",
+          "content": "Das Humane Papillomavirus (HPV) verursacht fast alle Gebärmutterhalskrebsarten und einige...",
+          "contentSnippet": "Das Humane Papillomavirus (HPV) verursacht fast alle Gebärmutterhalskrebsarten und einige...",
+          "publishedDate": "2019-10-18T00:00:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "Auch Jugendliche sollten auf regelmäßige Schlafenszeiten achten",
+          "link": "https://www.kinderaerzte-im-netz.de/news-archiv/meldung/article/auch-jugendliche-sollten-auf-regelmaessige-schlafenszeiten-achten/",
+          "content": "\r\nTeenager sollten nicht nur darauf achten, dass sie gut und ausreichend schlafen, sondern auch...",
+          "contentSnippet": "\r\nTeenager sollten nicht nur darauf achten, dass sie gut und ausreichend schlafen, sondern auch...",
+          "publishedDate": "2019-10-16T00:00:00.000Z",
+          "categories": [],
+          "author": ""
+        }
+      ]
+    }
+  }
+}

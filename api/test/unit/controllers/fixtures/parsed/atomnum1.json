@@ -1,0 +1,24 @@
+{
+  "responseStatus": 200,
+  "responseDetails": null,
+  "responseData": {
+    "feed": {
+      "author": "",
+      "description": "",
+      "entries": [
+        {
+          "author": "Sarah Depold",
+          "categories": [],
+          "content": "<p>Eigentlich war alles anders geplant. Da uns in der tollen Kita, in die unser großer Sohn geht, kein Platz für August 2015 zugesichert werden konnte, suchten wir eine Tagesmutter, die Baby 2.0 ein Jahr lang besuchen sollte. Die Eingewöhnung bei der Tagesmutter startete, klappte mal mehr mal weniger und dann kam die entscheidende Frage: &#8220;Wollt [&#8230;]</p>\n<p>The post <a rel=\"nofollow\" href=\"http://mamaskind.de/kinder-beschaeftigung/eingewoehnung-im-kindergarten-woche-1/\">Eingewöhnung im Kindergarten &#8211; Woche 1</a> appeared first on <a rel=\"nofollow\" href=\"http://mamaskind.de\">mamaskind</a>.</p>\n",
+          "contentSnippet": "Eigentlich war alles anders geplant. Da uns in der tollen Kita, in die unser großer Sohn geht, kein Platz für August 201",
+          "link": "http://mamaskind.de/kinder-beschaeftigung/eingewoehnung-im-kindergarten-woche-1/",
+          "publishedDate": "2015-08-18T19:37:11.000Z",
+          "title": "Eingewöhnung im Kindergarten &#8211; Woche 1"
+        }
+      ],
+      "feedUrl": "http://0.0.0.0:1338/atom.xml",
+      "link": "http://mamaskind.de",
+      "title": "mamaskind"
+    }
+  }
+}

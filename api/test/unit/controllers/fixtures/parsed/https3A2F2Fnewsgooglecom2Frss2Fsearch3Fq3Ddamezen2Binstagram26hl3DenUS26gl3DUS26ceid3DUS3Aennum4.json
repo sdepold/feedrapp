@@ -1,0 +1,14 @@
+{
+  "responseStatus": 200,
+  "responseDetails": null,
+  "responseData": {
+    "feed": {
+      "feedUrl": "https://news.google.com/rss/search?q=damezen+instagram&hl=en-US&gl=US&ceid=US:en",
+      "title": "\"damezen instagram\" - Google News",
+      "link": "https://news.google.com/search?q=damezen+instagram&hl=en-US&gl=US&ceid=US:en",
+      "description": "Google News",
+      "author": "",
+      "entries": []
+    }
+  }
+}

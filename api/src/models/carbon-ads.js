@@ -1,5 +1,5 @@
-const adsService = require("./carbon-ads-service");
-const minify = require("html-minifier").minify;
+const adsService = require('./carbon-ads-service');
+const minify = require('html-minifier').minify;
 
 function getAdContent(ad) {
   const link = adsService.getAdLink(ad);
@@ -29,22 +29,21 @@ function getAdContent(ad) {
     `,
     {
       collapseInlineTagWhitespace: true,
-      collapseWhitespace: true,
+      collapseWhitespace: true
     }
   );
 }
 
 function formatCarbonAd(ad) {
-    console.log(ad)
   return {
-    title: "Carbon Ad",
+    title: 'Carbon Ad',
     link: adsService.getAdLink(ad),
     content: getAdContent(ad),
     contentSnippet: ad.description,
     publishedDate: new Date(Number(ad.timestamp) * 1000).toISOString(),
-    categories: [{ name: "ads" }],
-    author: "Carbon Ads",
-    thumbnail: ad.smallImage,
+    categories: [{ name: 'ads' }],
+    author: 'Carbon Ads',
+    thumbnail: ad.smallImage
   };
 }
 

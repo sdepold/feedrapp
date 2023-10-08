@@ -1,6 +1,6 @@
 import { DocsThemeConfig } from "nextra-theme-docs";
 import { Footer } from "./components/footer";
-import { CarbonAd } from "./components/carbon-ad";
+import { EthicalAd } from "./components/ethical-ad";
 
 const config: DocsThemeConfig = {
   logo: <span>Feedr App</span>,
@@ -15,7 +15,7 @@ const config: DocsThemeConfig = {
     };
   },
   toc: {
-    extraContent: () => <CarbonAd />,
+    extraContent: () => <EthicalAd />,
   },
 };
 

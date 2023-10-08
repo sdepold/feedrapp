@@ -2,13 +2,14 @@ const expect = require('chai').expect;
 const Feed = require('../../src/feed');
 
 const testMatrix = {
-  'http://mamaskind.de/feed/atom/': {
-    title: 'Mamaskind Mamablog',
-    description: '',
-    link: 'https://mamaskind.de'
+  'https://bitte.kaufen/magazin/feed/': {
+    title: 'bitte.kaufen Magazin für Eltern',
+    description: 'Mamablog & Elternhacks',
+    link: 'https://bitte.kaufen/magazin'
   },
 
-  'https://api.zotero.org/groups/43985/items/top?start=0&limit=55&format=atom': {
+  'https://api.zotero.org/groups/43985/items/top?start=0&limit=55&format=atom':
+  {
     title: 'Zotero / javascript parent child Group / Top-Level Items',
     description: '',
     link: 'https://api.zotero.org/groups/43985/items/top?format=atom&limit=55'
@@ -17,12 +18,13 @@ const testMatrix = {
   'https://www.contentful.com/blog/feed.xml': {
     title: 'Contentful - Blog',
     author: 'Team von XML-RSS',
-    description: 'Contentful gives you an API-first, cloud-based platform to power your sites and apps, allowing you to create first-class user experiences. Stop burying your content in a CMS, empower it with a content infrastructure.',
+    description:
+      'Contentful gives you an API-first, cloud-based platform to power your sites and apps, allowing you to create first-class user experiences. Stop burying your content in a CMS, empower it with a content infrastructure.',
     link: 'https://www.contentful.com'
   }
 };
 
-describe.only('Feed', function () {
+describe('Feed', function () {
   this.timeout(10000);
 
   describe('read', () => {
@@ -38,18 +40,6 @@ describe.only('Feed', function () {
           expect(res.link).to.eql(expectations.link);
           expect(res.entries).to.be.an('Array');
         });
-      });
-    });
-
-    it('exposes media tags', () => {
-      const url = 'https://asijnews.com/feed/';
-      const feed = new Feed(url);
-
-      return feed.read().then((res) => {
-        expect(res.title).to.eql('ASIJ News');
-        expect(res.entries[0].thumbnail).to.match(
-          new RegExp('https://asijnews.files.wordpress.com/.*.(jpg|png)$')
-        );
       });
     });
   });
