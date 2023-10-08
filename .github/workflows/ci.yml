@@ -2,24 +2,24 @@ name: CI
 on: [push, pull_request]
 jobs:
   unit-tests:
-    name: Unit Tests
+    name: Unit Tests (API)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
           node-version: 10
-      - run: yarn
+      - run: cd api && yarn
       - name: Unit Tests
-        run: npm run test:unit
+        run: cd api && npm run test:unit
   integration-tests:
-    name: Integration Tests
+    name: Integration Tests (API)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
           node-version: 10
-      - run: yarn
+      - run: cd api && yarn
       - name: Integration Tests
-        run: npm run test:integration
+        run: cd api && npm run test:integration
