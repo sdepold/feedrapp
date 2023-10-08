@@ -1,0 +1,87 @@
+{
+  "responseStatus": 200,
+  "responseDetails": null,
+  "responseData": {
+    "feed": {
+      "feedUrl": "https://boatatfood.com/rss.php?action=popularproducts&categoryid=31",
+      "title": "BOATAT FOOD: 熱門產品",
+      "link": "https://boatatfood.com",
+      "description": "BOATAT FOOD 的熱門產品列表",
+      "author": "",
+      "entries": [
+        {
+          "title": "日本士多啤梨泡芙 (12件入)",
+          "link": "https://boatatfood.com/products.php?product=%E6%97%A5%E6%9C%AC%E5%A3%AB%E5%A4%9A%E5%95%A4%E6%A2%A8%E6%B3%A1%E8%8A%99-%2812%E4%BB%B6%E5%85%A5%29",
+          "content": "<div style='float: right; padding: 10px;'><a href=\"https://boatatfood.com/products.php?product=%E6%97%A5%E6%9C%AC%E5%A3%AB%E5%A4%9A%E5%95%A4%E6%A2%A8%E6%B3%A1%E8%8A%99-%2812%E4%BB%B6%E5%85%A5%29\"  ><img class=\"img-circle\"  src=\"https://boatatfood.com/product_images/v/907/280649345__38972_thumb.jpg\" alt=\"日本士多啤梨泡芙 (12件入)\" /></a></div><p><span style=\"font-size: small;\"><span style=\"font-size: medium;\"><strong>日本士多啤梨泡芙 (12件入)</strong></span><br /><span style=\"font-size: medium;\">嚴選真材實料的泡芙，以草莓製作而成，吃起來格外香甜濃郁！只要吃過一口就會深深愛上呀！</span><br /><img class=\"__mce_add_custom__\" title=\"pf-a1005-1021029-re.jpg\" src=\"https://boatatfood.com/produ..<p><strong>單價: $28.0</strong> </p>",
+          "contentSnippet": "日本士多啤梨泡芙 (12件入)嚴選真材實料的泡芙，以草莓製作而成，吃起來格外香甜濃郁！只要吃過一口就會深深愛上呀！單價: $28.0 ",
+          "publishedDate": "2015-01-14T17:31:47.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "日本抹茶泡芙 (12件入)",
+          "link": "https://boatatfood.com/products.php?product=%E6%97%A5%E6%9C%AC%E6%8A%B9%E8%8C%B6%E6%B3%A1%E8%8A%99-%2812%E4%BB%B6%E5%85%A5%29",
+          "content": "<div style='float: right; padding: 10px;'><a href=\"https://boatatfood.com/products.php?product=%E6%97%A5%E6%9C%AC%E6%8A%B9%E8%8C%B6%E6%B3%A1%E8%8A%99-%2812%E4%BB%B6%E5%85%A5%29\"  ><img class=\"img-circle\"  src=\"https://boatatfood.com/product_images/s/270/main2__39771_thumb.jpg\" alt=\"日本抹茶泡芙 (12件)\" /></a></div><p><span style=\"font-size: small;\"><span style=\"font-size: medium;\"><strong>日本抹茶泡芙 (12件入)</strong><br />嚴選真材實料的泡芙，以抹茶製作而成，吃起來格外香甜濃郁！只要吃過一口就會深深愛上呀！</span><br /><br /><img class=\"__mce_add_custom__\" title=\"main2.jpg\" src=\"https://boatatfood.com/product_images/uploaded_images/main2.jpg\" alt=\"main2.jp..<p><strong>單價: $28.0</strong> </p>",
+          "contentSnippet": "日本抹茶泡芙 (12件入)嚴選真材實料的泡芙，以抹茶製作而成，吃起來格外香甜濃郁！只要吃過一口就會深深愛上呀！單價: $28.0 ",
+          "publishedDate": "2015-01-14T18:38:56.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "日式焗甜蕃薯 (約50件入 500g)",
+          "link": "https://boatatfood.com/products.php?product=%E6%97%A5%E5%BC%8F%E7%84%97%E7%94%9C%E8%95%83%E8%96%AF-%28%E7%B4%8450%E4%BB%B6%E5%85%A5-500g%29",
+          "content": "<div style='float: right; padding: 10px;'><a href=\"https://boatatfood.com/products.php?product=%E6%97%A5%E5%BC%8F%E7%84%97%E7%94%9C%E8%95%83%E8%96%AF-%28%E7%B4%8450%E4%BB%B6%E5%85%A5-500g%29\"  ><img class=\"img-circle\"  src=\"https://boatatfood.com/product_images/m/425/swp__10720_thumb.jpg\" alt=\"日式焗甜蕃薯 (約50件入 500g)\" /></a></div><p style=\"display: inline !important;\"><strong><span style=\"font-size: medium;\">日式焗甜蕃薯 (50件入 約500g)</span>&nbsp;</strong></p>\r\n<p><span style=\"font-size: medium;\">解凍後可用焗爐翻熱，或BBQ燒烤！解凍即食口感味道如食蕃薯雪糕，別有風味！</span></p>\r\n<p><span style=\"font-size: medium;\">味道香甜，亦有入口即溶的感覺。甜蕃薯含豐富維生素A和胡蘿蔔素，有效預防夜盲症、乾眼症及有助改善視力..<p><strong>單價: $24.0</strong> </p>",
+          "contentSnippet": "日式焗甜蕃薯 (50件入 約500g)&nbsp;\r\n解凍後可用焗爐翻熱，或BBQ燒烤！解凍即食口感味道如食蕃薯雪糕，別有風味！\r\n味道香甜，亦有入口即溶的感覺。甜蕃薯含豐富維生素A和胡蘿蔔素，有效預防夜盲症、乾眼症及有助改善視力..單價:",
+          "publishedDate": "2015-02-03T20:28:41.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "日本忌簾泡芙 (12件入)",
+          "link": "https://boatatfood.com/products.php?product=%E6%97%A5%E6%9C%AC%E5%BF%8C%E7%B0%BE%E6%B3%A1%E8%8A%99-%2812%E4%BB%B6%E5%85%A5%29",
+          "content": "<div style='float: right; padding: 10px;'><a href=\"https://boatatfood.com/products.php?product=%E6%97%A5%E6%9C%AC%E5%BF%8C%E7%B0%BE%E6%B3%A1%E8%8A%99-%2812%E4%BB%B6%E5%85%A5%29\"  ><img class=\"img-circle\"  src=\"https://boatatfood.com/product_images/g/705/61368340747__62171_thumb.jpg\" alt=\"日本忌簾泡芙 (12件)\" /></a></div><p><span style=\"font-size: medium;\"><strong>日本忌簾泡芙 (12件)</strong><br /></span><span style=\"font-size: small;\"><span style=\"font-size: medium;\">十足飽滿滑順的忌簾內餡，綿滑清爽的口感，多吃幾個也不覺得甜膩，清爽奶香在口中完全散開，幸福滿足的滋味，讓您念念不忘。</span><br /><br /><img class=\"__mce_add_custom__\" title=\"cfaa3m-a51154093000-4d0706b2ea7ea.jpg\" ..<p><strong>單價: $28.0</strong> </p>",
+          "contentSnippet": "日本忌簾泡芙 (12件)十足飽滿滑順的忌簾內餡，綿滑清爽的口感，多吃幾個也不覺得甜膩，清爽奶香在口中完全散開，幸福滿足的滋味，讓您念念不忘。單價: $28.0 ",
+          "publishedDate": "2015-02-03T21:06:19.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "日本朱古力泡芙 (12件入)",
+          "link": "https://boatatfood.com/products.php?product=%E6%97%A5%E6%9C%AC%E6%9C%B1%E5%8F%A4%E5%8A%9B%E6%B3%A1%E8%8A%99-%2812%E4%BB%B6%E5%85%A5%29",
+          "content": "<div style='float: right; padding: 10px;'><a href=\"https://boatatfood.com/products.php?product=%E6%97%A5%E6%9C%AC%E6%9C%B1%E5%8F%A4%E5%8A%9B%E6%B3%A1%E8%8A%99-%2812%E4%BB%B6%E5%85%A5%29\"  ><img class=\"img-circle\"  src=\"https://boatatfood.com/product_images/z/081/p09146133296-item-8576xf1x0600x0549-m__51575_thumb.jpg\" alt=\"日本朱古力泡芙 (12件)\" /></a></div><p><span style=\"font-size: small;\"><strong><span style=\"font-size: medium;\">日本朱古力泡芙 (12件入)</span></strong><br /><span style=\"font-size: medium;\">層層交疊的巧克力浪潮，內餡用兩種特選巧克力調製而成，展現出一般可可粉製內餡所無法比擬的濃醇風味，香濃巧克力內餡加上些許純黑巧克力醬，再搭配獨創的巧克力酥皮，多層次的巧克力浪潮將征服你的味蕾。</span><br /><br /></span><img class=\"__mce_add_custom__\" ..<p><strong>單價: $28.0</strong> </p>",
+          "contentSnippet": "日本朱古力泡芙 (12件入)層層交疊的巧克力浪潮，內餡用兩種特選巧克力調製而成，展現出一般可可粉製內餡所無法比擬的濃醇風味，香濃巧克力內餡加上些許純黑巧克力醬，再搭配獨創的巧克力酥皮，多層次的巧克力浪潮將征服你的味蕾。單價: $28.0 ",
+          "publishedDate": "2015-02-05T12:30:51.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "日式芝士蛋糕 (原味) (4件入)",
+          "link": "https://boatatfood.com/products.php?product=%E6%97%A5%E5%BC%8F%E8%8A%9D%E5%A3%AB%E8%9B%8B%E7%B3%95-%28%E5%8E%9F%E5%91%B3%29-%284%E4%BB%B6%E5%85%A5%29",
+          "content": "<div style='float: right; padding: 10px;'><a href=\"https://boatatfood.com/products.php?product=%E6%97%A5%E5%BC%8F%E8%8A%9D%E5%A3%AB%E8%9B%8B%E7%B3%95-%28%E5%8E%9F%E5%91%B3%29-%284%E4%BB%B6%E5%85%A5%29\"  ><img class=\"img-circle\"  src=\"https://boatatfood.com/product_images/b/661/Cake1_%285%29_REV__55119_thumb.jpg\" alt=\"日式芝士蛋糕 (原味) 4件入\" /></a></div><p><span style=\"font-size: medium;\"><span style=\"text-decoration: underline; font-family: arial, helvetica, sans-serif; color: #000000;\"><strong>日式芝士蛋糕 (原味) (4件入)<br /></strong></span><span style=\"font-family: arial, helvetica, sans-serif; color: #000000;\"><strong></strong></span><span style=\"font..<p><strong>單價: $58.0</strong> </p>",
+          "contentSnippet": "日式芝士蛋糕 (原味) (4件入)單價: $58.0 ",
+          "publishedDate": "2015-05-20T18:57:00.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "日式芝士蛋糕 (朱古力) (4件入)",
+          "link": "https://boatatfood.com/products.php?product=%E6%97%A5%E5%BC%8F%E8%8A%9D%E5%A3%AB%E8%9B%8B%E7%B3%95-%28%E6%9C%B1%E5%8F%A4%E5%8A%9B%29-%284%E4%BB%B6%E5%85%A5%29",
+          "content": "<div style='float: right; padding: 10px;'><a href=\"https://boatatfood.com/products.php?product=%E6%97%A5%E5%BC%8F%E8%8A%9D%E5%A3%AB%E8%9B%8B%E7%B3%95-%28%E6%9C%B1%E5%8F%A4%E5%8A%9B%29-%284%E4%BB%B6%E5%85%A5%29\"  ><img class=\"img-circle\"  src=\"https://boatatfood.com/product_images/n/771/Cake1_%287%29_REV__37641_thumb.jpg\" alt=\"日式芝士蛋糕 (朱古力) 4件入\" /></a></div><p><span style=\"font-size: medium;\"><span style=\"text-decoration: underline; font-family: arial, helvetica, sans-serif; color: #000000;\"><strong>日式芝士蛋糕 (朱古力) (4件入)<br /></strong></span><span style=\"font-family: arial, helvetica, sans-serif; color: #000000;\"><strong></strong></span><span style=\"fon..<p><strong>單價: $58.0</strong> </p>",
+          "contentSnippet": "日式芝士蛋糕 (朱古力) (4件入)單價: $58.0 ",
+          "publishedDate": "2015-05-20T19:00:11.000Z",
+          "categories": [],
+          "author": ""
+        },
+        {
+          "title": "比利時「特大」朱古力心太軟 (2件入 約200g)",
+          "link": "https://boatatfood.com/products.php?product=%E6%AF%94%E5%88%A9%E6%99%82%E3%80%8C%E7%89%B9%E5%A4%A7%E3%80%8D%E6%9C%B1%E5%8F%A4%E5%8A%9B%E5%BF%83%E5%A4%AA%E8%BB%9F-%282%E4%BB%B6%E5%85%A5-%E7%B4%84200g%29",
+          "content": "<div style='float: right; padding: 10px;'><a href=\"https://boatatfood.com/products.php?product=%E6%AF%94%E5%88%A9%E6%99%82%E3%80%8C%E7%89%B9%E5%A4%A7%E3%80%8D%E6%9C%B1%E5%8F%A4%E5%8A%9B%E5%BF%83%E5%A4%AA%E8%BB%9F-%282%E4%BB%B6%E5%85%A5-%E7%B4%84200g%29\"  ><img class=\"img-circle\"  src=\"https://boatatfood.com/product_images/y/254/moelleuxauchocolate-02__26231_thumb.png\" alt=\"比利時「特大」朱古力心太軟 (2件入 約200g)\" /></a></div><p><span style=\"font-size: medium;\"><span style=\"text-decoration: underline;\"><strong>比利時特大朱古力心太軟 (2件入 約200g)<br /></strong></span>外面鬆化的朱古力鬆餅，裡面熱味味的朱古力溶漿由切開一下慢慢流出來，當切開心太軟時，朱古力漿就會慢慢流出。<br />外表鬆脆內裡軟滑的心太軟是人見人愛的甜品，雙重口感加上香濃的朱古力味道，讓女生都沒有抵抗能力。現在在家裡，你也可以是甜品大師，</span></p>\r\n<p><span style=\"font-size: medium..<p><strong>單價: $35.0</strong> </p>",
+          "contentSnippet": "比利時特大朱古力心太軟 (2件入 約200g)外面鬆化的朱古力鬆餅，裡面熱味味的朱古力溶漿由切開一下慢慢流出來，當切開心太軟時，朱古力漿就會慢慢流出。外表鬆脆內裡軟滑的心太軟是人見人愛的甜品，雙重口感加上香濃的朱古力味道，讓女生都沒有抵抗能",
+          "publishedDate": "2016-09-22T19:19:01.000Z",
+          "categories": [],
+          "author": ""
+        }
+      ]
+    }
+  }
+}

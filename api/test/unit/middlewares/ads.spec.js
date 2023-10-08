@@ -12,7 +12,7 @@ const ethicalAdFixture = require("../fixture/ethical-ad.json");
 const URL = "http://www.ebaytechblog.de/feed/";
 const URL_BROKEN = "http://www.ebaybrokentechblog.com/feed/";
 
-describe.only("Ads Middleware", () => {
+describe("Ads Middleware", () => {
   beforeEach(() => {
     Sinon.stub(ethicalAdsService, "getRawEthicalAd").returns(
       Promise.resolve(ethicalAdFixture)

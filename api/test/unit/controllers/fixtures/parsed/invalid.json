@@ -1,0 +1,5 @@
+{
+  "responseStatus": 400,
+  "responseDetails": { "message": "Parsing the provided feed url failed." },
+  "responseData": { "feed": null }
+}

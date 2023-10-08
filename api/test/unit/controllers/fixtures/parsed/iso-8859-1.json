@@ -1,0 +1,51 @@
+{
+  "responseStatus": 200,
+  "responseDetails": null,
+  "responseData": {
+    "feed": {
+      "feedUrl": "iso-8859-1.json",
+      "title": "Comicforum - Sponsored by Carl�������sen und Tokyopop - schreiber & leser",
+      "link": "https://www.comicforum.de/",
+      "description": "Das ist das offizielle Forum vom 'schreiber & leser' Verlag. Website: www.schreiberundleser.de",
+      "author": "",
+      "entries": [
+        {
+          "title": "Largo Winch",
+          "link": "http://www.comicforum.de/showthread.php?80460-Largo-Winch&goto=newpost",
+          "content": "<div>Und jetzt gib�s auch das Cover!<br />\n<a href=\"https://amzn.to/2pvZ6lH\" target=\"_blank\" rel=\"nofollow\">https://amzn.to/2pvZ6lH</a><br />\n<br />\n<a href=\"https://www.instagram.com/p/B4Ud7FVCi9O/?igshid=1ufdnvkpgdsam\" target=\"_blank\" rel=\"nofollow\">https://www.instagram.com/p/B4Ud7FVC...=1ufdnvkpgdsam</a></div>\n\n",
+          "contentSnippet": "Und jetzt gib�s auch das Cover!\nhttps://amzn.to/2pvZ6lH\n\nhttps://www.instagram.com/p/B4Ud7FVC...=1ufdnvkpgdsam\n\n",
+          "publishedDate": "2019-11-01T12:51:58.000Z",
+          "categories": [{ "name": "schreiber & leser" }],
+          "author": "mkranwet"
+        },
+        {
+          "title": "Bouncer bei Schreiber und Leser",
+          "link": "http://www.comicforum.de/showthread.php?163976-Bouncer-bei-Schreiber-und-Leser&goto=newpost",
+          "content": "<div><div class=\"bbcode_container\">\n\t<div class=\"bbcode_description\">Zitat:</div>\n\t<div class=\"bbcode_quote printable\">\n\t\t<hr />\n\t\t\n\t\t\t<div>\n\t\t\t\tZitat von <strong>Philipp Schreiber</strong>\n\t\t\t\t<a href=\"showthread.php?p=5576952#post5576952\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"images/buttons/viewpost.gif\" alt=\"Beitrag anzeigen\" /></a>\n\t\t\t</div>\n\t\t\t<div class=\"message\">Sicherlich kauft hier *niemand* bei Amazon, alle schauen nur nach dem V� :)</div>\n\t\t\t\n\t\t<hr />\n\t</div>\n</div><br />\nGenau so isses, ich habe noch nie ein Comic bei Amazon selbst gekauft...;)</div>\n\n",
+          "contentSnippet": "\n\tZitat:\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\tZitat von Philipp Schreiber\n\t\t\t\t\n\t\t\t\n\t\t\tSicherlich kauft hier *niemand* bei Amazon, alle schaue",
+          "publishedDate": "2019-10-30T14:29:01.000Z",
+          "categories": [{ "name": "schreiber & leser" }],
+          "author": "Grinsekater"
+        },
+        {
+          "title": "Der Ausrei�er",
+          "link": "http://www.comicforum.de/showthread.php?88386-Der-Ausrei�er&goto=newpost",
+          "content": "<div><div class=\"bbcode_container\">\n\t<div class=\"bbcode_description\">Zitat:</div>\n\t<div class=\"bbcode_quote printable\">\n\t\t<hr />\n\t\t\n\t\t\t<div>\n\t\t\t\tZitat von <strong>kerokero</strong>\n\t\t\t\t<a href=\"showthread.php?p=5574987#post5574987\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"images/buttons/viewpost.gif\" alt=\"Beitrag anzeigen\" /></a>\n\t\t\t</div>\n\t\t\t<div class=\"message\">Hideo Azuma ist am 13.10.2019 im Alter von 69 Jahren verstorben. <br />\n<br />\n<a href=\"https://www.animenewsnetwork.com/news/2019-10-21/prolific-manga-creator-hideo-azuma-passes-away-at-69/.152442\" target=\"_blank\" rel=\"nofollow\">https://www.animenewsnetwork.com/new...-at-69/.152442</a></div>\n\t\t\t\n\t\t<hr />\n\t</div>\n</div>Was lese ich da? :/ Schade, und wieder einer weniger :(<br />\n<br />\nDer Ausrei�er hat mich vor Jahren sehr bewegt und sehr gefallen. Danke schreiber&amp;leser, dass ihr zumindest den ersten Teil bei uns ver�ffentlicht habt. Das Interview mit Hideo Azuma in dem Band (fein versteckt ;)) fand ich sehr interessant, nur erst sp�ter in dem Band per Zufall entdeckt :)</div>\n\n",
+          "contentSnippet": "\n\tZitat:\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\tZitat von kerokero\n\t\t\t\t\n\t\t\t\n\t\t\tHideo Azuma ist am 13.10.2019 im Alter von 69 Jahren verstorben.",
+          "publishedDate": "2019-10-23T09:57:14.000Z",
+          "categories": [{ "name": "schreiber & leser" }],
+          "author": "Smoke"
+        },
+        {
+          "title": "Corto Maltese",
+          "link": "http://www.comicforum.de/showthread.php?145066-Corto-Maltese&goto=newpost",
+          "content": "<div>Band 11 ist wieder sehr sch�n geworden. Interessante Traumsequenz.<br />\nBald ist der Corto komplett, da freu ich mich jetzt schon.</div>\n\n",
+          "contentSnippet": "Band 11 ist wieder sehr sch�n geworden. Interessante Traumsequenz.\nBald ist der Corto komplett, da freu ich mich jetzt s",
+          "publishedDate": "2019-10-19T13:14:21.000Z",
+          "categories": [{ "name": "schreiber & leser" }],
+          "author": "cochran"
+        }
+      ]
+    }
+  }
+}

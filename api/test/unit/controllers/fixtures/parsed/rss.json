@@ -1,0 +1,63 @@
+{
+  "responseStatus": 200,
+  "responseDetails": null,
+  "responseData": {
+    "feed": {
+      "feedUrl": "rss.json",
+      "title": "mamaskind",
+      "link": "http://mamaskind.de",
+      "description": "ein Mama-Blog",
+      "author": "",
+      "entries": [
+        {
+          "title": "Eingewöhnung im Kindergarten – Woche 1",
+          "link": "http://mamaskind.de/kinder-beschaeftigung/eingewoehnung-im-kindergarten-woche-1/",
+          "content": "<p>Eigentlich war alles anders geplant. Da uns in der tollen Kita, in die unser großer Sohn geht, kein Platz für August 2015 zugesichert werden konnte, suchten wir eine Tagesmutter, die Baby 2.0 ein Jahr lang besuchen sollte. Die Eingewöhnung bei der Tagesmutter startete, klappte mal mehr mal weniger und dann kam die entscheidende Frage: &#8220;Wollt [&#8230;]</p>\n<p>The post <a rel=\"nofollow\" href=\"http://mamaskind.de/kinder-beschaeftigung/eingewoehnung-im-kindergarten-woche-1/\">Eingewöhnung im Kindergarten &#8211; Woche 1</a> appeared first on <a rel=\"nofollow\" href=\"http://mamaskind.de\">mamaskind</a>.</p>\n",
+          "contentSnippet": "Eigentlich war alles anders geplant. Da uns in der tollen Kita, in die unser großer Sohn geht, kein Platz für August 201",
+          "publishedDate": "2015-08-21T04:00:03.000Z",
+          "categories": [
+            { "name": "Kinderbeschäftigung" },
+            { "name": "Kinderbetreuung" },
+            { "name": "Kindergarten" }
+          ],
+          "author": "Sarah Depold"
+        },
+        {
+          "title": "Zelten mit Kleinkind – ein Abenteuer!",
+          "link": "http://mamaskind.de/unterwegs-mit-kind/zelten-mit-kleinkind/",
+          "content": "<p>Unser zweiwöchiger Urlaub ist vorbei und wir blicken auf viele schöne Tage zurück, die wir zu viert oder mit Freunden und Familie verbrachten. Klar war erstens: wir wollen zelten gehen, erst mit einem, dann mit zwei Kindern und zweitens: das muss in Berlin oder Umgebung passieren, damit wir kurze Anfahrtswege haben und unsere Katzen versorgen [&#8230;]</p>\n<p>The post <a rel=\"nofollow\" href=\"http://mamaskind.de/unterwegs-mit-kind/zelten-mit-kleinkind/\">Zelten mit Kleinkind &#8211; ein Abenteuer!</a> appeared first on <a rel=\"nofollow\" href=\"http://mamaskind.de\">mamaskind</a>.</p>\n",
+          "contentSnippet": "Unser zweiwöchiger Urlaub ist vorbei und wir blicken auf viele schöne Tage zurück, die wir zu viert oder mit Freunden un",
+          "publishedDate": "2015-08-20T04:00:23.000Z",
+          "categories": [
+            { "name": "Unterwegs" },
+            { "name": "Freizeit" },
+            { "name": "Reisen mit Kind" }
+          ],
+          "author": "Sarah Depold"
+        },
+        {
+          "title": "Kaufempfehlung: Sehr gerne, Mama, du Arschbombe",
+          "link": "http://mamaskind.de/tipps-und-tests/kaufen-sehr-gerne-mama-du-arschbombe/",
+          "content": "<p>Ich hatte das Glück, und das meine ich ernst, eine von den Leuten zu sein, die vorab ein Rezensionsexemplar von Patricia Cammaratas ersten Buch &#8220;Sehr gerne, Mama, du Arschbombe&#8221; zu erhalten. Es ist ein Spaß für alle, die nicht zum Lachen in den Keller gehen und nicht jedes Wort auf die Goldwaage legen. Denn wie es [&#8230;]</p>\n<p>The post <a rel=\"nofollow\" href=\"http://mamaskind.de/tipps-und-tests/kaufen-sehr-gerne-mama-du-arschbombe/\">Kaufempfehlung: Sehr gerne, Mama, du Arschbombe</a> appeared first on <a rel=\"nofollow\" href=\"http://mamaskind.de\">mamaskind</a>.</p>\n",
+          "contentSnippet": "Ich hatte das Glück, und das meine ich ernst, eine von den Leuten zu sein, die vorab ein Rezensionsexemplar von Patricia",
+          "publishedDate": "2015-08-18T04:00:32.000Z",
+          "categories": [
+            { "name": "Tipps und Tests" },
+            { "name": "Bücher" },
+            { "name": "Shopping" }
+          ],
+          "author": "Sarah Depold"
+        },
+        {
+          "title": "Ich, die meckernde Schwiegermutter",
+          "link": "http://mamaskind.de/unser-kind/ich-die-meckernde-schwiegermutter/",
+          "content": "<p>Béa von tollabea.de warf auf Facebook die Frage auf, wie wir uns als Schwiegermütter sehen. Ob das gut wird? Werden wir uns einmischen? Wie stelle ich mir mein Schwiegermonster-Ich vor? Sie forderte auf, etwas zu ihrer Blogparade #Schwiegermonstame zu schreiben und bringt mich ins Grübeln. Denn ich habe zwei Söhne und werde voraussichtlich zwei Schwiegertöchter [&#8230;]</p>\n<p>The post <a rel=\"nofollow\" href=\"http://mamaskind.de/unser-kind/ich-die-meckernde-schwiegermutter/\">Ich, die meckernde Schwiegermutter</a> appeared first on <a rel=\"nofollow\" href=\"http://mamaskind.de\">mamaskind</a>.</p>\n",
+          "contentSnippet": "Béa von tollabea.de warf auf Facebook die Frage auf, wie wir uns als Schwiegermütter sehen. Ob das gut wird? Werden wir ",
+          "publishedDate": "2015-08-17T04:00:00.000Z",
+          "categories": [{ "name": "Mamaskind" }, { "name": "Mama" }],
+          "author": "Sarah Depold"
+        }
+      ]
+    }
+  }
+}

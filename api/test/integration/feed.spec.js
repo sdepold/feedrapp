@@ -24,7 +24,7 @@ const testMatrix = {
   }
 };
 
-describe.only('Feed', function () {
+describe('Feed', function () {
   this.timeout(10000);
 
   describe('read', () => {

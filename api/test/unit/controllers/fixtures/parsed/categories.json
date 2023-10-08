@@ -1,0 +1,29 @@
+{
+  "responseStatus": 200,
+  "responseDetails": null,
+  "responseData": {
+    "feed": {
+      "feedUrl": "categories.json",
+      "title": "Site.com",
+      "link": "http://www.Site.com/",
+      "description": "Site.com description",
+      "author": "",
+      "entries": [
+        {
+          "title": " Motosport title news ",
+          "link": "http://www.Site.com/news.php?news=560838",
+          "content": " <img src=\"http://img2.Site.com/uploads/news/2015_32/thumb_mid/00560838.jpg\" alt=\"news picture\" /><br />Motosport short text ",
+          "contentSnippet": " Motosport short text ",
+          "publishedDate": "2015-08-08T02:08:00.000Z",
+          "categories": [{ "name": "Motosport" }],
+          "author": "",
+          "enclosure": {
+            "length": 49117,
+            "type": "image/jpeg",
+            "url": "http://img2.Site.com/uploads/news/2015_32/thumb_mid/00560838.jpg"
+          }
+        }
+      ]
+    }
+  }
+}
