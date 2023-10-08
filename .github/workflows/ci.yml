@@ -8,7 +8,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
-          node-version: 10
+          node-version: 16
       - run: cd api && yarn
       - name: Unit Tests
         run: cd api && npm run test:unit
@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
-          node-version: 10
+          node-version: 16
       - run: cd api && yarn
       - name: Integration Tests
         run: cd api && npm run test:integration
