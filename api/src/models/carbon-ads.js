@@ -47,9 +47,9 @@ function formatCarbonAd(ad) {
   };
 }
 
-async function getCarbonAd() {
+async function getCarbonAd(req) {
   try {
-    return formatCarbonAd(await adsService.getRawCarbonAd());
+    return formatCarbonAd(await adsService.getRawCarbonAd(req));
   } catch (e) {
     console.log(e);
 
