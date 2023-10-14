@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   website:
-    image: ghcr.io/sdepold/feedr-web:1.28.0
+    image: ghcr.io/sdepold/feedr-web:1.29.0
     restart: always
     deploy:
       resources:
@@ -12,7 +12,7 @@ services:
           cpus: "0.5"
           memory: 512M
   api:
-    image: ghcr.io/sdepold/feedr-api:1.28.0
+    image: ghcr.io/sdepold/feedr-api:1.29.0
     restart: always
     deploy:
       resources:
