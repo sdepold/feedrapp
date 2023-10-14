@@ -385,7 +385,6 @@ describe.skip('Server', function () {
     });
   });
 
-  
 
   describe('caching', () => {
     beforeEach(() => {
