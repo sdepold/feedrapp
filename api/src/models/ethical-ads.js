@@ -12,11 +12,11 @@ function formatEthicalAd(ad) {
     title,
     link: ad.link,
     content: `<img src="${ad.view_url}">${ad.html}`,
-    contentSnippet: ad.text,
+    contentSnippet: `<img src="${ad.view_url}">${ad.text}`,
     publishedDate: new Date().toISOString(),
     categories: [{ name: 'ads' }],
     author: 'Ethical Ads',
-    thumbnail: ad.image
+    thumbnail: ad.view_url
   };
 }
 
