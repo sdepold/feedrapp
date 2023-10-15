@@ -17,7 +17,7 @@ async function getRawEthicalAd(payload = {}) {
       url: 'https://feedrapp.info',
       placements: [
         {
-          div_id: 'ad-div-1',
+          div_id: `ad_${+new Date()}`,
           ad_type: 'image-v1',
           priority: 10
         }
@@ -35,6 +35,8 @@ async function getRawEthicalAd(payload = {}) {
 }
 
 function trackEthicalAd(req, clientIp, viewUrl) {
+  console.log('Tracking Ethical Ad', viewUrl);
+
   return fetch(viewUrl, {
     headers: {
       accept:
