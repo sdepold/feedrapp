@@ -2,7 +2,6 @@
 const _ = require('lodash');
 const axios = require('axios');
 const expect = require('chai').expect;
-const cheerio = require('cheerio');
 const memoryCache = require('memory-cache');
 const { readdirSync } = require('fs');
 
