@@ -47,7 +47,13 @@ function trackEthicalAd(req, clientIp, viewUrl) {
       'User-Agent': req.headers['user-agent'],
       'X-Forwarded-For': clientIp,
       'X-Real-IP': clientIp
-    }
+    },
+    referrer: 'https://feedrapp.info/',
+    referrerPolicy: 'strict-origin-when-cross-origin',
+    body: null,
+    method: 'GET',
+    mode: 'cors',
+    credentials: 'omit'
   });
 }
 
