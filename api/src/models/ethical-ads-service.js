@@ -34,6 +34,24 @@ async function getRawEthicalAd(payload = {}) {
   return result.json();
 }
 
+function trackEthicalAd(req, clientIp, viewUrl) {
+  return fetch(viewUrl, {
+    headers: {
+      accept:
+        'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+      'accept-language': 'de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7',
+      'cache-control': 'no-cache',
+      pragma: 'no-cache',
+      'Referrer-Policy': 'strict-origin-when-cross-origin',
+      Referer: 'https://feedrapp.info',
+      'User-Agent': req.headers['user-agent'],
+      'X-Forwarded-For': clientIp,
+      'X-Real-IP': clientIp
+    }
+  });
+}
+
 module.exports = {
-  getRawEthicalAd
+  getRawEthicalAd,
+  trackEthicalAd
 };

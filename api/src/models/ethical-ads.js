@@ -1,5 +1,4 @@
 const adsService = require('./ethical-ads-service');
-const requestIp = require('request-ip');
 const { getClientIp } = require('./ip');
 
 function formatEthicalAd(ad) {
@@ -22,13 +21,18 @@ function formatEthicalAd(ad) {
 }
 
 async function getEthicalAd(req) {
+  const clientIp = getClientIp(req);
+
   try {
     const payload = {
-      user_ip: getClientIp(req),
+      user_ip: clientIp,
       user_ua: req.headers['user-agent']
     };
 
-    return formatEthicalAd(await adsService.getRawEthicalAd(payload));
+    const ethicalAd = await adsService.getRawEthicalAd(payload);
+    adsService.trackEthicalAd(req, clientIp, ethicalAd.view_url); // Async but we don't wait for it
+
+    return formatEthicalAd(ethicalAd);
   } catch (e) {
     console.log(e);
 
