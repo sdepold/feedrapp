@@ -30,7 +30,16 @@ async function getEthicalAd(req) {
     };
 
     const ethicalAd = await adsService.getRawEthicalAd(payload);
-    adsService.trackEthicalAd(req, clientIp, ethicalAd.view_url); // Async but we don't wait for it
+
+    try {
+      if (ethicalAd && ethicalAd.view_url) {
+        // Async but we don't wait for it
+        adsService.trackEthicalAd(req, clientIp, ethicalAd.view_url);
+      }
+    } catch (e) {
+      console.error(e);
+      console.error('Retrieved Ethical Ad:', ethicalAd);
+    }
 
     return formatEthicalAd(ethicalAd);
   } catch (e) {
