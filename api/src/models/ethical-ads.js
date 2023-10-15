@@ -16,7 +16,7 @@ function formatEthicalAd(ad) {
     publishedDate: new Date().toISOString(),
     categories: [{ name: 'ads' }],
     author: 'Ethical Ads',
-    thumbnail: ad.image
+    thumbnail: ad.view_url || ad.image
   };
 }
 
