@@ -29,17 +29,16 @@ async function getEthicalAd(req) {
       user_ua: req.headers['user-agent']
     };
 
-    const ethicalAd = await adsService.getRawEthicalAd(payload);
 
     try {
+      const ethicalAd = await adsService.getRawEthicalAd(payload);
       // Async but we don't wait for it
       adsService.trackEthicalAd(req, clientIp, ethicalAd.view_url);
+      return formatEthicalAd(ethicalAd);
     } catch (e) {
       console.error(e);
       console.error('Retrieved Ethical Ad:', ethicalAd);
     }
-
-    return formatEthicalAd(ethicalAd);
   } catch (e) {
     console.log(e);
 
