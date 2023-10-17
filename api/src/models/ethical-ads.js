@@ -21,7 +21,7 @@ function formatEthicalAd(ad) {
 }
 
 async function getEthicalAd(req) {
-  const clientIp = getClientIp(req);
+  const clientIp = getClientIp(req, { anonymous: false });
 
   try {
     const payload = {
