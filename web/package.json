@@ -20,7 +20,7 @@
   "dependencies": {
     "iconv-lite": "^0.6.3",
     "lodash": "^4.17.21",
-    "next": "^13.0.6",
+    "next": "^13.5.0",
     "nextra": "latest",
     "nextra-theme-docs": "latest",
     "react": "^18.2.0",
