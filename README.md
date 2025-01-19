@@ -72,3 +72,7 @@ You can see the parsing results through http://localhost:3000/api/?q=https://bit
 ## License
 
 MIT
+
+## Sponsoring
+
+[<img src="https://api.gitsponsors.com/api/badge/img?id=25426627" height="20">](https://api.gitsponsors.com/api/badge/link?p=oeaV4iwL3sd3bfIu+MxA3wU8oTlbUb1L0RJAVXms/vwhSAxWJbCgVqaKAERELYXr4VJNfKcGZh7kJ5SL2+Ln97PB44xVJggLoPEQ8AQ99Z4D3AMyjB6Za3rMZnCuKwEhpW1Hm1maj3hvf245HroLGQ==)
